@@ -12,16 +12,19 @@ app = FastAPI(
     docs_url=None, redoc_url=None
 )
 
-for endpoint, router in ROUTER_PAIRS.items():
-    app.include_router(router, prefix=endpoint)
+for endpoint, data in ROUTER_PAIRS.items():
+    app.include_router(data['router'], prefix=endpoint)
 
 @app.get('/')
 async def index(api_key=Depends(auth.get_api_key)):
-    return {
-        'availableRoutes': [
-            key for key in ROUTER_PAIRS.keys()
-        ]
-    }
+    d = {}
+    for endpoint, data in ROUTER_PAIRS.items():
+        d[endpoint] = {
+            'description': data['description'],
+            'url': f'{HOST_ADDRESS}:{HOST_PORT}{endpoint}'
+        }
+    
+    return d
 
 # --------------------------------------------------
 
