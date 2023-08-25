@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="323" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="98e13fd4-2a1a-42cd-8d54-a181665c8b1f" />
+					<attribute id="Name" type="LSString" value="BOOK_UNI_LOW_HoH_TamingHope_PartTwo" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="61b98c74-8f5c-4d05-b56c-0911b59c9078" />
+					<attribute id="VisualTemplate" type="FixedString" value="e0a518a2-72af-5f7a-bf69-4f910370186c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2e572d87-eed1-22e8-0110-190a18b7677d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3eaed88bg59deg4d67ga678g71bac073b841" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09648313 0.003241166 -0.1478594" />
+									<attribute id="Max" type="fvec3" value="0.09648313 0.07536472 0.1479762" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1929663 0.003241166 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.1929663 0.07536472 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1929663 0.003241166 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.1929663 0.07536472 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="LOW_HoH_TamingHope_PartTwo" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

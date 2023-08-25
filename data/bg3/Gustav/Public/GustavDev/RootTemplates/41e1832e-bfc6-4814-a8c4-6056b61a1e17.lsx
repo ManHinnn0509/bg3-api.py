@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="41e1832e-bfc6-4814-a8c4-6056b61a1e17" />
+					<attribute id="Name" type="LSString" value="BOOK_UNI_MOO_MOO_Debraining_Ledger" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="61b98c74-8f5c-4d05-b56c-0911b59c9078" />
+					<attribute id="VisualTemplate" type="FixedString" value="d902d5b1-db22-e0a5-5eef-a68a05f3de3d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2e572d87-eed1-22e8-0110-190a18b7677d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4b93e615g27ccg4407g85dbg6cece2e8ad03" version="2" />
+					<attribute id="BookType" type="uint8" value="3" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09648313 0.003241166 -0.1478594" />
+									<attribute id="Max" type="fvec3" value="0.09648313 0.07536472 0.1479762" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1929663 0.003241166 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.1929663 0.07536472 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1929663 0.003241166 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.1929663 0.07536472 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="MOO_Debraining_Ledger" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

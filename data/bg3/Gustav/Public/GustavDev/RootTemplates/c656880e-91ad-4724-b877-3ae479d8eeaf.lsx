@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="302" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c656880e-91ad-4724-b877-3ae479d8eeaf" />
+					<attribute id="Name" type="LSString" value="[PREFAB] WALL_Dungeon_Abbey_A_2n5D_5H_A_009_0" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="TileConstruction" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b01c6d70-849d-44f7-ab6b-3a6c8649a6b5" />
+					<children>
+						<node id="ConstructionSpline">
+							<attribute id="id" type="guid" value="d7493ea2-b064-d0dc-1531-158619540ac8" />
+							<attribute id="ConstructionPointCount" type="int32" value="4" />
+							<children>
+								<node id="ConstructionPoint">
+									<attribute id="ConstructionPointId" type="guid" value="54d5cb11-b821-e733-2128-12e86768657d" />
+									<attribute id="ConstructionPointTransform" type="mat4x4" value=" 1.00  0.00  0.00 15.62 &#xD;&#xA; 0.00  1.00  0.00 36.79 &#xD;&#xA; 0.00  0.00  1.00 -12.12 &#xD;&#xA; 0.00  0.00  0.00  1.00 &#xD;&#xA;" />
+									<attribute id="ConstructionPointStretch" type="bool" value="False" />
+									<attribute id="ConstructionHelperPoint" type="bool" value="True" />
+									<children>
+										<node id="ConstructionBranches">
+											<attribute id="ConstructionBranchCount" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+								<node id="ConstructionPoint">
+									<attribute id="ConstructionPointId" type="guid" value="9b407b47-9321-a5dc-4207-e791189126a8" />
+									<attribute id="ConstructionPointTransform" type="mat4x4" value=" 1.00  0.00  0.00 20.08 &#xD;&#xA; 0.00  1.00  0.00 36.79 &#xD;&#xA; 0.00  0.00  1.00 -8.11 &#xD;&#xA; 0.00  0.00  0.00  1.00 &#xD;&#xA;" />
+									<attribute id="ConstructionPointStretch" type="bool" value="False" />
+									<attribute id="ConstructionHelperPoint" type="bool" value="False" />
+									<children>
+										<node id="ConstructionBranches">
+											<attribute id="ConstructionBranchCount" type="int32" value="1" />
+											<children>
+												<node id="ConstructionBranch">
+													<attribute id="ConstructionPointId" type="guid" value="079cf7fe-bc73-7494-498b-329d30d5a4b3" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstructionPoint">
+									<attribute id="ConstructionPointId" type="guid" value="079cf7fe-bc73-7494-498b-329d30d5a4b3" />
+									<attribute id="ConstructionPointTransform" type="mat4x4" value=" 1.00  0.00  0.00 23.06 &#xD;&#xA; 0.00  1.00  0.00 36.79 &#xD;&#xA; 0.00  0.00  1.00 -5.44 &#xD;&#xA; 0.00  0.00  0.00  1.00 &#xD;&#xA;" />
+									<attribute id="ConstructionPointStretch" type="bool" value="False" />
+									<attribute id="ConstructionHelperPoint" type="bool" value="False" />
+									<children>
+										<node id="ConstructionBranches">
+											<attribute id="ConstructionBranchCount" type="int32" value="1" />
+											<children>
+												<node id="ConstructionBranch">
+													<attribute id="ConstructionPointId" type="guid" value="9b407b47-9321-a5dc-4207-e791189126a8" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstructionPoint">
+									<attribute id="ConstructionPointId" type="guid" value="d30718ce-2b22-abbd-3f44-c71226ebc599" />
+									<attribute id="ConstructionPointTransform" type="mat4x4" value=" 1.00  0.00  0.00 27.53 &#xD;&#xA; 0.00  1.00  0.00 36.79 &#xD;&#xA; 0.00  0.00  1.00 -1.44 &#xD;&#xA; 0.00  0.00  0.00  1.00 &#xD;&#xA;" />
+									<attribute id="ConstructionPointStretch" type="bool" value="False" />
+									<attribute id="ConstructionHelperPoint" type="bool" value="True" />
+									<children>
+										<node id="ConstructionBranches">
+											<attribute id="ConstructionBranchCount" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Fillings" />
+						<node id="tiles">
+							<attribute id="WalkOn" type="bool" value="False" />
+							<attribute id="Climbable" type="bool" value="False" />
+							<attribute id="ConstructionBend" type="bool" value="False" />
+							<attribute id="ConstructionPlaceTwoTiles" type="bool" value="False" />
+							<attribute id="ShootThrough" type="bool" value="False" />
+							<attribute id="ShootThroughType" type="int8" value="6" />
+							<attribute id="CanSeeThrough" type="bool" value="False" />
+							<attribute id="WalkThrough" type="bool" value="False" />
+							<attribute id="ClickThrough" type="bool" value="False" />
+							<attribute id="Fadeable" type="bool" value="False" />
+							<attribute id="HierarchyOnlyFade" type="bool" value="False" />
+							<attribute id="FadeIn" type="bool" value="False" />
+							<attribute id="Opacity" type="float" value="1" />
+							<attribute id="SeeThrough" type="bool" value="False" />
+							<attribute id="FadeGroup" type="FixedString" value="" />
+							<attribute id="TileSet" type="FixedString" value="b245d674-ed3b-2821-382f-82fb8ced271f" />
+							<children>
+								<node id="tile">
+									<attribute id="UUID" type="FixedString" value="4dc1df05-5237-0caf-4b2b-df3c8e3cd152" />
+									<attribute id="tile" type="guid" value="cfe90a2d-a74a-4e52-f88b-fb340423625c" />
+									<attribute id="Translate" type="fvec3" value="20.08387 36.7899 -8.112823" />
+									<attribute id="Rotate" type="mat3x3" value="-0.74  0.00  0.67 &#xD;&#xA; 0.00  1.00  0.00 &#xD;&#xA;-0.67  0.00 -0.74 &#xD;&#xA;" />
+									<attribute id="Scale" type="float" value="1" />
+									<attribute id="ScaleZ" type="float" value="1" />
+									<attribute id="Climbable" type="bool" value="False" />
+									<attribute id="Stretchable" type="bool" value="False" />
+									<attribute id="WalkOn" type="bool" value="False" />
+									<attribute id="Point1" type="guid" value="00000000-0000-0000-0000-000000000000" />
+									<attribute id="Point2" type="guid" value="00000000-0000-0000-0000-000000000000" />
+									<attribute id="Flip" type="bool" value="False" />
+									<attribute id="ShootThrough" type="bool" value="False" />
+									<attribute id="ShootThroughType" type="int8" value="6" />
+									<attribute id="WalkThrough" type="bool" value="False" />
+									<attribute id="ClickThrough" type="bool" value="False" />
+									<attribute id="CanSeeThrough" type="bool" value="False" />
+									<attribute id="TwoSidedTileCount" type="int32" value="0" />
+								</node>
+								<node id="tile">
+									<attribute id="UUID" type="FixedString" value="eac2fc7b-464b-ceaf-8b3f-419134a3f32d" />
+									<attribute id="tile" type="guid" value="cfe90a2d-a74a-4e52-f88b-fb340423625c" />
+									<attribute id="Translate" type="fvec3" value="23.06193 36.7899 -5.442423" />
+									<attribute id="Rotate" type="mat3x3" value=" 0.74  0.00 -0.67 &#xD;&#xA; 0.00  1.00  0.00 &#xD;&#xA; 0.67  0.00  0.74 &#xD;&#xA;" />
+									<attribute id="Scale" type="float" value="1" />
+									<attribute id="ScaleZ" type="float" value="1" />
+									<attribute id="Climbable" type="bool" value="False" />
+									<attribute id="Stretchable" type="bool" value="False" />
+									<attribute id="WalkOn" type="bool" value="False" />
+									<attribute id="Point1" type="guid" value="00000000-0000-0000-0000-000000000000" />
+									<attribute id="Point2" type="guid" value="00000000-0000-0000-0000-000000000000" />
+									<attribute id="Flip" type="bool" value="False" />
+									<attribute id="ShootThrough" type="bool" value="False" />
+									<attribute id="ShootThroughType" type="int8" value="6" />
+									<attribute id="WalkThrough" type="bool" value="False" />
+									<attribute id="ClickThrough" type="bool" value="False" />
+									<attribute id="CanSeeThrough" type="bool" value="False" />
+									<attribute id="TwoSidedTileCount" type="int32" value="0" />
+								</node>
+								<node id="tile">
+									<attribute id="UUID" type="FixedString" value="9a29abc2-d53f-28ad-12a7-0ee1fee0bd2f" />
+									<attribute id="tile" type="guid" value="2c06c700-e453-418f-2492-be4279acf455" />
+									<attribute id="Translate" type="fvec3" value="20.08387 36.7899 -8.112823" />
+									<attribute id="Rotate" type="mat3x3" value=" 0.74  0.00 -0.67 &#xD;&#xA; 0.00  1.00  0.00 &#xD;&#xA; 0.67  0.00  0.74 &#xD;&#xA;" />
+									<attribute id="Scale" type="float" value="1" />
+									<attribute id="ScaleZ" type="float" value="1" />
+									<attribute id="Climbable" type="bool" value="False" />
+									<attribute id="Stretchable" type="bool" value="False" />
+									<attribute id="WalkOn" type="bool" value="False" />
+									<attribute id="Point1" type="guid" value="00000000-0000-0000-0000-000000000000" />
+									<attribute id="Point2" type="guid" value="00000000-0000-0000-0000-000000000000" />
+									<attribute id="Flip" type="bool" value="False" />
+									<attribute id="ShootThrough" type="bool" value="False" />
+									<attribute id="ShootThroughType" type="int8" value="6" />
+									<attribute id="WalkThrough" type="bool" value="False" />
+									<attribute id="ClickThrough" type="bool" value="False" />
+									<attribute id="CanSeeThrough" type="bool" value="False" />
+									<attribute id="TwoSidedTileCount" type="int32" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="ConstructionPoints">
+							<children>
+								<node id="ConstructionPoint">
+									<attribute id="ConstructionPointStop" type="bool" value="False" />
+									<attribute id="ConstructionPointId" type="guid" value="9b407b47-9321-a5dc-4207-e791189126a8" />
+									<children>
+										<node id="ConstructionPointNeighbours">
+											<children>
+												<node id="ConstructionPointNeighbour">
+													<children>
+														<node id="ConstructionPointNeighbours">
+															<children>
+																<node id="ConstructionPointNeighbour">
+																	<attribute id="ConstructionPointId" type="guid" value="079cf7fe-bc73-7494-498b-329d30d5a4b3" />
+																</node>
+															</children>
+														</node>
+														<node id="ConstructionTileLists">
+															<children>
+																<node id="ConstructionTileList">
+																	<attribute id="Side" type="int32" value="2" />
+																	<attribute id="ConstructionNonOptimalTilesStart" type="int32" value="1" />
+																	<attribute id="ConstructionNonOptimalTilesEnd" type="int32" value="0" />
+																	<children>
+																		<node id="ConstructionPointLeftCornerTiles" />
+																		<node id="ConstructionPointNeighbourTiles">
+																			<children>
+																				<node id="ConstructionPointNeighbourTile">
+																					<attribute id="ConstructionPointTile1Id" type="guid" value="9a29abc2-d53f-28ad-a712-e10ee0fe2fbd" />
+																				</node>
+																			</children>
+																		</node>
+																		<node id="ConstructionPointRightCornerTiles" />
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstructionPoint">
+									<attribute id="ConstructionPointStop" type="bool" value="False" />
+									<attribute id="ConstructionPointId" type="guid" value="079cf7fe-bc73-7494-498b-329d30d5a4b3" />
+									<children>
+										<node id="ConstructionPointNeighbours">
+											<children>
+												<node id="ConstructionPointNeighbour">
+													<children>
+														<node id="ConstructionPointNeighbours">
+															<children>
+																<node id="ConstructionPointNeighbour">
+																	<attribute id="ConstructionPointId" type="guid" value="d30718ce-2b22-abbd-3f44-c71226ebc599" />
+																</node>
+															</children>
+														</node>
+														<node id="ConstructionTileLists">
+															<children>
+																<node id="ConstructionTileList">
+																	<attribute id="Side" type="int32" value="2" />
+																	<attribute id="ConstructionNonOptimalTilesStart" type="int32" value="0" />
+																	<attribute id="ConstructionNonOptimalTilesEnd" type="int32" value="0" />
+																	<children>
+																		<node id="ConstructionPointLeftCornerTiles">
+																			<children>
+																				<node id="ConstructionPointLeftCornerTile">
+																					<attribute id="TileId" type="guid" value="eac2fc7b-464b-ceaf-3f8b-9141a3342df3" />
+																				</node>
+																			</children>
+																		</node>
+																		<node id="ConstructionPointNeighbourTiles" />
+																		<node id="ConstructionPointRightCornerTiles" />
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstructionPoint">
+									<attribute id="ConstructionPointStop" type="bool" value="False" />
+									<attribute id="ConstructionPointId" type="guid" value="54d5cb11-b821-e733-2128-12e86768657d" />
+									<children>
+										<node id="ConstructionPointNeighbours">
+											<children>
+												<node id="ConstructionPointNeighbour">
+													<children>
+														<node id="ConstructionPointNeighbours">
+															<children>
+																<node id="ConstructionPointNeighbour">
+																	<attribute id="ConstructionPointId" type="guid" value="9b407b47-9321-a5dc-4207-e791189126a8" />
+																</node>
+															</children>
+														</node>
+														<node id="ConstructionTileLists">
+															<children>
+																<node id="ConstructionTileList">
+																	<attribute id="Side" type="int32" value="2" />
+																	<attribute id="ConstructionNonOptimalTilesStart" type="int32" value="0" />
+																	<attribute id="ConstructionNonOptimalTilesEnd" type="int32" value="0" />
+																	<children>
+																		<node id="ConstructionPointLeftCornerTiles" />
+																		<node id="ConstructionPointNeighbourTiles" />
+																		<node id="ConstructionPointRightCornerTiles">
+																			<children>
+																				<node id="ConstructionPointRightCornerTile">
+																					<attribute id="TileId" type="guid" value="4dc1df05-5237-0caf-2b4b-3cdf3c8e52d1" />
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstructionPoint">
+									<attribute id="ConstructionPointStop" type="bool" value="False" />
+									<attribute id="ConstructionPointId" type="guid" value="d30718ce-2b22-abbd-3f44-c71226ebc599" />
+									<children>
+										<node id="ConstructionPointNeighbours" />
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstructionLines">
+							<children>
+								<node id="ConstructionLine">
+									<attribute id="ConstructionLineGuid" type="guid" value="53f47d4c-04e6-1897-a7f7-8475768988d7" />
+									<children>
+										<node id="ConstructionPoints">
+											<children>
+												<node id="ConstructionPoint">
+													<attribute id="ConstructionPointId" type="guid" value="9b407b47-9321-a5dc-4207-e791189126a8" />
+												</node>
+												<node id="ConstructionPoint">
+													<attribute id="ConstructionPointId" type="guid" value="079cf7fe-bc73-7494-498b-329d30d5a4b3" />
+												</node>
+											</children>
+										</node>
+										<node id="HelperStart">
+											<attribute id="ConstructionPointId" type="guid" value="54d5cb11-b821-e733-2128-12e86768657d" />
+										</node>
+										<node id="HelperEnd">
+											<attribute id="ConstructionPointId" type="guid" value="d30718ce-2b22-abbd-3f44-c71226ebc599" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

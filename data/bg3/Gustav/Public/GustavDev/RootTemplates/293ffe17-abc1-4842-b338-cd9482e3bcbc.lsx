@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="293ffe17-abc1-4842-b338-cd9482e3bcbc" />
+					<attribute id="Name" type="LSString" value="CONS_Elixir_Blood_HalfElf" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="eef254dd-b983-4e59-bf49-5ed76a536220" />
+					<attribute id="VisualTemplate" type="FixedString" value="77f250ab-8623-b1cf-b970-da260d6c8d84" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dda0519b-fb51-b604-5b42-819812f83383" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9f3a7c63g80ceg4f8dg897fg50ecc740f9bc" version="3" />
+					<attribute id="Icon" type="FixedString" value="Items_CONS_Drink_Bottle_Small_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BloodPotion_HalfElf" />
+					<attribute id="Description" type="TranslatedString" handle="h3027df8aga91eg4fe7gac25g3ee54b1ea59a" version="3" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h5ca66d11g5387g4647ga373g5c443b9b8d0d" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="895ce382-397d-4b9a-9e8f-6ee3b1ff3a13" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="MOO_BLOODPOTION_HALFELF_AURA" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

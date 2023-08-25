@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="327" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c8bdb5a6-0bb9-4997-98d0-6c808ea17a31" />
+					<attribute id="Name" type="LSString" value="BOOK_UNI_HAV_HarpersTestimonialPartOne" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="9a59bb67-62fc-2088-ba27-912b1a7c1e1c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ed2f47a5-a0d1-9068-790b-bddb8cc80b5d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha45e3eb7g1bedg4856g9441g60bc4b7e6416" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Scroll_Parchment_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll" />
+					<attribute id="BookType" type="uint8" value="3" />
+					<attribute id="Description" type="TranslatedString" handle="h3c3dccefg716bg419agbecaga625a2639d10" version="1" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="h82a90405gcb80g4df1g8692gfca7403f7499" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.03855132 -0.001498863 -0.1478594" />
+									<attribute id="Max" type="fvec3" value="0.03885315 0.07980846 0.1479762" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07710265 -0.001498863 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.07770629 0.07980846 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07710265 -0.001498863 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.07770629 0.07980846 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="HAV_HarperTestimonial1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

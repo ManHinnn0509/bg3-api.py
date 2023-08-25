@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="325" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d022e2f8-3154-43f9-a08d-698013dbbf12" />
+					<attribute id="Name" type="LSString" value="WYR_Wyrmsway_Skeleton_Hero" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="aee9bd36-e7ee-4c2f-8611-8f968535a5d0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd5692b8egd29dg424fgaffbged64be4a6f59" version="1" />
+					<attribute id="Icon" type="FixedString" value="200cd367-8a8b-f286-5974-e3fbf648e6e9-EQP_WYR_SkeletonHero_(Icon_Skeleton_Hero)" />
+					<attribute id="Stats" type="FixedString" value="WYR_Wyrmsway_Skeleton_Hero" />
+					<attribute id="Equipment" type="FixedString" value="EQP_WYR_SkeletonHero" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="200cd367-8a8b-f286-5974-e3fbf648e6e9" />
+					<attribute id="LightChannel" type="uint8" value="0" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Skeleton_Hero" />
+					<attribute id="Faction" type="guid" value="64cce079-b77e-4b39-c78a-7720376e914c" />
+					<attribute id="Archetype" type="FixedString" value="melee_stupid" />
+					<attribute id="SwarmGroup" type="FixedString" value="" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AURA_OF_PROTECTION" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SPIRIT_GUARDIANS_RADIANT_AURA" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7b587210-09a6-4333-85ad-4591831d9828" />
+					<attribute id="Name" type="LSString" value="QUEST_IRN_IronThrone_FallingDebris" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
+					<attribute id="VisualTemplate" type="FixedString" value="8f27d753-0631-4786-112c-ab1ea27918a0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="867c2744-2d81-1741-8440-40e2220dc7f1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h859c3ca8ga60bg4077g8ea2gaa2680e167c5" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_UND_RockDebris_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Barricade_Wood" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.75 0 -0.75" />
+									<attribute id="Max" type="fvec3" value="0.75 3 0.75" />
+									<attribute id="Radius" type="float" value="0.64952" />
+									<attribute id="Height" type="float" value="3" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 0 -1.5" />
+									<attribute id="Max" type="fvec3" value="1.5 3 1.5" />
+									<attribute id="Radius" type="float" value="1.29904" />
+									<attribute id="Height" type="float" value="3" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 0 -1.5" />
+									<attribute id="Max" type="fvec3" value="1.5 3 1.5" />
+									<attribute id="Radius" type="float" value="1.29904" />
+									<attribute id="Height" type="float" value="3" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

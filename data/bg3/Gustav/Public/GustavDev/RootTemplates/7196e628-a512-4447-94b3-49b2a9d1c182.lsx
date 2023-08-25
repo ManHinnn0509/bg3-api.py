@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7196e628-a512-4447-94b3-49b2a9d1c182" />
+					<attribute id="Name" type="LSString" value="CONS_Elixir_Blood_Dwarf" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="eef254dd-b983-4e59-bf49-5ed76a536220" />
+					<attribute id="VisualTemplate" type="FixedString" value="cf814cc7-2c9f-61b9-5ad2-5f342cc5d941" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dda0519b-fb51-b604-5b42-819812f83383" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb69ba6ddg0c40g4d76g856dg2cdcb5912361" version="2" />
+					<attribute id="Icon" type="FixedString" value="Items_CONS_Drink_Bottle_Small_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BloodPotion_Dwarf" />
+					<attribute id="Description" type="TranslatedString" handle="h851f0aeeg5d2eg45ccg8f30gfc80ddc7128b" version="3" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hdd622664gc13bg4660g8b1dgf119a47a1946" version="2" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="895ce382-397d-4b9a-9e8f-6ee3b1ff3a13" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="MOO_BLOODPOTION_DWARF" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="323" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="435685c4-f7ec-4720-8d3c-c297b75267ea" />
+					<attribute id="Name" type="LSString" value="Quest_BasiliskGate_Florrick_ExecutionNotice" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6d5f9187-6457-4f20-b878-f5b3f8272c6f" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4721767-5e57-534c-db55-320af9d5b581" />
+					<attribute id="Scale" type="float" value="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0f85f1d9g23a8g4091gb3e6g5657c4f42555" version="2" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="BookType" type="uint8" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="IsPublicDomain" type="bool" value="True" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="dbb7623c-ec7c-7098-70b7-2c16fbf814c0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

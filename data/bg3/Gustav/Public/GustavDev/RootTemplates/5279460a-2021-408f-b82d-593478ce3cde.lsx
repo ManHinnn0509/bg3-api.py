@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5279460a-2021-408f-b82d-593478ce3cde" />
+					<attribute id="Name" type="LSString" value="BOOK_UNI_SCL_GreyScoutJournal" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9996c3a2-077e-4c52-b574-f43648cca71e" />
+					<attribute id="VisualTemplate" type="FixedString" value="3a96a4c8-7442-20f5-7ab8-b4f73c05b652" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7200a6acgf1c6g4fcfgbb60g30359c7f54dc" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_E" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="UND_FurnaceSearch_DisguisedDrowJournal" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="SCL_GeneralSCL_GreyScoutsJournal" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

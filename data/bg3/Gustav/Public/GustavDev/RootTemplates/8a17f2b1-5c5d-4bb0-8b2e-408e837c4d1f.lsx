@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h4e325c46g265cg4bb9g909fg7f03b934c945" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h677b0253ga37dg4f25g898ag4f1825677814" version="2" />
+					<attribute id="EquipSound" type="FixedString" value="ea27b98e-5fc0-4b0d-8602-e4a421dd481e" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="8a17f2b1-5c5d-4bb0-8b2e-408e837c4d1f" />
+					<attribute id="Name" type="LSString" value="CRE_MAG_Psychic_Githborn_Circlet" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5b2412a1-b8e2-4c09-a5ca-50c5103fd297" />
+					<attribute id="Stats" type="FixedString" value="CRE_MAG_Psychic_Githborn_Circlet" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UnequipSound" type="FixedString" value="f4c24367-83af-484e-bcc5-0438b8e64dec" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-1db0-0b4ead20f135" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-69bc-f9659632c866" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

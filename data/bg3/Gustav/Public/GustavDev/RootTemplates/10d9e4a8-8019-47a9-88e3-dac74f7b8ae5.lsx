@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="613" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="10d9e4a8-8019-47a9-88e3-dac74f7b8ae5" />
+					<attribute id="Name" type="LSString" value="QUEST_LOW_DeadMansSwitch_Shield" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d41a9f59-bf00-46c6-81eb-b38d9a588fdc" />
+					<attribute id="Stats" type="FixedString" value="LOW_DeadMansSwitch_Shield" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="fac6dd3a-6ceb-40fc-e891-396f3cc38ad9" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="CanJoinCombat" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="dc9e09f0-b2ba-4720-28bd-9deededbf1f2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="StatusList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

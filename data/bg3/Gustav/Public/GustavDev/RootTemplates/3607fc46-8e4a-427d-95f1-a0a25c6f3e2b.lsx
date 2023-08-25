@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="318" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3607fc46-8e4a-427d-95f1-a0a25c6f3e2b" />
+					<attribute id="Name" type="LSString" value="UNI_SHA_Cleric_FallingRubbleTarget" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0e92c207-f20f-46a7-a92a-6d71114122f8" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="Scale" type="float" value="0.3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h195a9291g7f47g4766g9711g994d14ec4bfc" version="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_UND_RockDebris_B" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="DropSound" type="FixedString" value="" />
+					<attribute id="PickupSound" type="FixedString" value="" />
+					<attribute id="CanFight" type="bool" value="True" />
+					<attribute id="CanJoinCombat" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3eebe42c-39ec-4165-709e-81b6b71a13b3" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5 0.0002732277 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.5 1.00027 0.5" />
+									<attribute id="Radius" type="float" value="0.5" />
+									<attribute id="Height" type="float" value="0.9999968" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5 0.0002732277 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.5 1.00027 0.5" />
+									<attribute id="Radius" type="float" value="0.5" />
+									<attribute id="Height" type="float" value="0.9999968" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5 0.0002732277 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.5 1.00027 0.5" />
+									<attribute id="Radius" type="float" value="0.5" />
+									<attribute id="Height" type="float" value="0.9999968" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SHA_CLERIC_FALLINGRUBBLE" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="INVULNERABLE_NOT_SHOWN" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AI_HELPER_AVOIDAREA_RADIUS2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

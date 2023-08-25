@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3659f085-ccfb-451b-8d04-1bfe683efb6f" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_GeneralLoreBook_ALifeOfAdventure" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1467b80bgaf01g4440gbe9eg6b10c782cb33" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_C" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1680399 -0.0003441051 -0.2734509" />
+									<attribute id="Max" type="fvec3" value="0.1582271 0.08722388 0.2395729" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1680399 -0.0003441051 -0.2734509" />
+									<attribute id="Max" type="fvec3" value="0.1582271 0.08722388 0.2395729" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1680399 -0.0003441051 -0.2734509" />
+									<attribute id="Max" type="fvec3" value="0.1582271 0.08722388 0.2395729" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_GeneralLoreBook_ALifeOfAdventure" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

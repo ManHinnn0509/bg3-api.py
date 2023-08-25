@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="70ecfea1-2edf-46cd-acaa-6b8235a5efa9" />
+					<attribute id="Name" type="LSString" value="LOW_DjinniTrap_Lamp" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="VisualTemplate" type="FixedString" value="3d604c4a-ac49-d77a-0c14-282b875908c1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="b0d47e36-fbac-044d-f0ef-ed026d51b802" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h044e2946g51c4g4a9ega7aag4bd55eb57e53" version="2" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_GEN_DjinnLamp_A" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="AnubisConfigName" type="FixedString" value="" />
+					<attribute id="Description" type="TranslatedString" handle="h4ef0f0d0g4f22g40d1g8723gc5db5c491606" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0613245 0 -0.165" />
+									<attribute id="Max" type="fvec3" value="0.0615 0.4 0.175" />
+									<attribute id="Radius" type="float" value="0.0383616" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.122649 0 -0.33" />
+									<attribute id="Max" type="fvec3" value="0.123 0.4 0.35" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.122649 0 -0.33" />
+									<attribute id="Max" type="fvec3" value="0.123 0.4 0.35" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="LOW_DJINNILAMP" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

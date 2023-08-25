@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="09da99c6-b2ed-40e4-a123-338c36e52a9d" />
+					<attribute id="Name" type="LSString" value="QUEST_SHA_GEN_Manifestation_Shame_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="066133a8-5dce-4636-8ba1-13efb1140c54" />
+					<attribute id="Stats" type="FixedString" value="SHA_Manifestation_Shame" />
+					<attribute id="Title" type="TranslatedString" handle="h0548e288g64f2g4e6ega50cg32818f14784a" version="1" />
+					<children>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceDarknessCloud" />
+											<attribute id="LifeTime" type="float" value="60" />
+											<attribute id="Radius" type="float" value="10" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

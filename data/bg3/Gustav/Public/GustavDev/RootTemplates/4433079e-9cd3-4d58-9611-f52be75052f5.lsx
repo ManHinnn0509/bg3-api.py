@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4433079e-9cd3-4d58-9611-f52be75052f5" />
+					<attribute id="Name" type="LSString" value="UNI_BLD_MF_MindArena_Platform_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7b295d30-6b1f-4312-bf74-ee9a4a354f78" />
+					<attribute id="VisualTemplate" type="FixedString" value="0b7e4199-ac37-f762-10a7-3ef7db931918" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c5967203-4948-794f-d11d-9238f6af9109" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1714f11egd227g4a27ga298g98270bfb8a88" version="1" />
+					<attribute id="CanClimbOn" type="bool" value="True" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_Pressure_Plate_Granite_A" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="DisarmDifficultyClassID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsTrap" type="bool" value="False" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<attribute id="CanJoinCombat" type="bool" value="True" />
+					<children>
+						<node id="Bounds" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="26c7fb6c-ae73-ecb7-fe7c-6584c067885e" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

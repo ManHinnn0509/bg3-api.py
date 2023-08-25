@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9f8a0a1c-b1f0-4f09-93eb-de364f1063f1" />
+					<attribute id="Name" type="LSString" value="UNI_Cazador_FeignDeathPotion" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="27df1535-9f58-4e24-b51b-ceef2cd1d8d8" />
+					<attribute id="VisualTemplate" type="FixedString" value="917de29a-d556-4ef7-99cf-29a19b798947" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="46c6c0ab-9c60-4a96-aa6d-2dbcca6efbe8" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6843fdf7g08b9g4509g8283ge938324bb44e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Drink_Potion_B" />
+					<attribute id="Description" type="TranslatedString" handle="h73c461e9g6b7ag46b7g8bf0g51b4e5adea4a" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1486492 7.450581E-05 -0.150998" />
+									<attribute id="Max" type="fvec3" value="0.148496 0.4672414 0.1505677" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1486492 7.450581E-05 -0.150998" />
+									<attribute id="Max" type="fvec3" value="0.148496 0.4672414 0.1505677" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1486492 7.450581E-05 -0.150998" />
+									<attribute id="Max" type="fvec3" value="0.148496 0.4672414 0.1505677" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Target_FeignDeath" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="a865965f-501b-46e9-aa9e-4877c0e8094d" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5d6b2fcd-a0dc-41ff-b15a-b0e3a76cc92a" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_Alchemy_ElixirNecroticResistance" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0641e1dc-72c3-4227-9283-2139a12154fd" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha56d5ad0gd4bbg4ddeg8f73ge640c71e27be" version="1" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_Alchemy_ElixirNecroticResistance" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_Alchemy_ElixirNecroticResistance" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="30" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="RecipeID" type="FixedString" value="ALCH_Elixir_Resistance_Necrotic_BlackOleander" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

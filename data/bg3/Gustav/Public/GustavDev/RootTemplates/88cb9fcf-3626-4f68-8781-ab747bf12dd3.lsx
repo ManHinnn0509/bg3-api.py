@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="613" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="88cb9fcf-3626-4f68-8781-ab747bf12dd3" />
+					<attribute id="Name" type="LSString" value="QUEST_MOO_BalthazarsSecrets_BookLever_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="f17dd180-8e29-c7c2-4ed2-b28899aa55a8" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="71f2912b-2d56-a10c-87ba-c3fb5aee34d0" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfd256d23g8063g4dc3g9426gc85b9156cebb" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Generic_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableAttackableObject" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="PhysicsFollowAnimation" type="bool" value="False" />
+					<attribute id="UseSound" type="FixedString" value="f653ca9a-eca6-4657-b01b-7c86db1288b2" />
+					<attribute id="Description" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2576593 -0.03796622 -0.1513353" />
+									<attribute id="Max" type="fvec3" value="0.2785077 0.1149311 0.1516572" />
+									<attribute id="Radius" type="float" value="0.215435" />
+									<attribute id="Height" type="float" value="1.11479" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2576593 -0.03796622 -0.2004373" />
+									<attribute id="Max" type="fvec3" value="0.2785077 0.1149311 0.2007592" />
+									<attribute id="Radius" type="float" value="0.43087" />
+									<attribute id="Height" type="float" value="1.11479" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1366493 -0.0002110973 -0.2004372" />
+									<attribute id="Max" type="fvec3" value="0.1574977 0.07717595 0.2007592" />
+									<attribute id="Radius" type="float" value="0.43087" />
+									<attribute id="Height" type="float" value="1.11479" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

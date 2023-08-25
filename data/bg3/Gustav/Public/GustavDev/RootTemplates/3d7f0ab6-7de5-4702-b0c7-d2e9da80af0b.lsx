@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3d7f0ab6-7de5-4702-b0c7-d2e9da80af0b" />
+					<attribute id="Name" type="LSString" value="UNI_TWN_LiftingTheCurse_Shadow_Summon" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="749b1e7d-63a1-4a3d-b0ca-f237b9ada5c4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcc492445gca1eg4688gb3f0gbbba0054c11d" version="4" />
+					<attribute id="Icon" type="FixedString" value="Portrait_UNI_TWN_LiftingTheCurse_Shadow_Summon" />
+					<attribute id="Stats" type="FixedString" value="TWN_Oliver_MischievousShadow" />
+					<attribute id="ForceLifetimeDeath" type="bool" value="False" />
+					<attribute id="DeathEffect" type="guid" value="ab5287cf-6c02-4672-b793-ce8d8f4ebd52" />
+					<attribute id="LevelOverride" type="int32" value="1" />
+					<attribute id="SoundMovementStartEvent" type="FixedString" value="2aa1d7ca-6d1c-4040-8b10-3fe0be1a783e" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="cd37b5d9-8432-d90b-69e8-7917ee0d961e" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="8db73125-6ebf-6412-2906-770642e5284b" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="a13d6b02-008a-6c00-4d6a-731e75bb0bab" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="b0e0a9a8-b71c-9996-358d-9038a02067ed" />
+					<attribute id="VocalFallResourceID" type="FixedString" value="7a9e9ddd-313c-31e1-1c3a-f8e6594f2361" />
+					<attribute id="VocalShoutResourceID" type="FixedString" value="d9d5c8d4-860a-4fd6-eace-64496b560198" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="bfc0e3fa-1e2d-136a-7cb7-ba26819fe257" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="8ec7f456-6862-49d6-5e96-f3430bb4e0df" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="180ee29a-f8d7-1577-746b-f5ab8947966c" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="db57f5c3-be8f-3e40-971e-8b5f3bc7f2c6" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="2138b8de-e234-c669-0345-c2a2c7c6bc19" />
+					<attribute id="VocalLaughterResourceID" type="FixedString" value="ab41ef63-348e-7399-6e63-b4143769ad08" />
+					<attribute id="VocalRecoverResourceID" type="FixedString" value="bfc0e3fa-1e2d-136a-7cb7-ba26819fe257" />
+					<attribute id="VocalIdleCombat1ResourceID" type="FixedString" value="" />
+					<attribute id="VocalIdleCombat2ResourceID" type="FixedString" value="" />
+					<attribute id="VocalIdleCombat3ResourceID" type="FixedString" value="" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="9e37a5e3-0cee-3198-a684-f6673060ed8b" />
+					<attribute id="IsLootable" type="bool" value="False" />
+					<attribute id="Title" type="TranslatedString" handle="" version="0" />
+					<attribute id="Faction" type="guid" value="c60fe782-0034-48e3-19a2-71de716f5f55" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6d60bed7-10cc-4b52-b78f-a7ba815149cd" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Claws_Shadow" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="OnlyInNPCLoadout">
+											<attribute id="Object" type="guid" value="db8515f8-3741-4242-5aa0-f9f91a3e2c91" />
+										</node>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_SCL_Oliver_Claws_Shadow" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="ExcludeInNPCLoadout">
+											<attribute id="Object" type="guid" value="db8515f8-3741-4242-5aa0-f9f91a3e2c91" />
+										</node>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

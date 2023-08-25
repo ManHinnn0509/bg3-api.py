@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="cc426fc4-a82e-4375-8a77-31f2344b71b4" />
+					<attribute id="Name" type="LSString" value="CONS_Potion_Blood_Astarion" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="277257bc-38f5-4c51-be13-32498e8cbd3d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbcd53e0ag6842g49b2gb2d6gbf5aebe04fb1" version="1" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BloodPotion_Astarion" />
+					<attribute id="Description" type="TranslatedString" handle="hfe64f5edgd7c1g4186g957fg6cad7bd6f623" version="4" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="ha1fd1babg6bf2g4dcagb1c9gef447c083e6e" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="MOO_POTION_BLOODOPTION_ASTARION" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

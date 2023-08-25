@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AiHint" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Archetype" type="FixedString" value="base" />
+					<attribute id="AttackableWhenClickThrough" type="bool" value="False" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf2c21a16g3161g436cg9d9bg741f7c28e3fb" version="1" />
+					<attribute id="Faction" type="guid" value="376e33c4-dd15-4c46-86a5-d88721b4c7a0" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_UND_RockDebris_B" />
+					<attribute id="InteractionFilterType" type="uint8" value="1" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="IsPortal" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="3c7bd24f-c0b1-4839-b31e-1b74f05b59ef" />
+					<attribute id="MeshProxy" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="S_SHA_LastJusticiar_RatTunnel_Dynamic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="46e98535-3549-6474-5174-9775a5fc01f7" />
+					<attribute id="Stats" type="FixedString" value="SHA_LastJusticiar_RatTunnel_Destructible" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="53b0a49f-7911-6707-1f3a-a43f67be6e4b" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.3900427" />
+									<attribute id="Max" type="fvec3" value="0.3441445 0.1854284 0.3300357" />
+									<attribute id="Min" type="fvec3" value="-0.3441445 -0.1854284 -0.3300357" />
+									<attribute id="Radius" type="float" value="0.621563" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.3900427" />
+									<attribute id="Max" type="fvec3" value="0.3441445 0.1854284 0.3300357" />
+									<attribute id="Min" type="fvec3" value="-0.3441445 -0.1854284 -0.3300357" />
+									<attribute id="Radius" type="float" value="0.621563" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.3900427" />
+									<attribute id="Max" type="fvec3" value="0.3441445 0.1854284 0.3300357" />
+									<attribute id="Min" type="fvec3" value="-0.3441445 -0.1854284 -0.3300357" />
+									<attribute id="Radius" type="float" value="0.621563" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters" />
+						<node id="InteractionFilterList">
+							<children>
+								<node id="InteractionFilter">
+									<attribute id="Object" type="guid" value="9568e56b-27a2-45fc-c592-33fab6ee4cf5" />
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+						<node id="ItemList" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="3" />
+									<children>
+										<node id="Attributes">
+											<attribute id="AiUseInCombat" type="bool" value="True" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BlockMapMarkerNavigation" type="bool" value="False" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="EventID" type="FixedString" value="" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="Source" type="FixedString" value="728dcd32-b7e8-414b-a2a0-16234dacf226" />
+											<attribute id="SourceType" type="int32" value="1" />
+											<attribute id="Target" type="FixedString" value="DEC_GEN_Rock_Hole_A_Dynamic_03_B 3e538428-1694-4d2e-9574-eaa70804205e" />
+											<attribute id="Type" type="int32" value="1" />
+											<attribute id="Visibility" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DEBRIS_THRESHOLD_LESSER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

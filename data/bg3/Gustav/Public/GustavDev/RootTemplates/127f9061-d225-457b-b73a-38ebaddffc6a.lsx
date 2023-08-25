@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="127f9061-d225-457b-b73a-38ebaddffc6a" />
+					<attribute id="Name" type="LSString" value="UNI_BOOK_LOW_AuntieEthelsRevenge_LorasMap" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="4de85933-66f5-ddf6-b907-de5bec64b47f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e093e631-cb17-6003-ba8a-beaa8ca6b2c3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1eab6676g9d54g48c3g8413g3a535d28f47f" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_Map_World_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h9cd46cf7g21c6g4231gaed5g323ba0dba55f" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2297423 -6.67572E-06 -0.1621023" />
+									<attribute id="Max" type="fvec3" value="0.2297423 0.05959103 0.1621023" />
+									<attribute id="Radius" type="float" value="0.1407841" />
+									<attribute id="Height" type="float" value="0.0595977" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4594847 -6.67572E-06 -0.3242046" />
+									<attribute id="Max" type="fvec3" value="0.4594846 0.05959103 0.3242046" />
+									<attribute id="Radius" type="float" value="0.2815682" />
+									<attribute id="Height" type="float" value="0.0595977" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4594847 -6.67572E-06 -0.3242046" />
+									<attribute id="Max" type="fvec3" value="0.4594846 0.05959103 0.3242046" />
+									<attribute id="Radius" type="float" value="0.2815682" />
+									<attribute id="Height" type="float" value="0.0595977" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="LOW_AuntieEthelsRevenge_LorasMap" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

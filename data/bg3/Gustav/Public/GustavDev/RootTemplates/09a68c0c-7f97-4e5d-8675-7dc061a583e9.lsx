@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="330" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="09a68c0c-7f97-4e5d-8675-7dc061a583e9" />
+					<attribute id="Name" type="LSString" value="PUZ_LOW_KoboldHoleItem" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="VisualTemplate" type="FixedString" value="08c5e1b5-4db9-e1e1-14fd-bea47d9e5d84" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a6e2dd6a-8297-47cd-ab49-61d08b84e12d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5318fdcag8afbg4452g8be7g2bf43e06bc40" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Portrait_PUZ_LOW_KoboldHole" />
+					<attribute id="Stats" type="FixedString" value="LOW_KurwinCoffin_KoboldGang_Hole" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="PUZ_LOW_KoboldHole" />
+					<attribute id="Faction" type="guid" value="aef430b4-fa86-4867-e583-8869327f74a1" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<attribute id="CanFight" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6d60bed7-10cc-4b52-b78f-a7ba815149cd" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7816724 -0.4201187 -0.8967378" />
+									<attribute id="Max" type="fvec3" value="0.7218338 0.1065398 0.8218913" />
+									<attribute id="Radius" type="float" value="0.5024363" />
+									<attribute id="Height" type="float" value="3.434993" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7816724 -0.4201187 -0.8967378" />
+									<attribute id="Max" type="fvec3" value="0.7218338 0.1065398 0.8218913" />
+									<attribute id="Radius" type="float" value="1.004873" />
+									<attribute id="Height" type="float" value="3.434993" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7816724 -0.4201187 -0.8967378" />
+									<attribute id="Max" type="fvec3" value="0.7218338 0.1065398 0.8218913" />
+									<attribute id="Radius" type="float" value="1.004873" />
+									<attribute id="Height" type="float" value="3.434993" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="LOW_KOBOLDHOLE_SPAWNKOBOLD_AURA_SOURCE" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="327" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6e4b9857-8e51-4c94-a716-a9dbe7b4afee" />
+					<attribute id="Name" type="LSString" value="BOOK_UNI_LOW_SewersKoboldMap" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="ae9eca1e-aae9-2869-8679-102e900d39ee" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2a9ca8db-a2eb-c6bd-abbb-bfddc8d368fb" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h59f63f9cga0a2g4f7bg838dg78f2db9d1176" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_Map_World_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h5a6f4a36g11abg42c9g949fgc794c915208a" version="1" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="h6dd1f45egaef8g4eefgae07g736a0f3fc863" version="1" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4435858 -7.450581E-09 -0.3075829" />
+									<attribute id="Max" type="fvec3" value="0.4435858 0.1339199 0.3075829" />
+									<attribute id="Radius" type="float" value="0.270237" />
+									<attribute id="Height" type="float" value="0.05427494" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4435858 -7.450581E-09 -0.3075829" />
+									<attribute id="Max" type="fvec3" value="0.4435858 0.1339199 0.3075829" />
+									<attribute id="Radius" type="float" value="0.270237" />
+									<attribute id="Height" type="float" value="0.05427494" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4435858 -7.450581E-09 -0.3075829" />
+									<attribute id="Max" type="fvec3" value="0.4435858 0.1339199 0.3075829" />
+									<attribute id="Radius" type="float" value="0.270237" />
+									<attribute id="Height" type="float" value="0.05427494" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="LOW_SewersBooster_KoboldTreasureMap" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

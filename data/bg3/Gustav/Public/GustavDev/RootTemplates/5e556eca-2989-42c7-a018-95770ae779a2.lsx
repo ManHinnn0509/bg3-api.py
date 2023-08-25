@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5e556eca-2989-42c7-a018-95770ae779a2" />
+					<attribute id="Name" type="LSString" value="CONS_Elixir_Blood_Dragonborn_Ice" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="eef254dd-b983-4e59-bf49-5ed76a536220" />
+					<attribute id="VisualTemplate" type="FixedString" value="dfc89a5f-2be9-3e7d-d750-58a95d0cbd81" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dda0519b-fb51-b604-5b42-819812f83383" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9b4e9849gc4d4g44eaga2c0gae86c9895432" version="2" />
+					<attribute id="Icon" type="FixedString" value="Items_CONS_Drink_Bottle_Small_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BloodPotion_Dragonborn_Ice" />
+					<attribute id="Description" type="TranslatedString" handle="h5568099dgddf7g45degab43g786ba116b336" version="3" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hff51c778gbb53g4edbg81acgd94d1e4106e4" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="895ce382-397d-4b9a-9e8f-6ee3b1ff3a13" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="MOO_BLOODPOTION_DRAGONBORN_ICE" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

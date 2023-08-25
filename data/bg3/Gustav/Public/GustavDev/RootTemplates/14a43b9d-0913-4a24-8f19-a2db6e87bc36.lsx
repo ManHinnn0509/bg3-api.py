@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="313" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="14a43b9d-0913-4a24-8f19-a2db6e87bc36" />
+					<attribute id="Name" type="LSString" value="UNI_WYR_SharessCaress_PotentDrink" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="35bcfb10-ba86-4195-9de5-2d57b4e209f9" />
+					<attribute id="VisualTemplate" type="FixedString" value="776b2ee5-fbe3-f3dd-5ecf-8213f870de63" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0298191a-86f5-8a68-ab48-f81da5439694" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7a4eb228g8378g4679g9021gb5c64150b6f5" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Drink_Mug_Metal_A_Beer" />
+					<attribute id="Stats" type="FixedString" value="WYR_SharessCaress_PotentDrink" />
+					<attribute id="UseSound" type="FixedString" value="34b720c0-303a-ef4c-32a0-7fdb8f1c3c22" />
+					<attribute id="Description" type="TranslatedString" handle="h47230f4egc48dg4e91g9ef1gb7292dd3b022" version="4" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1472302 0.002001852 -0.08191794" />
+									<attribute id="Max" type="fvec3" value="0.08209445 0.2207299 0.08196555" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1472302 0.002001852 -0.08191794" />
+									<attribute id="Max" type="fvec3" value="0.08209445 0.2207299 0.08196555" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1472302 0.002001852 -0.08191794" />
+									<attribute id="Max" type="fvec3" value="0.08209445 0.2207299 0.08196555" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="895ce382-397d-4b9a-9e8f-6ee3b1ff3a13" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="WYR_SHARESSCARESS_POTENTDRINK" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

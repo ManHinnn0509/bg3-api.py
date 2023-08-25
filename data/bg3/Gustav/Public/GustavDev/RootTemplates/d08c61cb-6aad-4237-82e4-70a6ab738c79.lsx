@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d08c61cb-6aad-4237-82e4-70a6ab738c79" />
+					<attribute id="Name" type="LSString" value="QUEST_CRE_PlaneCaster" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a0b954a7-4c3c-4a6d-a460-086d6c176b6a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h341ed891ga19ag43a8gaebdg8172bf6b9ffa" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_Planecaster_Device" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="16" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="InsertSlots" type="int8" value="1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

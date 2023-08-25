@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1f43872c-21a4-4b55-a32d-f010568c2c19" />
+					<attribute id="Name" type="LSString" value="BLD_Harbor_Crane_Hook_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="86486828-5e42-453b-b0f1-cccfbb1a4927" />
+					<attribute id="VisualTemplate" type="FixedString" value="93a5dead-f76c-8102-06c7-35947c61ac47" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="51589d77-1ce0-5898-00c8-240dc3af7866" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h828b0979g0d78g4ab2g8d1bg61ffe0a656af" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_QUEST_Rope_Destructable" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="IsPublicDomain" type="bool" value="True" />
+					<attribute id="IgnoreGenerics" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2000226 -0.5002733 -0.5777773" />
+									<attribute id="Max" type="fvec3" value="0.08018351 0.9589839 0.5831314" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2000226 -0.5002733 -0.5777773" />
+									<attribute id="Max" type="fvec3" value="0.08018351 0.9589839 0.5831314" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2000226 -0.5002733 -0.5777773" />
+									<attribute id="Max" type="fvec3" value="0.08018351 0.9589839 0.5831314" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DEBRIS_THRESHOLD_LESSER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5d184295-c044-4c1a-bff3-e1be3a9c3f67" />
+					<attribute id="Name" type="LSString" value="Dwarves_Male_Duergar_Cultist_Bhaal_DeathsHead" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f8a934f1-6876-479e-8ba4-84e8d8d2482a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9a172afdge2f9g4b63g8f12ga9e351ebaadb" version="1" />
+					<attribute id="Icon" type="FixedString" value="2eb469e8-463a-312e-afcd-7bf806311a76-EQP_LOW_DeathsHeadOfBhaal_(Icon_Dwarf_Male)" />
+					<attribute id="Equipment" type="FixedString" value="EQP_LOW_DeathsHeadOfBhaal" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="2eb469e8-463a-312e-afcd-7bf806311a76" />
+					<attribute id="Archetype" type="FixedString" value="melee_smart" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-8ea2-43270e4e187b" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="35e61bba-f575-4d24-d4a3-29ac98adf978" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_StunningGaze_DeathsHead" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AURA_OF_MURDER" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DEATHSHEAD_UNSTOPPABLE_2" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

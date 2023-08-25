@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3fb04cfe-5066-4eb9-b467-8c11f6d7c6f6" />
+					<attribute id="Name" type="LSString" value="FLOCK_Base" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6b781e5f-500d-478a-873c-c7d218a28979" />
+					<attribute id="VisualTemplate" type="FixedString" value="d6ae5219-df7e-c72a-b6f9-e0bb1b1403be" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h85708b07g9deeg48dcg97d8g86df54b151fe" version="1" />
+					<attribute id="Icon" type="FixedString" value="bd46895c-db23-e4a5-b848-46d511663f57-_(Icon_Bird_Bluejay)" />
+					<attribute id="Stats" type="FixedString" value="BlueJay" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="LightID" type="FixedString" value="b62fa66d-5720-449a-96ea-3d69f0facfce" />
+					<attribute id="FoleyMediumResourceID" type="FixedString" value="8375786e-22cb-7224-4f2e-84b093935982" />
+					<attribute id="FoleyLongResourceID" type="FixedString" value="82740683-4bc2-c64c-0a31-f5a6279ee318" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="083ddff0-0cb3-5ab4-3da5-97910937bd8e" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="6c9ea27c-5a6f-a85b-9f2e-02b8cc2a43c9" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="66d7f960-2dab-dd51-a19d-4164ef92c0b1" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="ec16c90e-7d4b-5b2b-8a04-df5304e713b6" />
+					<attribute id="VocalFallResourceID" type="FixedString" value="128ce449-0f7e-c1c2-efa2-f81106fba101" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="21edcffc-6a14-76fe-5393-4f9f09338f30" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="a2386399-630f-fe62-22e0-c3098e0ae8af" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="73cbd157-13fa-415a-8459-db46b2ab82f5" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="4921b3ec-14eb-5c09-a9ba-58d2f2d49b7e" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="3dcc1741-6acb-5529-f0cb-ee6d1df1d3c3" />
+					<attribute id="VocalRebornResourceID" type="FixedString" value="21edcffc-6a14-76fe-5393-4f9f09338f30" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="423168fe-0348-2927-6be3-ddec0068fe33" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="16b95526-f634-ed68-f4e8-3b14500a3e53" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="ee60294e-c410-117e-a826-70a895552b1d" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="75f2e7b7-80f7-49d4-c439-67b9a14d9f57" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="2bdb111e-a67a-93f2-ec83-2d78225e57c8" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="128ce449-0f7e-c1c2-efa2-f81106fba101" />
+					<attribute id="VocalIdle1ResourceID" type="FixedString" value="82bad7f2-f2f4-95dc-63ae-1647439e5eba" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3a8a8c49-70f1-5de8-7af6-eb2d9021c8f6" />
+					<attribute id="IsLootable" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="GeneratePortrait" type="LSString" value="" />
+					<attribute id="Race" type="guid" value="c55c2eb7-81bb-46e1-d789-df9e377bb788" />
+					<children>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

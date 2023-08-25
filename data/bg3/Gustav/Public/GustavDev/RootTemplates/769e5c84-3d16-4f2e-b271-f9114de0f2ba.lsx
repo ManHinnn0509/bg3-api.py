@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="323" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="769e5c84-3d16-4f2e-b271-f9114de0f2ba" />
+					<attribute id="Name" type="LSString" value="BOOK_UNI_LOW_HoH_ListOfDebtors" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="61b98c74-8f5c-4d05-b56c-0911b59c9078" />
+					<attribute id="VisualTemplate" type="FixedString" value="29b8cf38-bfa1-c9c5-c89e-ebc3f3263c4d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="12f04223-17d0-0903-a470-e50abe5cbd86" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf9b7b400g4bdbg4d28g9303gf0e440cbecc0" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.9580429 -0.002079129 -0.249325" />
+									<attribute id="Max" type="fvec3" value="1.793597 1.01166 0.3569365" />
+									<attribute id="Radius" type="float" value="1.37582" />
+									<attribute id="Height" type="float" value="1.013739" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.9580429 -0.002079129 -0.249325" />
+									<attribute id="Max" type="fvec3" value="1.793597 1.01166 0.3569365" />
+									<attribute id="Radius" type="float" value="1.37582" />
+									<attribute id="Height" type="float" value="1.013739" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.9580429 -0.002079129 -0.249325" />
+									<attribute id="Max" type="fvec3" value="1.793597 1.01166 0.3569365" />
+									<attribute id="Radius" type="float" value="1.37582" />
+									<attribute id="Height" type="float" value="1.013739" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="LOW_HoH_ListOfDebtors" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
