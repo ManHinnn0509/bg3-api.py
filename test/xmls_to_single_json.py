@@ -42,6 +42,8 @@ for dir in dirs:
             if ('@handle' in attribute):
                 attributes_with_handle.append(attribute)
 
+        # Yes this will also keep the empty lists
+        # Let's keep it like this first and see how it goes
         d[map_key] = attributes_with_handle
     
     write_json_file(f'./{counter}.json', d)
