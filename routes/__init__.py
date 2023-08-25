@@ -1,6 +1,7 @@
 import routes.find_handle
 import routes.find_by_handle
 import routes.get_lsx
+import routes.get_txt
 
 ROUTER_PAIRS = {
     '/findHandle': {
@@ -15,7 +16,12 @@ ROUTER_PAIRS = {
     },
     '/getLsx': {
         'function_name': 'get_lsx',
-        'description': 'Find related files using map key',
+        'description': 'Find lsx file of given map key',
         'router': routes.get_lsx.router
+    },
+    '/getTxt': {
+        'function_name': 'get_txt',
+        'description': 'Find related txt files of given map key',
+        'router': routes.get_txt.router
     }
 }

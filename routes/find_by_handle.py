@@ -21,10 +21,11 @@ def extract_path(index: int, map_key: str):
     return path + map_key + '.lsx'
 
 def format_urls(request: Request, map_key: str):
-    return [
-        # get lsx
-        # get txt (Generated)
-    ]
+    query = f'?mapKey={map_key}'
+    return {
+        'lsx': str(request.url_for('get_lsx')) + query,
+        'txt': str(request.url_for('get_txt')) + query
+    }
 
 @router.get('')
 async def find_by_handle(request: Request, handle: str=None):
