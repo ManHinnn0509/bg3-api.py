@@ -10,17 +10,17 @@ from util.str_utils import split_on_empty_lines
 router = APIRouter(dependencies=[Depends(auth.get_api_key),])
 
 TXT_PATHS = [
-    './data/bg3/Gustav/Public/Gustav/Stats/Generated/Data/',
     './data/bg3/Gustav/Public/Gustav/Stats/Generated/',
-
-    './data/bg3/Gustav/Public/GustavDev/Stats/Generated/Data/',
+    './data/bg3/Gustav/Public/Gustav/Stats/Generated/Data/',
+    
     './data/bg3/Gustav/Public/GustavDev/Stats/Generated/',
-
-    './data/bg3/Shared/Public/Shared/Stats/Generated/Data/',
+    './data/bg3/Gustav/Public/GustavDev/Stats/Generated/Data/',
+    
     './data/bg3/Shared/Public/Shared/Stats/Generated/',
-
-    './data/bg3/Shared/Public/SharedDev/Stats/Generated/Data/',
+    './data/bg3/Shared/Public/Shared/Stats/Generated/Data/',
+    
     './data/bg3/Shared/Public/SharedDev/Stats/Generated/',
+    './data/bg3/Shared/Public/SharedDev/Stats/Generated/Data/',
 ]
 
 CONTENTS = {}
@@ -50,13 +50,14 @@ async def get_txt(request: Request, mapKey: str=None):
         for filename, contents in files.items():
             for content in contents:
                 content: str
-                
+
                 if (mapKey not in content):
                     continue
                 
                 if (filename not in d):
                     d[filename] = []
                 
+                # Split it into lines, since there might be multiple results
                 content = content.split("\n")
                 d[filename].append(content)
 
