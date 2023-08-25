@@ -1,6 +1,6 @@
 import uvicorn
 
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends, Request, APIRouter
 
 from routes import ROUTER_PAIRS
 from const import HOST_ADDRESS, HOST_PORT
@@ -16,12 +16,17 @@ for endpoint, data in ROUTER_PAIRS.items():
     app.include_router(data['router'], prefix=endpoint)
 
 @app.get('/')
-async def index(api_key=Depends(auth.get_api_key)):
+async def index(request: Request, api_key=Depends(auth.get_api_key)):
     d = {}
     for endpoint, data in ROUTER_PAIRS.items():
+
+        description: str = data['description']
+        router: APIRouter = data['router']
+        function_name: str = data['function_name']
+
         d[endpoint] = {
             'description': data['description'],
-            'url': f'{HOST_ADDRESS}:{HOST_PORT}{endpoint}'
+            'url': str(request.url_for(function_name))
         }
     
     return d

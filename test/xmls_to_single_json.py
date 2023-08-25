@@ -17,6 +17,9 @@ for dir in dirs:
     d = {}
     xmls = [f'{dir}\\{i}' for i in os.listdir(dir)]
     for xml in xmls:
+        if (xml.endswith('.json')):
+            continue
+        
         with open(xml, 'rb') as f:
             b = f.read()
         

@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request
 
 import auth
 
@@ -21,7 +21,7 @@ JSON_ENGLISH: dict = read_json_file(ENGLISH_FILEPATH)
 JSON_ZH_TW: dict = read_json_file(ZH_TW_FILEPATH)
 
 @router.get('')
-async def find_handle(startswith: str=None, endswith: str=None, includes: str=None, equals: str=None):
+async def find_handle(request: Request, startswith: str=None, endswith: str=None, includes: str=None, equals: str=None):
 
     inputs = [i for i in (startswith, endswith, includes, equals) if (i != None)]
     if (len(inputs) == 0):
@@ -53,6 +53,7 @@ async def find_handle(startswith: str=None, endswith: str=None, includes: str=No
             if not (text == equals):
                 continue
         
+        data['url'] = str(request.url_for('find_by_handle')) + f'?handle={handle}'
         results[handle] = data
     
     return results
