@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="BloodType" type="FixedString" value="" />
+					<attribute id="CanConsumeItems" type="bool" value="False" />
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="CanWalkThroughDoors" type="bool" value="True" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="af016cd3-baa5-2123-cf85-5818e7a4df8b" />
+					<attribute id="DeathEffect" type="guid" value="0508e0c8-dc7a-4119-1db7-3e150e6c547a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2ede0fb7ga9b9g4b1egb962gbc4f0f1cf1f8" version="2" />
+					<attribute id="Faction" type="guid" value="bfc76c31-9f16-4f27-3faf-b6c67274dc30" />
+					<attribute id="ForceLifetimeDeath" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="af016cd3-baa5-2123-cf85-5818e7a4df8b-_(Icon_HalfOrcs_Male)" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="IsLootable" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6e5cc9a9-acbc-4b2a-8421-9f36a37af8e6" />
+					<attribute id="Name" type="LSString" value="WYR_Gortash_ManifestationOfTyranny_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0350f048-11f5-42fe-8399-228e419f4789" />
+					<attribute id="Race" type="guid" value="959e884c-d96c-4f09-ea91-4ae9355871bf" />
+					<attribute id="StartCombatRange" type="float" value="6" />
+					<attribute id="Stats" type="FixedString" value="WYR_Gortash_ManifestationOfTyranny" />
+					<attribute id="SwarmGroup" type="FixedString" value="WYR_Swarm_BaneGhosts_01" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="OnDeathActions" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="WYR_GORTASH_MANIFESTATION_BLOCKMOVEMENT" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="WYR_GORTASH_MANIFESTATION_AURA" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="WYR_GORTASH_GHOST_FX_RED" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="5f831985-6974-4106-a791-ae4434084319" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6d60bed7-10cc-4b52-b78f-a7ba815149cd" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5eba9f0a-f68e-45df-80c7-178d7ac975c3" />
+					<attribute id="Name" type="LSString" value="BOOK_UNI_MOO_ApostileDiary" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="d902d5b1-db22-e0a5-5eef-a68a05f3de3d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2e572d87-eed1-22e8-0110-190a18b7677d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h99809dffg8456g496ag8e28g4184ec13f51d" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Scroll_Parchment_A_Open" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll" />
+					<attribute id="BookType" type="uint8" value="3" />
+					<attribute id="Description" type="TranslatedString" handle="hc6d0c0a7g0379g457dgb4c3gce69a9d74224" version="2" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="h32b605e7g4976g48aagba52g9558943688ee" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09648313 0.003241166 -0.1478594" />
+									<attribute id="Max" type="fvec3" value="0.09648313 0.07536472 0.1479762" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1929663 0.003241166 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.1929663 0.07536472 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1929663 0.003241166 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.1929663 0.07536472 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="MOO_ApostleEntry_Ritual" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

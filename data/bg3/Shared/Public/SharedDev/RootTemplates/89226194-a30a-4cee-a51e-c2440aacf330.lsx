@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="323" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="89226194-a30a-4cee-a51e-c2440aacf330" />
+					<attribute id="Name" type="LSString" value="UNI_BOOK_LOW_CountingHouse_GuildNumbers" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b5a707d7-8b8a-40db-8174-fce0cd6f316c" />
+					<attribute id="VisualTemplate" type="FixedString" value="5bed9a9d-f19b-4669-2b04-05ac14f889b0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dea5fbe9-318f-f484-a966-a1182d2eb0bf" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h09459632g9d5dg4a8dg998dgb46403490d5a" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Scroll_Parchment_A_Open" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h544a4d1dgad20g49aegbbb4g7a0b871854b9" version="1" />
+					<attribute id="BookType" type="uint8" value="3" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3222879 -0.0009242892 -0.6991014" />
+									<attribute id="Max" type="fvec3" value="0.2704073 0.9861148 0.1447245" />
+									<attribute id="Radius" type="float" value="0.421913" />
+									<attribute id="Height" type="float" value="0.9870391" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3222879 -0.0009242892 -0.6991014" />
+									<attribute id="Max" type="fvec3" value="0.2704073 0.9861148 0.1447245" />
+									<attribute id="Radius" type="float" value="0.421913" />
+									<attribute id="Height" type="float" value="0.9870391" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3222879 -0.0009242892 -0.6991014" />
+									<attribute id="Max" type="fvec3" value="0.2704073 0.9861148 0.1447245" />
+									<attribute id="Radius" type="float" value="0.421913" />
+									<attribute id="Height" type="float" value="0.9870391" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="LOW_CountingHouse_GuildNumbers" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

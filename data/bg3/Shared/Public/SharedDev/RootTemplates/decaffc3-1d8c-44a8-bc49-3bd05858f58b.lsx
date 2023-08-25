@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="323" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="decaffc3-1d8c-44a8-bc49-3bd05858f58b" />
+					<attribute id="Name" type="LSString" value="BOOK_UNI_SCL_GithAmbushOrders" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="65b2f2a7-0398-dcfe-12c0-a3337062f48b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="199ad1d2-8c0a-3e8d-f269-626702eaefbe" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hef3cfe07g64b3g45c3g97f6gd47b5502025c" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GTY_Book_A" />
+					<attribute id="BookType" type="uint8" value="8" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2515951 -0.005960617 -0.210584" />
+									<attribute id="Max" type="fvec3" value="0.2515951 0.04992208 0.2665268" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2515951 -0.005960617 -0.210584" />
+									<attribute id="Max" type="fvec3" value="0.2515951 0.04992208 0.2665268" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2515951 -0.005960617 -0.210584" />
+									<attribute id="Max" type="fvec3" value="0.2515951 0.04992208 0.2665268" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="SCL_GithAmbushOrders" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

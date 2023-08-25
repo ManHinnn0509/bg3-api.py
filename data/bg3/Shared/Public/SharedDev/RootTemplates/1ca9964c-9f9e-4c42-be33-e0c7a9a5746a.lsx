@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1ca9964c-9f9e-4c42-be33-e0c7a9a5746a" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_Alchemy_SuperiorPotionHealing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3de2d01a-54fc-4412-98e0-218f674e8105" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5d666503gc158g4d54ga4b6gf74cd98a4e3f" version="1" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_Alchemy_SuperiorPotionHealing" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_Alchemy_SuperiorPotionHealing" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="30" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="RecipeID" type="FixedString" value="ALCH_Extract_YellowMuskCreeper" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

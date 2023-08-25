@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="29bd16a1-80d1-4643-97a7-acb920111d31" />
+					<attribute id="Name" type="LSString" value="ProximityMine" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="Schematic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<children>
+						<node id="SchematicData">
+							<attribute id="Id" type="guid" value="5a82b387-c218-481e-ad97-a4210d787fac" />
+							<attribute id="RootTemplateId" type="guid" value="78201581-cfe9-4ba9-e2b9-177d52047f0c" />
+							<attribute id="ConstellationConfigName" type="FixedString" value="" />
+							<children>
+								<node id="Transform">
+									<attribute id="Scale" type="float" value="1" />
+									<attribute id="Position" type="fvec3" value="-4.959106E-05 1.986226 -0.0001236598" />
+									<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+								</node>
+								<node id="ConstellationConfigGlobalParams" />
+								<node id="ConstellationConnections">
+									<children>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="6e923d7b-5159-421e-d5b4-911787cf768d" />
+											<attribute id="OutputSocketExt" type="FixedString" value="OnEnter" />
+											<attribute id="InputEntityUUID" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="InputSocketExt" type="FixedString" value="Warning" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="6e923d7b-5159-421e-d5b4-911787cf768d" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Empty" />
+											<attribute id="InputEntityUUID" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="InputSocketExt" type="FixedString" value="WarningOff" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="a4c9c6b6-862a-4ed5-5b9e-2524f89d4b7e" />
+											<attribute id="OutputSocketExt" type="FixedString" value="OnEnter" />
+											<attribute id="InputEntityUUID" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="InputSocketExt" type="FixedString" value="Prime" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="a4c9c6b6-862a-4ed5-5b9e-2524f89d4b7e" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Empty" />
+											<attribute id="InputEntityUUID" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="InputSocketExt" type="FixedString" value="PrimeOff" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="ff68f61f-45ce-4054-c0b0-d7dca42598d0" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Out" />
+											<attribute id="InputEntityUUID" type="guid" value="a4c9c6b6-862a-4ed5-5b9e-2524f89d4b7e" />
+											<attribute id="InputSocketExt" type="FixedString" value="Disable" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="ff68f61f-45ce-4054-c0b0-d7dca42598d0" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Out" />
+											<attribute id="InputEntityUUID" type="guid" value="6e923d7b-5159-421e-d5b4-911787cf768d" />
+											<attribute id="InputSocketExt" type="FixedString" value="Disable" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="0900decd-8a4e-48de-54a6-8ac4f1f27aad" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Out" />
+											<attribute id="InputEntityUUID" type="guid" value="6e923d7b-5159-421e-d5b4-911787cf768d" />
+											<attribute id="InputSocketExt" type="FixedString" value="Enable" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="0900decd-8a4e-48de-54a6-8ac4f1f27aad" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Out" />
+											<attribute id="InputEntityUUID" type="guid" value="a4c9c6b6-862a-4ed5-5b9e-2524f89d4b7e" />
+											<attribute id="InputSocketExt" type="FixedString" value="Enable" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Off" />
+											<attribute id="InputEntityUUID" type="guid" value="ff68f61f-45ce-4054-c0b0-d7dca42598d0" />
+											<attribute id="InputSocketExt" type="FixedString" value="In" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Explode" />
+											<attribute id="InputEntityUUID" type="guid" value="ff68f61f-45ce-4054-c0b0-d7dca42598d0" />
+											<attribute id="InputSocketExt" type="FixedString" value="In" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Disarmed" />
+											<attribute id="InputEntityUUID" type="guid" value="ff68f61f-45ce-4054-c0b0-d7dca42598d0" />
+											<attribute id="InputSocketExt" type="FixedString" value="In" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="OutputSocketExt" type="FixedString" value="On" />
+											<attribute id="InputEntityUUID" type="guid" value="0900decd-8a4e-48de-54a6-8ac4f1f27aad" />
+											<attribute id="InputSocketExt" type="FixedString" value="In" />
+										</node>
+									</children>
+								</node>
+								<node id="ConnectedObjects">
+									<children>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+										</node>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="a4c9c6b6-862a-4ed5-5b9e-2524f89d4b7e" />
+										</node>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="6e923d7b-5159-421e-d5b4-911787cf768d" />
+										</node>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="ff68f61f-45ce-4054-c0b0-d7dca42598d0" />
+										</node>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="0900decd-8a4e-48de-54a6-8ac4f1f27aad" />
+										</node>
+									</children>
+								</node>
+								<node id="Items">
+									<children>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="aeaaee7b-2d66-4413-0e9f-fea8f102a9b4" />
+											<attribute id="RootTemplateId" type="guid" value="f014efe0-b010-408e-b5b3-7aa110ce820d" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="MineProximity" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="-8.773804E-05 1.000412 6.135305E-05" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams" />
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="a4c9c6b6-862a-4ed5-5b9e-2524f89d4b7e" />
+											<attribute id="RootTemplateId" type="guid" value="850e1c9c-560e-4403-cdb1-d808acb5894c" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="Trigger" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="6.866455E-05 1 3.083547E-05" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams">
+													<children>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="EntityFilter" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="String">
+																							<attribute id="String" type="LSString" value="Characters" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="6e923d7b-5159-421e-d5b4-911787cf768d" />
+											<attribute id="RootTemplateId" type="guid" value="0414f111-0791-4c4c-399b-5eb7ea4a918e" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="Trigger" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="6.866455E-05 1.000172 3.083547E-05" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams">
+													<children>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="EntityFilter" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="String">
+																							<attribute id="String" type="LSString" value="Characters" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="ff68f61f-45ce-4054-c0b0-d7dca42598d0" />
+											<attribute id="RootTemplateId" type="guid" value="7d0dfd0d-9a04-4352-8ba5-29f8f793b8cf" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="Helper_Continue" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="0 1.000226 3.178914E-07" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams" />
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="0900decd-8a4e-48de-54a6-8ac4f1f27aad" />
+											<attribute id="RootTemplateId" type="guid" value="7d0dfd0d-9a04-4352-8ba5-29f8f793b8cf" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="Helper_Continue" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="0 1.000226 3.178914E-07" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams" />
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="RootConfigs">
+							<children>
+								<node id="RootConfig">
+									<attribute id="Object" type="guid" value="5a82b387-c218-481e-ad97-a4210d787fac" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

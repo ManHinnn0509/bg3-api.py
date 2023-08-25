@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7409c7be-ec13-48d9-8e9d-94c19df2b210" />
+					<attribute id="Name" type="LSString" value="UNI_WYR_Scroll_Runepowder_Bomb_Detonator" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
+					<attribute id="DevComment" type="LSString" value="A scroll used to detonate Runepowder bomb in Act3 WYR Ironhand gnomes story" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf36760bbgfacdg4378g8544g3c89a25d3be1" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_SCROLL_RunepowderDetonator" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Shout_WYR_Runepowder_Bomb_Detonate" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

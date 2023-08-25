@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0adc71a0-50c3-48c8-aca7-1d49f373372d" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_GeneralLoreBook_TheGnomefather" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="df77e7cc-7a49-2913-36d0-62e06ab0ce48" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a12a1397-d9ec-6c28-b4b3-f3fd150c3f7f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5d85ee31g5c45g4d57gb8adg111861ebf95f" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Simple_C" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_GeneralLoreBook_TheGnomefather" />
+					<attribute id="ExamineRotation" type="fvec3" value="65 180 0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1464336 -0.001243778 -0.199224" />
+									<attribute id="Max" type="fvec3" value="0.1533377 0.08665345 0.1992242" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1464336 -0.001243778 -0.199224" />
+									<attribute id="Max" type="fvec3" value="0.1533377 0.08665345 0.1992242" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1464336 -0.001243778 -0.199224" />
+									<attribute id="Max" type="fvec3" value="0.1533377 0.08665345 0.1992242" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_GeneralLoreBook_TheGnomefather" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

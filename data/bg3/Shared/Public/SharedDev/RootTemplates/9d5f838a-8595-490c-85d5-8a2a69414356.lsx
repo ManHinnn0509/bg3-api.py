@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9d5f838a-8595-490c-85d5-8a2a69414356" />
+					<attribute id="Name" type="LSString" value="ORIGIN_Minsc" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="056fffd0-9009-4627-84c2-f0a22e311ec7" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcf282116g50dcg4e58ga995g638d7ae08e7e" version="1" />
+					<attribute id="Icon" type="FixedString" value="9404e0a4-fafd-47ec-ad6d-52d63cb116ff-EQP_CC_Ranger_(Icon_Minsc)" />
+					<attribute id="Stats" type="FixedString" value="Origin_Minsc" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Equipment" type="FixedString" value="EQP_CC_Ranger" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="9404e0a4-fafd-47ec-ad6d-52d63cb116ff" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="6acff363-4407-0b10-0a7c-c1e27fe03c58" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Minsc" />
+					<attribute id="SoftBodyCollisionTemplate" type="FixedString" value="" />
+					<attribute id="Faction" type="guid" value="afb9d9bb-9a52-4737-8d4d-c7c5322f30b7" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="37a733c1-a862-4157-2ab9-ff9c23466a2c" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="1eec74e8-3673-4500-ecab-b75784eded69" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="91f4b379-63a2-40e9-09a5-9b7b902fc8e4" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="2a4f9fcc-5891-4150-3fbf-19a29ae6337f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="26fb71ce-d2c8-44b5-d690-08cb5c7031b5" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="CONS_Potion_Healing_A" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="d47006e9-8a51-453d-b200-9e0d42e9bbab" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

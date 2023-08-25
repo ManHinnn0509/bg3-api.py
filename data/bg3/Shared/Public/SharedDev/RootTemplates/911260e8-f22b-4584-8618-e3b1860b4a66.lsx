@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="911260e8-f22b-4584-8618-e3b1860b4a66" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_GeneralLoreBook_BalduranTheSailor" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4c8029f-3402-3e86-d07e-9a17f5bb3ae6" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="685f5c29-1d10-e0b8-059d-b78f495a7c39" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h68bcb639g9c17g4c8eg9b38g46af3d5f236d" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_Rich_C" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1797571 4.903227E-05 -0.2661062" />
+									<attribute id="Max" type="fvec3" value="0.1797571 0.08126461 0.2661061" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1797571 4.903227E-05 -0.2661062" />
+									<attribute id="Max" type="fvec3" value="0.1797571 0.08126461 0.2661061" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1797571 4.903227E-05 -0.2661062" />
+									<attribute id="Max" type="fvec3" value="0.1797571 0.08126461 0.2661061" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_GeneralLoreBook_BalduranTheSailor" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c5b068cc-0097-4471-b754-72fb13e6b0dc" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_GeneralLoreBook_CorellonLarethian" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="54b4e339-e36e-b1ab-11c8-de192ba915dc" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5f9e4178-2c61-8a4e-312c-f7e1f2c7a904" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2ae0047cg6566g4afegb901g67c5812e6b05" version="3" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_GeneralLoreBook_CorellonLarethian" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1878008 -0.006096281 -0.239494" />
+									<attribute id="Max" type="fvec3" value="0.1992143 0.1137189 0.2390155" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1878008 -0.006096281 -0.239494" />
+									<attribute id="Max" type="fvec3" value="0.1992143 0.1137189 0.2390155" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1878008 -0.006096281 -0.239494" />
+									<attribute id="Max" type="fvec3" value="0.1992143 0.1137189 0.2390155" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_GeneralLoreBook_CorellonLarethian" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

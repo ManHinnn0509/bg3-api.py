@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="995350b8-1f00-407f-bece-a8452945da66" />
+					<attribute id="Name" type="LSString" value="UNI_TWN_Distillery_PurpleWormGlands_DO_NOT_USE" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="deb1c368-16c8-4dc4-8bb0-aaa1bd80cda2" />
+					<attribute id="VisualTemplate" type="FixedString" value="9019c082-bb8c-1696-773f-eed15ba4925e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5b555043-490c-ca8f-ac00-735456979e42" />
+					<attribute id="DevComment" type="LSString" value="Deprecated" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he87e9d53gd429g4f1fga8b8g0e4503d42baf" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Druid_Autopsy_Set_Tadpole" />
+					<attribute id="Stats" type="FixedString" value="SCL_Distillery_PurpleWormGlands" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="h729fb34egecd7g4bfaga699g375253b65d15" version="3" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08906454 -0.001322925 -0.08906455" />
+									<attribute id="Max" type="fvec3" value="0.08906451 0.3066461 0.09019072" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08906454 -0.001322925 -0.08906455" />
+									<attribute id="Max" type="fvec3" value="0.08906451 0.3066461 0.09019072" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08906454 -0.001322925 -0.08906455" />
+									<attribute id="Max" type="fvec3" value="0.08906451 0.3066461 0.09019072" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="1" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

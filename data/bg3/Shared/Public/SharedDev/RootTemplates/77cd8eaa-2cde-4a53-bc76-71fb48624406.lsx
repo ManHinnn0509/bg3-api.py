@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="77cd8eaa-2cde-4a53-bc76-71fb48624406" />
+					<attribute id="Name" type="LSString" value="UNI_WYR_CoronationAccessPass" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="280c6dc2-d54d-4761-a301-c8f818b32a80" />
+					<attribute id="VisualTemplate" type="FixedString" value="de60fe1d-3eac-5bdd-eee9-2399550b19cf" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="731d5b24-4de2-b020-5e7f-52716759e755" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h31c6d893g56a9g4d7cg8cbageec557018dfd" version="5" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Paper_Poster_A" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1282713 4.089973E-05 -0.09424567" />
+									<attribute id="Max" type="fvec3" value="0.129554 0.0020409 0.09069541" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1282713 4.089973E-05 -0.09424567" />
+									<attribute id="Max" type="fvec3" value="0.129554 0.0020409 0.09069541" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1282713 4.089973E-05 -0.09424567" />
+									<attribute id="Max" type="fvec3" value="0.129554 0.0020409 0.09069541" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="WYR_CoronationAccessPass" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

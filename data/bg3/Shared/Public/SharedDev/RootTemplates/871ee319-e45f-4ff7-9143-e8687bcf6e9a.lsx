@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="871ee319-e45f-4ff7-9143-e8687bcf6e9a" />
+					<attribute id="Name" type="LSString" value="Elemental_Grease" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ab2182de-6f65-406f-b521-7790ad67767d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h04400c70g7254g4c31gb7ceg45a55bb7523a" version="1" />
+					<attribute id="Icon" type="FixedString" value="ec008303-de07-4ed3-4db8-3e7a8824c5b9-_(Icon_Elemental_Mud)" />
+					<attribute id="Stats" type="FixedString" value="LOW_GreaseWizard_Elemental" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceGrease" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="ec008303-de07-4ed3-4db8-3e7a8824c5b9" />
+					<attribute id="Faction" type="guid" value="5ed8ba69-020f-444b-b5a5-d3d9a9b793e3" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="2ba49a5b-0818-4637-3289-2ff16b7f406d" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_LOW_GreaseWizard_Elemental_Slam" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

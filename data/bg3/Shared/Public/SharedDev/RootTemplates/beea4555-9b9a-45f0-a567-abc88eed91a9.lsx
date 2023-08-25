@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="beea4555-9b9a-45f0-a567-abc88eed91a9" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_GeneralLoreBook_ChildrenOfStone" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="10f626c3-6460-be86-7043-2b9bea5ae95a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="932dd2aa-acae-b9c5-710b-1570f3b2ca37" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1aa025d3g23dfg46a8gabd4g2ee71de76ebd" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_B" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_GeneralLoreBook_ChildrenOfStone" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1825315 0 -0.2310325" />
+									<attribute id="Max" type="fvec3" value="0.1825316 0.1072542 0.2303742" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1825315 0 -0.2310325" />
+									<attribute id="Max" type="fvec3" value="0.1825316 0.1072542 0.2303742" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1825315 0 -0.2310325" />
+									<attribute id="Max" type="fvec3" value="0.1825316 0.1072542 0.2303742" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_GeneralLoreBook_ChildrenOfStone" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

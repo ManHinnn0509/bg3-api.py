@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="327" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c6555b5d-4d26-41ce-bcd6-d31ed7bed86b" />
+					<attribute id="Name" type="LSString" value="UNI_CRE_KethericOrders" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0de891b-f804-4d89-953d-97c5dcd54946" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h26b7c8f7g5bafg468eg97d7g1f559d988936" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Paper_Letter_A" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h8ea4f41fg0ee8g4ac9ga407g47a01f19ad5d" version="1" />
+					<attribute id="BookType" type="uint8" value="0" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="CRE_CultistsUndead_KethericOrders" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

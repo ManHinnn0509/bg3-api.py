@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="323" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="de14a483-e879-484c-843f-e89148de3ccd" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_GeneralLoreBook_MotherOfHalflings" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="7017a29c-3823-29f4-6bf6-756e3e9fa51f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c7f72fd0-dd67-244b-d4d7-fe1f55330112" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h487d88b6g7cfag4718g8c04gee4304d5a0ff" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Simple_F" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_GeneralLoreBook_MotherOfHalflings" />
+					<attribute id="ExamineRotation" type="fvec3" value="65 180 0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1414637 -0.0006350055 -0.2003841" />
+									<attribute id="Max" type="fvec3" value="0.1517279 0.07600497 0.2003838" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1414637 -0.0006350055 -0.2003841" />
+									<attribute id="Max" type="fvec3" value="0.1517279 0.07600497 0.2003838" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1414637 -0.0006350055 -0.2003841" />
+									<attribute id="Max" type="fvec3" value="0.1517279 0.07600497 0.2003838" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_GeneralLoreBook_MotherOfHalflings" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

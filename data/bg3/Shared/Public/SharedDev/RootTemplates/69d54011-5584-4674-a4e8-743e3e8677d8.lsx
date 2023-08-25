@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="69d54011-5584-4674-a4e8-743e3e8677d8" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_GeneralLoreBook_MoradinTheSoulForger" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="1c4ec781-8eab-4cd2-54f1-829a555da269" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c02c7dc4-f9b3-4de7-39ee-b1d86383a799" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbb9d99d4g70a4g42cdg8a63gc23045362061" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Generic_F" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_GeneralLoreBook_MoradinTheSoulForger" />
+					<attribute id="ExamineRotation" type="fvec3" value="65 180 0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1505573 -0.00279475 -0.2069574" />
+									<attribute id="Max" type="fvec3" value="0.1667508 0.07670073 0.2084866" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1505573 -0.00279475 -0.2069574" />
+									<attribute id="Max" type="fvec3" value="0.1667508 0.07670073 0.2084866" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1505573 -0.00279475 -0.2069574" />
+									<attribute id="Max" type="fvec3" value="0.1667508 0.07670073 0.2084866" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_GeneralLoreBook_MoradinTheSoulForger" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

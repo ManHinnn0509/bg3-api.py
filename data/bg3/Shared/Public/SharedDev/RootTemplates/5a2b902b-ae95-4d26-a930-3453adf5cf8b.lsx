@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5a2b902b-ae95-4d26-a930-3453adf5cf8b" />
+					<attribute id="Name" type="LSString" value="Beast_Raven" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ab6ce7ad-8c88-4916-ad67-ae9e05e939b8" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="13bdcb93-0fa1-7658-5f71-302ed894700d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2e82b61ag3550g4b43gb6a1gde68606bf495" version="1" />
+					<attribute id="Icon" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328-_(Icon_Raven)" />
+					<attribute id="Stats" type="FixedString" value="Raven" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="3dd938ff-cd2f-797b-459a-6f3113a96bfa" />
+					<attribute id="DisintegratedResourceID" type="FixedString" value="a8df0d5a-d171-89d2-fd37-424a7f914ec6" />
+					<attribute id="LightID" type="FixedString" value="b62fa66d-5720-449a-96ea-3d69f0facfce" />
+					<attribute id="FoleyMediumResourceID" type="FixedString" value="5fb66978-5a0b-eaea-b824-0a5e1141f4cc" />
+					<attribute id="FoleyLongResourceID" type="FixedString" value="ae7de912-94bb-ed75-9cd4-8dfec432f26b" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="1b2aa98a-1476-7512-e65e-6777910f2f6b" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="8152972d-7181-9274-aa49-a873b5606281" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="e8a71b20-2c83-468c-ebbb-fad29b8164cb" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="05ddf010-19a9-34b3-7dd4-e4f1c84ea25d" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="3075b978-d126-f377-3737-218b50a62fea" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="9cd27590-4559-4721-8452-ab6464af321c" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="c461c03c-f3e1-9578-5a03-1a0812c62e95" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="b6673531-8d67-7637-29cb-2723e1ca4855" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="a06c8d7f-ed1e-73b0-aa00-614dae9b947e" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="7873d1df-ae20-d3d1-145c-ab23ebbc3674" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="a9f06ba8-c9d9-1121-51fe-131e92a94b49" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="10e9a4cf-824b-1c66-c7cd-11c7a52e09a1" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="725f532b-ca9d-f19e-fd93-ba142dbd5605" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="e33e7b52-380a-79f1-0b13-15d5b93e71ab" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Raven" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="801bd716-0666-4dd5-49b4-ff45a5a90f2a" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MaxDashDistance" type="float" value="4" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.5" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
+							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.5" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

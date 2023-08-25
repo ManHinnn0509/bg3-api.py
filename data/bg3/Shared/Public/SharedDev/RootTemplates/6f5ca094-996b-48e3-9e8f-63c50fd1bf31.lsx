@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanFight" type="bool" value="True" />
+					<attribute id="CanOpenDoors" type="bool" value="True" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="63540b52-b5ff-da11-edb0-d90b9b975b0d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h38e208a1gfb74g4de6gb143g4379a5a5c4bd" version="1" />
+					<attribute id="Icon" type="FixedString" value="63540b52-b5ff-da11-edb0-d90b9b975b0d-_(Icon_Rat)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6f5ca094-996b-48e3-9e8f-63c50fd1bf31" />
+					<attribute id="Name" type="LSString" value="RAT_B_Narcoleptic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e8eadcb6-8a67-4e7e-b3c0-912bb427f7f3" />
+					<attribute id="Scale" type="float" value="1.5" />
+					<attribute id="Stats" type="FixedString" value="Rat_Narcoleptic" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Rat_Combatant" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="NARCOLEPTIC_BURST" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

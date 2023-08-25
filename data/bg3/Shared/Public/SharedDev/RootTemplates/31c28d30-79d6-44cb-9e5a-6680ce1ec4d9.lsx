@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="330" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="31c28d30-79d6-44cb-9e5a-6680ce1ec4d9" />
+					<attribute id="Name" type="LSString" value="QUEST_END_Thrall_Main" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="875de40a-1fe7-40f3-af5b-cf37b5c25e47" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="Scale" type="float" value="1.4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha810ba7eg7b14g490bg9f99ga315de474d28" version="2" />
+					<attribute id="Icon" type="FixedString" value="29135401-1f7b-0954-3147-ececdd10aa75-_(Icon_Elf_Female)" />
+					<attribute id="Stats" type="FixedString" value="KillerReplica_Base" />
+					<attribute id="SpellSet" type="FixedString" value="CommonNPCActions_NoShove" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="e49f7b94-aa1d-4a70-aa9f-cb69800792a0" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="64f37aa5-485a-4683-9e97-2dcecf8eca32" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="b7acd5c7-b0b4-43d6-b167-a8264fcf7e22" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="a9efdad6-d894-470c-9cfa-3d00dddc72bb" />
+					<attribute id="VocalFallResourceID" type="FixedString" value="" />
+					<attribute id="VocalShoutResourceID" type="FixedString" value="" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="e893dd94-714b-0e39-3650-62b8cda96586" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="b7acd5c7-b0b4-43d6-b167-a8264fcf7e22" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="1d753d7a-a2cf-ac53-2e39-8b60e6e490e7" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="a9efdad6-d894-470c-9cfa-3d00dddc72bb" />
+					<attribute id="VocalLaughterResourceID" type="FixedString" value="" />
+					<attribute id="VocalRecoverResourceID" type="FixedString" value="" />
+					<attribute id="VocalBuffResourceID" type="FixedString" value="" />
+					<attribute id="VocalIdle1ResourceID" type="FixedString" value="" />
+					<attribute id="VocalGaspResourceID" type="FixedString" value="" />
+					<attribute id="VocalLaughterManiacalResourceID" type="FixedString" value="" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="29135401-1f7b-0954-3147-ececdd10aa75" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultCombat" />
+					<attribute id="Race" type="guid" value="4bd6dcba-b21c-4d83-fe90-bf21ec840bd5" />
+					<attribute id="Title" type="TranslatedString" handle="hd72be611g5330g49c1g9d86ge216287fa967" version="2" />
+					<attribute id="Faction" type="guid" value="04928f91-6658-431e-52b6-ae6540a67938" />
+					<attribute id="Archetype" type="FixedString" value="melee_smart" />
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="471f5f8d-05a9-9c08-c90a-a395d3bc5e3f" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Shove" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="OnlyInNPCLoadout">
+											<attribute id="Object" type="guid" value="db8515f8-3741-4242-5aa0-f9f91a3e2c91" />
+										</node>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="END_INITIATIVE_DEBUFF" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

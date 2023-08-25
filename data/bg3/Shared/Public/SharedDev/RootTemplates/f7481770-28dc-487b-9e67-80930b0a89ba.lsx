@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f7481770-28dc-487b-9e67-80930b0a89ba" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_GeneralLoreBook_BaldursGateHistory02" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="6cb4a241-48dd-89b5-b7cf-685bca487afe" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3a1da521-978f-55b6-be87-e0e14199b8c8" />
+					<attribute id="DisplayName" type="TranslatedString" handle="haffa28dfgbbfcg4bdbgb986ga8f5d76c606f" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Ornate_C" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_GeneralLoreBook_BaldursGateHistory02" />
+					<attribute id="ExamineRotation" type="fvec3" value="65 180 0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1486969 -0.0006635264 -0.2006869" />
+									<attribute id="Max" type="fvec3" value="0.148697 0.07803305 0.2006869" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1486969 -0.0006635264 -0.2006869" />
+									<attribute id="Max" type="fvec3" value="0.148697 0.07803305 0.2006869" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1486969 -0.0006635264 -0.2006869" />
+									<attribute id="Max" type="fvec3" value="0.148697 0.07803305 0.2006869" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_GeneralLoreBook_BaldursGateHistory02" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

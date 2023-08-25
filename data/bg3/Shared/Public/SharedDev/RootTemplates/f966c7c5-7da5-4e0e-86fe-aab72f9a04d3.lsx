@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f966c7c5-7da5-4e0e-86fe-aab72f9a04d3" />
+					<attribute id="Name" type="LSString" value="BOOK_GLO_Alchemy_CrawlerMucus" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3de2d01a-54fc-4412-98e0-218f674e8105" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc10de427g4564g4f56g9cfege322e68a55ac" version="1" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GLO_Alchemy_CrawlerMucus" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GLO_Alchemy_CrawlerMucus" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="30" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="RecipeID" type="FixedString" value="ALCH_Poison_Paralyze_CarrionCrawler" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
