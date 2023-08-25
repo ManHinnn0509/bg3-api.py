@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="611" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6774f642-6aa3-4756-a07d-a6be51ad6f06" />
+					<attribute id="Name" type="LSString" value="Quest_FOR_BrokenSpear_Head" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="bf8a21f8-667a-537a-0d13-897001317105" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2e7f5b24-3313-6733-edd0-cf6d8cc5d9c9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2d367514ge89fg4b3cg996fg3fec3c833f04" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_Quest_FOR_BrokenSpear_Head" />
+					<attribute id="Stats" type="FixedString" value="Quest_FOR_BrokenSpear_Head" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf42ac514gc712g4ec5ga040ge6825cb20249" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.06438254 -0.01665733 -1.829779" />
+									<attribute id="Max" type="fvec3" value="0.06519042 0.03088237 0.5021946" />
+									<attribute id="Radius" type="float" value="0.5840136" />
+									<attribute id="Height" type="float" value="0.0475397" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.06438254 -0.01665733 -1.829779" />
+									<attribute id="Max" type="fvec3" value="0.06519042 0.03088237 0.5021946" />
+									<attribute id="Radius" type="float" value="0.5840136" />
+									<attribute id="Height" type="float" value="0.0475397" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.03219127 -0.01665733 -0.9148895" />
+									<attribute id="Max" type="fvec3" value="0.03259521 0.03088237 0.2510973" />
+									<attribute id="Radius" type="float" value="0.2920068" />
+									<attribute id="Height" type="float" value="0.0475397" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CombineSlots" type="int8" value="1" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

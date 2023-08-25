@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="204" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="374111f7-6756-4f5f-b6e3-e45e8d25def0" />
+					<attribute id="Name" type="LSString" value="Quest_CON_OwlBearEgg" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bed27b85-63f8-4bb4-a363-fc0246b36c25" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="8f5a36a8-c3b6-fdd8-4426-04fea96b93c5" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9e68a342-521e-812f-4ca9-8b06bdbcf559" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf9b7621cg08e9g4a7dgbeb3ge39e37f20f91" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_Egg_Owlbear_A" />
+					<attribute id="Stats" type="FixedString" value="QUEST_FOR_OwlbearEgg" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="hfc1783a6g4558g465ag855eg4c08db38c111" version="2" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0.06 0 0.05" />
+									<attribute id="Max" type="fvec3" value="-0.06 0.09 -0.05" />
+									<attribute id="Radius" type="float" value="0.421622" />
+									<attribute id="Height" type="float" value="0.449144" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0.06 0 0.05" />
+									<attribute id="Max" type="fvec3" value="-0.06 0.09 -0.05" />
+									<attribute id="Radius" type="float" value="0.421622" />
+									<attribute id="Height" type="float" value="0.449144" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0.03 0 0.025" />
+									<attribute id="Max" type="fvec3" value="-0.03 0.09 -0.025" />
+									<attribute id="Radius" type="float" value="0.210811" />
+									<attribute id="Height" type="float" value="0.449144" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="hfb4d869eg8b7ag4636g82f0g4f713ce86d80" version="1" />
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="InventoryList" />
+						<node id="ScriptOverrides" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

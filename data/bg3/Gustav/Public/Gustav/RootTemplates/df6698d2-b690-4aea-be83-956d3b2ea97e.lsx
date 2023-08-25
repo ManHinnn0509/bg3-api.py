@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="df6698d2-b690-4aea-be83-956d3b2ea97e" />
+					<attribute id="Name" type="LSString" value="UNI_UND_WPN_SwordOfScreams" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5a6cea10-b3f6-4370-8eed-0b69b4ba531a" />
+					<attribute id="VisualTemplate" type="FixedString" value="57999715-6fd5-7fe5-edc3-4bf1e1709e6b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h40765d47g56bag448agb715g84485a6b74ba" version="1" />
+					<attribute id="Stats" type="FixedString" value="UND_Nere_Sword" />
+					<attribute id="Race" type="int8" value="2" />
+					<attribute id="EquipSound" type="FixedString" value="c0c9b3e7-b3bc-2cbc-9de5-0a148cb098cc" />
+					<attribute id="UnequipSound" type="FixedString" value="f69d46c0-213b-038a-5281-9533b61dca7b" />
+					<attribute id="Description" type="TranslatedString" handle="hc88885e1gbf42g41d7g8f63gefc27b251571" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-1db0-0b4ead20f135" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0793875 -0.015371 -0.804635" />
+									<attribute id="Max" type="fvec3" value="0.0793875 0.03607 0.163658" />
+									<attribute id="Radius" type="float" value="0.2330765" />
+									<attribute id="Height" type="float" value="0.0783766" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.158775 -0.015371 -1.60927" />
+									<attribute id="Max" type="fvec3" value="0.158775 0.03607 0.327316" />
+									<attribute id="Radius" type="float" value="0.466153" />
+									<attribute id="Height" type="float" value="0.0783766" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.158775 -0.015371 -1.60927" />
+									<attribute id="Max" type="fvec3" value="0.158775 0.03607 0.327316" />
+									<attribute id="Radius" type="float" value="0.466153" />
+									<attribute id="Height" type="float" value="0.0783766" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

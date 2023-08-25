@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="29" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1c7df0b8-8b09-4b8b-b649-db2918840949" />
+					<attribute id="Name" type="LSString" value="DOOR_Dungeon_Platform_Marble_A_Broken_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a6d9536c-ce6f-4cab-bd08-6aede900ba33" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="619ef093-d62e-112e-c308-e35900b2720b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d1af00c5-c324-24af-b4f6-09be6b7a77f3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.260529 -0.2393668 -1.217676" />
+									<attribute id="Max" type="fvec3" value="0.9111824 -0.04627912 0.9186039" />
+									<attribute id="Radius" type="float" value="1.414214" />
+									<attribute id="Height" type="float" value="8.881784E-16" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.260529 -0.2393668 -1.217676" />
+									<attribute id="Max" type="fvec3" value="0.9111824 -0.04627912 0.9186039" />
+									<attribute id="Radius" type="float" value="1.414214" />
+									<attribute id="Height" type="float" value="8.881784E-16" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6302643 -0.2393668 -0.6088381" />
+									<attribute id="Max" type="fvec3" value="0.4555912 -0.04627912 0.4593019" />
+									<attribute id="Radius" type="float" value="0.7071068" />
+									<attribute id="Height" type="float" value="8.881784E-16" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

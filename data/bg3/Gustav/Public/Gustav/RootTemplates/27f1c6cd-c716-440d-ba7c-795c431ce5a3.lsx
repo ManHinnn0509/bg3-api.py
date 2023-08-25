@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="27f1c6cd-c716-440d-ba7c-795c431ce5a3" />
+					<attribute id="Name" type="LSString" value="ARM_Shar_Crown_B_Broken_Magic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b1ae374f-9c03-40ee-8c87-a99ff9a69484" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h962b0f97ga0ceg4ff6g8505gacac66dc6193" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_ARM_Shar_Crown_B_Broken_Magic" />
+					<attribute id="Stats" type="FixedString" value="UND_Justiciar_Helmet_Magic" />
+					<attribute id="PhysicsCollisionSound" type="FixedString" value="0c130d61-2b03-3abb-2d1d-3ea22eb35034" />
+					<attribute id="ImpactSound" type="FixedString" value="80788119-e116-0b2b-6e33-92d15eaf3bcc" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="fef7023c-75c1-6d74-0668-4e5ab2eb59e4" />
+					<attribute id="DropSound" type="FixedString" value="fef7023c-75c1-6d74-0668-4e5ab2eb59e4" />
+					<attribute id="PickupSound" type="FixedString" value="c87e342d-a717-4d86-c15a-6c0c7d9520c1" />
+					<attribute id="Description" type="TranslatedString" handle="hbfa6fe88g440fg4523gb3ddg91e9ae17b119" version="3" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-1db0-0b4ead20f135" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

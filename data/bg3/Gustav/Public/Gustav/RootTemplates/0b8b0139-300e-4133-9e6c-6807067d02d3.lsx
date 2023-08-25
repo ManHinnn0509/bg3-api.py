@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="12" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h20192036ga972g483eg93ecg0f50e8710f37" value="|The very lint of the gods. Pretty, priceless and pointless.|" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h32d59969g0a78g4291g8e3dg1b7a2e3dba42" value="Divine Odds" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Source_Orb_White" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0b8b0139-300e-4133-9e6c-6807067d02d3" />
+					<attribute id="Name" type="LSString" value="Quest_D20" />
+					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6a6ec4a4-6088-c3eb-e9cf-eae962ea1f7d" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObject" />
+					<attribute id="TemplateName" type="FixedString" value="" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="81196a4e-17f6-938d-3fdc-751c29847bbe" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<children>
+						<node id="AIBounds">
+							<attribute id="AIType" type="uint8" value="1" />
+							<attribute id="Height" type="float" value="0.195262" />
+							<attribute id="Max" type="fvec3" value="0.347261 0.157219 0.095595" />
+							<attribute id="Min" type="fvec3" value="-0.361512 -0.0380424 -0.272566" />
+							<attribute id="Radius" type="float" value="0.222596" />
+						</node>
+						<node id="FadeChildren" />
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="hbec923bdg2345g4a09gae37gea6bcf41a669" value="Misc" />
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers" />
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="c86e0114-a5ab-48f6-97b4-32debf1e77f5" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="30" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="81b017b5-d185-4026-8871-a053aca8648c" />
+					<attribute id="Name" type="LSString" value="WPN_GOB_Spear_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cdfab852-aa07-46b2-ae92-8ab2bb9b1898" />
+					<attribute id="ReadinessFlags" type="uint32" value="133" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="a6402185-d0d3-4f44-bf0c-621e8e9ee66e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ba5d160c-39ed-37b9-bc91-623866f58f3d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb933953dgd1adg40dag867ag931fa8d8993b" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GOB_Spear_A" />
+					<attribute id="Stats" type="FixedString" value="WPN_Goblin_Spear" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="h224b4d09g30fbg44b0g84eeg0a9dba7d87ac" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="cb322434-365d-47bf-5783-f2e2df0229b1" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.075176 -0.023404 -1.798138" />
+									<attribute id="Max" type="fvec3" value="0.07137901 0.022613 0.4828629" />
+									<attribute id="Radius" type="float" value="0.5715418" />
+									<attribute id="Height" type="float" value="0.046017" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.075176 -0.023404 -1.798138" />
+									<attribute id="Max" type="fvec3" value="0.07137901 0.022613 0.4828629" />
+									<attribute id="Radius" type="float" value="0.5715418" />
+									<attribute id="Height" type="float" value="0.046017" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.075176 -0.023404 -1.798138" />
+									<attribute id="Max" type="fvec3" value="0.07137901 0.022613 0.4828629" />
+									<attribute id="Radius" type="float" value="0.5715418" />
+									<attribute id="Height" type="float" value="0.046017" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="-1" />
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

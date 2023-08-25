@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4966d89a-45ee-4b8a-855f-433dbfb4736b" />
+					<attribute id="Name" type="LSString" value="QUEST_GnollBorn_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e89e0a75-86cb-419b-9dd2-6a8006e9532c" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Scale" type="float" value="0.9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h76e62ce1g7867g4ac6gbb59gebf42ec97acc" version="1" />
+					<attribute id="Icon" type="FixedString" value="8ee86825-1796-9d38-76f2-44ce38f68818-_(Icon_Gnoll)" />
+					<attribute id="Stats" type="FixedString" value="Gnoll_Newborn" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="8ee86825-1796-9d38-76f2-44ce38f68818" />
+					<attribute id="AnubisConfigName" type="FixedString" value="PLA_NewbornGnoll" />
+					<attribute id="Faction" type="guid" value="46dc5230-fdab-db81-6155-5628bdf251cb" />
+					<attribute id="Archetype" type="FixedString" value="beast" />
+					<attribute id="SwarmGroup" type="FixedString" value="PLA_Newborn_Gnolls" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6d60bed7-10cc-4b52-b78f-a7ba815149cd" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceBlood" />
+											<attribute id="LifeTime" type="float" value="60" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="10" />
+											<attribute id="CellAtGrow" type="int32" value="2" />
+											<attribute id="GrowTimer" type="float" value="0.4" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+											<attribute id="ApplyDeathTypeBloodCheck" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

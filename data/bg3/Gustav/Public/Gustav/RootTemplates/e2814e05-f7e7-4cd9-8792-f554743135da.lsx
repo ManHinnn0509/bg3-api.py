@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e2814e05-f7e7-4cd9-8792-f554743135da" />
+					<attribute id="Name" type="LSString" value="PUZ_Underdark_Mushroom_ToxicWall_A_Destruct" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="VisualTemplate" type="FixedString" value="8175f8a8-689f-f66e-b72e-8f34b3970e10" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ea501150-57de-c8af-d26a-715a16e21bb5" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h33d2665dg9bccg46e8gb1e2ge151dd69a828" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_AlchemyIngredient_Mushroom_Barrelstalk" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Mushroom_ToxicWall_Barrelstalk" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="hef8ee429gb6f1g4d8egb10eg6dfd0496244f" version="1" />
+					<attribute id="AnubisConfigName" type="FixedString" value="UND_ToxicWall" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.176465 -0.06899011 -1.063707" />
+									<attribute id="Max" type="fvec3" value="0.7271191 1.19429 1.187363" />
+									<attribute id="Radius" type="float" value="0.7264186" />
+									<attribute id="Height" type="float" value="1.978085" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.176465 -0.06899011 -1.063707" />
+									<attribute id="Max" type="fvec3" value="0.7271191 1.19429 1.187363" />
+									<attribute id="Radius" type="float" value="0.7264186" />
+									<attribute id="Height" type="float" value="1.978085" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.176465 -0.06899011 -1.063707" />
+									<attribute id="Max" type="fvec3" value="0.7271191 1.19429 1.187363" />
+									<attribute id="Radius" type="float" value="0.7264186" />
+									<attribute id="Height" type="float" value="1.978085" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="f891c618-1706-44e0-88ee-b08c4f0e191d" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="49a54114-f505-4577-9044-df11bf02dd64" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="Active" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ActiveFlag" />
+													<attribute id="Type" type="int32" value="4" />
+													<attribute id="Value" type="LSString" value="" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="AllowSingleIgnite" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="DestroyOnDisarm" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="DialogKey" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="GEN_AD_DisarmTrap" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GasRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="2" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GasType" />
+													<attribute id="Type" type="int32" value="10" />
+													<attribute id="Value" type="LSString" value="SurfaceSporeGreenCloud" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="MaxWeight" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="50" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="OffEvent" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="UND_ToxicWall_Off" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="OnEvent" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="UND_ToxicWall_On" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="SurfaceCheck" />
+													<attribute id="Type" type="int32" value="10" />
+													<attribute id="Value" type="LSString" value="SurfaceFire" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

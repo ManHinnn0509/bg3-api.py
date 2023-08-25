@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="58968403-4dd6-4611-a7a2-a293ae7cf0b0" />
+					<attribute id="Name" type="LSString" value="DEC_Ketheric_Armor_Mask_Scrap_A_Magic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cf24494b-ad50-406b-8624-85de5afb7af5" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h492b0b09g25f2g48a1gbc2bge02415e7f68b" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_Ketheric_Armor_Mask_Scrap_A_Magic" />
+					<attribute id="Stats" type="FixedString" value="UND_Justiciar_Mask_Magic" />
+					<attribute id="Description" type="TranslatedString" handle="h579298d0ge11ag4111g89b1g393f7b45694f" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-1db0-0b4ead20f135" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

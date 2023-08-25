@@ -6,7 +6,7 @@ from util.file_utils import read_xml_file, write_json_file
 english_filepath = './data/bg3/LocalizationFiles/english.xml'
 zh_tw_filepath = './data/bg3/LocalizationFiles/chinesetraditional.xml'
 
-filepath = zh_tw_filepath
+filepath = english_filepath
 xml = read_xml_file(filepath)
 
 contents = xml.getElementsByTagName('content')
@@ -19,7 +19,7 @@ for content in contents:
 
     d[handle] = {
         'text': text,
-        'version': version
+        'version': int(version)
     }
 
 print(

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="57" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1dcc46e4-ca45-4ca6-b7ad-0158847290c1" />
+					<attribute id="Name" type="LSString" value="QUEST_PLA_Platform_Wood_4W4D_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6433fa12-c1bd-4987-b456-a14d7ee0df35" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="fe01c328-bf4a-e809-dff4-8ad6f40f9d0f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="202e6933-531d-022d-93ca-fb5466447d67" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc9e0f7e1g3060g480bg90e3gb0efd25b6139" version="1" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Barricade_Wood" />
+					<attribute id="Description" type="TranslatedString" handle="h9bd467d4g7964g4b64g8d55g706b3b509f41" version="1" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="9cf7a2d8-89dd-6137-f89a-6208cbc57932" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="55f98c00-607c-5ac0-20ff-013735beed0e" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="020e5c6c-d8d6-4792-aba6-713c2e40cec1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="11a04a11-919b-4da4-998a-bba72b99e460" />
+					<attribute id="Name" type="LSString" value="DEC_Goblins_Camp_Cage_B_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="93d0ca98-66a7-4726-b42f-c32fbed1da71" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3dfb470f-3126-4397-8c7a-8baf4ec04cb0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h966fc56eg7dc7g4c19gb8c0gbfa151244ce3" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_Goblins_Camp_Cage_B_Door" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7070457 -0.2461188 0.4838001" />
+									<attribute id="Max" type="fvec3" value="-0.4940829 2.380514 0.6890199" />
+									<attribute id="Radius" type="float" value="0.5268883" />
+									<attribute id="Height" type="float" value="2.959495" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6986568 -0.2461188 0.450193" />
+									<attribute id="Max" type="fvec3" value="-0.5441285 2.713377 0.5747422" />
+									<attribute id="Radius" type="float" value="1.053777" />
+									<attribute id="Height" type="float" value="2.959495" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7147443 -0.2461188 0.4326314" />
+									<attribute id="Max" type="fvec3" value="-0.561294 2.713377 0.5509601" />
+									<attribute id="Radius" type="float" value="1.053777" />
+									<attribute id="Height" type="float" value="2.959495" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

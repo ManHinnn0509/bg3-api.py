@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="500" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b0410205-f149-468e-a586-5f318636bf7e" />
+					<attribute id="Name" type="LSString" value="GUS_FOR_Fezzerk_ADJUSTEDBOUNDS" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b0f372f0-f74f-4c00-84e6-34ba09117578" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcc897ec6ge853g45aag8891g4a14092937ae" version="1" />
+					<attribute id="Icon" type="FixedString" value="1d24e295-64d4-1df2-6f13-6e4a9a745494-EQP_Goblin_Scimitar_Shield_(Icon_Goblin_Male)" />
+					<attribute id="Stats" type="FixedString" value="Goblin_Boss" />
+					<attribute id="LadderLoopSpeed" type="float" value="3" />
+					<attribute id="VocalRecoverResourceID" type="FixedString" value="" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="1d24e295-64d4-1df2-6f13-6e4a9a745494" />
+					<attribute id="LightChannel" type="uint8" value="0" />
+					<attribute id="AnubisConfigName" type="FixedString" value="FOR_GnomeGoblin1" />
+					<attribute id="DeathRaycastMaxLength" type="float" value="1" />
+					<attribute id="Title" type="TranslatedString" handle="hfbcfee38g5582g45cbga92fg842727c7c146" version="1" />
+					<attribute id="ActivationGroupId" type="FixedString" value="WLD_FOR_GnomeGoblins" />
+					<attribute id="Faction" type="guid" value="c7f36445-ea01-a654-6df7-11352bd326a2" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="CombatName" type="LSString" value="S_FOR_Gnome_Goblin_Melee_01" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="107e2c8a-8293-4650-9e9c-7e646ed66917" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-8ea2-43270e4e187b" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.225" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="GOB_Goblin_Generic" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

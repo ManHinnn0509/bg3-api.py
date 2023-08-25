@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AiHint" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Archetype" type="FixedString" value="base" />
+					<attribute id="AttackableWhenClickThrough" type="bool" value="False" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h59039714g61ccg42c7ga725g60a540f4488d" version="2" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_MF_Acid_Spewing_Maw_A" />
+					<attribute id="IsPortal" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="f4bccdbc-bf3e-799d-c0f3-cbfad34e2492" />
+					<attribute id="MapKey" type="FixedString" value="a1087b26-dbe3-43dd-9bc6-7fb4621b985f" />
+					<attribute id="MeshProxy" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="DEC_MF_Nautiloid_Controlpanel_Cockpit_A_Base_A_Interactive" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3a15f6f0-7b6a-dee1-93ea-8a9ad5880d6e" />
+					<attribute id="Stats" type="FixedString" value="QUEST_Indestructible" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="55272abe-9f1a-0917-8540-569b30badff2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="6.698577" />
+									<attribute id="Max" type="fvec3" value="1.141459 2.45388 1.423516" />
+									<attribute id="Min" type="fvec3" value="-1.163691 0.0001385212 -1.362329" />
+									<attribute id="Radius" type="float" value="3.445588" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="6.698577" />
+									<attribute id="Max" type="fvec3" value="1.141459 2.45388 1.423516" />
+									<attribute id="Min" type="fvec3" value="-1.163691 0.0001385212 -1.362329" />
+									<attribute id="Radius" type="float" value="3.445588" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="6.698577" />
+									<attribute id="Max" type="fvec3" value="1.141459 2.45388 1.423516" />
+									<attribute id="Min" type="fvec3" value="-1.163691 0.0001385212 -1.362329" />
+									<attribute id="Radius" type="float" value="3.445588" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters" />
+						<node id="InventoryList" />
+						<node id="ItemList" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="StatusList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_QUEST_CHA_MarbleFissure" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ebda31ee-3f8b-49a9-bd03-8af5d779b6e8" />
+					<attribute id="Name" type="LSString" value="QUEST_CHA_Marble_Fissure_WalkOn" />
+					<attribute id="ParentTemplateId" type="FixedString" value="36ccf1f7-4540-4e37-b8b3-a595d419a40a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a7449b45-65df-ea64-2d63-c1fb2c936466" />
+					<attribute id="ShootThroughType" type="int8" value="-1" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CHA_PLT_Fissure" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="f58fb352-48dc-6aac-131d-e3dd0af4ed9d" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="8.881784E-16" />
+									<attribute id="Max" type="fvec3" value="1 0.01 1" />
+									<attribute id="Min" type="fvec3" value="-1 -0.01 -1" />
+									<attribute id="Radius" type="float" value="0.7071068" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="8.881784E-16" />
+									<attribute id="Max" type="fvec3" value="2 0.01 2" />
+									<attribute id="Min" type="fvec3" value="-2 -0.01 -2" />
+									<attribute id="Radius" type="float" value="1.414214" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="8.881784E-16" />
+									<attribute id="Max" type="fvec3" value="2 0.01 2" />
+									<attribute id="Min" type="fvec3" value="-2 -0.01 -2" />
+									<attribute id="Radius" type="float" value="1.414214" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ParentRace" />
+								<node id="ShortHair" />
+								<node id="Visuals" />
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

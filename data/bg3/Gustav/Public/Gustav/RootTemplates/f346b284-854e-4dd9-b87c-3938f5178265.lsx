@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="407" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Cast_FX" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f346b284-854e-4dd9-b87c-3938f5178265" />
+					<attribute id="Name" type="LSString" value="Projectile_InvisibleHelper" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathRadius" type="float" value="3" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="Speed" type="float" value="30" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="AIBounds" />
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="-1" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h5b58a9a9g7632g4958g88fagd579fcea5423" version="0" />
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers" />
+							</children>
+						</node>
+						<node id="Tags" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

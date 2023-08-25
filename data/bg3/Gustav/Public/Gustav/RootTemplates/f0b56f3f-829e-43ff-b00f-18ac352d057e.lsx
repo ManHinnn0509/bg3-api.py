@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="101" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f0b56f3f-829e-43ff-b00f-18ac352d057e" />
+					<attribute id="Name" type="LSString" value="DEC_GEN_Bag_Food_Rotten_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="98bdd16e-1bb6-4dc5-a472-d66591c25006" />
+					<attribute id="ReadinessFlags" type="uint32" value="385" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="8bb78eb5-7909-e056-b3fd-7a3c1fb45971" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="8f3bdfc9-ca29-2c13-796c-0625980b1f01" />
+					<attribute id="Scale" type="float" value="1.15" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h960477b0g0acag4706g82e3g05a36ae47a39" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Bag_Blackpowder" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ImmutableContainer" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="InventoryType" type="uint8" value="14" />
+					<attribute id="Description" type="TranslatedString" handle="h9a697992gf5d5g4791g8e3fgc66edc6ee1c4" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2036154 -0.00439322 -0.2057942" />
+									<attribute id="Max" type="fvec3" value="0.2058309 0.560783 0.1862223" />
+									<attribute id="Radius" type="float" value="0.0801185" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.102 -0.00439322 -0.103" />
+									<attribute id="Max" type="fvec3" value="0.103 0.560783 0.09300001" />
+									<attribute id="Radius" type="float" value="0.04005925" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2036154 -0.00439322 -0.2057942" />
+									<attribute id="Max" type="fvec3" value="0.2058309 0.560783 0.1862223" />
+									<attribute id="Radius" type="float" value="0.0801185" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

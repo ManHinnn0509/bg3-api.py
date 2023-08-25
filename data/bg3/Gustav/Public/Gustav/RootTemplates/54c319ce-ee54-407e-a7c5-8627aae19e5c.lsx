@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd5a68324g0653g478dg8fe7g078443c7adb7" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_Cave_Speleothem_Stalactite_A" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="54c319ce-ee54-407e-a7c5-8627aae19e5c" />
+					<attribute id="Name" type="LSString" value="PUZ_Cave_Speleothem_Stalactite_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="b765d533-3909-5f8c-dfa7-b06ef2daedaa" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="Stats" type="FixedString" value="OBJ_CMB_Stalactite" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="f736c580-357a-042e-ae79-d12e2e00fa5c" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.53777" />
+									<attribute id="Max" type="fvec3" value="0.2071343 0.06980848 0.192882" />
+									<attribute id="Min" type="fvec3" value="-0.1950233 -1.473774 -0.192882" />
+									<attribute id="Radius" type="float" value="0.922804" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.53777" />
+									<attribute id="Max" type="fvec3" value="0.2071343 0.06980848 0.192882" />
+									<attribute id="Min" type="fvec3" value="-0.1950233 -1.473774 -0.192882" />
+									<attribute id="Radius" type="float" value="0.461402" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.53777" />
+									<attribute id="Max" type="fvec3" value="0.2071343 0.06980848 0.192882" />
+									<attribute id="Min" type="fvec3" value="-0.1950233 -1.473774 -0.192882" />
+									<attribute id="Radius" type="float" value="0.922804" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="05434830-db93-f95b-f4ff-3c1c17945880" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="9439c87d-a0a5-4ebb-5fe8-b286bb3e1010" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="62ff51bf-f4b5-4df7-a4ca-0df0d2a8e680" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="df7108ae-5a75-74e2-9e38-4a7e1d9c9b90" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="FallingTemplate" />
+													<attribute id="Type" type="int32" value="22" />
+													<attribute id="Value" type="LSString" value="Quest_CMB_FallingStalactite_A_Gravity_7706c802-cf39-442b-aa7d-8d4e0766a44d" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="OffSetToGround" />
+													<attribute id="Type" type="int32" value="19" />
+													<attribute id="Value" type="LSString" value="{0.00;-5.00;0.00}" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="bool_CreateWaterSurface" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="36ccf1f7-4540-4e37-b8b3-a595d419a40a" />
+					<attribute id="Name" type="LSString" value="BLD_Dungeon_Platform_Marble_A_Broken_A_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="a588c792-877e-50f4-5d8c-9ebe40d36b6a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5926773d-c127-4cfd-c560-cad6bff9ed6b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7ec4274fgd384g45fega953g112ae3c2d78b" version="4" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_QUEST_CHA_MarbleFissure" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="IsInteractionDisabled" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 -0.01 -2" />
+									<attribute id="Max" type="fvec3" value="2 0.01 2" />
+									<attribute id="Radius" type="float" value="1.414214" />
+									<attribute id="Height" type="float" value="8.881784E-16" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 -0.01 -2" />
+									<attribute id="Max" type="fvec3" value="2 0.01 2" />
+									<attribute id="Radius" type="float" value="1.414214" />
+									<attribute id="Height" type="float" value="8.881784E-16" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1 -0.01 -1" />
+									<attribute id="Max" type="fvec3" value="1 0.01 1" />
+									<attribute id="Radius" type="float" value="0.7071068" />
+									<attribute id="Height" type="float" value="8.881784E-16" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

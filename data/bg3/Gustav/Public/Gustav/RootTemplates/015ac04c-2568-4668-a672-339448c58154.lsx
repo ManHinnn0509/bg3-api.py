@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="600" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="015ac04c-2568-4668-a672-339448c58154" />
+					<attribute id="Name" type="LSString" value="INTERACT_DEC_Goblins_Camp_CookingPot_A_Poisoned" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="1d3a2405-fb8e-4c87-8831-0c43602fe0ec" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3a8733ce-f388-474a-85fb-b62ae21d9f23" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h265d4e39gf1ddg4e89ga683gd773d2b4c7c9" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_Goblins_Camp_CookingPot_A_Poisoned" />
+					<attribute id="Stats" type="FixedString" value="QUEST_GOB_GoblinBoozeTub_Poisoned" />
+					<attribute id="UseSound" type="FixedString" value="10a8b532-de0b-616e-ffc5-006fcefa8d05" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4269736 -0.007222354 -0.5422876" />
+									<attribute id="Max" type="fvec3" value="0.4269736 0.9658341 0.7328363" />
+									<attribute id="Radius" type="float" value="0.454286" />
+									<attribute id="Height" type="float" value="0.973056" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4269736 -0.007222354 -0.5422876" />
+									<attribute id="Max" type="fvec3" value="0.4269736 0.9658341 0.7328363" />
+									<attribute id="Radius" type="float" value="0.454286" />
+									<attribute id="Height" type="float" value="0.973056" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2134868 -0.007222354 -0.2711438" />
+									<attribute id="Max" type="fvec3" value="0.2134868 0.9658341 0.3664182" />
+									<attribute id="Radius" type="float" value="0.227143" />
+									<attribute id="Height" type="float" value="0.973056" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="dc069ac0-68fd-fb00-5b71-3f6fcf044c19" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="b888cc23-e8f3-49b7-95e1-a239968b64a4" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

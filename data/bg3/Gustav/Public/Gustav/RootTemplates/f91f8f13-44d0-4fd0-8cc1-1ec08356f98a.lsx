@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="301" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f91f8f13-44d0-4fd0-8cc1-1ec08356f98a" />
+					<attribute id="Name" type="LSString" value="DEN_UNI_Thieflings_Gruel" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bed27b85-63f8-4bb4-a363-fc0246b36c25" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="fb1b12c6-a1f5-e28b-74e5-39f95c16b12e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="68dc1e59-370c-d679-fd02-f92752c5d1e3" />
+					<attribute id="DevComment" type="LSString" value="DO NOT GIVE FOOD TAG" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8ae96ae0g3473g45d6gb577g0479413ddbba" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_DEN_UNI_Thieflings_Gruel" />
+					<attribute id="Stats" type="FixedString" value="CONS_GenericFoodItem" />
+					<attribute id="Description" type="TranslatedString" handle="h826ff2a6gcbb5g4d99g9d88ge0e132deef4b" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.203237 0 -0.203237" />
+									<attribute id="Max" type="fvec3" value="0.203237 0.150321 0.203237" />
+									<attribute id="Radius" type="float" value="0.0993591" />
+									<attribute id="Height" type="float" value="0.085616" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.203237 0 -0.203237" />
+									<attribute id="Max" type="fvec3" value="0.203237 0.150321 0.203237" />
+									<attribute id="Radius" type="float" value="0.0993591" />
+									<attribute id="Height" type="float" value="0.085616" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1016185 0 -0.1016185" />
+									<attribute id="Max" type="fvec3" value="0.1016185 0.150321 0.1016185" />
+									<attribute id="Radius" type="float" value="0.04967955" />
+									<attribute id="Height" type="float" value="0.085616" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="FOOD_GRUEL" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="35f2a92d-ed92-010c-4b56-246e9af099af" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

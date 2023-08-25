@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="313" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h6ec79813g228eg4d80g920egb803d410b957" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h998efc8eg85e8g4f98gbdb6g7c13d51029c3" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_MOO_SendingStone_Stone_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2adf497b-2e26-47d6-962c-91ded0c79aea" />
+					<attribute id="Name" type="LSString" value="UNI_MOO_SendingStone_Stone_A" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h63d5194bg0282g4318g9649g7d306cf7a1db" version="1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="27b14219-a8a9-4643-bb74-9ff23c902cfb" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="h1c9f14c4g6da9g4815ga766g0f3a05562085" version="1" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

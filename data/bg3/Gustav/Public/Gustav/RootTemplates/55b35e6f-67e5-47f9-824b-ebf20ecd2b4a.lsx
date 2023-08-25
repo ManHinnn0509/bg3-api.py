@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="55b35e6f-67e5-47f9-824b-ebf20ecd2b4a" />
+					<attribute id="Name" type="LSString" value="Quest_GOB_GoblinSapper" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2db928f2-f1c5-4b5a-8751-168f9f292249" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf6b5f06fg00f2g42d3ga19ag6fcddf1deb18" version="1" />
+					<attribute id="Icon" type="FixedString" value="293b5026-88f4-7f6c-3f71-b9fd1b3b5ea1-EQP_Unarmed_(Icon_Goblin_Male)" />
+					<attribute id="Stats" type="FixedString" value="GOB_GoblinSapper" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Unarmed" />
+					<attribute id="LevelOverride" type="int32" value="2" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="293b5026-88f4-7f6c-3f71-b9fd1b3b5ea1" />
+					<attribute id="AnubisConfigName" type="FixedString" value="GOB_AttackOnDen_Sapper" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7fbed0d4-cabc-4a9d-4e80-ca128860a8a0" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Shout_GOB_DetonateSelf" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="2" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3bb99c77-8d7b-4122-a085-c3bdb4d0d944" />
+					<attribute id="Name" type="LSString" value="GUS_CHA_Gimblebock_ADJUSTEDBOUNDS" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1c665327-7311-4d0a-84b5-3377ade3ad44" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8e562349gea8eg44fag84ecg86dee776092a" version="1" />
+					<attribute id="Icon" type="FixedString" value="d7f958ae-cc98-6066-0dc6-9c882573868c-EQP_Longsword_ScaleMail_(Icon_Gnomes_Male)" />
+					<attribute id="Stats" type="FixedString" value="CHA_Bandit_Gnome_Melee" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Longsword_ScaleMail" />
+					<attribute id="LadderAttachSpeed" type="float" value="3" />
+					<attribute id="LadderLoopSpeed" type="float" value="3" />
+					<attribute id="LadderDetachSpeed" type="float" value="2.5" />
+					<attribute id="VocalLaughterResourceID" type="FixedString" value="" />
+					<attribute id="VocalRecoverResourceID" type="FixedString" value="" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d7f958ae-cc98-6066-0dc6-9c882573868c" />
+					<attribute id="LightChannel" type="uint8" value="0" />
+					<attribute id="AnubisConfigName" type="FixedString" value="CHA_Exterior_Bandit_Melee_01" />
+					<attribute id="DeathRaycastMaxLength" type="float" value="1" />
+					<attribute id="Faction" type="guid" value="1ea09ba8-7fc0-27e4-b359-deff95f46d6d" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-8ea2-43270e4e187b" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="71120d5d-3853-46e4-6297-f533a69aaeb4" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.225" />
+									<attribute id="Height" type="float" value="1.4" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="1.4" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Height" type="float" value="1.4" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="CHA_Exterior_Bandit_Leader" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

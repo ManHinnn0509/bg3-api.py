@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="314" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="49871a48-7f07-4310-84ef-e890983ea5c3" />
+					<attribute id="Name" type="LSString" value="BOOK_Book_A_VoloGBG" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="ReadinessFlags" type="uint32" value="140" />
+					<attribute id="VisualTemplate" type="FixedString" value="33a6fd4f-eeaf-15bc-8427-2733a6f96b19" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="839c05d5-34eb-abcb-6837-fc9fcba5ea0a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbbbc6486gf8e0g4e98ga45dg5843d16e1966" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Generic_G" />
+					<attribute id="ExamineRotation" type="fvec3" value="65 180 0" />
+					<attribute id="Description" type="TranslatedString" handle="h0f932925g0650g4785gb918ge1fecdf7654e" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.195714 -0.00199378 -0.229995" />
+									<attribute id="Max" type="fvec3" value="0.195714 0.128642 0.229995" />
+									<attribute id="Radius" type="float" value="0.134769" />
+									<attribute id="Height" type="float" value="0.0931703" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.195714 -0.00199378 -0.229995" />
+									<attribute id="Max" type="fvec3" value="0.195714 0.128642 0.229995" />
+									<attribute id="Radius" type="float" value="0.134769" />
+									<attribute id="Height" type="float" value="0.0931703" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.097857 -0.00199378 -0.1149975" />
+									<attribute id="Max" type="fvec3" value="0.097857 0.128642 0.1149975" />
+									<attribute id="Radius" type="float" value="0.0673845" />
+									<attribute id="Height" type="float" value="0.0931703" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="DEN_VoloOperation_VoloGBG" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

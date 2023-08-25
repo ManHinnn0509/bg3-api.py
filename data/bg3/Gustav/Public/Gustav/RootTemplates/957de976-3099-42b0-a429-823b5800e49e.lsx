@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="101" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="957de976-3099-42b0-a429-823b5800e49e" />
+					<attribute id="Name" type="LSString" value="CRA_ShellKid_Cup" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e25346e5-1a98-449c-80dd-8fcf4b086b50" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h709817b4gb8a6g4f33g9e21g7242fe1e64af" version="1" />
+					<attribute id="Stats" type="FixedString" value="CRA_ShellKid_Cup" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h31f391a5g7e6fg4886g9079g4f0f13c8e7d5" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h40cfefbdgcc89g487dgbfc8g882111199fa6" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Zone_CHA_ShellKid_Cup_Spell" />
+											<attribute id="Consume" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

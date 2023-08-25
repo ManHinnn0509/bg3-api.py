@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="47" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6993a790-f9e2-4c79-a633-79605becdd35" />
+					<attribute id="Name" type="LSString" value="REF_LOOT_Bag_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="3d6920cc-9b49-c187-9042-268787847050" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c581ce9c-3913-5f39-d52b-4cd290b194f9" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h333df48eg4ec0g43f5ga51eg060507a3a745" version="1" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Bag_Blackpowder" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericLootItem" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="Description" type="TranslatedString" handle="h665bc8c6g1bf2g49a1g86c6g354cb8f2c1a8" version="1" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.226419 -0.024786 -0.213985" />
+									<attribute id="Max" type="fvec3" value="0.217649 0.424132 0.223888" />
+									<attribute id="Radius" type="float" value="0.192103" />
+									<attribute id="Height" type="float" value="0.448918" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.226419 -0.024786 -0.213985" />
+									<attribute id="Max" type="fvec3" value="0.217649 0.424132 0.223888" />
+									<attribute id="Radius" type="float" value="0.192103" />
+									<attribute id="Height" type="float" value="0.448918" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1132095 -0.024786 -0.1069925" />
+									<attribute id="Max" type="fvec3" value="0.1088245 0.424132 0.111944" />
+									<attribute id="Radius" type="float" value="0.0960515" />
+									<attribute id="Height" type="float" value="0.448918" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

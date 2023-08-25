@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="327" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0c356479-9f2c-413c-8fed-cab3a6fae19b" />
+					<attribute id="Name" type="LSString" value="BOOK_Alchemy_DEN_AntidoteRecipeBook" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="f5abb5a7-6625-6b95-9e36-1187543e22d9" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98dbf071-55b7-147a-80e3-c26e6788a077" />
+					<attribute id="DevComment" type="LSString" value="Shouldn't be a stone tablets - referred to as a book in dialog" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9c6b4feeg658fg44d6ga3abg2e2749c4a03e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Antidote_Recipe_A" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h1a69b83eg230ag45b2gbe2egbac86d4c7d83" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf0b0698egf3a1g43b2g9550g18ae2b59927d" version="1" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="h224349deg308ag4edbg8009g93f85882089a" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1468028 -0.0006350577 -0.2003841" />
+									<attribute id="Max" type="fvec3" value="0.1468028 0.07600501 0.2003841" />
+									<attribute id="Radius" type="float" value="0.2398401" />
+									<attribute id="Height" type="float" value="0.1040949" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1468028 -0.0006350577 -0.2003841" />
+									<attribute id="Max" type="fvec3" value="0.1468028 0.07600501 0.2003841" />
+									<attribute id="Radius" type="float" value="0.2398401" />
+									<attribute id="Height" type="float" value="0.1040949" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1468028 -0.0006350577 -0.2003841" />
+									<attribute id="Max" type="fvec3" value="0.1468028 0.07600501 0.2003841" />
+									<attribute id="Radius" type="float" value="0.2398401" />
+									<attribute id="Height" type="float" value="0.1040949" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="S_DEN_AntidoteRecipeBook" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="30" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="RecipeID" type="FixedString" value="ALCH_Potion_Antidote_Mugwort" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
