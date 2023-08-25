@@ -9,7 +9,7 @@ import auth
 
 app = FastAPI(
     # Comment out this line to enable doc pages
-    docs_url=None, redoc_url=None
+    # docs_url=None, redoc_url=None
 )
 
 for endpoint, data in ROUTER_PAIRS.items():
