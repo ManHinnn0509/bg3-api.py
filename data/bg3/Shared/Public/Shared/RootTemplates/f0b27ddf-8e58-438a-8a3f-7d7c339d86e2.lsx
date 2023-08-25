@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f0b27ddf-8e58-438a-8a3f-7d7c339d86e2" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_Cheese_Goat_Wheel_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ec6b7184-cceb-4f06-b231-0eec0b94d889" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="db00b80a-45a4-9507-6c8c-bbc5fcbbf2c3" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="40f785fc-6cf7-4de2-24e1-0b36fc8e7e40" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h41c6dd2dg102eg418dg9ef8gd6876134979d" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Cheese_Goat_Wheel_A" />
+					<attribute id="Stats" type="FixedString" value="CONS_FOOD_Cheese" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="UseSound" type="FixedString" value="" />
+					<attribute id="Description" type="TranslatedString" handle="h9211bc5fg6983g4b6ag9684ge8008ffa9da7" version="1" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.310018 -0.002160102 -0.1537594" />
+									<attribute id="Max" type="fvec3" value="0.3100179 0.1434704 0.1537597" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.310018 -0.002160102 -0.1537594" />
+									<attribute id="Max" type="fvec3" value="0.3100179 0.1434704 0.1537597" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.310018 -0.002160102 -0.1537594" />
+									<attribute id="Max" type="fvec3" value="0.3100179 0.1434704 0.1537597" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

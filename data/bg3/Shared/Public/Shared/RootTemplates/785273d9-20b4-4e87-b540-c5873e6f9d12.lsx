@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="303" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="785273d9-20b4-4e87-b540-c5873e6f9d12" />
+					<attribute id="Name" type="LSString" value="SurfaceDrowPoison" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f58b42b0-ab8e-4342-b7e2-daa61ee97628" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h56292b0bgac02g4b7dg8c3aga7f5b5477fc9" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hae59cd84g3939g4092ga882g5e3c7478c315" version="1" />
+					<attribute id="DecalMaterial" type="FixedString" value="" />
+					<attribute id="RollConditions" type="LSString" value="Character() and not SavingThrow(Ability.Constitution, SourceSpellDC(11),AdvantageOnPoisoned())" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="POISON_DROW" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="True" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="11" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

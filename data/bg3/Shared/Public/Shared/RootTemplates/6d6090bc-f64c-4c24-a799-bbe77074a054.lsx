@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6d6090bc-f64c-4c24-a799-bbe77074a054" />
+					<attribute id="Name" type="LSString" value="DEC_MF_Machine_BrinePool_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="VisualTemplate" type="FixedString" value="a6eb3780-a5d1-ba8c-c099-fa5ee44fbe2c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="061768e5-fa33-2ab4-f37e-d685917e0c7d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hddcc248eg3b48g47b4g83fag5f6f86ad00df" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_MF_Machine_BrinePool_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BrinePool" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.318045 -0.02650797 -1.418583" />
+									<attribute id="Max" type="fvec3" value="1.318045 1.451187 1.141325" />
+									<attribute id="Radius" type="float" value="0.9901289" />
+									<attribute id="Height" type="float" value="1.477695" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.318045 -0.02650797 -1.418583" />
+									<attribute id="Max" type="fvec3" value="1.318045 1.451187 1.141325" />
+									<attribute id="Radius" type="float" value="0.9901289" />
+									<attribute id="Height" type="float" value="1.477695" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceCausticBrine" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="Radius" type="float" value="6" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

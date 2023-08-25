@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="305" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9d6d8f2f-292f-4993-b28d-006582fc19b3" />
+					<attribute id="Name" type="LSString" value="LTS_GEN_Candle_Candelabra_Common_A_Wall_A_Destruct" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ccbfdc8f-3aad-4dbb-870a-e5a283e1679e" />
+					<attribute id="VisualTemplate" type="FixedString" value="fd5fec36-7827-0a1d-851b-339712c7f8db" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a8896518-590c-61e7-61b6-922bed9e36e4" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2184865 -0.01786501 -0.3056127" />
+									<attribute id="Max" type="fvec3" value="0.4785588 0.1102201 0.2582536" />
+									<attribute id="Radius" type="float" value="1.023435" />
+									<attribute id="Height" type="float" value="0.850533" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2184865 -0.01786501 -0.3056127" />
+									<attribute id="Max" type="fvec3" value="0.4785588 0.1102201 0.2582536" />
+									<attribute id="Radius" type="float" value="2.04687" />
+									<attribute id="Height" type="float" value="0.850533" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2184865 -0.01786501 -0.3056127" />
+									<attribute id="Max" type="fvec3" value="0.4785588 0.1102201 0.2582536" />
+									<attribute id="Radius" type="float" value="2.04687" />
+									<attribute id="Height" type="float" value="0.850533" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

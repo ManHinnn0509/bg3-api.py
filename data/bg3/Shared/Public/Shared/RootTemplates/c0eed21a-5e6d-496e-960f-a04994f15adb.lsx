@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c0eed21a-5e6d-496e-960f-a04994f15adb" />
+					<attribute id="Name" type="LSString" value="SurfaceIceCloud" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c3e18f79-7f9a-40a8-abb7-89529302de3f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcf9cd425gafe8g476fgaf96ga90055bc5957" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="hcd27bed5gdc28g4efbg95bag8c197986bf72" version="2" />
+					<attribute id="Icon" type="FixedString" value="GenericIcon_DamageType_Cold" />
+					<children>
+						<node id="InstanceVisual">
+							<children>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="714d71c4-7228-28b9-a8f1-8c50c19ee03f" />
+									<attribute id="Height" type="fvec2" value="0.1 0.3" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="2 2.5" />
+									<attribute id="GridSize" type="float" value="2" />
+									<attribute id="SpawnCell" type="int32" value="75" />
+									<attribute id="RandomPlacement" type="float" value="10" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="e15cfef3-0dfb-4ce6-cc26-bef92944d599" />
+									<attribute id="Height" type="fvec2" value="0.2 0.5" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="0.7 1.7" />
+									<attribute id="GridSize" type="float" value="2" />
+									<attribute id="SpawnCell" type="int32" value="75" />
+									<attribute id="RandomPlacement" type="float" value="10" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="ICECLOUD" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="DontTickWhileOnSurface" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="True" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="7" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

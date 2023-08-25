@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e83a2b2a-017a-4e08-9e39-8ca47fba59ac" />
+					<attribute id="Name" type="LSString" value="BASE_LIGHT_HANGING" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e40d1292-1da8-4c8f-b1dc-213cfdd4e135" />
+					<attribute id="Icon" type="FixedString" value="Item_LTS_DUN_Hanging_Bowls_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_CoalBasket" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="30cc2141-376e-4bbf-8891-3a9d579ccb41" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="d289389c-882d-4695-a8d5-dda2a1351711" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="AllowUserInteraction" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="BurnEffect" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="VFX_LightSources_GEN_Torch_A_NOTAPPROVED_01" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="BurnEffectBone" />
+													<attribute id="Type" type="int32" value="4" />
+													<attribute id="Value" type="LSString" value="Dummy_Root" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="EnableGameplayLight" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="5" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSharpness" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSourceOffSound" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="DEC_Interactive_Lightsources_Torch_Small_Off" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSourceOnSound" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="DEC_Interactive_Lightsources_Torch_Small_On" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="StartLit" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="407" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="603bdf09-f184-4a03-b24e-a43c20d96fde" />
+					<attribute id="Name" type="LSString" value="FUR_GEN_Tavern_Bottle_Rack_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="5d1e3609-9214-48eb-94e0-a109a3f44843" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="15517c65-2107-456d-bbe8-444b66326a8a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcafb008fg52e7g464dgb8acg650e4dd8a72b" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_FUR_GEN_Tavern_Bottle_Rack_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Barrel" />
+					<attribute id="DestroyWithStack" type="bool" value="True" />
+					<children>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="400b9514-b7f9-6248-5d56-0a48c2fdaaf0" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="b26e105f-34b5-4a5c-b0d9-33e0c080a33f" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

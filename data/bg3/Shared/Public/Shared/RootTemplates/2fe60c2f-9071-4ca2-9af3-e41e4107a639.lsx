@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2fe60c2f-9071-4ca2-9af3-e41e4107a639" />
+					<attribute id="Name" type="LSString" value="TD_Dungeon_SharTemple_Platform_C_Dynamic_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ac5fdc03-184b-48f9-8cd5-ac0d61b74ca1" />
+					<attribute id="VisualTemplate" type="FixedString" value="efc9f880-f1f8-edcc-d09b-0a17068f3035" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a1b01461-59d1-082e-622f-c4357f7ba264" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h62304ac6gaa86g4f37gb9acg12aeaa194f17" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_Pressure_Plate_Granite_A" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 0.1033894 -2" />
+									<attribute id="Max" type="fvec3" value="2 0.1053894 2" />
+									<attribute id="Radius" type="float" value="2" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 0.1033894 -2" />
+									<attribute id="Max" type="fvec3" value="2 0.1053894 2" />
+									<attribute id="Radius" type="float" value="2" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 0.1033894 -2" />
+									<attribute id="Max" type="fvec3" value="2 0.1053894 2" />
+									<attribute id="Radius" type="float" value="2" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="0" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a0985797-4ec7-475c-8e11-0361e387f39a" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Detonation" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="7f58421d-72be-849b-e697-2801b58461b2" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="65b4093c-10fc-063a-7919-963c98172d73" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb66e62f7gae14g4356gababg5e27efb1faf1" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Detonation" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfDetonation" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="Description" type="TranslatedString" handle="haf234e67g2413g4072gbf81g6aaf3251c193" version="5" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4680004 -0.02895388 -0.02412079" />
+									<attribute id="Max" type="fvec3" value="0.4489594 0.02498169 0.02770503" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4680004 -0.02895388 -0.02412079" />
+									<attribute id="Max" type="fvec3" value="0.4489594 0.02498169 0.02770503" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2340002 -0.02895388 -0.0120604" />
+									<attribute id="Max" type="fvec3" value="0.2244797 0.02498169 0.01385252" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfDetonation" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

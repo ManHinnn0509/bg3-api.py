@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="310" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9da5423c-02ef-49aa-b388-8fd7ff4141d1" />
+					<attribute id="Name" type="LSString" value="CINE_Mimic_Chest" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="61e3c5c7-c64f-59b1-0aee-cf089ea623cd" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="HierarchyOnlyFade" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha92a806cgbda3g4d8bg84bega9350d424993" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Antimagic" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfAntimagic" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h906e157fg39adg4a6dg9be0gb91712e43c58" version="1" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="52b41ed1-6ce3-403f-a410-dd4d6e5fbb42" />
+					<attribute id="DropSound" type="FixedString" value="52b41ed1-6ce3-403f-a410-dd4d6e5fbb42" />
+					<attribute id="PickupSound" type="FixedString" value="1359289d-41d9-03b5-a92c-5b4702129e01" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="MeshProxy" type="FixedString" value="" />
+					<attribute id="IsPortal" type="bool" value="False" />
+					<attribute id="AttackableWhenClickThrough" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="376e33c4-dd15-4c46-86a5-d88721b4c7a0" />
+					<attribute id="Archetype" type="FixedString" value="base" />
+					<attribute id="AiHint" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2339275 -0.02886177 -0.01220501" />
+									<attribute id="Max" type="fvec3" value="0.2441961 0.02037636 0.01376769" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4678551 -0.02886177 -0.02441001" />
+									<attribute id="Max" type="fvec3" value="0.4883922 0.02037636 0.02753537" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4678551 -0.02886177 -0.02441001" />
+									<attribute id="Max" type="fvec3" value="0.4883922 0.02037636 0.02753537" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfAntimagic" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="ConstellationConfigGlobalParameters" />
+						<node id="ItemList" />
+						<node id="StatusList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

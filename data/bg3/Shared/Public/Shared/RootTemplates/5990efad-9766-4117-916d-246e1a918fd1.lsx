@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5990efad-9766-4117-916d-246e1a918fd1" />
+					<attribute id="Name" type="LSString" value="SurfaceCausticBrine" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4734eeccg1d74g4bbegbfaegbc9797657502" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf3615064g7261g42d4gb71egde11b931c139" version="2" />
+					<attribute id="Icon" type="FixedString" value="Surface_CausticBrine" />
+					<attribute id="DecalMaterial" type="FixedString" value="e857c769-4f4a-f378-4fc7-dda6f063f1a3" />
+					<attribute id="MaterialType" type="uint8" value="8" />
+					<attribute id="SurfaceCategory" type="uint8" value="9" />
+					<attribute id="FadeOutSpeed" type="float" value="5" />
+					<attribute id="AiPathColor" type="fvec3" value="1 1 0" />
+					<attribute id="EnableLightSpawning" type="bool" value="True" />
+					<attribute id="SpawnLightTemplateID" type="FixedString" value="523b5022-7e1c-42a5-8c27-f8fddd04d896" />
+					<attribute id="SpawnLightRandomVerticalRangeOffset" type="fvec2" value="0 0.1" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="CAUSTIC_BRINE" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="True" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="True" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="7" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

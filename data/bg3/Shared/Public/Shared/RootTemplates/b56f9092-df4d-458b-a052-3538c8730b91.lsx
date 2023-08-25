@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="305" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b56f9092-df4d-458b-a052-3538c8730b91" />
+					<attribute id="Name" type="LSString" value="BOOK_Wizards_Tome_Bhaal_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="VisualTemplate" type="FixedString" value="ef0dd5fd-c2c8-c6b0-cabf-abf48c17a33c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="77f91f75-fe8f-ed37-1ac3-6e29892e21bb" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h56ed29f5g46a3g44d8gadcdg8cbb8f39275f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_FOR_Bottomless_HermitBook1" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Book_Indestructible" />
+					<attribute id="Description" type="TranslatedString" handle="hc0fbc8bag9d9bg4a75ga3bag567baf4bd115" version="1" />
+					<attribute id="IsPublicDomain" type="bool" value="False" />
+					<attribute id="IgnoreGenerics" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1384573 4.023314E-05 -0.1856072" />
+									<attribute id="Max" type="fvec3" value="0.1384573 0.06332227 0.1852551" />
+									<attribute id="Radius" type="float" value="0.2565119" />
+									<attribute id="Height" type="float" value="0.08756799" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1384573 4.023314E-05 -0.1856072" />
+									<attribute id="Max" type="fvec3" value="0.1384573 0.06332227 0.1852551" />
+									<attribute id="Radius" type="float" value="0.2565119" />
+									<attribute id="Height" type="float" value="0.08756799" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1384573 4.023314E-05 -0.1856072" />
+									<attribute id="Max" type="fvec3" value="0.1384573 0.06332227 0.1852551" />
+									<attribute id="Radius" type="float" value="0.2565119" />
+									<attribute id="Height" type="float" value="0.08756799" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="FOR_Bottomless_HermitBook1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

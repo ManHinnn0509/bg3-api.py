@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f12482b2-524f-4703-964e-c5b98a976d7c" />
+					<attribute id="Name" type="LSString" value="SurfaceOvergrowth" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hadd72be3g59f6g4c55g8df1ga7fc9589a54b" version="3" />
+					<attribute id="Description" type="TranslatedString" handle="hfc9eece6gb913g4bd6g9ef7gbb888cf2136f" version="5" />
+					<attribute id="Icon" type="FixedString" value="Surface_Overgrowth" />
+					<attribute id="DecalMaterial" type="FixedString" value="1d478fe6-2acc-6d44-4d41-7223d3405e11" />
+					<attribute id="MaterialType" type="uint8" value="28" />
+					<attribute id="FadeOutSpeed" type="float" value="2" />
+					<attribute id="OnEnterDistanceOverride" type="float" value="1" />
+					<attribute id="SpawnLightTemplateID" type="FixedString" value="0483d18a-b816-4060-8e0a-d7fc35786b2f" />
+					<attribute id="SpawnLightRandomVerticalRangeOffset" type="fvec2" value="0.1 0.15" />
+					<children>
+						<node id="InstanceVisual">
+							<children>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="56cd1f24-4b6a-83a2-bc45-859108353c8c" />
+									<attribute id="Height" type="fvec2" value="0 0" />
+									<attribute id="Rotation" type="ivec2" value="0 350" />
+									<attribute id="Scale" type="fvec2" value="1.2 1.75" />
+									<attribute id="GridSize" type="float" value="1" />
+									<attribute id="SpawnCell" type="int32" value="5" />
+									<attribute id="RandomPlacement" type="float" value="100" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="f2a6614e-b8a3-b0cc-f95b-df0887db364e" />
+									<attribute id="Height" type="fvec2" value="0 0" />
+									<attribute id="Rotation" type="ivec2" value="0 350" />
+									<attribute id="Scale" type="fvec2" value="1.25 1.5" />
+									<attribute id="GridSize" type="float" value="2" />
+									<attribute id="SpawnCell" type="int32" value="5" />
+									<attribute id="RandomPlacement" type="float" value="0" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="60797681-7b19-99c3-59be-b2237032cff9" />
+									<attribute id="Height" type="fvec2" value="0 0" />
+									<attribute id="Rotation" type="ivec2" value="0 350" />
+									<attribute id="Scale" type="fvec2" value="1.25 1.75" />
+									<attribute id="GridSize" type="float" value="4" />
+									<attribute id="SpawnCell" type="int32" value="5" />
+									<attribute id="RandomPlacement" type="float" value="100" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="7cc89d86-949c-92a6-67da-54711b21f7f5" />
+									<attribute id="Height" type="fvec2" value="0 0" />
+									<attribute id="Rotation" type="ivec2" value="0 300" />
+									<attribute id="Scale" type="fvec2" value="1.25 1.75" />
+									<attribute id="GridSize" type="float" value="3" />
+									<attribute id="SpawnCell" type="int32" value="5" />
+									<attribute id="RandomPlacement" type="float" value="0" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="DIFFICULT_TERRAIN_OVERGROWTH" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="True" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="7" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

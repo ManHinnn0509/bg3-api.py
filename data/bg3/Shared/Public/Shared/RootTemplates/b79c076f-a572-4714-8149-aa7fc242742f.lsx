@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="34" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b79c076f-a572-4714-8149-aa7fc242742f" />
+					<attribute id="Name" type="LSString" value="DEC_Alchemy_Miscellaneous_Bookrest_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="IsForcedType" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="scenery" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3911d84-7ad1-48f0-a340-bb2ac30f9a12" />
+					<attribute id="VisualTemplate" type="FixedString" value="5e90b56d-fce8-f65d-5034-d10d97521a7b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="30b5cdad-d334-a775-915d-b2c51eaaa4c9" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4274084 -0.0008107424 -0.2692745" />
+									<attribute id="Max" type="fvec3" value="0.4274084 0.5929522 0.2692745" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4274084 -0.0008107424 -0.2692745" />
+									<attribute id="Max" type="fvec3" value="0.4274084 0.5929522 0.2692745" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4274084 -0.0008107424 -0.2692745" />
+									<attribute id="Max" type="fvec3" value="0.4274084 0.5929522 0.2692745" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

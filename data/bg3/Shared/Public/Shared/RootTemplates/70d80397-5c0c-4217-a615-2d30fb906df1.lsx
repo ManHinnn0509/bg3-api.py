@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="318" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="70d80397-5c0c-4217-a615-2d30fb906df1" />
+					<attribute id="Name" type="LSString" value="BASE_LOOT_Throwable_Poison" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e5f1e8b-102a-4105-9d81-2220648814e9" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7778dc6dg77fdg4195ga83cg7c28f0894816" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_GRN_Poison_vial_A" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="hb20f78f5g351cg4be9gb584g5bfa6ec40e5c" version="1" />
+					<attribute id="CanBeImprovisedWeapon" type="bool" value="True" />
+					<attribute id="EquipSound" type="FixedString" value="ef910184-0b4c-b0c6-a19e-42422581e775" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="00058edc-904d-3613-a50f-b86b208e1f77" />
+					<attribute id="DropSound" type="FixedString" value="00058edc-904d-3613-a50f-b86b208e1f77" />
+					<attribute id="PickupSound" type="FixedString" value="ef910184-0b4c-b0c6-a19e-42422581e775" />
+					<attribute id="UseSound" type="FixedString" value="10a8b532-de0b-616e-ffc5-006fcefa8d05" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="b48a0baa-18f7-4bf0-e985-31d056481a5a" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="POISON_BASIC" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="327" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="86e4ef7c-9ad0-42c5-a868-0ed52f627013" />
+					<attribute id="Name" type="LSString" value="Myconid_Slender_Black" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59a3f795-8021-41de-b748-06d16bfe13b7" />
+					<attribute id="VisualTemplate" type="FixedString" value="7f877652-b95d-9a34-8c51-2792c36a084c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="8ea07e14-0c8a-ffdc-b50d-05e086c13b01" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha35e4d22gb8b9g4ea8ga99dg5725d1b68461" version="1" />
+					<attribute id="Icon" type="FixedString" value="c2ca98d8-7f84-8b27-ad22-d66fa34a15fd-_(Icon_Myconid_Slender)" />
+					<attribute id="Stats" type="FixedString" value="Myconid_Adult_BlackSpores" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceWater" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="d1fdcf37-f257-fc8b-1840-150a50c2cfbc" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="a95b1af8-4d5f-aef0-19e6-729095ee843e" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="c7f46889-f656-5759-4a0c-5455e8332e2d" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="dbd53147-0277-22fc-16d0-c26e16533990" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="1f7daaec-aca9-848e-3de6-585c80c93527" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="d58ff28e-b01d-e2d8-ebcc-d13f565fc155" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="a13eacbe-b1dc-46c8-21f7-0066f275fd99" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="e7d5922d-68e2-08d9-7a09-07bfb3303291" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="d627f4e8-96f9-73ef-5184-136cc3ff4379" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="182885f2-5896-fe25-5ebd-d205102cb204" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="7675777b-3341-1c79-c6b9-3be5304a4f72" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="a1ef25d3-bcd4-e095-59ee-0858123f1834" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="9873c595-b7d9-4398-e8af-fd36bc64cc6a" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="05f9b025-7393-6cf8-1ace-f9923a1e4e9f" />
+					<attribute id="VocalIdle1ResourceID" type="FixedString" value="e7d5922d-68e2-08d9-7a09-07bfb3303291" />
+					<attribute id="VocalIdle2ResourceID" type="FixedString" value="672e4986-71ea-58a6-ecef-471b85f1243b" />
+					<attribute id="VocalIdle3ResourceID" type="FixedString" value="97b0a17b-d7c1-0ba2-3edf-f1c3c1b93e16" />
+					<attribute id="VocalIdleCombat1ResourceID" type="FixedString" value="1f7daaec-aca9-848e-3de6-585c80c93527" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c2ca98d8-7f84-8b27-ad22-d66fa34a15fd" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultCharacter" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Myconid_Slender" />
+					<attribute id="Archetype" type="FixedString" value="myconid_ranged" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_BlackSporeCloud" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="4" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_HallucinationSpores" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="3" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Fist_Myconid_Weak" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="UND_Myconid_GenericCorpse" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="6323b0ce-dab3-6e85-bebc-301aceb84602" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="7d0d1802-d1ef-8712-9295-8055fee2e19d" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="17d6a1c8-e453-fbda-5769-38f4d950a50a" />
+								</node>
+							</children>
+						</node>
+						<node id="FootStepInfos">
+							<children>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_Front_Left" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_L_Foot_01" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_Front_Right" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_R_Foot_01" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_Back_Left" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_L_Foot_02" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_Back_Right" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_R_Foot_02" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedStroll" type="float" value="0.8" />
+							<attribute id="MovementSpeedSprint" type="float" value="4.5" />
+							<attribute id="MovementSpeedDash" type="float" value="4.5" />
+							<attribute id="MaxDashDistance" type="float" value="1.5" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

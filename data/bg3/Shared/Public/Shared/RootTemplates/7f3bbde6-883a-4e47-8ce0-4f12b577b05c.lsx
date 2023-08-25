@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7f3bbde6-883a-4e47-8ce0-4f12b577b05c" />
+					<attribute id="Name" type="LSString" value="BASE_Unique_Elemental" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="29ad5160-21d6-4e0b-9073-4fdee590f62f" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="64eba222-42c0-9464-d7a3-2ff5edb2cbaa" />
+					<attribute id="Icon" type="FixedString" value="4224ba63-c430-65c1-1abe-558683d9215a-_(Icon_Elemental_Mud)" />
+					<attribute id="SpellSet" type="FixedString" value="CommonBeastActions" />
+					<attribute id="LightID" type="FixedString" value="0bc19327-067b-4628-9ea7-8892c1d9cd9c" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4224ba63-c430-65c1-1abe-558683d9215a" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultElemental" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Elemental_Mud" />
+					<attribute id="Race" type="guid" value="24dfab7b-7d7e-4df9-23aa-1272efb48089" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="90101158-141e-4896-608e-dbf8f603e3dd" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-1.62131 -0.00679493 -1.226439" />
+									<attribute id="Max" type="fvec3" value="1.17534 4.489236 0.9691808" />
+									<attribute id="Radius" type="float" value="0.749" />
+									<attribute id="Height" type="float" value="3.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-1.62131 -0.00679493 -1.226439" />
+									<attribute id="Max" type="fvec3" value="1.17534 4.489236 0.9691808" />
+									<attribute id="Radius" type="float" value="0.8" />
+									<attribute id="Height" type="float" value="3.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-1.62131 -0.00679493 -1.226439" />
+									<attribute id="Max" type="fvec3" value="1.17534 4.489236 0.9691808" />
+									<attribute id="Radius" type="float" value="0.999" />
+									<attribute id="Height" type="float" value="3.5" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="64eba222-42c0-9464-d7a3-2ff5edb2cbaa" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="7f575807-4de3-56c9-1f14-142e0bfb8ce0" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="7f575807-4de3-56c9-1f14-142e0bfb8ce0" />
+								</node>
+							</children>
+						</node>
+						<node id="FootStepInfos">
+							<children>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_F_L" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_L_Hand" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_F_R" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_R_Hand" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_B_L" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_L_Foot_01" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_B_R" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_R_Foot_01" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="WorldClimbingSpeed" type="float" value="6" />
+							<attribute id="MovementAcceleration" type="float" value="6" />
+							<attribute id="MovementSpeedSprint" type="float" value="8" />
+							<attribute id="MovementSpeedDash" type="float" value="8" />
+							<attribute id="MovementStepUpHeight" type="float" value="0.8" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4b00912a-fd93-0336-3657-b1c87e55ef5f" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.1" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="a6b1044a-f1ed-7557-c57b-645db8d764c3" />
+							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.1" />
+							<attribute id="WorldClimbingHeight" type="float" value="2.6" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

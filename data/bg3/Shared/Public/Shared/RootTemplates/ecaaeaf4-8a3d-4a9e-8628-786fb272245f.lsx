@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ecaaeaf4-8a3d-4a9e-8628-786fb272245f" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_Plate_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bed27b85-63f8-4bb4-a363-fc0246b36c25" />
+					<attribute id="VisualTemplate" type="FixedString" value="92895277-fba1-95ea-7a8a-bbc03d06f26a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="4e3e21be-2d95-f196-59fc-f995a68e1e39" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he2833008g6ebbg43c2gbe60g8426fc097a46" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="ShootThroughType" type="int8" value="-1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Plate_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Plate_Ceramic_B" />
+					<attribute id="Description" type="TranslatedString" handle="h3f45bfa2gc735g43abg86e4g579573e6a1a8" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1466831 -0.002874147 -0.1466848" />
+									<attribute id="Max" type="fvec3" value="0.145603 0.04469712 0.1456013" />
+									<attribute id="Radius" type="float" value="0.0494961" />
+									<attribute id="Height" type="float" value="0.0785216" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2933662 -0.002874147 -0.2933695" />
+									<attribute id="Max" type="fvec3" value="0.2912059 0.04469712 0.2912026" />
+									<attribute id="Radius" type="float" value="0.0989922" />
+									<attribute id="Height" type="float" value="0.0785216" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2933662 -0.002874147 -0.2933695" />
+									<attribute id="Max" type="fvec3" value="0.2912059 0.04469712 0.2912026" />
+									<attribute id="Radius" type="float" value="0.0989922" />
+									<attribute id="Height" type="float" value="0.0785216" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

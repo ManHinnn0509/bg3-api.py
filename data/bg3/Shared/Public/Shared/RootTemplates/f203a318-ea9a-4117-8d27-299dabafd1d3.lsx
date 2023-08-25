@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="318" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h5fa4f748g1c26g4425gad55gb9326ef5dec4" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc4409cc8gab5cg44d5g8c54g117d011cc1aa" version="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="7883d641-2b8b-40dc-d885-7551d41dbc2b" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Mace_A_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f203a318-ea9a-4117-8d27-299dabafd1d3" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Mace_A_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3186796d-3ab3-4d49-bfc2-cba1aff0cf5a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3dbb5d6d-e202-5dc8-7440-35e4fb97a9dc" />
+					<attribute id="Stats" type="FixedString" value="WPN_Mace_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="31aa730a-afbe-353c-2e65-dbc8e8379296" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

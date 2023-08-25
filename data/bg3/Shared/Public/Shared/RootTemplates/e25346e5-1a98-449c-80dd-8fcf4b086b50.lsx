@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e25346e5-1a98-449c-80dd-8fcf4b086b50" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Drink_Cup_Metal_A_Water" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="35bcfb10-ba86-4195-9de5-2d57b4e209f9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="af15ea87-a807-a640-31ce-75373b4f5660" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f7283d25-de93-a836-2bb1-f2b6b49161ef" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc53932eeg4e55g4a8bga57dgb914ba63dfe4" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_(ITEM)CONS_GEN_Drink_Cup_Metal_A_Water" />
+					<attribute id="Stats" type="FixedString" value="CONS_DRINK_Water" />
+					<attribute id="UseSound" type="FixedString" value="34b720c0-303a-ef4c-32a0-7fdb8f1c3c22" />
+					<attribute id="Description" type="TranslatedString" handle="h4629e10fg8b8dg48b7ga859gcbf3bb85b5cb" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07218286 0.002608627 -0.07176528" />
+									<attribute id="Max" type="fvec3" value="0.07167041 0.1683797 0.07208798" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07218286 0.002608627 -0.07176528" />
+									<attribute id="Max" type="fvec3" value="0.07167041 0.1683797 0.07208798" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07218286 0.002608627 -0.07176528" />
+									<attribute id="Max" type="fvec3" value="0.07167041 0.1683797 0.07208798" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="DRINK_WATER" />
+											<attribute id="StatusDuration" type="int32" value="1" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

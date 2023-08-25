@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6813cb01-2dee-492f-94be-6690fa15fb6b" />
+					<attribute id="Name" type="LSString" value="SurfaceSerpentVenom" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f58b42b0-ab8e-4342-b7e2-daa61ee97628" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h97ebb0aeg97c3g46c3ga0c4g04d9f614d21d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h24371c11g87fbg4663gb511gef9af33f5cff" version="1" />
+					<attribute id="Icon" type="FixedString" value="Surface_SerpentVenom" />
+					<attribute id="DecalMaterial" type="FixedString" value="42a4d91b-7e02-ce97-96c3-d99ccdfff4c1" />
+					<attribute id="RollConditions" type="LSString" value="Character() and not SavingThrow(Ability.Constitution, 13,AdvantageOnPoisoned())" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="ALCH_TOXIN_SERPENTVENOM_CONDITION" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="DontTickWhileOnSurface" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="True" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="11" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

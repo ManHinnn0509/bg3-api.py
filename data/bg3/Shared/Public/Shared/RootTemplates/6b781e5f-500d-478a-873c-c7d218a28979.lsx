@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="302" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6b781e5f-500d-478a-873c-c7d218a28979" />
+					<attribute id="Name" type="LSString" value="BASE_Bipedal_Critter" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="295fdec1-7c6c-4323-bac2-76026ef95710" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="Stats_Placeholder" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="3dd938ff-cd2f-797b-459a-6f3113a96bfa" />
+					<attribute id="DisintegratedResourceID" type="FixedString" value="a8df0d5a-d171-89d2-fd37-424a7f914ec6" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultCritter" />
+					<attribute id="Race" type="guid" value="7f8790f2-12be-49db-e3a6-acff4b5d0e22" />
+					<attribute id="CanFight" type="bool" value="False" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="693d950b-2617-43ac-3c8e-f52fa7fd56f9" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="eae44d86-3321-4a0a-1d81-d84f8be42357" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="0.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="0.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="0.5" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

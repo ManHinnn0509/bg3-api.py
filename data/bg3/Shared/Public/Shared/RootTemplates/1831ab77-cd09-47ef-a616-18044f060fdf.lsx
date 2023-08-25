@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="3" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1831ab77-cd09-47ef-a616-18044f060fdf" />
+					<attribute id="Name" type="LSString" value="FUR_GEN_Bookshelf_Wood_Poor_A_Destruct" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ccbfdc8f-3aad-4dbb-870a-e5a283e1679e" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4aef7cc-023c-7189-e1db-6eb3a832f357" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1f6c2964-b815-4760-cfa5-8771191110b6" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8710852 -0.01392612 -1.200895" />
+									<attribute id="Max" type="fvec3" value="1.912397 0.3083522 0.004446268" />
+									<attribute id="Radius" type="float" value="1.023435" />
+									<attribute id="Height" type="float" value="0.850533" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8710852 -0.01392612 -1.200895" />
+									<attribute id="Max" type="fvec3" value="1.912397 0.3083522 0.004446268" />
+									<attribute id="Radius" type="float" value="2.04687" />
+									<attribute id="Height" type="float" value="0.850533" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8710852 -0.01392612 -1.200895" />
+									<attribute id="Max" type="fvec3" value="1.912397 0.3083522 0.004446268" />
+									<attribute id="Radius" type="float" value="2.04687" />
+									<attribute id="Height" type="float" value="0.850533" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

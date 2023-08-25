@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="313" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2f83206a-13c3-4ecb-a599-f6aa4708e149" />
+					<attribute id="Name" type="LSString" value="ScryingEye" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3f6c91a-9331-4183-8f30-4ecb9cdb6e1b" />
+					<attribute id="VisualTemplate" type="FixedString" value="28d1fea3-6468-b217-2076-497d1c86d852" />
+					<attribute id="Icon" type="FixedString" value="f6c21093-b4af-2929-d313-fb5001c2f245-_(Icon_ScryingEye)" />
+					<attribute id="LevelOverride" type="int32" value="1" />
+					<attribute id="Archetype" type="FixedString" value="scryingeye" />
+					<children>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="cd260f27-79cf-ea85-b6e3-8864ca00dd37" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SEE_INVISIBILITY" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Monster_ScryingEye" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="IsWorldClimbingEnabled" type="bool" value="False" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

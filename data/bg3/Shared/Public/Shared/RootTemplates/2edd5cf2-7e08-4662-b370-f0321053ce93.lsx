@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="1" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2edd5cf2-7e08-4662-b370-f0321053ce93" />
+					<attribute id="Name" type="LSString" value="DEC_Underdark_WizardTower_Machinery_Pipes_Attachment_A_E_On_green" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="VisualTemplate" type="FixedString" value="e7ce110c-16ac-976d-f964-6e45a9774685" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e01c25a6-a5fd-36d1-7052-6fed7c532786" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h61c70ae7g7120g45dcgb337g3a8bbd2d83ba" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_Underdark_WizardTower_Machinery_B" />
+					<attribute id="Stats" type="FixedString" value="UND_ArcanePowerGenerator" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="FreezeGravity" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.302032 -0.3022933 -1.266254" />
+									<attribute id="Max" type="fvec3" value="0.302032 3.955425 -0.2046549" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.302032 -0.3022933 -1.266254" />
+									<attribute id="Max" type="fvec3" value="0.302032 3.955425 -0.2046549" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.302032 -0.3022933 -1.266254" />
+									<attribute id="Max" type="fvec3" value="0.302032 3.955425 -0.2046549" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

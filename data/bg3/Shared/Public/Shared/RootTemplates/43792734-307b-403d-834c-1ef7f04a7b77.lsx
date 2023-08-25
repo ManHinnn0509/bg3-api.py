@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="47" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="43792734-307b-403d-834c-1ef7f04a7b77" />
+					<attribute id="Name" type="LSString" value="SurfacePotionResistanceAcidCloud" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfe2f3748g38b3g4019g932ag5080451b1b2c" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h174989bdgb24dg4a96g904fgd851f911cee1" version="1" />
+					<attribute id="DecalMaterial" type="FixedString" value="56290ee7-3312-567b-8890-5428c89ae032" />
+					<attribute id="SurfaceCategory" type="uint8" value="12" />
+					<attribute id="AiPathColor" type="fvec3" value="0 1 1" />
+					<attribute id="Summon" type="FixedString" value="bd8d5043-5cf7-427c-8dfc-829b7c6065d2" />
+					<children>
+						<node id="InstanceVisual">
+							<children>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="21181a2a-791f-e1f7-4548-b7e53bc73e65" />
+									<attribute id="Height" type="fvec2" value="-0.1 0.1" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="0.1 0.05" />
+									<attribute id="GridSize" type="float" value="0.7" />
+									<attribute id="SpawnCell" type="int32" value="75" />
+									<attribute id="RandomPlacement" type="float" value="10" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="9832e8f7-296e-99d7-bcfa-ec623e4253e8" />
+									<attribute id="Height" type="fvec2" value="-0.2 0" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="0.5 1" />
+									<attribute id="GridSize" type="float" value="1.5" />
+									<attribute id="SpawnCell" type="int32" value="50" />
+									<attribute id="RandomPlacement" type="float" value="20" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="POTION_OF_RESISTANCE_ACID" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="-6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="True" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="15" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

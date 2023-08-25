@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="97ca13e3-5c7f-4f53-86f9-47406ee2a73a" />
+					<attribute id="Name" type="LSString" value="SurfaceBloodElectrified" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h11569126geef1g42b8g9a3bg6d84440d02ff" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h8e8be73eg94bdg4bf0gbc79g7597511e42b5" version="1" />
+					<attribute id="Icon" type="FixedString" value="Surface_ElectrifiedWater" />
+					<attribute id="DecalMaterial" type="FixedString" value="b5065f1c-0af6-e29a-853a-6454c29a42e1" />
+					<attribute id="MaterialType" type="uint8" value="16" />
+					<attribute id="SurfaceCategory" type="uint8" value="6" />
+					<attribute id="DefaultLifeTime" type="float" value="12" />
+					<attribute id="SurfaceGrowTimer" type="float" value="0" />
+					<attribute id="FadeOutSpeed" type="float" value="5" />
+					<attribute id="NormalBlendingFactor" type="float" value="0.25" />
+					<attribute id="AiPathColor" type="fvec3" value="1 1 0" />
+					<attribute id="Summon" type="FixedString" value="dd564396-1c61-44b9-b20a-2e35de986a2c" />
+					<children>
+						<node id="InstanceVisual">
+							<children>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="29e6b08f-55da-9684-4008-8d3717ac7f06" />
+									<attribute id="Height" type="fvec2" value="0 0" />
+									<attribute id="Rotation" type="ivec2" value="0 360" />
+									<attribute id="Scale" type="fvec2" value="0.1 0.9" />
+									<attribute id="GridSize" type="float" value="1" />
+									<attribute id="SpawnCell" type="int32" value="40" />
+									<attribute id="RandomPlacement" type="float" value="1" />
+									<attribute id="SurfaceNeeded" type="float" value="1" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="SHOCKED_SURFACE" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="11" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

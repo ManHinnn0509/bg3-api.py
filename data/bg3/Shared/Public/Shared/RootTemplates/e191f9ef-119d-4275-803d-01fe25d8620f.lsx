@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0c8fbe6cg0857g4a02gbc9eg1b46cd01f1e2" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_GEN_Stoup_A" />
+					<attribute id="IsInteractionDisabled" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="e191f9ef-119d-4275-803d-01fe25d8620f" />
+					<attribute id="Name" type="LSString" value="DEC_GEN_Stoup_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0c96850b-eef9-49b6-927a-1e0d29329a95" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="29aeb965-228d-69ad-2cc7-d14f9051eb98" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObjectMedium" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="51b7493f-505e-bad9-a6e6-10f2feb653e7" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.1683" />
+									<attribute id="Max" type="fvec3" value="0.3608741 1.069846 0.3608727" />
+									<attribute id="Min" type="fvec3" value="-0.3608741 0 -0.3608727" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.1683" />
+									<attribute id="Max" type="fvec3" value="0.3608741 1.069846 0.3608727" />
+									<attribute id="Min" type="fvec3" value="-0.3608741 0 -0.3608727" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.1683" />
+									<attribute id="Max" type="fvec3" value="0.180437 1.069846 0.1804364" />
+									<attribute id="Min" type="fvec3" value="-0.180437 0 -0.1804364" />
+									<attribute id="Radius" type="float" value="0.2540385" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="66" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2e445358-15a4-4f46-8828-2f283f1b5427" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Races_FablesofFaerun4" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="47f778cc-b4ff-45c4-83af-e879e1ff14c3" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="302f734e-070d-c05a-5b79-3ef84e2f609a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ebea04a4-b2ba-67a4-8101-577d62f1f3de" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1297198fgda74g4facgbec9g8d549fc7b70f" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_B" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_Races_FablesofFaerun4" />
+					<attribute id="Description" type="TranslatedString" handle="h25755dfage52eg4b0fg9e7dg80713f18234d" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="ENTERTAINMENT" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="RACES" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="GNOMES" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="UNDERDARK" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="DERRO" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1019184 -0.01312011 -0.1083739" />
+									<attribute id="Max" type="fvec3" value="0.1018156 0.1387698 0.1083739" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_Races_FablesofFaerun4" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

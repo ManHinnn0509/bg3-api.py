@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="73f05807-1d69-427f-b586-f61c89142ad8" />
+					<attribute id="Name" type="LSString" value="LTS_GEN_Gem_Glowing_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ba81625d-e066-4d76-9693-f33b149c025a" />
+					<attribute id="VisualTemplate" type="FixedString" value="cd86a7f9-973b-ef04-06d4-91d9395b38a2" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="278b604f-def3-c91f-219b-cb48f59ba3d0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1ed4648dg83f2g4c8fg867egcca7356c6693" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LTS_GEN_Gem_Glowing_Family_A" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2456903 -0.1853191 -0.1804819" />
+									<attribute id="Max" type="fvec3" value="0.2433087 0.8105167 0.2752089" />
+									<attribute id="Radius" type="float" value="0.07869343" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2456903 -0.1853191 -0.1804819" />
+									<attribute id="Max" type="fvec3" value="0.2433087 0.8105167 0.2752089" />
+									<attribute id="Radius" type="float" value="0.03934672" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2456903 -0.1853191 -0.1804819" />
+									<attribute id="Max" type="fvec3" value="0.2433087 0.8105167 0.2752089" />
+									<attribute id="Radius" type="float" value="0.07869343" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="b19befd7-2d60-d708-a74e-2d844e307128" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="6dfb4d32-bf98-933e-0c60-8462d83e8b05" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="bc5e9453-0986-c0be-dbe7-4cd253307a18" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="48881e76-9c40-4957-bf23-2f2287f0fd84" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

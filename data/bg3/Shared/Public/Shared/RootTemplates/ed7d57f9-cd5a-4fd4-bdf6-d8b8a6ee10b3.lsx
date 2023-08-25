@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="35" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ed7d57f9-cd5a-4fd4-bdf6-d8b8a6ee10b3" />
+					<attribute id="Name" type="LSString" value="QUEST_CHA_HeavyVase" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="75fe4539-2120-4773-b187-98b0f4f9fe59" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="6c5789e4-ae5e-4fa7-9e97-56bc98f5481c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dd62609a-2b52-442f-8619-8c07ea3ea5c3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0def73b5g85b7g4365g96b6gd651811c1d6a" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_FUR_Ceramic_Pot_A" />
+					<attribute id="Stats" type="FixedString" value="QUEST_CHA_HeavyVase" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2729272 2.384186E-07 -0.2729831" />
+									<attribute id="Max" type="fvec3" value="0.27258 1.144244 0.2730358" />
+									<attribute id="Radius" type="float" value="0.3660016" />
+									<attribute id="Height" type="float" value="1.144244" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2729272 2.384186E-07 -0.2729831" />
+									<attribute id="Max" type="fvec3" value="0.27258 1.144244 0.2730358" />
+									<attribute id="Radius" type="float" value="0.3660016" />
+									<attribute id="Height" type="float" value="1.144244" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1364636 2.384186E-07 -0.1364915" />
+									<attribute id="Max" type="fvec3" value="0.13629 1.144244 0.1365179" />
+									<attribute id="Radius" type="float" value="0.1830008" />
+									<attribute id="Height" type="float" value="1.144244" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceWater" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="50" />
+											<attribute id="CellAtGrow" type="int32" value="0" />
+											<attribute id="GrowTimer" type="float" value="0" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

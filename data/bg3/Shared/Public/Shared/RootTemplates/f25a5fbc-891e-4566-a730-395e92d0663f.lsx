@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f25a5fbc-891e-4566-a730-395e92d0663f" />
+					<attribute id="Name" type="LSString" value="FUR_GEN_Desk_Wood_Poor_A_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c5e68dbc-5d1d-48e7-ac00-ad696dd6a584" />
+					<attribute id="VisualTemplate" type="FixedString" value="238f3d12-af16-32a2-d911-01ddf4f9e06d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9d21d438-913d-a818-1c80-006598284469" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5a81dad1gf576g4dbfgb3f5g0eb643b905a0" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_FUR_GEN_Desk_Common_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Bench" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.087203 0 -0.461771" />
+									<attribute id="Max" type="fvec3" value="1.087164 1.358476 0.4382739" />
+									<attribute id="Radius" type="float" value="0.6793107" />
+									<attribute id="Height" type="float" value="1.358476" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5436015 0 -0.2308855" />
+									<attribute id="Max" type="fvec3" value="0.543582 1.358476 0.219137" />
+									<attribute id="Radius" type="float" value="0.3396554" />
+									<attribute id="Height" type="float" value="1.358476" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.087203 0 -0.461771" />
+									<attribute id="Max" type="fvec3" value="1.087164 1.358476 0.4382739" />
+									<attribute id="Radius" type="float" value="0.6793107" />
+									<attribute id="Height" type="float" value="1.358476" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="ac8d7041-be81-0e59-d7fc-b1f43ab793be" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="7b5b4d10-7150-471d-8342-9ba6728a6324" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

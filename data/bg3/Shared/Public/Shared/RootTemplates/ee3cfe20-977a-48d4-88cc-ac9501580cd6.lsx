@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="101" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ee3cfe20-977a-48d4-88cc-ac9501580cd6" />
+					<attribute id="Name" type="LSString" value="DEC_GEN_Kitchen_CuttingBoard_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="852ea4a5-e29d-8a3e-68ba-e58eb01a1010" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="cbfc1f5d-e1a4-2add-4525-d71eac752002" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc1f76b46g2e1eg4015g9743g33c1912a991c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_GEN_Kitchen_CuttingBoard_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_KitchenInstrument_CuttingBoard" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="5068e2cd-31a7-3362-5dbb-d14998351cb3" />
+					<attribute id="DropSound" type="FixedString" value="5068e2cd-31a7-3362-5dbb-d14998351cb3" />
+					<attribute id="PickupSound" type="FixedString" value="3d22ee8b-f838-b01a-ade5-792084f4b5e0" />
+					<attribute id="Description" type="TranslatedString" handle="heb9b8e28g4c6bg4f1ega4ffgd348b8939f14" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.271363 0 -0.460804" />
+									<attribute id="Max" type="fvec3" value="0.271363 0.0516657 0.460804" />
+									<attribute id="Radius" type="float" value="0.387498" />
+									<attribute id="Height" type="float" value="0.0919973" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.271363 0 -0.460804" />
+									<attribute id="Max" type="fvec3" value="0.271363 0.0516657 0.460804" />
+									<attribute id="Radius" type="float" value="0.387498" />
+									<attribute id="Height" type="float" value="0.0919973" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1356815 0 -0.230402" />
+									<attribute id="Max" type="fvec3" value="0.1356815 0.0516657 0.230402" />
+									<attribute id="Radius" type="float" value="0.193749" />
+									<attribute id="Height" type="float" value="0.0919973" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

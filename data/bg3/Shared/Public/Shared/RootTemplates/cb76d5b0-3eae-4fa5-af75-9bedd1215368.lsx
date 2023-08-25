@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="cb76d5b0-3eae-4fa5-af75-9bedd1215368" />
+					<attribute id="Name" type="LSString" value="PUZ_SHA_Shadowquake_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
+					<attribute id="VisualTemplate" type="FixedString" value="43c3c7a7-73da-96b5-688c-a3f7eb25b938" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6e4fb1c7-5180-9eca-4bcd-1fe815c5fc74" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0f275b8bg462cg4fd3gaffag8bef2f056b38" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Shadowquake" />
+					<attribute id="Stats" type="FixedString" value="SHA_Shadowquake_Item" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="PUZ_SHA_Shadowquake" />
+					<attribute id="Description" type="TranslatedString" handle="ha1b03955gfb6bg4e07ga38dgbaca96d25c67" version="1" />
+					<attribute id="IsPublicDomain" type="bool" value="True" />
+					<attribute id="IgnoreGenerics" type="bool" value="True" />
+					<attribute id="Faction" type="guid" value="b9d22ac0-a8b0-4012-74be-95d9ef826b0a" />
+					<attribute id="CanFight" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4847831 0.5012474 -0.4847832" />
+									<attribute id="Max" type="fvec3" value="0.4847831 1.486475 0.4847832" />
+									<attribute id="Radius" type="float" value="0.414578" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4847831 0.5012474 -0.4847832" />
+									<attribute id="Max" type="fvec3" value="0.4847831 1.486475 0.4847832" />
+									<attribute id="Radius" type="float" value="0.829156" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4847831 0.5012474 -0.4847832" />
+									<attribute id="Max" type="fvec3" value="0.4847831 1.486475 0.4847832" />
+									<attribute id="Radius" type="float" value="0.829156" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="b7f73a50-2d02-2a92-f619-57dd825e8e23" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SHA_SHADOWQUAKE_COSMETIC" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SHA_SHADOWQUAKE_OPENING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

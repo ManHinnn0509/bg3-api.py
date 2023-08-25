@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="41fe7d01-dd8a-4c7d-87f4-d397f9b479aa" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_Cheese_Goat_Piece_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cb0039bf-dd5e-41f2-8241-a52fa45e5ef6" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="81401050-0d84-89b9-5b7b-bd2e346a8c28" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9b50337f-53c0-b63b-2333-e5801098892f" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="haf4e6066gd581g4007g82dege2eeafc341c4" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Cheese_Goat_Piece_B" />
+					<attribute id="Stats" type="FixedString" value="CONS_FOOD_Cheese" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="UseSound" type="FixedString" value="" />
+					<attribute id="Description" type="TranslatedString" handle="h11fdc49cg9564g4c8cgaaf7gfd3f7b3900b3" version="1" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1740662 0.0002980828 -0.1625703" />
+									<attribute id="Max" type="fvec3" value="0.1735482 0.1471823 0.1672369" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1740662 0.0002980828 -0.1625703" />
+									<attribute id="Max" type="fvec3" value="0.1735482 0.1471823 0.1672369" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1740662 0.0002980828 -0.1625703" />
+									<attribute id="Max" type="fvec3" value="0.1735482 0.1471823 0.1672369" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

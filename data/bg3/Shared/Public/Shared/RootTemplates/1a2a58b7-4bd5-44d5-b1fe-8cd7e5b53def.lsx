@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="47" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1a2a58b7-4bd5-44d5-b1fe-8cd7e5b53def" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Greatsword_A_1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ecfb9f69-5bc3-402e-acd8-c91d57e28403" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="6d6ec6a0-3b81-43d2-d0e2-6b8d77fdefce" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="406a5b2c-1f47-1927-5e2b-1993ec95fce5" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h142c4c88g3337g4a5dg9985g2c2a6da6e3d0" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Greatsword_A_1" />
+					<attribute id="Stats" type="FixedString" value="WPN_Greatsword_1" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="h3c02cb7ag594eg4ef8gbda7gb1e4fa8015d0" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="8ac2eb82-8563-4657-4c8c-07153957d778" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

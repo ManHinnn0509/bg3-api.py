@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="45df7c10-28e9-4b13-ae56-863b3a7d768b" />
+					<attribute id="Name" type="LSString" value="BASE_Cambion_Male" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9ddd4e4b-f7ce-4873-acfc-7b37e718b284" />
+					<attribute id="Icon" type="FixedString" value="152169a5-f19c-16b9-9bfa-ef05ed4e4740-_(Icon_Cambion_Male)" />
+					<attribute id="Stats" type="FixedString" value="Cambion" />
+					<attribute id="ActiveCharacterLightID" type="FixedString" value="233033a1-b43a-4ad9-976a-8a062b345e21" />
+					<attribute id="VocalLaughterResourceID" type="FixedString" value="71d81811-9692-4d28-8d7c-87fe56e870eb" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="152169a5-f19c-16b9-9bfa-ef05ed4e4740" />
+					<attribute id="IsEquipmentLootable" type="bool" value="True" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultCharacter" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Cambion_Male" />
+					<attribute id="Race" type="guid" value="99c33978-f236-4f5b-d8a8-ae59f6ea0f14" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="0a79a905-d41f-401f-e4a0-40a2431117fc" />
+								</node>
+							</children>
+						</node>
+						<node id="EquipmentTypes">
+							<children>
+								<node id="">
+									<attribute id="Object" type="guid" value="d2141ff0-1368-4c35-38b4-cde98120f882" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="cb322434-365d-47bf-5783-f2e2df0229b1" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="8ac2eb82-8563-4657-4c8c-07153957d778" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DISINTEGRATE_DEATH" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="4ddf2cdf-7ee2-1248-3780-0c36ee5e21b3" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="17d6a1c8-e453-fbda-5769-38f4d950a50a" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="6323b0ce-dab3-6e85-bebc-301aceb84602" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

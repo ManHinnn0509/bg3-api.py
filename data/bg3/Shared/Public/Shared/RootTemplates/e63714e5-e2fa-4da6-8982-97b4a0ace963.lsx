@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e63714e5-e2fa-4da6-8982-97b4a0ace963" />
+					<attribute id="Name" type="LSString" value="BASE_Quadruped_Beast" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4938e2c4-d460-4930-b717-3e40b65c4e13" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="SpellSet" type="FixedString" value="CommonBeastActions" />
+					<attribute id="LightID" type="FixedString" value="4a2b554e-69c1-4137-b6a8-f8065bf2b5cc" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultBeast" />
+					<attribute id="Race" type="guid" value="27a5799e-1f5c-4c2c-df9a-1cfe76024ea6" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="693d950b-2617-43ac-3c8e-f52fa7fd56f9" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.3" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="f27c125a-da67-4e80-5694-4c216763842c" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="a84f4caa-5ad9-1572-6a27-43c7e311ff73" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceBlood" />
+											<attribute id="LifeTime" type="float" value="60" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="10" />
+											<attribute id="CellAtGrow" type="int32" value="2" />
+											<attribute id="GrowTimer" type="float" value="0.4" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+											<attribute id="ApplyDeathTypeBloodCheck" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

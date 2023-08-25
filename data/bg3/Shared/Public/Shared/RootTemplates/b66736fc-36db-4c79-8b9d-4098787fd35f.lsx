@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="600" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b66736fc-36db-4c79-8b9d-4098787fd35f" />
+					<attribute id="Name" type="LSString" value="REF_PUZ_Trap_Mine_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b43d2c62-dd68-4ebd-86ac-ef3a2a4167f4" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="bbc3e3ae-8c3b-5b85-7d28-d1cf150cde7e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="301bd156-f6bb-8f4b-08bc-586509b75dab" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb08b1388ga424g4e54g8c4bgacdce50528f7" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_Trap_Mine_A_Red" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="IsTrap" type="bool" value="True" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.476446 -0.00493072 -0.4314305" />
+									<attribute id="Max" type="fvec3" value="0.4764459 0.4254776 0.4314305" />
+									<attribute id="Radius" type="float" value="0.234606" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.476446 -0.00493072 -0.4314305" />
+									<attribute id="Max" type="fvec3" value="0.4764459 0.4254776 0.4314305" />
+									<attribute id="Radius" type="float" value="0.234606" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.238223 -0.00493072 -0.2157152" />
+									<attribute id="Max" type="fvec3" value="0.238223 0.4254776 0.2157152" />
+									<attribute id="Radius" type="float" value="0.117303" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="cb02c3b5-8c04-4d7a-bc0a-ca74f43e8e3b" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="DialogKey" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="MaxWeight" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="10" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="MineLevel" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="-1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="MineProjectile" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Fireball_Trap" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="405" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="11ae855e-c30b-4cb1-b1c7-9f71d9252f5d" />
+					<attribute id="Name" type="LSString" value="BASE_WEAPON_Darts" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f44c9c6f-bc71-42ad-9cad-2dae306e750e" />
+					<attribute id="VisualTemplate" type="FixedString" value="0fadf7fa-4f2c-c238-b5ca-8fe6521d872f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="43a47945-c554-1a43-264d-9cd7383ab9c6" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc7e6e2cbg26fbg465dg8a2ag9402190ff0b1" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dart_A_0" />
+					<attribute id="Stats" type="FixedString" value="WPN_Dart" />
+					<attribute id="EquipSound" type="FixedString" value="53e0abbe-be02-8ec7-7103-149a5ce95c2a" />
+					<attribute id="UnequipSound" type="FixedString" value="53e0abbe-be02-8ec7-7103-149a5ce95c2a" />
+					<attribute id="ImpactSound" type="FixedString" value="106b4d71-9021-992b-d76a-2db5e7c7dfda" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="7413d793-52dd-ae90-8e11-6961f35913fc" />
+					<attribute id="DropSound" type="FixedString" value="7413d793-52dd-ae90-8e11-6961f35913fc" />
+					<attribute id="PickupSound" type="FixedString" value="a53d877b-be31-47c7-ea09-b38e4fe4d644" />
+					<attribute id="EquipmentTypeID" type="guid" value="c9f1412d-51e6-4606-4fab-5204342056af" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="bb363e2e-9a11-4828-cb80-098447e38aff" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="c23ac9ef-5b47-4c2d-e58c-607bb3a88747" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.02679713 -0.06188534 -0.159887" />
+									<attribute id="Max" type="fvec3" value="0.02679714 0.03094268 0.1142816" />
+									<attribute id="Radius" type="float" value="0.233404" />
+									<attribute id="Height" type="float" value="0.0782637" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.05359425 -0.06188534 -0.3197739" />
+									<attribute id="Max" type="fvec3" value="0.05359429 0.03094268 0.2285631" />
+									<attribute id="Radius" type="float" value="0.466808" />
+									<attribute id="Height" type="float" value="0.0782637" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.05359425 -0.06188534 -0.3197739" />
+									<attribute id="Max" type="fvec3" value="0.05359429 0.03094268 0.2285631" />
+									<attribute id="Radius" type="float" value="0.466808" />
+									<attribute id="Height" type="float" value="0.0782637" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="baea9744-6db5-0600-ee07-cc278a3204f5" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

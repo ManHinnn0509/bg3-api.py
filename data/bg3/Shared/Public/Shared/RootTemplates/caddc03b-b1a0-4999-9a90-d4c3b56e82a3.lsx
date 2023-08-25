@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="caddc03b-b1a0-4999-9a90-d4c3b56e82a3" />
+					<attribute id="Name" type="LSString" value="TOOL_GEN_RoadSign_Wood_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="c9f0b2ca-0b3d-2fc7-57b2-cd47d563b23a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ae4167bc-e38e-3baa-ff74-8fe01c94d1bf" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h248bab7egb265g4f4fg923dg043c6b4b19fc" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GEN_RoadSign_Wood_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Signpost" />
+					<attribute id="IsPublicDomain" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1412198 0 -0.1450678" />
+									<attribute id="Max" type="fvec3" value="0.8086979 2.919351 0.8113722" />
+									<attribute id="Radius" type="float" value="0.8038863" />
+									<attribute id="Height" type="float" value="2.919351" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1412198 0 -0.1450678" />
+									<attribute id="Max" type="fvec3" value="0.8086979 2.919351 0.8113722" />
+									<attribute id="Radius" type="float" value="0.8038863" />
+									<attribute id="Height" type="float" value="2.919351" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1412198 0 -0.1450678" />
+									<attribute id="Max" type="fvec3" value="0.8086979 2.919351 0.8113722" />
+									<attribute id="Radius" type="float" value="0.8038863" />
+									<attribute id="Height" type="float" value="2.919351" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="ac338090-a868-95cf-c209-e2f944230bea" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="7ab4ba6a-57b9-4150-baa9-ca01b6806532" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

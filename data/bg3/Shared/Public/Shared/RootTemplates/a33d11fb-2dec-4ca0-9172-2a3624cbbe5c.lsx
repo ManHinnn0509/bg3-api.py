@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a33d11fb-2dec-4ca0-9172-2a3624cbbe5c" />
+					<attribute id="Name" type="LSString" value="DEC_GEN_Kitchen_CupBoard_Poor_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="67f20306-1fb9-4b19-aba9-3cd0c6dcbaac" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="51ae1f79-bbda-7e2a-0103-5dd86f6f4cb9" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f759e03e-61e3-6722-ff6c-1da616ce6ee5" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf6397021g9b2dg46b0ga0bcgf696b073dd17" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7866539 -0.9039012 -0.3532032" />
+									<attribute id="Max" type="fvec3" value="0.7205352 0.58323 0.02060279" />
+									<attribute id="Radius" type="float" value="0.507822" />
+									<attribute id="Height" type="float" value="1.32607" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7866539 -0.9039012 -0.3532032" />
+									<attribute id="Max" type="fvec3" value="0.7205352 0.58323 0.02060279" />
+									<attribute id="Radius" type="float" value="0.507822" />
+									<attribute id="Height" type="float" value="1.32607" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3933269 -0.9039012 -0.1766016" />
+									<attribute id="Max" type="fvec3" value="0.3602676 0.58323 0.0103014" />
+									<attribute id="Radius" type="float" value="0.253911" />
+									<attribute id="Height" type="float" value="1.32607" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="ca0e50c1-10b5-68e0-56cd-d2ceda45db0c" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="c4d8dda4-7f57-40c5-9cf2-e224321738fb" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="47" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="23ab9011-ef66-463e-a8ee-012321be6d1c" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Flail_A_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9eadef92-5dd0-408e-9b55-1cf791cafe9d" />
+					<attribute id="ReadinessFlags" type="uint32" value="148" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="76f75b70-d6e5-e80d-a571-2794357d446b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e0f4bca7-bd5a-0035-02d1-59423e9f01bb" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb828fbfbg386bg4362g8d61ga5e18c2a7349" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Flail_A_2" />
+					<attribute id="Stats" type="FixedString" value="WPN_Flail_2" />
+					<attribute id="Description" type="TranslatedString" handle="h2b882693gcbaeg4c5dg91dbgb3dce03e6d0a" version="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="ccab7523-374c-49b4-c796-f38bb9e5cac1" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

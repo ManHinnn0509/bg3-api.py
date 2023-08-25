@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a7122209-d89e-41ad-ba6a-048fa31b7f3e" />
+					<attribute id="Name" type="LSString" value="NAT_Markings_Ground_Rock_D" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="7c880fdc-b9dd-7944-9659-cae0466d8cc9" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3c16d01e-ec06-06ee-f159-a8797c11821a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd6c3d057g9c50g4103gbe13gc5e1ab9cc0cd" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_UND_BLD_Worm_Wall_Hole_A_Interactable" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7816724 -0.4201187 -0.8967378" />
+									<attribute id="Max" type="fvec3" value="0.7218338 0.1065398 0.8218913" />
+									<attribute id="Radius" type="float" value="0.5024363" />
+									<attribute id="Height" type="float" value="3.434993" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7816724 -0.4201187 -0.8967378" />
+									<attribute id="Max" type="fvec3" value="0.7218338 0.1065398 0.8218913" />
+									<attribute id="Radius" type="float" value="1.004873" />
+									<attribute id="Height" type="float" value="3.434993" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7816724 -0.4201187 -0.8967378" />
+									<attribute id="Max" type="fvec3" value="0.7218338 0.1065398 0.8218913" />
+									<attribute id="Radius" type="float" value="1.004873" />
+									<attribute id="Height" type="float" value="3.434993" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

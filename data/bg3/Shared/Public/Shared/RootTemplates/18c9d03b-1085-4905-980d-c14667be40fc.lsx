@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="18c9d03b-1085-4905-980d-c14667be40fc" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Races_DuergarOriginChant" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="61b98c74-8f5c-4d05-b56c-0911b59c9078" />
+					<attribute id="VisualTemplate" type="FixedString" value="a888a867-3fed-eac2-a75a-18c5f9425f25" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c6b0ba4a-534e-2ad4-9220-89a580d4148b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf2cbdffbg8d01g4323gb2dfgcf9258f38ece" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Paper_Sheet_A" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_Races_DuergarOriginChant" />
+					<attribute id="Description" type="TranslatedString" handle="h2bd302b1g73d0g45c5g9ae1g5149c252d8e1" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="RACES" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="DUERGAR" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="RARE" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="UNDERDARK" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="VERSE" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1389292 0.001863256 -0.1478594" />
+									<attribute id="Max" type="fvec3" value="0.138967 0.07398681 0.1479762" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2778583 0.001863256 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.2779341 0.07398681 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2778583 0.001863256 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.2779341 0.07398681 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_Races_DuergarOriginChant" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="602" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="31e4b4b7-c818-40ff-b97d-859a552db78d" />
+					<attribute id="Name" type="LSString" value="ENTR_HouseFarm_Hatch_Wood_05m_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="ffe2b164-c5e6-7aef-92fb-8d23c5f18a7e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d886de63-6b4d-84b0-96c0-a29ab74e8755" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha8d408d2g8275g42adg8a0ag8f28809db9b8" version="1" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Gen_Hatch_Wood_A" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="a89ed58f-4f71-4fe5-e2b0-c041e627c499" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.41535 -0.00912502 -1.48019" />
+									<attribute id="Max" type="fvec3" value="1.41535 0.410106 1.48019" />
+									<attribute id="Radius" type="float" value="1.02934" />
+									<attribute id="Height" type="float" value="0.419231" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.41535 -0.00912502 -1.48019" />
+									<attribute id="Max" type="fvec3" value="1.41535 0.410106 1.48019" />
+									<attribute id="Radius" type="float" value="1.02934" />
+									<attribute id="Height" type="float" value="0.419231" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.707675 -0.00912502 -0.740095" />
+									<attribute id="Max" type="fvec3" value="0.707675 0.410106 0.740095" />
+									<attribute id="Radius" type="float" value="0.51467" />
+									<attribute id="Height" type="float" value="0.419231" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="3" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Source" type="FixedString" value="" />
+											<attribute id="SourceType" type="int32" value="2" />
+											<attribute id="Target" type="FixedString" value="" />
+											<attribute id="Type" type="int32" value="2" />
+											<attribute id="EventID" type="FixedString" value="" />
+											<attribute id="AiUseInCombat" type="bool" value="False" />
+											<attribute id="BlockMapMarkerNavigation" type="bool" value="False" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="Visibility" type="int32" value="2" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

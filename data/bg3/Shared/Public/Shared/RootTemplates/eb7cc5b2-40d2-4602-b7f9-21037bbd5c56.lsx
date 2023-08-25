@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="eb7cc5b2-40d2-4602-b7f9-21037bbd5c56" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Races_ScandalousCambionPlay" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="47f778cc-b4ff-45c4-83af-e879e1ff14c3" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="10f626c3-6460-be86-7043-2b9bea5ae95a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="932dd2aa-acae-b9c5-710b-1570f3b2ca37" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc04e945eg839cg40ccgbfe8gf5a054290592" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_B" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_Races_ScandalousCambionPlay" />
+					<attribute id="Description" type="TranslatedString" handle="hee5b02d6g241fg4d86gb075g6562d82e4de3" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="ENTERTAINMENT" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="INFERNAL" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="DEVILS" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="CAMBION" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="PLAY" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1019184 -0.01312011 -0.1083739" />
+									<attribute id="Max" type="fvec3" value="0.1018156 0.1387698 0.1083739" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_Races_ScandalousCambionPlay" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

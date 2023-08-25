@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4d04eb21-092a-4eb4-857a-2f1dc0882200" />
+					<attribute id="Name" type="LSString" value="TOOL_GTY_Control_Panel_Gem_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+					<attribute id="VisualTemplate" type="FixedString" value="657d6e01-a9f1-cac7-6760-676a3f83080c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="599a2883-1280-9226-58c8-5702a7edcae5" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3e31bcb4ge4e9g408eg9818g6e835c6b33cd" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GTY_Control_Panel_Gem_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObject" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="ImpactSound" type="FixedString" value="439fcec3-6032-f489-6e80-260d26fab23d" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a77249ac-7929-43de-b1a2-9690a7a71024" />
+					<attribute id="DropSound" type="FixedString" value="a77249ac-7929-43de-b1a2-9690a7a71024" />
+					<attribute id="PickupSound" type="FixedString" value="92550df7-e13e-4474-8a7e-a59825eaa805" />
+					<attribute id="Description" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09008551 -0.002724916 -0.1526063" />
+									<attribute id="Max" type="fvec3" value="0.08578444 0.09436096 0.1507433" />
+									<attribute id="Radius" type="float" value="0.1516748" />
+									<attribute id="Height" type="float" value="0.09708588" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09008551 -0.002724916 -0.1526063" />
+									<attribute id="Max" type="fvec3" value="0.08578444 0.09436096 0.1507433" />
+									<attribute id="Radius" type="float" value="0.1516748" />
+									<attribute id="Height" type="float" value="0.09708588" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09008551 -0.002724916 -0.1526063" />
+									<attribute id="Max" type="fvec3" value="0.08578444 0.09436096 0.1507433" />
+									<attribute id="Radius" type="float" value="0.1516748" />
+									<attribute id="Height" type="float" value="0.09708588" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

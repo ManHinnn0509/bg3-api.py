@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2044bba0-096e-4171-affa-9729bf79b251" />
+					<attribute id="Name" type="LSString" value="LTS_GEN_Spider_Eggs_Cluster_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b0d55901-0a23-4361-8345-2eed70a2bc76" />
+					<attribute id="VisualTemplate" type="FixedString" value="389118c5-c50d-f00a-3a84-464101f521d0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7eae82cb-5c7d-b1f4-54e4-a6430b511aa5" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3882813 -0.1743764 -0.1556331" />
+									<attribute id="Max" type="fvec3" value="0.1117187 0.8102008 0.3443669" />
+									<attribute id="Radius" type="float" value="1.514046" />
+									<attribute id="Height" type="float" value="0.9845772" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6655133 -0.1743764 -0.4113366" />
+									<attribute id="Max" type="fvec3" value="0.3889506 0.8102008 0.6000704" />
+									<attribute id="Radius" type="float" value="1.514046" />
+									<attribute id="Height" type="float" value="0.9845772" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6655132 -0.1743764 -0.4113365" />
+									<attribute id="Max" type="fvec3" value="0.3889505 0.8102008 0.6000702" />
+									<attribute id="Radius" type="float" value="1.514046" />
+									<attribute id="Height" type="float" value="0.9845772" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="59cce7a5-ac76-5e8e-0610-2c1f67407603" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="f0fee1d0-e722-4897-ba3f-0a0055ae5d8a" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="d289389c-882d-4695-a8d5-dda2a1351711" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="AllowUserInteraction" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="BurnEffect" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="BurnEffectBone" />
+													<attribute id="Type" type="int32" value="4" />
+													<attribute id="Value" type="LSString" value="Dummy_LTS_GEN_Spider_Eggs_Cluster_B" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="EnableGameplayLight" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightOffsetX" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightOffsetY" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightOffsetZ" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="3.5" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSharpnessOverride" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0.85" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSourceOffSound" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="DEC_Interactive_Lightsources_Torch_Small_Off" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSourceOnSound" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="DEC_Interactive_Lightsources_Torch_Small_On" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="StartLit" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

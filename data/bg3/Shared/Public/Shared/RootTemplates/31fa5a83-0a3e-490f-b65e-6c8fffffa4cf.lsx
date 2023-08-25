@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="204" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="31fa5a83-0a3e-490f-b65e-6c8fffffa4cf" />
+					<attribute id="Name" type="LSString" value="LTS_HAG_Bubbly_Fireflies_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e40d1292-1da8-4c8f-b1dc-213cfdd4e135" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="237c71fd-18f7-a7b8-5492-13be0058ad79" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="4e84dafc-28e9-159b-3d7f-f506762eafb9" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcb820180g8610g41c2g8bacg3ed705046158" version="1" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_LTS_HAG_Bubbly_Fireflies_C" />
+					<attribute id="Stats" type="FixedString" value="HAG_Bubbly_Fireflies" />
+					<attribute id="IsPublicDomain" type="bool" value="False" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09559236 -1.00367 -0.07702141" />
+									<attribute id="Max" type="fvec3" value="0.1407946 0.02588987 0.07946967" />
+									<attribute id="Radius" type="float" value="0.07869343" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09559236 -1.00367 -0.07702141" />
+									<attribute id="Max" type="fvec3" value="0.1407946 0.02588987 0.07946967" />
+									<attribute id="Radius" type="float" value="0.07869343" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09559236 -1.00367 -0.07702141" />
+									<attribute id="Max" type="fvec3" value="0.1407946 0.02588987 0.07946967" />
+									<attribute id="Radius" type="float" value="0.03934672" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="86c0c000-5bf7-74ba-2765-d75bb9840ea5" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="72179f89-3b2e-72f0-08cd-f6e044c7bc47" />
+											<attribute id="visualDestruction" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="d289389c-882d-4695-a8d5-dda2a1351711" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="AllowUserInteraction" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="BurnEffect" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="VFX_LightSources_HAG_Bubbly_Fireflies_A_01" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="BurnEffectBone" />
+													<attribute id="Type" type="int32" value="4" />
+													<attribute id="Value" type="LSString" value="Dummy_DEC_HAG_Bubbly_Fireflies_A" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="EnableGameplayLight" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightOffsetX" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightOffsetY" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="-3" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightOffsetZ" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GameplayLightRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="5" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSharpnessOverride" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0.95" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSourceOffSound" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="DEC_Interactive_Lightsources_Torch_Small_Off" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LightSourceOnSound" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="DEC_Interactive_Lightsources_Torch_Small_On" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="StartLit" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

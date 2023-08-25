@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5156cf9a-650a-4391-b09f-e1a0a2072c7b" />
+					<attribute id="Name" type="LSString" value="SurfaceBlackPowderDetonationCloud" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="Icon" type="FixedString" value="Surface_BlackPowder" />
+					<attribute id="DecalMaterial" type="FixedString" value="b279a93b-4833-40e6-85ac-75766f22dffc" />
+					<attribute id="SurfaceCategory" type="uint8" value="10" />
+					<attribute id="CanEnterCombat" type="bool" value="False" />
+					<attribute id="AlwaysUseDefaultLifeTime" type="bool" value="True" />
+					<attribute id="DefaultLifeTime" type="float" value="1" />
+					<attribute id="SurfaceGrowTimer" type="float" value="0.001" />
+					<attribute id="FadeInSpeed" type="float" value="0.1" />
+					<attribute id="FadeOutSpeed" type="float" value="0.1" />
+					<attribute id="AiPathColor" type="fvec3" value="1 1 0" />
+					<attribute id="Summon" type="FixedString" value="84a171b0-c44d-4689-b8fc-25e32676cd76" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX">
+							<children>
+								<node id="IntroFX">
+									<attribute id="Visual" type="FixedString" value="fbfd5169-a236-1d37-7382-9747495a03c2" />
+									<attribute id="Height" type="fvec2" value="1 1.5" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="2.5 5" />
+									<attribute id="GridSize" type="float" value="3" />
+									<attribute id="SpawnCell" type="int32" value="18" />
+									<attribute id="RandomPlacement" type="float" value="0.3" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="IntroFX">
+									<attribute id="Visual" type="FixedString" value="7c8857e8-5d21-68ae-e832-55afeb865333" />
+									<attribute id="Height" type="fvec2" value="1 1.5" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="2.5 5" />
+									<attribute id="GridSize" type="float" value="3" />
+									<attribute id="SpawnCell" type="int32" value="18" />
+									<attribute id="RandomPlacement" type="float" value="0.3" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="IntroFX">
+									<attribute id="Visual" type="FixedString" value="f8a12774-90e6-f94d-e9f6-1a58ddee8a2c" />
+									<attribute id="Height" type="fvec2" value="1 1.5" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="2.5 5" />
+									<attribute id="GridSize" type="float" value="3" />
+									<attribute id="SpawnCell" type="int32" value="18" />
+									<attribute id="RandomPlacement" type="float" value="0.3" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="BLACKPOWDER_DETONATION" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="0" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="True" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="3" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

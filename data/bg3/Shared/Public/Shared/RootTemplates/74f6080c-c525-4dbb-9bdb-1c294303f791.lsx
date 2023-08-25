@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="21" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanClimbOn" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h46d54b4fg482fg4161g923cgb731fbe74965" value="|Reference Primitives: Cube 5x5x5|" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="74f6080c-c525-4dbb-9bdb-1c294303f791" />
+					<attribute id="Name" type="LSString" value="REF_Primitives_Cube_3x0n5x1n5" />
+					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ff2854e6-a30b-8851-2444-98b26b204aff" />
+					<attribute id="Stats" type="FixedString" value="REF_Primitives" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="09f921d9-f6bd-05c2-dd3a-3aef2f3792f9" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="5" />
+									<attribute id="Max" type="fvec3" value="1.5 3 1.5" />
+									<attribute id="Min" type="fvec3" value="-1.5 0 -1.5" />
+									<attribute id="Radius" type="float" value="2.16506" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="5" />
+									<attribute id="Max" type="fvec3" value="1.5 3 1.5" />
+									<attribute id="Min" type="fvec3" value="-1.5 0 -1.5" />
+									<attribute id="Radius" type="float" value="2.16506" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="5" />
+									<attribute id="Max" type="fvec3" value="0.75 3 0.75" />
+									<attribute id="Min" type="fvec3" value="-0.75 0 -0.75" />
+									<attribute id="Radius" type="float" value="1.08253" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="FadeChildren" />
+						<node id="GameMaster" />
+						<node id="LayerList">
+							<children>
+								<node id="Layers" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

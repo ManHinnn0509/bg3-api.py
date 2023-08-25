@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="612" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="25533789-dc2b-41ba-a0a3-880d4aa51d7c" />
+					<attribute id="Name" type="LSString" value="DOOR_Single_Dungeon_Fence_Iron_Elevator_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6d4b2505-3231-42c5-9fde-f971e4386061" />
+					<attribute id="VisualTemplate" type="FixedString" value="ea895a0f-06f1-a8a4-9234-f9ba39951565" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="95814482-11aa-7426-95bb-dafac4ec138c" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h90c094b0g21c6g483egbe1eg50042d308617" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="PhysicsFollowAnimation" type="bool" value="True" />
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.209894 -0.007480621 -0.02821981" />
+									<attribute id="Max" type="fvec3" value="1.20981 3.980153 0.03611723" />
+									<attribute id="Radius" type="float" value="0.80655" />
+									<attribute id="Height" type="float" value="4.01651" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.209894 -0.007480621 -0.02821981" />
+									<attribute id="Max" type="fvec3" value="1.20981 3.980153 0.03611723" />
+									<attribute id="Radius" type="float" value="1.6131" />
+									<attribute id="Height" type="float" value="4.01651" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.209894 -0.007480621 -0.02821981" />
+									<attribute id="Max" type="fvec3" value="1.20981 3.980153 0.03611723" />
+									<attribute id="Radius" type="float" value="1.6131" />
+									<attribute id="Height" type="float" value="4.01651" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

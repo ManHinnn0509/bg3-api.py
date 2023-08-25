@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3f11d8f1-4ca2-4434-b0f0-d6538bfcb2ca" />
+					<attribute id="Name" type="LSString" value="FUR_HAG_Chair_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e50cc36a-2eb4-4f73-a3bd-ba41accd5f7d" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="6beb64c6-718a-aa40-ee25-aef005a3b86f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0497bac8-9e2e-0d95-cf2d-0ac4a068dcdb" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h50e5c03fg4182g4a3fg858dg8eb6b7f2a6f8" version="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="CanBeImprovisedWeapon" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3009635 0 -0.2634684" />
+									<attribute id="Max" type="fvec3" value="0.300099 1.17628 0.343828" />
+									<attribute id="Radius" type="float" value="0.578113" />
+									<attribute id="Height" type="float" value="1.90725" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3009635 0 -0.2634684" />
+									<attribute id="Max" type="fvec3" value="0.300099 1.17628 0.343828" />
+									<attribute id="Radius" type="float" value="0.578113" />
+									<attribute id="Height" type="float" value="1.90725" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1504818 0 -0.1317342" />
+									<attribute id="Max" type="fvec3" value="0.1500495 1.17628 0.171914" />
+									<attribute id="Radius" type="float" value="0.2890565" />
+									<attribute id="Height" type="float" value="1.90725" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="861278e7-16da-a56d-f4d1-0c1cddd534ab" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="87bcc5f4-b009-4d2b-96ed-7734bbd92f46" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

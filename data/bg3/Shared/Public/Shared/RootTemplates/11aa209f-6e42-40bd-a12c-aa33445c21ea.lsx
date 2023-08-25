@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h71869741g5b1ag4b20g991fgf3bde92abe84" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h24e75b44g22eeg4277gb039g846b403e82f9" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="11aa209f-6e42-40bd-a12c-aa33445c21ea" />
+					<attribute id="Name" type="LSString" value="WPN_GOB_PainPriest_Dagger" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eab180b-5bf9-48ea-aece-7ba20d1deb78" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="GOB_PainPriest_Dagger" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="27b1de39-ee51-5aa6-42e0-3894ac65f43c" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0374908" />
+									<attribute id="Max" type="fvec3" value="0.03898387 0.01495124 0.1716001" />
+									<attribute id="Min" type="fvec3" value="-0.06832638 -0.01495124 -0.3460817" />
+									<attribute id="Radius" type="float" value="0.166679" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0374908" />
+									<attribute id="Max" type="fvec3" value="0.01949194 0.01495124 0.08580004" />
+									<attribute id="Min" type="fvec3" value="-0.03416319 -0.01495124 -0.1730409" />
+									<attribute id="Radius" type="float" value="0.0833395" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0374908" />
+									<attribute id="Max" type="fvec3" value="0.03898387 0.05420124 0.1716001" />
+									<attribute id="Min" type="fvec3" value="-0.06832638 -0.006201239 -0.3460817" />
+									<attribute id="Radius" type="float" value="0.166679" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-1db0-0b4ead20f135" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

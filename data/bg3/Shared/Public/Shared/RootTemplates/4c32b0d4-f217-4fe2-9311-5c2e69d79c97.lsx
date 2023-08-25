@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="100" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4c32b0d4-f217-4fe2-9311-5c2e69d79c97" />
+					<attribute id="Name" type="LSString" value="DEC_MF_Machine_BrinePool_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="VisualTemplate" type="FixedString" value="1cb62e1e-078d-56e1-eb8e-6f3d4b401310" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="666f9121-5f15-fd27-49cd-4c5592c143dd" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h75e7b6d0g0effg4849gbf61gb3927deb5911" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_MF_Machine_BrinePool_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BrinePool" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.348373 -0.02650797 -1.418583" />
+									<attribute id="Max" type="fvec3" value="1.342782 1.846938 1.344401" />
+									<attribute id="Radius" type="float" value="1.071978" />
+									<attribute id="Height" type="float" value="1.873446" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.348373 -0.02650797 -1.418583" />
+									<attribute id="Max" type="fvec3" value="1.342782 1.846938 1.344401" />
+									<attribute id="Radius" type="float" value="1.071978" />
+									<attribute id="Height" type="float" value="1.873446" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceCausticBrine" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="Radius" type="float" value="6" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

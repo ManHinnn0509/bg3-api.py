@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4431b14a-f85c-4230-9881-fe06d58f863c" />
+					<attribute id="Name" type="LSString" value="SurfaceWaterFrozen" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="haf0c6ea5gbdbbg4b31g81f5gd7a42302faa6" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h26d7f157ge313g4aa4g9b3eg9f543626d280" version="3" />
+					<attribute id="Icon" type="FixedString" value="Surface_Ice" />
+					<attribute id="DecalMaterial" type="FixedString" value="91d0b92e-0ed9-67c3-6a2c-219dc06ceb65" />
+					<attribute id="MaterialType" type="uint8" value="9" />
+					<attribute id="SurfaceCategory" type="uint8" value="7" />
+					<attribute id="DefaultLifeTime" type="float" value="12" />
+					<attribute id="FadeInSpeed" type="float" value="1" />
+					<attribute id="FadeOutSpeed" type="float" value="5" />
+					<attribute id="AiPathColor" type="fvec3" value="1 1 0" />
+					<attribute id="Summon" type="FixedString" value="bd8d5043-5cf7-427c-8dfc-829b7c6065d2" />
+					<attribute id="RollConditions" type="LSString" value="Character() and not SavingThrow(Ability.Dexterity,SourceSpellDC(12),AdvantageOnSlipping())" />
+					<attribute id="OnEnterDistanceOverride" type="float" value="1" />
+					<attribute id="OnMoveDistanceOverride" type="float" value="4" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="PRONE_ICE" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="True" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="19" />
+								</node>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="DIFFICULT_TERRAIN" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="True" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="11" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

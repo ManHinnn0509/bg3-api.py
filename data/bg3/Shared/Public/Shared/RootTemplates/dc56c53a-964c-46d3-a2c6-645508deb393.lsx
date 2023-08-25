@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="dc56c53a-964c-46d3-a2c6-645508deb393" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_LooseBlock" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
+					<attribute id="VisualTemplate" type="FixedString" value="fd5aa94f-66ec-14ec-fa97-b88fae69796b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="04178fff-4061-d559-da24-e8a5152c2321" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DevComment" type="LSString" value="Represents a loose brick or tile that functions as a secret container. Typically found on the floor or a wall" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8d17ae82ga56fg4b2bgbdb9g40b696f3453b" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanShineThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_Quest_CMB_ThrowingRock" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ImmutableContainer" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="InventoryType" type="uint8" value="19" />
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.25 -0.5 -0.25" />
+									<attribute id="Max" type="fvec3" value="0.25 0.5 0.25" />
+									<attribute id="Radius" type="float" value="0.0004330125" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5 -0.5 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.5 0.5 0.5" />
+									<attribute id="Radius" type="float" value="0.000866025" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5 -0.5 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.5 0.5 0.5" />
+									<attribute id="Radius" type="float" value="0.000866025" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="1" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Gold_Stash_Modest" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

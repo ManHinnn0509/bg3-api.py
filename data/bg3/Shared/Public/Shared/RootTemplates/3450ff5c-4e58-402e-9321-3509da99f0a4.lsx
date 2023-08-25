@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="4" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3450ff5c-4e58-402e-9321-3509da99f0a4" />
+					<attribute id="Name" type="LSString" value="GRN_Poison_vial_D_Unsheathe_DONOTUSE" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="420ac079-8d92-46fc-b0bd-91c83f8ab908" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="aa5046fc-7cf9-3720-fae0-9b1319055717" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="33a6c3d8-5550-e026-3a2d-453f0bdf6465" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6308f4fbg9aebg44b5gaef6ga910bfc51f3c" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_GRN_Poison_vial_D_Sheathe" />
+					<attribute id="Stats" type="FixedString" value="OBJ_PoisonOther" />
+					<attribute id="UseSound" type="FixedString" value="10a8b532-de0b-616e-ffc5-006fcefa8d05" />
+					<attribute id="Description" type="TranslatedString" handle="ha6016fdeg6f37g4471ga809g6ce171c0dfca" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08139519 -9.457767E-05 -0.221449" />
+									<attribute id="Max" type="fvec3" value="0.0813952 0.08398987 0.1935836" />
+									<attribute id="Radius" type="float" value="0.09675281" />
+									<attribute id="Height" type="float" value="0.359066" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08139519 -9.457767E-05 -0.221449" />
+									<attribute id="Max" type="fvec3" value="0.0813952 0.08398987 0.1935836" />
+									<attribute id="Radius" type="float" value="0.09675281" />
+									<attribute id="Height" type="float" value="0.359066" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08139519 -0.0007656291 -0.2089012" />
+									<attribute id="Max" type="fvec3" value="0.0813952 0.0636043 0.1575386" />
+									<attribute id="Radius" type="float" value="0.1015266" />
+									<attribute id="Height" type="float" value="0.06436992" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfacePoison" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="Radius" type="float" value="3" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

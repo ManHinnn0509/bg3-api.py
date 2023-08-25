@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a49e4e72-04ea-4c7b-8b25-a50aad69f8b0" />
+					<attribute id="Name" type="LSString" value="SurfacePotionHealingSuperiorCloud" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb35e68e0gb923g4256g8a66g3d722bdbd6a0" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h16dadb93gf7c5g4c11g8241gdc9e54e05706" version="2" />
+					<attribute id="Icon" type="FixedString" value="Surface_HealingPotionSuperiorCloud" />
+					<attribute id="DecalMaterial" type="FixedString" value="03fdb01f-6bd1-d153-fcec-d61ca2d0da07" />
+					<attribute id="SurfaceCategory" type="uint8" value="12" />
+					<attribute id="AiPathColor" type="fvec3" value="0 1 1" />
+					<attribute id="Summon" type="FixedString" value="bd8d5043-5cf7-427c-8dfc-829b7c6065d2" />
+					<children>
+						<node id="InstanceVisual">
+							<children>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="c62ee877-d934-8acb-dc91-2947552f3824" />
+									<attribute id="Height" type="fvec2" value="-0.1 0.1" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="0.7 0.7" />
+									<attribute id="GridSize" type="float" value="0.2" />
+									<attribute id="SpawnCell" type="int32" value="200" />
+									<attribute id="RandomPlacement" type="float" value="10" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="InstanceVisual">
+									<attribute id="Visual" type="FixedString" value="4b861a80-e73f-d051-2e05-088f44d91e28" />
+									<attribute id="Height" type="fvec2" value="0 0" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="0.5 1" />
+									<attribute id="GridSize" type="float" value="1" />
+									<attribute id="SpawnCell" type="int32" value="100" />
+									<attribute id="RandomPlacement" type="float" value="10" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="POTION_OF_HEALING_SUPERIOR" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="0" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="True" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="15" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="47" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b908f109-b379-4a49-8f41-5b7f154d9b76" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Javelin_A_1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0a7adc8d-b561-4f81-a8f2-ec07b5d54955" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="6eafefa7-0aea-4cc5-88a8-9c8f2272ad6f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="88eeb610-1050-6501-ff06-eb37febf7ac9" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4c18d53cg5552g499agb71dg76b8161250b2" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Javelin_A_1" />
+					<attribute id="Stats" type="FixedString" value="WPN_Javelin_1" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="c9f1412d-51e6-4606-4fab-5204342056af" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

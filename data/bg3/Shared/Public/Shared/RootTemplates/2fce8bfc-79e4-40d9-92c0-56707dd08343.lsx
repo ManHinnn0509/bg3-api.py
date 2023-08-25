@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2fce8bfc-79e4-40d9-92c0-56707dd08343" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_World_ApproachableEast1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="47f778cc-b4ff-45c4-83af-e879e1ff14c3" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="7017a29c-3823-29f4-6bf6-756e3e9fa51f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c7f72fd0-dd67-244b-d4d7-fe1f55330112" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h58929a67gd4f9g4b4fgbd15g512f63dc9f5f" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Simple_F" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_World_ApproachableEast1" />
+					<attribute id="ExamineRotation" type="fvec3" value="65 180 0" />
+					<attribute id="Description" type="TranslatedString" handle="h6bda50bcgc609g4789g8964g9c94e35c87ae" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="GUIDE" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="ENTERTAINMENT" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="GENERALWORLD" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="RASHEMEN" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="ADVENTURING" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2680835 -0.0410083 -0.1522975" />
+									<attribute id="Max" type="fvec3" value="0.2680835 0.111889 0.150695" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1414637 -0.007194623 -0.2006574" />
+									<attribute id="Max" type="fvec3" value="0.1517279 0.07881074 0.2003838" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1414637 -0.007194623 -0.2006574" />
+									<attribute id="Max" type="fvec3" value="0.1517279 0.07881074 0.2003838" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_World_ApproachableEast1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

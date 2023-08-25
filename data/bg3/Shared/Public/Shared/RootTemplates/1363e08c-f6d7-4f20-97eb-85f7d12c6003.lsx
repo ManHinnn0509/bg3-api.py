@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1363e08c-f6d7-4f20-97eb-85f7d12c6003" />
+					<attribute id="Name" type="LSString" value="CINE_Underdark_Mushroom_NobleStalk_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="8a6e5007-32fd-d400-afc0-7df50d109298" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="65075051-e253-0e5b-e5ca-5f4565d80845" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h78bfb840gdef1g4dc5ga61fg707b5c04c968" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_Underdark_Mushroom_Noblestalk_A" />
+					<attribute id="Stats" type="FixedString" value="UND_Noblestalk" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h64fe36efg222fg43f7gbffbg9c2b7d0dd8e0" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1188697 0.0001957715 -0.1005365" />
+									<attribute id="Max" type="fvec3" value="0.08065739 0.08470863 0.09820595" />
+									<attribute id="Radius" type="float" value="1.124459" />
+									<attribute id="Height" type="float" value="1.915569" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1188697 0.0001957715 -0.1005365" />
+									<attribute id="Max" type="fvec3" value="0.08065739 0.08470863 0.09820595" />
+									<attribute id="Radius" type="float" value="1.124459" />
+									<attribute id="Height" type="float" value="1.915569" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1188697 0.0001957715 -0.1005365" />
+									<attribute id="Max" type="fvec3" value="0.08065739 0.08470863 0.09820595" />
+									<attribute id="Radius" type="float" value="1.124459" />
+									<attribute id="Height" type="float" value="1.915569" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="UND_NOBLESTALK" />
+											<attribute id="StatusDuration" type="int32" value="1" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="2" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

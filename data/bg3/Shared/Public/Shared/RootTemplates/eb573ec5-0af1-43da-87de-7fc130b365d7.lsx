@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="200" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="eb573ec5-0af1-43da-87de-7fc130b365d7" />
+					<attribute id="Name" type="LSString" value="PUZ_Underdark_Mushroom_Exploding_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="6f8f4321-b7c1-7936-2751-dc316fc46416" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ef09ecff-00fe-b898-848a-5b16f22e0c07" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfae37030g470cg48f4g8775g17493b60fe82" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_Underdark_Mushroom_Exploding_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_TorchstalkMushroom" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="hc8ceb2f3g3741g4e10g8ce2ge624ca44a679" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="421e9ec8-03d2-47eb-caa6-7adb0aa3c4b7" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.524 -0.1001346 -0.5040001" />
+									<attribute id="Max" type="fvec3" value="0.498 1.32737 0.5185324" />
+									<attribute id="Radius" type="float" value="0.7176119" />
+									<attribute id="Height" type="float" value="1.427505" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.524 -0.1001346 -0.5039999" />
+									<attribute id="Max" type="fvec3" value="0.498 1.32737 0.5190001" />
+									<attribute id="Radius" type="float" value="0.7176119" />
+									<attribute id="Height" type="float" value="1.427505" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.524 -0.1001346 -0.5039999" />
+									<attribute id="Max" type="fvec3" value="0.498 1.32737 0.051" />
+									<attribute id="Radius" type="float" value="0.7176119" />
+									<attribute id="Height" type="float" value="1.427505" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="21ffa1c9-184e-c5d4-c528-e984895f77c6" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="36932561-9616-40cd-8c6f-6582f648deb4" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="d27c44bc-d537-5a7b-74e6-8774135c5705" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ArmingTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ExplosionDelayTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0.5" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ExplosionRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="2.5" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GlowingFX" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="VFX_Script_PUZ_Underdark_Mushroom_Exploding_A_01" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="MineProjectile" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Torchstalk_Explosion" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="PulsatingFX" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="VFX_Script_PUZ_Underdark_Mushroom_Exploding_A_02" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="WarningRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="3.5" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

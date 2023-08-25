@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="29" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="17e92565-b2aa-4e53-b3ff-a4691a0fa69f" />
+					<attribute id="Name" type="LSString" value="FUR_GEN_Kitchen_Cup_Glass_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec394c45-0d04-431a-b6f8-1b81da49cd4a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="18b2e18f-cb2b-42d9-9cb0-524d16c9ecd1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2373bf72g2f5eg4f9bg8c30g15100673a62d" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_FUR_GEN_Kitchen_Cup_Glass_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericDrinkItem" />
+					<attribute id="Description" type="TranslatedString" handle="h41954f25g2089g478ag8b4bg029a834c464e" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0847979 -0.00281903 -0.0838671" />
+									<attribute id="Max" type="fvec3" value="0.0847979 0.301412 0.0838671" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0847979 -0.00281903 -0.0838671" />
+									<attribute id="Max" type="fvec3" value="0.0847979 0.301412 0.0838671" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04239895 -0.00281903 -0.04193355" />
+									<attribute id="Max" type="fvec3" value="0.04239895 0.301412 0.04193355" />
+									<attribute id="Radius" type="float" value="0.0383616" />
+									<attribute id="Height" type="float" value="0.218319" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="12" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="hf19648b6gee23g42b7g8aefg0ba64202527e" version="1" />
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

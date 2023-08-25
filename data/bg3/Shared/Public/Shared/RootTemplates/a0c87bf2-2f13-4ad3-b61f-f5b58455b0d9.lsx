@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="71" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a0c87bf2-2f13-4ad3-b61f-f5b58455b0d9" />
+					<attribute id="Name" type="LSString" value="DEC_Ketheric_Lava_Well_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="scenery" />
+					<attribute id="ParentTemplateId" type="FixedString" value="77f9eb16-5935-49b8-9494-6082e6b53c27" />
+					<attribute id="VisualTemplate" type="FixedString" value="2c241559-09e5-7ccb-25cc-d58b8f89b9c2" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="bf72efc5-e460-4e66-ccce-390328a4bc6d" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.147529 -0.04097068 -1.147527" />
+									<attribute id="Max" type="fvec3" value="1.147377 0.07670021 1.147528" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.147529 -0.04097068 -1.147527" />
+									<attribute id="Max" type="fvec3" value="1.147377 0.07670021 1.147528" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.147529 -0.04097068 -1.147527" />
+									<attribute id="Max" type="fvec3" value="1.147377 0.07670021 1.147528" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

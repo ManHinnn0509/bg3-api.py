@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="314" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f0c446e0-5ea6-4ac5-bec8-5e1b9458348b" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_CONST_Pressure_Plate_Marble_Square_B_White" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b6191704-9d1c-45ae-83b5-b4d94dd42adf" />
+					<attribute id="VisualTemplate" type="FixedString" value="327630ca-09c1-69d1-a53d-ae55cd121598" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3b108727-cf8a-1779-5c36-02e4ecd412ca" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4e913ac1gd306g47c3ga322g99f51faf07c5" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6756196 -0.004614232 -0.6642467" />
+									<attribute id="Max" type="fvec3" value="0.6668997 0.03092031 0.679626" />
+									<attribute id="Radius" type="float" value="0.4749746" />
+									<attribute id="Height" type="float" value="0.03553454" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6756196 -0.004614232 -0.6642467" />
+									<attribute id="Max" type="fvec3" value="0.6668997 0.03092031 0.679626" />
+									<attribute id="Radius" type="float" value="0.4749746" />
+									<attribute id="Height" type="float" value="0.03553454" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6756196 -0.004614232 -0.6642467" />
+									<attribute id="Max" type="fvec3" value="0.6668997 0.03092031 0.679626" />
+									<attribute id="Radius" type="float" value="0.4749746" />
+									<attribute id="Height" type="float" value="0.03553454" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="2d123197-a599-7968-fdbd-4327876764f1" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="3940cb9c-3c15-48f7-b170-11708d9f3852" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="82c15297-0306-483a-a172-4907a397dc0e" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="Bool_DisplayClickText" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="Bool_PlaySound" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="EventOff" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="0xbaadf00d" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="EventOn" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="0xbaadf00d" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="MaxWeight" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="50" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="String_ClickText" />
+													<attribute id="Type" type="int32" value="4" />
+													<attribute id="Value" type="LSString" value="GLO_AD_MechanicalClick_fc8d3dc5-b947-6354-3aa9-d1f02fd51af4" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="ae52b4fd-6fe2-627f-ac6f-436567755b18" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="DestroyOnDisarm" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

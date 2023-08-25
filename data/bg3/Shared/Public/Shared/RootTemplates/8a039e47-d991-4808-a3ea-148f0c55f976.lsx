@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="206" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8a039e47-d991-4808-a3ea-148f0c55f976" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_SalmonPie_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ab295317-b83e-40ee-920e-59ed8eccafb2" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="c29ec377-478f-575e-5104-11a8109ef9df" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="42cc48a3-afb6-5e82-77ea-c553f2a4cb4c" />
+					<attribute id="Opacity" type="float" value="0.5" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h94681ba6gfda0g4858ga59fgb566fda5d7b7" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Food_SalmonPie_A" />
+					<attribute id="Stats" type="FixedString" value="CONS_FOOD_Pie_Salmon" />
+					<attribute id="UseSound" type="FixedString" value="52c53225-bd90-b5ab-7b63-c565234b06da" />
+					<attribute id="Description" type="TranslatedString" handle="h05401527g2e73g4657g986dg431d15c479e0" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.308065 0 -0.228637" />
+									<attribute id="Max" type="fvec3" value="0.307981 0.100231 0.228637" />
+									<attribute id="Radius" type="float" value="0.0993591" />
+									<attribute id="Height" type="float" value="0.085616" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.308065 0 -0.228637" />
+									<attribute id="Max" type="fvec3" value="0.307981 0.100231 0.228637" />
+									<attribute id="Radius" type="float" value="0.0993591" />
+									<attribute id="Height" type="float" value="0.085616" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1540325 0 -0.1143185" />
+									<attribute id="Max" type="fvec3" value="0.1539905 0.100231 0.1143185" />
+									<attribute id="Radius" type="float" value="0.04967955" />
+									<attribute id="Height" type="float" value="0.085616" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="hf7e8d722gfa75g4480ga6fag3ef2d947d058" version="1" />
+						</node>
+						<node id="OnUsePeaceActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

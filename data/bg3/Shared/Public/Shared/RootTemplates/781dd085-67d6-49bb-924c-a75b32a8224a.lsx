@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="781dd085-67d6-49bb-924c-a75b32a8224a" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_Abbey_Wall_Breakable_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="VisualTemplate" type="FixedString" value="33458d40-3193-d6aa-1e01-367a6e730d98" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c3c38cd9-4c01-d19c-0652-613d85e4cbd2" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h53fa031bg6799g4e29gace7g31c18af2c7e4" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_DestructibleWall_Stone_A" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-3.626406 -0.05984998 -0.5967489" />
+									<attribute id="Max" type="fvec3" value="3.626406 3.894117 0.5967489" />
+									<attribute id="Radius" type="float" value="2.039984" />
+									<attribute id="Height" type="float" value="4.68156" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-3.626406 -0.05984998 -0.5967489" />
+									<attribute id="Max" type="fvec3" value="3.626406 3.894117 0.5967489" />
+									<attribute id="Radius" type="float" value="2.039984" />
+									<attribute id="Height" type="float" value="4.68156" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-3.626406 -0.05984998 -0.5967489" />
+									<attribute id="Max" type="fvec3" value="3.626406 3.894117 0.5967489" />
+									<attribute id="Radius" type="float" value="2.039984" />
+									<attribute id="Height" type="float" value="4.68156" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="a54b0649-d4ef-c559-b5df-a0f5af831c2a" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="118fa6e2-a6e9-49f8-9dc5-7b49cb6d74a4" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DEBRIS_THRESHOLD_LESSER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

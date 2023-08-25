@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f928a70d-5b23-4605-9cae-5342f9ed206e" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Halberd_A_0" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2efeda1e-c5d1-48ef-af6f-b1706fd4c3e2" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="dd51e02b-ac4f-53de-020f-ecb9db2ab72b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d7f9ce44-bac9-97a3-1615-8499e0f1e6d9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h087a7f52g2c8ag409fg9252gebdba4e7ada3" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Halberd_A_0" />
+					<attribute id="Stats" type="FixedString" value="WPN_Halberd" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="h24bb9d00g5135g439fg8b20ga446e2fbba19" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="98a38628-79fa-4f24-4e90-54deeff4ae03" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="abadcad5-9229-4999-7a8c-55cdf27f5cc9" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.323064 -0.03581 -1.79482" />
+									<attribute id="Max" type="fvec3" value="0.27868 0.03581 0.49631" />
+									<attribute id="Radius" type="float" value="0.592479" />
+									<attribute id="Height" type="float" value="0.07162" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.323064 -0.03581 -1.79482" />
+									<attribute id="Max" type="fvec3" value="0.27868 0.03581 0.49631" />
+									<attribute id="Radius" type="float" value="0.592479" />
+									<attribute id="Height" type="float" value="0.07162" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.161532 -0.03581 -0.89741" />
+									<attribute id="Max" type="fvec3" value="0.13934 0.03581 0.248155" />
+									<attribute id="Radius" type="float" value="0.2962395" />
+									<attribute id="Height" type="float" value="0.07162" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="-1" />
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

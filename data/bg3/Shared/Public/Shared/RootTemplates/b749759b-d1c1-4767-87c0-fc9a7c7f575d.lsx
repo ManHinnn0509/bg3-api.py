@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b749759b-d1c1-4767-87c0-fc9a7c7f575d" />
+					<attribute id="Name" type="LSString" value="CONT_Barrel_Smokepowder_Trapped_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c5e68dbc-5d1d-48e7-ac00-ad696dd6a584" />
+					<attribute id="ReadinessFlags" type="uint32" value="129" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="1d1244d5-9d1f-86ca-5515-ee7133680c6a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d5ad42ab-90c1-518d-7857-2839bfbc659c" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1faed352g45f8g4b50g8d29g2f3f8582c224" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_Cont_Barrel_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Barrel" />
+					<attribute id="DefaultState" type="FixedString" value="closed" />
+					<attribute id="InventoryType" type="uint8" value="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d5cd4ee4-6c5d-429a-efb3-562f90ecd76d" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5 0 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.5 0.4 0.5" />
+									<attribute id="Radius" type="float" value="0.507822" />
+									<attribute id="Height" type="float" value="1.32607" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5 0 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.5 0.4 0.5" />
+									<attribute id="Radius" type="float" value="0.507822" />
+									<attribute id="Height" type="float" value="1.32607" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.25 0 -0.25" />
+									<attribute id="Max" type="fvec3" value="0.25 0.4 0.25" />
+									<attribute id="Radius" type="float" value="0.253911" />
+									<attribute id="Height" type="float" value="1.32607" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="visualDestruction" type="FixedString" value="4cfe2d6e-897b-aeda-0756-72c5e15d3f68" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="351d97e9-277f-31d1-80b9-bb6801b2ce2d" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="f516c467-f74f-460b-8770-59241bc7360b" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceBlackPowder" />
+											<attribute id="LifeTime" type="float" value="-1" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="200" />
+											<attribute id="CellAtGrow" type="int32" value="10" />
+											<attribute id="GrowTimer" type="float" value="0.02" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="3250732e-6269-4ebb-b9dd-556c237f687d" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ExplosionProjectile" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Barrel_Explosion_Smokepowder" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0752414a-016a-48f4-8a36-788aa38b08b4" />
+					<attribute id="Name" type="LSString" value="LTS_DUN_Dropable_Hanging_Bowls_F_Schematic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="Schematic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<children>
+						<node id="SchematicData">
+							<attribute id="Id" type="guid" value="79adc6b9-e228-48ff-d990-38b7cad860b0" />
+							<attribute id="RootTemplateId" type="guid" value="78201581-cfe9-4ba9-e2b9-177d52047f0c" />
+							<attribute id="ConstellationConfigName" type="FixedString" value="" />
+							<children>
+								<node id="Transform">
+									<attribute id="Scale" type="float" value="1" />
+									<attribute id="Position" type="fvec3" value="-0.2225266 0.169686 -0.3119164" />
+									<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+								</node>
+								<node id="ConstellationConfigGlobalParams" />
+								<node id="ConstellationConnections">
+									<children>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="5769378f-4e29-4b84-e8a6-8236253c5467" />
+											<attribute id="OutputSocketExt" type="FixedString" value="Destroyed" />
+											<attribute id="InputEntityUUID" type="guid" value="0adcceb4-467f-485c-40b1-ea38a74ebbd5" />
+											<attribute id="InputSocketExt" type="FixedString" value="Drop" />
+										</node>
+									</children>
+								</node>
+								<node id="ConnectedObjects">
+									<children>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="5769378f-4e29-4b84-e8a6-8236253c5467" />
+										</node>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="0adcceb4-467f-485c-40b1-ea38a74ebbd5" />
+										</node>
+									</children>
+								</node>
+								<node id="Items">
+									<children>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="5769378f-4e29-4b84-e8a6-8236253c5467" />
+											<attribute id="RootTemplateId" type="guid" value="769e6ae6-0cdb-4e4b-06ab-c110beb88fad" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="Destructible" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="0.1132507 2.011236 0.1589088" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams" />
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="0adcceb4-467f-485c-40b1-ea38a74ebbd5" />
+											<attribute id="RootTemplateId" type="guid" value="d1f8599e-e3c9-49ec-a3b8-63c5afa0bb59" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="Drop_HangingBowls" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="0.1092682 1.936211 0.1530037" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams" />
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="RootConfigs">
+							<children>
+								<node id="RootConfig">
+									<attribute id="Object" type="guid" value="79adc6b9-e228-48ff-d990-38b7cad860b0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

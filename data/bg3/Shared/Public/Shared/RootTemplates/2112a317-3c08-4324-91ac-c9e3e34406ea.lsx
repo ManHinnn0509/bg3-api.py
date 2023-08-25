@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="305" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2112a317-3c08-4324-91ac-c9e3e34406ea" />
+					<attribute id="Name" type="LSString" value="NAT_CursedLand_Vine_Set_Wall_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b7ce7d07-ea86-413e-9538-2e7bffe35f60" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="524a4b79-1b30-f240-b283-1a6cebe42ed9" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="4e433c3f-9627-ab25-5d82-fe725bb28075" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbc5443e1g08e9g415cgb8e6g125c9a106d2c" version="3" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_HAG_Vinecage_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableAttackableObject" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.129177 -0.5700474 -0.7430384" />
+									<attribute id="Max" type="fvec3" value="2.144455 5.850667 0.5840924" />
+									<attribute id="Radius" type="float" value="0.5652892" />
+									<attribute id="Height" type="float" value="1.211214" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-4.258353 -0.5700474 -1.486077" />
+									<attribute id="Max" type="fvec3" value="4.288911 5.850667 1.168185" />
+									<attribute id="Radius" type="float" value="1.130578" />
+									<attribute id="Height" type="float" value="1.211214" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-4.258353 -0.5700474 -1.486077" />
+									<attribute id="Max" type="fvec3" value="4.288911 5.850667 1.168185" />
+									<attribute id="Radius" type="float" value="1.130578" />
+									<attribute id="Height" type="float" value="1.211214" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DEN_LOCKDOWN_VINE_C" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

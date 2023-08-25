@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="2" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8788b8fd-01a3-4852-ba76-3ff651f8983f" />
+					<attribute id="Name" type="LSString" value="GRN_GreenSporesPouch_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e5f1e8b-102a-4105-9d81-2220648814e9" />
+					<attribute id="VisualTemplate" type="FixedString" value="019b7e60-1064-3336-e72f-0c2db39156c0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="014b3e4f-19cb-b7ce-f778-1d03c9cb1c73" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc1db54bfg2355g4dd5g9148g3d666681e519" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_GRN_GreenSporesPouch_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_FireBottle" />
+					<attribute id="DropSound" type="FixedString" value="299dcdc3-c9c9-5ba3-2e87-60800daf6ef6" />
+					<attribute id="PickupSound" type="FixedString" value="c07d7d7b-78c1-3173-4250-df729da5276a" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1175828 3.993511E-05 -0.1122763" />
+									<attribute id="Max" type="fvec3" value="0.1195795 0.2645059 0.1122763" />
+									<attribute id="Radius" type="float" value="0.1157478" />
+									<attribute id="Height" type="float" value="0.4142511" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1175828 3.993511E-05 -0.1122763" />
+									<attribute id="Max" type="fvec3" value="0.1195795 0.2645059 0.1122763" />
+									<attribute id="Radius" type="float" value="0.1838912" />
+									<attribute id="Height" type="float" value="0.5428302" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1175828 3.993511E-05 -0.1122763" />
+									<attribute id="Max" type="fvec3" value="0.1195795 0.2645059 0.1122763" />
+									<attribute id="Radius" type="float" value="0.1838912" />
+									<attribute id="Height" type="float" value="0.5428302" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceSporeGreenCloud" />
+											<attribute id="LifeTime" type="float" value="2" />
+											<attribute id="Radius" type="float" value="2" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

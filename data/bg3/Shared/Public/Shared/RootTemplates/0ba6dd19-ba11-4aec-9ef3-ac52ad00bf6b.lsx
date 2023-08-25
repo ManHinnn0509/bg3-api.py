@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="306" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0ba6dd19-ba11-4aec-9ef3-ac52ad00bf6b" />
+					<attribute id="Name" type="LSString" value="BLD_Goblins_Scaffolding_Wood_Boulder_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c51fdd74-6ee1-45b3-85ce-d42f10f9f183" />
+					<attribute id="VisualTemplate" type="FixedString" value="419b309b-6336-8182-b3d8-c87b8e221aa6" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f0841938-774d-598a-9f4c-92fb9e1cf0fd" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9976154cg324bg4e8bg96d2g2c911f18f0de" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_Village_House_Door_A_Wood_Scenery_B" />
+					<attribute id="ImpactSound" type="FixedString" value="d44f2631-ebea-49ff-79ba-415636e0270a" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.872717 -3.081992 -1.566846" />
+									<attribute id="Max" type="fvec3" value="1.444219 0.7728677 2.232231" />
+									<attribute id="Radius" type="float" value="0.9037639" />
+									<attribute id="Height" type="float" value="0.4356917" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.872717 -3.081992 -1.566846" />
+									<attribute id="Max" type="fvec3" value="1.444219 0.7728677 2.232231" />
+									<attribute id="Radius" type="float" value="1.807528" />
+									<attribute id="Height" type="float" value="0.4356917" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.872717 -3.081992 -1.566846" />
+									<attribute id="Max" type="fvec3" value="1.444218 0.7728672 2.232231" />
+									<attribute id="Radius" type="float" value="1.807528" />
+									<attribute id="Height" type="float" value="0.4356917" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ba2fa3dc-0376-413d-9a2a-e427df9c3adf" />
+					<attribute id="Name" type="LSString" value="DEC_GEN_DemoSign_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="11aa8cc6-5be0-a9e4-bb20-39e18128e110" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9052e8f7-9192-7115-8bd7-e42b881c7db0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="had809f01gc083g40e9gb063g1adedf7a36bd" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GEN_RoadSign_Wood_A" />
+					<attribute id="Description" type="TranslatedString" handle="h6db806fbg1402g4a55g997dg34043ca534dc" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.447103 0 -0.0435364" />
+									<attribute id="Max" type="fvec3" value="0.456769 1.9642 0.0423908" />
+									<attribute id="Radius" type="float" value="0.540975" />
+									<attribute id="Height" type="float" value="1.9642" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.447103 0 -0.0435364" />
+									<attribute id="Max" type="fvec3" value="0.456769 1.9642 0.0423908" />
+									<attribute id="Radius" type="float" value="0.540975" />
+									<attribute id="Height" type="float" value="1.9642" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2235515 0 -0.0217682" />
+									<attribute id="Max" type="fvec3" value="0.2283845 1.9642 0.0211954" />
+									<attribute id="Radius" type="float" value="0.2704875" />
+									<attribute id="Height" type="float" value="1.9642" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

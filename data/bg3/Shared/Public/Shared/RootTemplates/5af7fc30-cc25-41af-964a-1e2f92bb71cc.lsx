@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="305" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5af7fc30-cc25-41af-964a-1e2f92bb71cc" />
+					<attribute id="Name" type="LSString" value="DOOR_Druid_Secret_Sliding_Stone_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="844496bf-171a-4514-9f2a-45a4c8ea57ba" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="8a54c4c4-c09c-7879-bf3c-e03735fc328c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3e08b1b1-8d24-1c92-50bd-edc42b53963c" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbe25b264g5db2g4bc5ga1b6g1a06342f0a7f" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="b451184e-bb49-450e-779e-2dd8200ee7a5" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-3.093423 -0.4978962 -0.5912904" />
+									<attribute id="Max" type="fvec3" value="3.106572 5.408125 0.5912906" />
+									<attribute id="Radius" type="float" value="2.060412" />
+									<attribute id="Height" type="float" value="6.322435" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-3.093423 -0.4978962 -0.5912904" />
+									<attribute id="Max" type="fvec3" value="3.106572 5.408125 0.5912906" />
+									<attribute id="Radius" type="float" value="2.060412" />
+									<attribute id="Height" type="float" value="6.322435" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.546711 -0.4978962 -0.2956452" />
+									<attribute id="Max" type="fvec3" value="1.553286 5.408125 0.2956453" />
+									<attribute id="Radius" type="float" value="1.030206" />
+									<attribute id="Height" type="float" value="6.322435" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="9" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SecretDoor" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

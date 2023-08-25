@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="212ca846-4766-4370-8847-454e59751598" />
+					<attribute id="Name" type="LSString" value="CONS_Oil_Of_The_Basilisk" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cdd2941e-aef8-4cc6-a58b-ccb1d73060e8" />
+					<attribute id="VisualTemplate" type="FixedString" value="3720b8d6-55cb-332e-2f9e-7542569a0587" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a75a8374-b616-e38f-12b9-629d6a9bc898" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9ff676fagc7f6g4c6fg8483gc4b37acacde2" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Oil_Of_The_Basilisk" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Oil_Of_The_Basilisk" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="hd32c8648gc96eg4ea0g987eg15213bc01bf2" version="1" />
+					<attribute id="maxStackAmount" type="int32" value="20" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="299dcdc3-c9c9-5ba3-2e87-60800daf6ef6" />
+					<attribute id="DropSound" type="FixedString" value="299dcdc3-c9c9-5ba3-2e87-60800daf6ef6" />
+					<attribute id="PickupSound" type="FixedString" value="c07d7d7b-78c1-3173-4250-df729da5276a" />
+					<attribute id="Description" type="TranslatedString" handle="h8681c7f2g7fd7g4ec8g82c9g70c95544e862" version="2" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="ShowAttachedSpellDescriptions" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="4d79b277-97f0-4227-80a7-147a98fbfc27" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1274766 -0.004336417 -0.2828192" />
+									<attribute id="Max" type="fvec3" value="0.1133551 0.560785 0.1781298" />
+									<attribute id="Radius" type="float" value="0.2304745" />
+									<attribute id="Height" type="float" value="0.5651214" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1274766 -0.004336417 -0.2828192" />
+									<attribute id="Max" type="fvec3" value="0.1133551 0.560785 0.1781298" />
+									<attribute id="Radius" type="float" value="0.2304745" />
+									<attribute id="Height" type="float" value="0.5651214" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Target_Oil_Of_The_Basilisk" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="a557ab71-77f3-4b0c-8174-f605e51c90c7" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LifeTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ProjectileSpell" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Potion_Destroy_Oil_Of_The_Basilisk" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

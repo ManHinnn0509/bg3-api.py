@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="fef0dda1-1d06-45b5-a302-a31e545b8ede" />
+					<attribute id="Name" type="LSString" value="UNI_ARM_OfTeleportation_Helm" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4d2e0931-3a01-4759-834b-8ae36749daab" />
+					<attribute id="VisualTemplate" type="FixedString" value="95e5d086-a8bc-1f03-8bf2-59fa40d4ac6d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7e0e38d5-8e9c-1ef0-b661-8b174409f413" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h875b2871gb17bg4d2fgad62gd99b25161886" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_ARM_HelmOfTeleportation" />
+					<attribute id="Stats" type="FixedString" value="UNI_ARM_OfTeleportation_Helm" />
+					<attribute id="Description" type="TranslatedString" handle="h8c4cab93g1814g40d5g9ec4g8d41f94791ee" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-1db0-0b4ead20f135" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-69bc-f9659632c866" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3a2a0952-5919-9d1d-3b8a-9b596caa4ca0" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9ef46654-1075-b06b-0e16-2e21a893fca0" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="01300e6b-047e-f991-5ea2-47562de560d2" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-9bb3-f38b0fa1548b" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f709a714-114e-24ea-de19-2ca2f115f6c6" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="6503c830-9200-409a-26bd-578958384a7a" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3a2a0952-5919-9d1d-3b8a-9b596caa4ca0" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-aa86-0409c619a524" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9ef46654-1075-b06b-0e16-2e21a893fca0" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="f07faafa-0c6f-4f79-49a0-e970236b1bd5" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="3e3595f9-27af-4033-8e67-5f2a4da7cbec" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-00ac-8eb0a513fab0" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="6a00cce0-4b9d-26e9-7bf7-4bf8783dc1b4" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="abf674d2-2ea4-4a74-e0ad-5412f629839f" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="6b7f5c3f-f7be-3442-f0c1-374445c840b4" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b4a34ce7-41be-44d9-8684-8f9347e14921" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="5f310e82-9cd8-cdbf-fd78-f9d09afed5e5" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="a933e2a8-aee1-4ecb-d280-478f06b724f0" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ac8cd9f5-e143-26ae-e4a7-50682ba34a4b" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="8f00cf38-4588-433a-7581-cd8af3bb333f" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f7bf9ad1-4304-6aa2-4287-1c6f875e0240" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="5640e766-aa53-428d-5b81-0b6af94eca5a" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="368c0167-b195-6baf-c80a-847d8ef56e36" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="c491d027-4332-4fda-8f94-3d4a77f6aa2b" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="a6a0becc-838e-f36a-1d46-3198518f8fd9" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-c5ba-15ff6e699764" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e1e1055b-8f17-0158-44b6-5d40d018ee73" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="eb81b1de-985e-4e3a-7385-17571fdc5ca1" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f709a714-114e-24ea-de19-2ca2f115f6c6" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="6dd3db4f-e2db-4097-2eb8-f312f9792e4c" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="01300e6b-047e-f991-5ea2-47562de560d2" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Headwear" />
+								</node>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Hair" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="6503c830-9200-409a-26bd-578958384a7a" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="cf421f4e-107b-4ae6-aa86-0409c619a524" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="f07faafa-0c6f-4f79-49a0-e970236b1bd5" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="06aaae02-bb9e-4fa3-00ac-8eb0a513fab0" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="9a8bbeba-850c-402f-c5ba-15ff6e699764" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="6d38f246-15cb-48b5-859b-8037a7168ea7" />
+											<attribute id="MapValue" type="guid" value="9a8bbeba-850c-402f-c5ba-15ff6e699764" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="eb81b1de-985e-4e3a-7385-17571fdc5ca1" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="6dd3db4f-e2db-4097-2eb8-f312f9792e4c" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

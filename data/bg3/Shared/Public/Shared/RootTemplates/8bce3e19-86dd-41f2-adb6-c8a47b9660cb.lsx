@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8bce3e19-86dd-41f2-adb6-c8a47b9660cb" />
+					<attribute id="Name" type="LSString" value="CONT_GEN_Burlap_Sack_F" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ad3f4f70-9184-49be-9fbb-94a83ef66b77" />
+					<attribute id="ReadinessFlags" type="uint32" value="152" />
+					<attribute id="GroupID" type="uint32" value="47082" />
+					<attribute id="VisualTemplate" type="FixedString" value="1845cf55-1c81-953e-6bb9-9f1389a8063a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2a5a7941-47a7-b141-51a5-c45b47a8f05d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h501678a3gcd8cg4c53g9614g38e8166b9005" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Burlap_Sack_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Sack" />
+					<attribute id="InventoryType" type="uint8" value="5" />
+					<attribute id="Description" type="TranslatedString" handle="h54e8bb56g9fd5g42fbgaae3gea1e8e71e5fc" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4195449 -0.02406092 -0.318311" />
+									<attribute id="Max" type="fvec3" value="0.2683522 0.2481928 0.3014145" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4195449 -0.02406092 -0.318311" />
+									<attribute id="Max" type="fvec3" value="0.2683522 0.2481928 0.3014145" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4195449 -0.0240609 -0.318311" />
+									<attribute id="Max" type="fvec3" value="0.2683522 0.2481928 0.3014145" />
+									<attribute id="Radius" type="float" value="0.2540385" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="bb770282-adb0-1258-554f-429b03338448" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="a6e8b579-303b-4b64-a7dd-daa8a2c915e4" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="a9916e96-61d4-d836-0f12-7a05a48aab1c" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="GEN_BulrapSack" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

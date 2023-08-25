@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e26c6fb1-f615-4b14-8d2f-9de0b574326b" />
+					<attribute id="Name" type="LSString" value="Goblins_Female_Guard_Ranger" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="844e3c99-ea7e-4a49-8dcd-691c8c050b41" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdc55f0b4gf400g4dccg8f90g899af5db53ab" version="1" />
+					<attribute id="Icon" type="FixedString" value="ebad5850-ddf4-0a35-0205-c62e0d8534a9-EQP_Goblin_Shortbow_(Icon_Goblin_Female)" />
+					<attribute id="Stats" type="FixedString" value="Goblin_Ranger" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Goblin_Shortbow" />
+					<attribute id="LevelOverride" type="int32" value="1" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="ebad5850-ddf4-0a35-0205-c62e0d8534a9" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultCombat" />
+					<attribute id="Archetype" type="FixedString" value="goblin_ranged" />
+					<attribute id="AiHint" type="guid" value="3cae4ff5-e9c0-485b-95b6-83f8610981a7" />
+					<children>
+						<node id="GameMaster" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Shout_Disengage_Goblin" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

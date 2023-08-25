@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="601" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="231afb29-b79c-4efd-af23-2e433dea313d" />
+					<attribute id="Name" type="LSString" value="DEC_Dungeon_Skeleton_Skull_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f1488e77-adf0-486e-a8d3-aaca640611c3" />
+					<attribute id="ReadinessFlags" type="uint32" value="384" />
+					<attribute id="VisualTemplate" type="FixedString" value="4f7336b7-d21e-4394-af2b-fb37cdea0fc0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a0560a0e-b155-f5bd-8238-ce9f96152267" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7282f4efg2f08g4175g997eg8b49f5cebcd1" version="1" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_Dungeon_Skeleton_Skull_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Skull" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="fbd0b309-df4a-05c2-0b23-66e45f22a5e8" />
+					<attribute id="DropSound" type="FixedString" value="fbd0b309-df4a-05c2-0b23-66e45f22a5e8" />
+					<attribute id="PickupSound" type="FixedString" value="f4a8e400-c202-1d9c-1260-00314d8e9170" />
+					<attribute id="Description" type="TranslatedString" handle="h2e2126e0g604fg43b1gbfc0gd5db7ff88fa2" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="4ab2ef8c-8766-45bb-bbb3-ccca86828958" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.109109 -0.0024786 -0.152505" />
+									<attribute id="Max" type="fvec3" value="0.109109 0.26409 0.184278" />
+									<attribute id="Radius" type="float" value="0.162852" />
+									<attribute id="Height" type="float" value="0.304843" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.109109 -0.0024786 -0.152505" />
+									<attribute id="Max" type="fvec3" value="0.109109 0.26409 0.184278" />
+									<attribute id="Radius" type="float" value="0.162852" />
+									<attribute id="Height" type="float" value="0.304843" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0545545 -0.0024786 -0.0762525" />
+									<attribute id="Max" type="fvec3" value="0.0545545 0.26409 0.092139" />
+									<attribute id="Radius" type="float" value="0.081426" />
+									<attribute id="Height" type="float" value="0.304843" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

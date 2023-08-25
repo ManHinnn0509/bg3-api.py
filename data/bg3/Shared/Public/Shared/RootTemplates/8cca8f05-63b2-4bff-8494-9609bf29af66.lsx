@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="206" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8cca8f05-63b2-4bff-8494-9609bf29af66" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_Cheese_Cheddar_Wheel_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ec6b7184-cceb-4f06-b231-0eec0b94d889" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="5fb5c578-4036-537c-80da-9cd8fdc36b06" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="64be2f66-9a3d-b728-adb2-61a052048b13" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h19b35c40gf31bg45acg9432g7e768d3f1f71" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Cheese_A" />
+					<attribute id="Stats" type="FixedString" value="CONS_FOOD_Cheese" />
+					<attribute id="Description" type="TranslatedString" handle="hf1a6795bgb2eag43d8ga03cg41e1833ab691" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="8d0976b4-1019-4095-f6ad-f1606c21dcb2" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2806005 -0.003395423 -0.2807767" />
+									<attribute id="Max" type="fvec3" value="0.2806005 0.1748635 0.2807767" />
+									<attribute id="Radius" type="float" value="0.421622" />
+									<attribute id="Height" type="float" value="0.449144" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2806005 -0.003395423 -0.2807767" />
+									<attribute id="Max" type="fvec3" value="0.2806005 0.1748635 0.2807767" />
+									<attribute id="Radius" type="float" value="0.421622" />
+									<attribute id="Height" type="float" value="0.449144" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2806005 -0.003395423 -0.2807767" />
+									<attribute id="Max" type="fvec3" value="0.2806005 0.1748635 0.2807767" />
+									<attribute id="Radius" type="float" value="0.210811" />
+									<attribute id="Height" type="float" value="0.449144" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h34f6858cg04e7g4349g9898g96faa399593b" version="1" />
+						</node>
+						<node id="OnUsePeaceActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

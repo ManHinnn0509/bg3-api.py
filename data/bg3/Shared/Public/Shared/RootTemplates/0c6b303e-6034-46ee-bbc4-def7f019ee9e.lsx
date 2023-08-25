@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0c6b303e-6034-46ee-bbc4-def7f019ee9e" />
+					<attribute id="Name" type="LSString" value="DEC_GEN_StuffedBear_Standing_A_Destruct" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c51fdd74-6ee1-45b3-85ce-d42f10f9f183" />
+					<attribute id="VisualTemplate" type="FixedString" value="f1235b55-b9fc-a880-fe44-d2da3861e91a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5a429122-38cb-93f0-00da-f2651008606b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h634f2792g247fg4a23g9cffg9f848f655b1d" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_GEN_Wood_Plank" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="Description" type="TranslatedString" handle="hca5d2f74g39d3g4082ga506g66b09117a667" version="1" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.055241 0.001765817 -1.055241" />
+									<attribute id="Max" type="fvec3" value="1.055241 0.1753066 1.055241" />
+									<attribute id="Radius" type="float" value="1.055241" />
+									<attribute id="Height" type="float" value="0.1735407" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.055241 0.001765817 -1.055241" />
+									<attribute id="Max" type="fvec3" value="1.055241 0.1753066 1.055241" />
+									<attribute id="Radius" type="float" value="1.055241" />
+									<attribute id="Height" type="float" value="0.1735407" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.055241 0.001765817 -1.055241" />
+									<attribute id="Max" type="fvec3" value="1.055241 0.1753066 1.055241" />
+									<attribute id="Radius" type="float" value="1.055241" />
+									<attribute id="Height" type="float" value="0.1735407" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

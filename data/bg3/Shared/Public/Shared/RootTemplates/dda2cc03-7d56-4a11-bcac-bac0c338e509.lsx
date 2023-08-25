@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="47" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="dda2cc03-7d56-4a11-bcac-bac0c338e509" />
+					<attribute id="Name" type="LSString" value="Gnoll_Ranger_02" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5c239de6-e94e-4319-bed7-c8e338b1483d" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="Icon" type="FixedString" value="4054b71c-ba10-0321-b0a1-b260ebfeffce-EQP_Gnoll_Bow_(Icon_Gnoll)" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4054b71c-ba10-0321-b0a1-b260ebfeffce" />
+					<children>
+						<node id="GameMaster" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="1c4397dc-335b-f412-0655-498b3643f0f7" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

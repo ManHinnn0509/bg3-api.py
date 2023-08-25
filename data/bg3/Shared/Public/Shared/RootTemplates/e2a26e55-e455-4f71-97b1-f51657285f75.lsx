@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="48" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e2a26e55-e455-4f71-97b1-f51657285f75" />
+					<attribute id="Name" type="LSString" value="REF_PUZ_Gaspit_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="09f82940-9d01-dcd4-9236-cd01f76cf54a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c3413660-9e64-c023-3a01-f2533834ab65" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdbcc33b3g5daeg49bcgab5cg5b66f511c536" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="c39d6f8f-646e-485c-3f8d-1cdf5aeb87fb" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="c8f0beb0-9052-4546-998b-ac710d11a4b3" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3145916 3.72529E-09 -0.3050795" />
+									<attribute id="Max" type="fvec3" value="0.3145916 0.1161652 0.3050795" />
+									<attribute id="Radius" type="float" value="0.223795" />
+									<attribute id="Height" type="float" value="0.05" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3145916 3.72529E-09 -0.3050795" />
+									<attribute id="Max" type="fvec3" value="0.3145916 0.1161652 0.3050795" />
+									<attribute id="Radius" type="float" value="0.223795" />
+									<attribute id="Height" type="float" value="0.05" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1572958 3.72529E-09 -0.1525398" />
+									<attribute id="Max" type="fvec3" value="0.1572958 0.1161652 0.1525398" />
+									<attribute id="Radius" type="float" value="0.1118975" />
+									<attribute id="Height" type="float" value="0.05" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="49a54114-f505-4577-9044-df11bf02dd64" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="Active" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="1" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="AllowSingleIgnite" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="DialogKey" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GasRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="6" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GasType" />
+													<attribute id="Type" type="int32" value="10" />
+													<attribute id="Value" type="LSString" value="SurfacePoison" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="MaxWeight" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="50" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="OffEvent" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="0xbaadf00d" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="OnEvent" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="0xbaadf00d" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="SurfaceCheck" />
+													<attribute id="Type" type="int32" value="10" />
+													<attribute id="Value" type="LSString" value="SurfaceBlood" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="68f5f134-8507-4b42-812b-cc444732141f" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="DC" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="8" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="IsTrap" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="MinDistance" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="3" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="RevealOnlyInTrigger" />
+													<attribute id="Type" type="int32" value="7" />
+													<attribute id="Value" type="LSString" value="0xbaadf00d" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="87296e2e-2310-460f-8c91-9d12e89515ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

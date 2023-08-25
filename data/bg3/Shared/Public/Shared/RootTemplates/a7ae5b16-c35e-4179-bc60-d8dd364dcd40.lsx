@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="327" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a7ae5b16-c35e-4179-bc60-d8dd364dcd40" />
+					<attribute id="Name" type="LSString" value="BLD_GEN_Arcane_Turret_A_Floating_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fdb339cb-8608-4959-ba0f-05b65fbc53d2" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="90115f3c-0403-bbdf-3067-63f49d855fa4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h27455d10gc4c5g4cb9gaa14g4af61db02355" version="1" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Creature_ArcaneTurret" />
+					<attribute id="Stats" type="FixedString" value="UND_ArcaneTurret" />
+					<attribute id="LightID" type="FixedString" value="acaa8736-1cee-4eb6-bc38-dbb4d98048e8" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="031c7751-ba95-5c36-a9db-cbe0deafb5f2" />
+					<attribute id="InventoryType" type="uint8" value="41" />
+					<attribute id="GeneratePortrait" type="LSString" value="" />
+					<attribute id="Faction" type="guid" value="ec2b20f5-06de-48af-24ac-6600c4e16ad5" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="fe2e65d3-a8de-45bf-72a3-39c3ecad9e66" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="6323b0ce-dab3-6e85-bebc-301aceb84602" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="4ddf2cdf-7ee2-1248-3780-0c36ee5e21b3" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="17d6a1c8-e453-fbda-5769-38f4d950a50a" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

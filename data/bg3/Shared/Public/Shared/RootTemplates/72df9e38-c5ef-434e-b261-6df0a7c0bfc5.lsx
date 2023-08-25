@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="600" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="72df9e38-c5ef-434e-b261-6df0a7c0bfc5" />
+					<attribute id="Name" type="LSString" value="LOOT_Alchemy_Myconid_Grenade_Positive_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e5f1e8b-102a-4105-9d81-2220648814e9" />
+					<attribute id="VisualTemplate" type="FixedString" value="d5c69f51-212a-dc2e-e1cc-d09acec0bcb2" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="cf4bed1e-efa5-0f65-4782-b6697054bdf0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5794fedcg8df9g4a05ga38ag0844a8818868" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Myconid_Grenade_Positive" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="110287af-83cf-42c1-de9c-f8b231cc7f6d" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09683081 -0.004107833 -0.09125234" />
+									<attribute id="Max" type="fvec3" value="0.1084957 0.2006035 0.09125237" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09683081 -0.004107833 -0.09125234" />
+									<attribute id="Max" type="fvec3" value="0.1084957 0.2006035 0.09125237" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09683081 -0.004107833 -0.09125234" />
+									<attribute id="Max" type="fvec3" value="0.1084957 0.2006035 0.09125237" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="ShortHair" />
+								<node id="ShortHair" />
+								<node id="ShortHair" />
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="LongHair" />
+								<node id="LongHair" />
+								<node id="LongHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

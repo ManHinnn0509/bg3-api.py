@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="314" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="da04055d-7830-4232-a179-0055d465522d" />
+					<attribute id="Name" type="LSString" value="BLD_Dungeon_Temple_Stairs_Spiral_3H_B_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ac5fdc03-184b-48f9-8cd5-ac0d61b74ca1" />
+					<attribute id="VisualTemplate" type="FixedString" value="f83aea8c-7091-474e-fb4a-8b77be91d158" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="50a5dc2a-e189-e7d9-417a-914a9f421fb9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcacd46e3g394cg446egaf11gcda6ae1b8b39" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_GEN_Staircase_Stone" />
+					<attribute id="IsPublicDomain" type="bool" value="True" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="3" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Source" type="FixedString" value="" />
+											<attribute id="SourceType" type="int32" value="2" />
+											<attribute id="Target" type="FixedString" value="" />
+											<attribute id="Type" type="int32" value="2" />
+											<attribute id="EventID" type="FixedString" value="" />
+											<attribute id="AiUseInCombat" type="bool" value="False" />
+											<attribute id="BlockMapMarkerNavigation" type="bool" value="False" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="Visibility" type="int32" value="2" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

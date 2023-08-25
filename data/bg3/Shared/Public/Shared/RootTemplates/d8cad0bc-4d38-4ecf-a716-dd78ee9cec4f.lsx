@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="2" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d8cad0bc-4d38-4ecf-a716-dd78ee9cec4f" />
+					<attribute id="Name" type="LSString" value="DEC_MF_Brain_Jar_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="a9f5deaf-a608-d426-1c2d-bb0ecef49e7a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2bfb76e5-1468-877a-a435-6b8cbe22ed47" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd4d15af8g5db5g416dga633gc73be9e21389" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="92182f4d-e6e8-1022-0ee2-8df5446bf303" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_MF_Brain_Jar_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BrainJar" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="aec80812-19f9-dd4a-f9e9-0492d9d1c1ed" />
+					<attribute id="DropSound" type="FixedString" value="aec80812-19f9-dd4a-f9e9-0492d9d1c1ed" />
+					<attribute id="PickupSound" type="FixedString" value="8d9e485f-aa2c-cd32-a4a3-4b18178c1891" />
+					<attribute id="Description" type="TranslatedString" handle="h1a612bb3g130bg4171g8ccagbab448ac834a" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.432114 -0.0005611181 -0.4370934" />
+									<attribute id="Max" type="fvec3" value="0.432114 1.771103 0.4370934" />
+									<attribute id="Radius" type="float" value="0.4370934" />
+									<attribute id="Height" type="float" value="1.771664" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.432114 -0.0005611181 -0.4370934" />
+									<attribute id="Max" type="fvec3" value="0.432114 1.771103 0.4370934" />
+									<attribute id="Radius" type="float" value="0.4370934" />
+									<attribute id="Height" type="float" value="1.771664" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.432114 -0.0005611181 -0.4370934" />
+									<attribute id="Max" type="fvec3" value="0.432114 1.771103 0.4370934" />
+									<attribute id="Radius" type="float" value="0.4370934" />
+									<attribute id="Height" type="float" value="1.771664" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="0f91c537-eab7-70d1-4eeb-65e8cae20e16" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="c76fc788-cbd6-542a-f962-62f27b144adc" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="877d241b-fbcf-1c2c-b957-1a02e106f9f2" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="936d0c40-bf2e-4c5a-8f74-39f3bcaa6cca" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceCausticBrine" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="Radius" type="float" value="2" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

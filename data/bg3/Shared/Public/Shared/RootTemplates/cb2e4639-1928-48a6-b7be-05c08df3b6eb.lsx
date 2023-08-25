@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="600" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="cb2e4639-1928-48a6-b7be-05c08df3b6eb" />
+					<attribute id="Name" type="LSString" value="LOOT_Alchemy_Myconid_Grenade_Fire_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e5f1e8b-102a-4105-9d81-2220648814e9" />
+					<attribute id="VisualTemplate" type="FixedString" value="196cbce4-507a-f327-1e91-048dac08fd7a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a38b8506-3768-20cc-7300-89da6d9a4e9a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb8e179a6g77bfg46c1gbe76g4007e095dcef" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Myconid_Grenade_Fire" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="110287af-83cf-42c1-de9c-f8b231cc7f6d" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1482422 -0.0001135319 -0.110377" />
+									<attribute id="Max" type="fvec3" value="0.1493318 0.2225375 0.110377" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1482422 -0.0001135319 -0.110377" />
+									<attribute id="Max" type="fvec3" value="0.1493318 0.2225375 0.110377" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1482422 -0.0001135319 -0.110377" />
+									<attribute id="Max" type="fvec3" value="0.1493318 0.2225375 0.110377" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="ShortHair" />
+								<node id="ShortHair" />
+								<node id="ShortHair" />
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="LongHair" />
+								<node id="LongHair" />
+								<node id="LongHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

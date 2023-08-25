@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="870caf9b-f767-4264-9d0a-2c3a88dc0565" />
+					<attribute id="Name" type="LSString" value="CONS_Drink_Wine_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2ca79447-a79b-41a0-abab-085c2aeedf3e" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="b2906c5a-ca69-4ad1-ab7e-a45fb064e745" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5e00982c-e653-4294-89ef-411ae07af914" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0af10d70gfc92g4458g890ege3d35278ffe5" version="1" />
+					<attribute id="Icon" type="FixedString" value="Items_CONS_Drink_Wine_B" />
+					<attribute id="Stats" type="FixedString" value="CONS_Drink_Wine_B" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="820221fa-5b87-7b87-3487-57ad0259f358" />
+					<attribute id="DropSound" type="FixedString" value="820221fa-5b87-7b87-3487-57ad0259f358" />
+					<attribute id="PickupSound" type="FixedString" value="97565df5-52e7-3d7e-17be-be9ac825d061" />
+					<attribute id="UseSound" type="FixedString" value="ba3a74f8-c087-3b5a-870c-d62c4c3367bb" />
+					<attribute id="Description" type="TranslatedString" handle="hc789903fg243fg4d43g911eg448c4d35ce0e" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0982076 -0.00554287 -0.093401" />
+									<attribute id="Max" type="fvec3" value="0.0982076 0.494118 0.093401" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0982076 -0.00554287 -0.093401" />
+									<attribute id="Max" type="fvec3" value="0.0982076 0.494118 0.093401" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0982076 -0.00554287 -0.093401" />
+									<attribute id="Max" type="fvec3" value="0.0982076 0.494118 0.093401" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceAlcohol" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="Radius" type="float" value="2" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="8b16a1d3-026d-5bfe-e9e6-d87b875fbf59" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

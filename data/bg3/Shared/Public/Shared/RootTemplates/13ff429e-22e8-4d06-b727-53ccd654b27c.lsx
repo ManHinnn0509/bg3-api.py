@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="204" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="13ff429e-22e8-4d06-b727-53ccd654b27c" />
+					<attribute id="Name" type="LSString" value="LTS_DUN_Candles_C_White" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="34df8770-06c5-4752-a7b6-25d4f64d64dc" />
+					<attribute id="VisualTemplate" type="FixedString" value="7114accc-3647-7ef8-6133-a371c42cd99b" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="DestroyWithStack" type="bool" value="True" />
+					<children>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="2c26d6b2-ebfe-f61d-1772-66f511e202f4" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="d289389c-882d-4695-a8d5-dda2a1351711" />
+											<children>
+												<node id="ScriptOverrides">
+													<children>
+														<node id="ScriptVariables">
+															<children>
+																<node id="Object">
+																	<attribute id="MapKey" type="FixedString" value="BurnEffect" />
+																	<children>
+																		<node id="ScriptVariables">
+																			<attribute id="Value" type="LSString" value="VFX_LightSources_DUN_Candles_C_White_01" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Object">
+																	<attribute id="MapKey" type="FixedString" value="BurnEffectBone" />
+																	<children>
+																		<node id="ScriptVariables">
+																			<attribute id="Value" type="LSString" value="LTS_DUN_Candles_C_Mesh" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

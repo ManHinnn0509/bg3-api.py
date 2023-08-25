@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="1" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6b3926b5-04bb-4ec8-89ff-7ce352be8b3f" />
+					<attribute id="Name" type="LSString" value="DEC_Underdark_WizardTower_Machinery_Pipes_Attachment_A_B_On" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="5dcaf412-3371-1441-73bf-197189eb9a2b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e0d8647b-3cb8-b647-0bdd-da9189b89caf" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd9aab9acgdcf2g4d63gaffegcdcd757e2ec8" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_Underdark_WizardTower_Machinery_B" />
+					<attribute id="Stats" type="FixedString" value="UND_ArcanePowerGenerator" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="FreezeGravity" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.302032 -0.3210399 -1.266254" />
+									<attribute id="Max" type="fvec3" value="0.302029 2.182143 -0.204656" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.302032 -0.3210399 -1.266254" />
+									<attribute id="Max" type="fvec3" value="0.302029 2.182143 -0.204656" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.302032 -0.3210399 -1.266254" />
+									<attribute id="Max" type="fvec3" value="0.302029 2.182143 -0.204656" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="86ed56d6-9cdf-4d35-84bd-057849f02d8d" />
+					<attribute id="Name" type="LSString" value="DEC_GTY_Eggs_Fetus_A_Shell_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="44c954ba-6fda-46fd-9606-57419f4a82ba" />
+					<attribute id="VisualTemplate" type="FixedString" value="5ec27722-98f9-2c6c-2c3f-d8ed70505a07" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d2b4852c-7608-debc-0dc1-ec1f9929f9da" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbb0c9afegce50g4e07gbdf3g89f29f152e10" version="1" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_GTY_Eggs_Fetus_A_Shell_A" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1982876 -0.00355494 -0.1930467" />
+									<attribute id="Max" type="fvec3" value="0.1979524 0.5344645 0.1916591" />
+									<attribute id="Radius" type="float" value="0.07869343" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1982876 -0.00355494 -0.1930467" />
+									<attribute id="Max" type="fvec3" value="0.1979524 0.5344645 0.1916591" />
+									<attribute id="Radius" type="float" value="0.07869343" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1982876 -0.00355494 -0.1930467" />
+									<attribute id="Max" type="fvec3" value="0.1979524 0.5344645 0.1916591" />
+									<attribute id="Radius" type="float" value="0.03934672" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

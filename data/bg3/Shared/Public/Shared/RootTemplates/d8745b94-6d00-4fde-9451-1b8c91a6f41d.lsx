@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="29" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d8745b94-6d00-4fde-9451-1b8c91a6f41d" />
+					<attribute id="Name" type="LSString" value="CONS_Drink_Bottle_Small_E" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="35bcfb10-ba86-4195-9de5-2d57b4e209f9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="6e1f0d9d-e6d1-7b51-ba46-5cab03775b70" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c5e51f85-cbf2-ec7a-0f26-e5727aa6081e" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdf067533g291ag4da6g8a26g21bd87f088e2" version="1" />
+					<attribute id="Icon" type="FixedString" value="Items_CONS_Drink_Bottle_Small_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Bottle" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="820221fa-5b87-7b87-3487-57ad0259f358" />
+					<attribute id="DropSound" type="FixedString" value="820221fa-5b87-7b87-3487-57ad0259f358" />
+					<attribute id="PickupSound" type="FixedString" value="97565df5-52e7-3d7e-17be-be9ac825d061" />
+					<attribute id="Description" type="TranslatedString" handle="ha5ff7065g6289g4f6dg974ag8f59d1bb604f" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1092528 -0.003767371 -0.1082025" />
+									<attribute id="Max" type="fvec3" value="0.1092528 0.5017869 0.1082034" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1092528 -0.003767371 -0.1082025" />
+									<attribute id="Max" type="fvec3" value="0.1092528 0.5017869 0.1082034" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1092528 -0.003767371 -0.1082025" />
+									<attribute id="Max" type="fvec3" value="0.1092528 0.5017869 0.1082034" />
+									<attribute id="Radius" type="float" value="0.1479361" />
+									<attribute id="Height" type="float" value="0.5055543" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h2fb2e26cgef84g48aag8065g033d23238bb1" version="1" />
+						</node>
+						<node id="OnUsePeaceActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

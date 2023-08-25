@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="305" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e1365f64-b585-4750-b696-6bde2824c015" />
+					<attribute id="Name" type="LSString" value="BLD_Goblins_Bridge_Wood_4W8D_A_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ac5fdc03-184b-48f9-8cd5-ac0d61b74ca1" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="8ebc15be-4a51-4b17-97d0-606ca98a8ec0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ce9fb143-03c6-4634-9982-0dc2ea590ec7" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1bc5cbcbg050eg4cedg99d1gb013167377a0" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_Village_House_Door_A_Wood_Scenery_B" />
+					<attribute id="ImpactSound" type="FixedString" value="d44f2631-ebea-49ff-79ba-415636e0270a" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-4.63824 -1.19985 -2.41088" />
+									<attribute id="Max" type="fvec3" value="4.63824 1.19985 3.02892" />
+									<attribute id="Radius" type="float" value="2.75458" />
+									<attribute id="Height" type="float" value="2.3997" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-4.63824 -1.19985 -2.41088" />
+									<attribute id="Max" type="fvec3" value="4.63824 1.19985 3.02892" />
+									<attribute id="Radius" type="float" value="2.75458" />
+									<attribute id="Height" type="float" value="2.3997" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.31912 -1.19985 -1.20544" />
+									<attribute id="Max" type="fvec3" value="2.31912 1.19985 1.51446" />
+									<attribute id="Radius" type="float" value="1.37729" />
+									<attribute id="Height" type="float" value="2.3997" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="9cf7a2d8-89dd-6137-f89a-6208cbc57932" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

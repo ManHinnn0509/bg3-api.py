@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="313" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="33a11638-1162-4183-beac-2c53e6b74f8d" />
+					<attribute id="Name" type="LSString" value="SurfaceShockwaveCloud" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="Scale" type="float" value="1" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcaf72b59g7cb8g4e13g9c27g3befbaef415d" version="1" />
+					<attribute id="Icon" type="FixedString" value="GenericIcon_DamageType_Thunder" />
+					<attribute id="DecalMaterial" type="FixedString" value="b279a93b-4833-40e6-85ac-75766f22dffc" />
+					<attribute id="MaterialType" type="uint8" value="12" />
+					<attribute id="SurfaceCategory" type="uint8" value="10" />
+					<attribute id="CanEnterCombat" type="bool" value="False" />
+					<attribute id="AlwaysUseDefaultLifeTime" type="bool" value="True" />
+					<attribute id="DefaultLifeTime" type="float" value="1" />
+					<attribute id="SurfaceGrowTimer" type="float" value="0.001" />
+					<attribute id="FadeInSpeed" type="float" value="0.1" />
+					<attribute id="FadeOutSpeed" type="float" value="0.1" />
+					<attribute id="Seed" type="uint32" value="10" />
+					<attribute id="AiPathColor" type="fvec3" value="1 1 0" />
+					<attribute id="Summon" type="FixedString" value="84a171b0-c44d-4689-b8fc-25e32676cd76" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX">
+							<children>
+								<node id="IntroFX">
+									<attribute id="Visual" type="FixedString" value="1eb026bb-3d5f-4c1f-a4a1-3f9e4ba9bb3b" />
+									<attribute id="Height" type="fvec2" value="0 0.1" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="5 8" />
+									<attribute id="GridSize" type="float" value="3" />
+									<attribute id="SpawnCell" type="int32" value="18" />
+									<attribute id="RandomPlacement" type="float" value="0.3" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="IntroFX">
+									<attribute id="Visual" type="FixedString" value="c33b135f-3050-e484-cde4-99c9937705f7" />
+									<attribute id="Height" type="fvec2" value="0 0" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="5 10" />
+									<attribute id="GridSize" type="float" value="3" />
+									<attribute id="SpawnCell" type="int32" value="3" />
+									<attribute id="RandomPlacement" type="float" value="0.3" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+								<node id="IntroFX">
+									<attribute id="Visual" type="FixedString" value="c3534f3a-2439-6f69-8b80-d46a484b5102" />
+									<attribute id="Height" type="fvec2" value="0 0" />
+									<attribute id="Rotation" type="ivec2" value="0 0" />
+									<attribute id="Scale" type="fvec2" value="5 10" />
+									<attribute id="GridSize" type="float" value="3" />
+									<attribute id="SpawnCell" type="int32" value="6" />
+									<attribute id="RandomPlacement" type="float" value="0.3" />
+									<attribute id="SurfaceNeeded" type="float" value="0" />
+									<attribute id="SurfaceRadiusMax" type="float" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="SHOCKWAVE_FORCE" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="0" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="True" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="3" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

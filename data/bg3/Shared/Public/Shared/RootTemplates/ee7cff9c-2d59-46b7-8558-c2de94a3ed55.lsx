@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ee7cff9c-2d59-46b7-8558-c2de94a3ed55" />
+					<attribute id="Name" type="LSString" value="PUZ_SHA_Shadowquake_Item_Boss" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cb76d5b0-3eae-4fa5-af75-9bedd1215368" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1d01012dg95ccg4faeg840agd6ec8e384e6e" version="2" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Shadowquake_Boss" />
+					<attribute id="Stats" type="FixedString" value="SHA_Shadowquake_Item_Boss" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3eebe42c-39ec-4165-709e-81b6b71a13b3" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="b7f73a50-2d02-2a92-f619-57dd825e8e23" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Spells" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Array">
+													<children>
+														<node id="Array">
+															<children>
+																<node id="Object">
+																	<children>
+																		<node id="String">
+																			<attribute id="String" type="LSString" value="Target_SHA_Shadowquake_Summon_Boss" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+														<node id="Array">
+															<children>
+																<node id="Object">
+																	<children>
+																		<node id="String">
+																			<attribute id="String" type="LSString" value="Target_SHA_Shadowquake_Summon_Ranger" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="NumSpellsToCast" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="int32">
+																	<attribute id="int32" type="int32" value="2" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SHA_SHADOWQUAKE_COSMETIC" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SHA_SHADOWQUAKE_OPENING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

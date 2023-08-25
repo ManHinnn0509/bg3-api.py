@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanFight" type="bool" value="True" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9c7aaf2eg8d77g4a74g9a04gd0d115c316d1" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_GEN_Arcane_Turret_A" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2f9f615a-0680-4621-a504-1571f6f1f82e" />
+					<attribute id="Name" type="LSString" value="BLD_GEN_Arcane_Turret_A_Activated_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="75fe4539-2120-4773-b187-98b0f4f9fe59" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="2" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ea200063-ec92-6bd8-5d02-3032532c6fe6" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.5267416 1.639395 0.6097672" />
+									<attribute id="Min" type="fvec3" value="-0.5336826 -0.0009638071 -0.4690189" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.5267416 1.639395 0.6097672" />
+									<attribute id="Min" type="fvec3" value="-0.5336826 -0.0009638071 -0.4690189" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.5267416 1.639395 0.6097672" />
+									<attribute id="Min" type="fvec3" value="-0.5336826 -0.0009638071 -0.4690189" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

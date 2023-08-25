@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="400" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="797213ae-59f7-4743-83d2-bd7b792b15d8" />
+					<attribute id="Name" type="LSString" value="FADE_InvisibleBlocker_4x4_Trapezoid_Sloped_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="scenery" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fbe4dc33-997a-4625-9b04-63be2daadd3a" />
+					<attribute id="VisualTemplate" type="FixedString" value="b593cfc3-db31-a1ff-0cac-50eeceeacdd1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2bd80874-c289-7003-6493-6eb08a917570" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="IsDecorative" type="bool" value="True" />
+					<attribute id="IsBlocker" type="bool" value="True" />
+					<attribute id="IsPointerBlocker" type="bool" value="True" />
+					<attribute id="CanShineThrough" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 0 -2" />
+									<attribute id="Max" type="fvec3" value="2 4 5" />
+									<attribute id="Radius" type="float" value="0.0004330125" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 0 -2" />
+									<attribute id="Max" type="fvec3" value="2 4 5" />
+									<attribute id="Radius" type="float" value="0.000866025" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 0 -2" />
+									<attribute id="Max" type="fvec3" value="2 4 5" />
+									<attribute id="Radius" type="float" value="0.000866025" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

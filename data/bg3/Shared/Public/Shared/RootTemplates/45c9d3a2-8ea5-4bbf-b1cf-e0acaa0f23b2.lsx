@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="62" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="45c9d3a2-8ea5-4bbf-b1cf-e0acaa0f23b2" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Quarterstaff_Broken_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="96e2abaf-78ff-4dcb-a6a3-a5f0c348bd9f" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="3a73c7ad-8bbb-5bd0-71e1-d2028d36eec4" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6e6ff092-716a-0ea0-39c6-8e907fa5da38" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd4b4f193g0e7bg452cg8297g5e2e9c526ee4" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Quarterstaff_Broken_A" />
+					<attribute id="Stats" type="FixedString" value="WPN_Quarterstaff" />
+					<attribute id="Race" type="int8" value="-1" />
+					<attribute id="Description" type="TranslatedString" handle="h7a49b0aage01cg4d2cgbe80g4c8ed49f8cce" version="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="b428632e-3137-47aa-8fae-ffddc26fc87c" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.03176252 -0.01517764 -1.363145" />
+									<attribute id="Max" type="fvec3" value="0.0316126 0.04923085 0.5414497" />
+									<attribute id="Radius" type="float" value="0.4983009" />
+									<attribute id="Height" type="float" value="0.08795571" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.02199169 -0.04397815 -0.7075682" />
+									<attribute id="Max" type="fvec3" value="0.02128059 0.04397757 0.287122" />
+									<attribute id="Radius" type="float" value="0.2491504" />
+									<attribute id="Height" type="float" value="0.08795571" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04398338 -0.04397815 -1.415136" />
+									<attribute id="Max" type="fvec3" value="0.04256118 0.04397757 0.5742439" />
+									<attribute id="Radius" type="float" value="0.4983009" />
+									<attribute id="Height" type="float" value="0.08795571" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="9" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

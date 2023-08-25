@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="21962caf-11d8-479d-9fc8-097399e28ef6" />
+					<attribute id="Name" type="LSString" value="BLD_GEN_Platform_Floor_Wood_Old_A_4D_4W_piece_D_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ac5fdc03-184b-48f9-8cd5-ac0d61b74ca1" />
+					<attribute id="VisualTemplate" type="FixedString" value="93da8cc1-9acc-56fa-66d4-c8d2baeec4ee" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="cc0ff4b8-cbd3-6c68-03a9-b5fb4c19451f" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he920cad2g74efg485bg8440g1d65b0c101d4" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_Village_House_Door_A_Wood_Scenery_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Destr_Support_Wood_Strong" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.736458 -0.5533003 -2.016545" />
+									<attribute id="Max" type="fvec3" value="2.425697 0.01295882 2.180814" />
+									<attribute id="Radius" type="float" value="2.581078" />
+									<attribute id="Height" type="float" value="0.5662591" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.736458 -0.5533003 -2.016545" />
+									<attribute id="Max" type="fvec3" value="2.425697 0.01295882 2.180814" />
+									<attribute id="Radius" type="float" value="2.581078" />
+									<attribute id="Height" type="float" value="0.5662591" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.736458 -0.5533003 -2.016545" />
+									<attribute id="Max" type="fvec3" value="2.425697 0.01295882 2.180814" />
+									<attribute id="Radius" type="float" value="2.581078" />
+									<attribute id="Height" type="float" value="0.5662591" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

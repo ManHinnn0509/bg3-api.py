@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="202" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e758ec91-8e54-429a-b290-f0264936dabf" />
+					<attribute id="Name" type="LSString" value="BLD_Humans_Dungeon_Altar_A_Moss_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="0bb51afc-f628-d968-2927-6bb10767ba86" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="411620e7-209d-8f77-2fdb-abe6b7a0185c" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h36ffc800gbb94g4e5egb93fgc797fd9ee335" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Portrait_BLD_Humans_Dungeon_Altar_A" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="556b33c9-2cde-4d41-008c-cddd61c168c8" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.578441 0 -0.7489045" />
+									<attribute id="Max" type="fvec3" value="1.601269 1.273083 0.7708611" />
+									<attribute id="Radius" type="float" value="0.3998145" />
+									<attribute id="Height" type="float" value="1.72792" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.578441 0 -0.7489045" />
+									<attribute id="Max" type="fvec3" value="1.601269 1.273083 0.7708611" />
+									<attribute id="Radius" type="float" value="0.3998145" />
+									<attribute id="Height" type="float" value="1.72792" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.578441 0 -0.7489045" />
+									<attribute id="Max" type="fvec3" value="1.601269 1.273083 0.7708611" />
+									<attribute id="Radius" type="float" value="0.3998145" />
+									<attribute id="Height" type="float" value="1.72792" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="12" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h9e03d2c0gd4e4g4868g9b4ag5e245cea074c" version="1" />
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e5162d82-e00b-492c-8172-89f9436a8699" />
+					<attribute id="Name" type="LSString" value="BLD_GEN_Farm_Windmill_A_Blades_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b7ce7d07-ea86-413e-9538-2e7bffe35f60" />
+					<attribute id="ReadinessFlags" type="uint32" value="131" />
+					<attribute id="VisualTemplate" type="FixedString" value="66f7285f-88af-ae92-3b2c-917b4553372f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3182860a-1d71-bb36-ac7d-56e67fed7d80" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h620e5123g8dfag4dcag87ddgf5cdec8147e1" version="1" />
+					<attribute id="SoundAttenuation" type="int16" value="75" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Burlap_Sack_E" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Indestructible_Heavy" />
+					<attribute id="IsBlueprintDisabledByDefault" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.612958 0.3768272 -7.267913" />
+									<attribute id="Max" type="fvec3" value="3.609123 24.99433 1.633883" />
+									<attribute id="Radius" type="float" value="9.010729" />
+									<attribute id="Height" type="float" value="24.61751" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.612958 0.3768272 -7.267913" />
+									<attribute id="Max" type="fvec3" value="3.609123 24.99433 1.633883" />
+									<attribute id="Radius" type="float" value="9.010729" />
+									<attribute id="Height" type="float" value="24.61751" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.612958 0.3768272 -7.267913" />
+									<attribute id="Max" type="fvec3" value="3.609123 24.99433 1.633883" />
+									<attribute id="Radius" type="float" value="9.010729" />
+									<attribute id="Height" type="float" value="24.61751" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="14" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Heal" type="float" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

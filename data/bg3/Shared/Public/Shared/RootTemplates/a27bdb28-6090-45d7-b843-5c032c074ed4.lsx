@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="302" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a27bdb28-6090-45d7-b843-5c032c074ed4" />
+					<attribute id="Name" type="LSString" value="CONT_Spiders_Cocoon_A_Floor_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5896724b-ed3c-42c7-885c-a190672372e0" />
+					<attribute id="VisualTemplate" type="FixedString" value="2222a254-c54b-5cdd-34d2-ce17f5036a13" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3950ee48-e666-6567-c8f2-895dee3103ad" />
+					<children>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="2988a2cd-4b7c-9515-2ff7-9bfd5bf3dd05" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="66b1f37a-6ce2-2006-b962-8c9cd5ff2500" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="966f4e3d-0ae0-453c-9090-357c51da8b80" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

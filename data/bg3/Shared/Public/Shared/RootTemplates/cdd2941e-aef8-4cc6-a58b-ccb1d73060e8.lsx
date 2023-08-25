@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AiHint" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Archetype" type="FixedString" value="base" />
+					<attribute id="AttackableWhenClickThrough" type="bool" value="False" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf27b9dcbg7bbdg4f8agb572g0671c1f8bb26" version="1" />
+					<attribute id="Faction" type="guid" value="376e33c4-dd15-4c46-86a5-d88721b4c7a0" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="HierarchyOnlyFade" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="GEN_Consumable" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="IsPortal" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="cdd2941e-aef8-4cc6-a58b-ccb1d73060e8" />
+					<attribute id="MeshProxy" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="BASE_CONS" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="4c706063-ad3d-4514-d11a-24739eefde2b" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="Stats" type="FixedString" value="CONS_GenericFoodItem" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="6fa756ab-dd00-e3fe-bb06-382714ae2a5e" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters" />
+						<node id="InventoryList" />
+						<node id="ItemList" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="StatusList" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="110287af-83cf-42c1-de9c-f8b231cc7f6d" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="b148cfca-53d8-4b73-52b0-08de4a395e23" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

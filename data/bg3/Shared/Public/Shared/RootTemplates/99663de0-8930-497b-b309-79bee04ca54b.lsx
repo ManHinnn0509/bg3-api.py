@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="300" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="99663de0-8930-497b-b309-79bee04ca54b" />
+					<attribute id="Name" type="LSString" value="LTS_GEN_Torch_A_FX" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9429fe44-1eb2-4589-861e-6257a2a41553" />
+					<attribute id="Flag" type="int32" value="0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1063483 0 -0.1142941" />
+									<attribute id="Max" type="fvec3" value="0.0850952 2.128518 0.078182" />
+									<attribute id="Radius" type="float" value="0.5695793" />
+									<attribute id="Height" type="float" value="2.249353" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1063483 0 -0.1142941" />
+									<attribute id="Max" type="fvec3" value="0.0850952 2.128518 0.078182" />
+									<attribute id="Radius" type="float" value="0.5695793" />
+									<attribute id="Height" type="float" value="2.249353" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.05317413 0 -0.05714706" />
+									<attribute id="Max" type="fvec3" value="0.0425476 2.128518 0.039091" />
+									<attribute id="Radius" type="float" value="0.2847897" />
+									<attribute id="Height" type="float" value="2.249353" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="d289389c-882d-4695-a8d5-dda2a1351711" />
+											<children>
+												<node id="ScriptOverrides">
+													<children>
+														<node id="ScriptVariables">
+															<children>
+																<node id="Object">
+																	<attribute id="MapKey" type="FixedString" value="BurnEffect" />
+																	<children>
+																		<node id="ScriptVariables">
+																			<attribute id="Value" type="LSString" value="VFX_LightSources_GEN_Torch_A_FX_01" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

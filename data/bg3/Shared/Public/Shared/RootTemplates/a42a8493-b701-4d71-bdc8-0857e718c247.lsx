@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="326" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a42a8493-b701-4d71-bdc8-0857e718c247" />
+					<attribute id="Name" type="LSString" value="BASE_Undead_Zombie" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4bc22186-b2ea-4a03-a0f2-dc16b754bb91" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="eb80a883-8b4b-940a-4c7e-4ac8e4376bd5" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h321958c5ga1bag4d77gbf0bg33ec556d943a" version="1" />
+					<attribute id="Icon" type="FixedString" value="0cbb8c47-b5b4-cef1-297b-de9485d39266-_(Icon_Zombie)" />
+					<attribute id="Stats" type="FixedString" value="Zombie" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="9b371eaa-2ebe-028e-d577-2202ab7acff1" />
+					<attribute id="LightID" type="FixedString" value="362270fc-bf6b-4603-bb8a-6deebbcca47b" />
+					<attribute id="FoleyMediumResourceID" type="FixedString" value="d3fabf2d-d761-1304-bd71-c277b1712435" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="9d9f126b-d602-8ffc-8f67-419305b6c08a" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="bf1fe8cd-b367-a36a-da61-fb96279c9fed" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="b9fd6b8d-0bec-4f84-8f2b-6e0361f614bf" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="3dbed20b-3d38-1de2-6d06-9a069f2e1e6c" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="e893dd94-714b-0e39-3650-62b8cda96586" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="117c60af-3c25-8b5c-ec96-273a835421c5" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="1a92b36d-ebcd-0cda-9a56-e2176e770dca" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="0d64cd5e-7c94-da0a-166e-9037321d844d" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="b8596808-335f-c414-c1f0-4e3f51fbd91c" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="cceb8b3b-69b2-4828-c9ba-832040383735" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="032bc435-d560-bb3f-a1c1-875ef4e664ed" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="1d753d7a-a2cf-ac53-2e39-8b60e6e490e7" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="41a9e6e8-12ef-93a7-f05c-e8273cfc30e5" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="1a92b36d-ebcd-0cda-9a56-e2176e770dca" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="df6bd393-43c1-1112-cbfb-8039aca7d643" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="9ed91bc6-f91c-91f3-6365-af33ef3508cb" />
+					<attribute id="VocalIdle2ResourceID" type="FixedString" value="3cde8114-7a9a-421f-fa70-fc22823c989b" />
+					<attribute id="VocalIdle3ResourceID" type="FixedString" value="426d2849-177d-3c78-d632-a203f292b101" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="0cbb8c47-b5b4-cef1-297b-de9485d39266" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Zombie" />
+					<attribute id="Race" type="guid" value="56b3ae88-2b72-4838-3b9f-9200ea9ae1e6" />
+					<attribute id="Archetype" type="FixedString" value="zombie" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6181b81c-b910-4e1c-ecb9-995021ace70a" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="90101158-141e-4896-608e-dbf8f603e3dd" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="0a79a905-d41f-401f-e4a0-40a2431117fc" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Slam_Zombie" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="UNDEAD_FORTITUDE" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedStroll" type="float" value="0.8" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

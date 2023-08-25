@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f0888a67-6099-40aa-93b4-812d6118cace" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Races_DrowSeldarineSchism" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="47f778cc-b4ff-45c4-83af-e879e1ff14c3" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="dcb39a3d-3c0d-3da2-8f51-434cbf6ed806" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="b59144cf-4923-a7e6-6976-80a7087f66eb" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb46e2e4dg3618g460bgb66ag98dc8272d60c" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Generic_D" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_Races_DrowSeldarineSchism" />
+					<attribute id="ExamineRotation" type="fvec3" value="65 180 0" />
+					<attribute id="Description" type="TranslatedString" handle="hdb7e7ed1g762dg4b53gb34cg06bc9b43373a" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="CURRENTEVENTS" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="DROW" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="UNDERDARK" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="SELDARINE" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="DROWSCHISM" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="LOLTHDROW" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="SELDARINEDROW" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="EILISTRAEE" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="LOLTH" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="GODS" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="CORELLON" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="RACES" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2680835 -0.0410083 -0.1522975" />
+									<attribute id="Max" type="fvec3" value="0.2680835 0.111889 0.150695" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1533841 -0.001138881 -0.2028674" />
+									<attribute id="Max" type="fvec3" value="0.1596031 0.09578401 0.2717094" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1533841 -0.001138881 -0.2028674" />
+									<attribute id="Max" type="fvec3" value="0.1596031 0.09578401 0.2717094" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_Races_DrowSeldarineSchism" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

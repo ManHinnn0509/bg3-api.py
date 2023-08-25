@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="05dbf4ed-3641-4686-ba8e-0f600809483a" />
+					<attribute id="Name" type="LSString" value="LOOT_Alchemy_Spider_Leg_A_DONOTUSE" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5e9a13ce-fbbf-4d19-bf34-78b3ffec5ca4" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="1730c4ad-c1ca-1280-04c9-daf3a2f9cd1d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ed4ae82c-c1cb-e539-d8b6-2bc148fc36c2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h08048de6g07edg4e95g8a55g6ba474ce8691" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Spider_Leg_A" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<attribute id="ImpactSound" type="FixedString" value="5290a2da-7af9-dc1e-c32f-64df15f74a4c" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+					<attribute id="DropSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+					<attribute id="PickupSound" type="FixedString" value="c9d54f46-4779-bfd5-de26-1df05216ea3a" />
+					<attribute id="Description" type="TranslatedString" handle="h35bfcb54g3e2fg41fagbe40gcf46e4650eb8" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3605524 -0.004224673 -0.3032648" />
+									<attribute id="Max" type="fvec3" value="0.2394477 0.156272 0.1967352" />
+									<attribute id="Radius" type="float" value="0.6083479" />
+									<attribute id="Height" type="float" value="0.1783297" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6080655 -0.004224673 -0.5024067" />
+									<attribute id="Max" type="fvec3" value="0.4869608 0.156272 0.3958771" />
+									<attribute id="Radius" type="float" value="0.6083479" />
+									<attribute id="Height" type="float" value="0.1783297" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6080655 -0.004224673 -0.5024067" />
+									<attribute id="Max" type="fvec3" value="0.4869608 0.156272 0.3958771" />
+									<attribute id="Radius" type="float" value="0.6083479" />
+									<attribute id="Height" type="float" value="0.1783297" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="e764a381-811b-5253-0a99-5360d43574ec" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="308" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4d5fbc43-408c-4ec8-acf6-9c8d8aa456d6" />
+					<attribute id="Name" type="LSString" value="AdamantineGolem_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f61647bd-c811-4966-9c08-c82c35287496" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf1c118d2gfc2eg4732ga84ag8f364c53a82b" version="1" />
+					<attribute id="Stats" type="FixedString" value="AdamantineGolem" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="e67fc4c5-bc7b-11dd-8fc9-4d28c898961f" />
+					<attribute id="LevelOverride" type="int32" value="10" />
+					<attribute id="SoundInitEvent" type="FixedString" value="084a5647-4331-9c43-9bfe-3bb1d36258f1" />
+					<attribute id="UseOcclusion" type="bool" value="False" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="3fc2ab90-3041-cd4c-cff0-e5e8e9bb2443" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="76ad81b0-91a8-7a42-5edc-0e09b3e08bc9" />
+					<attribute id="VocalAnticipationResourceID" type="FixedString" value="c42a6e98-cb63-e95a-836d-a92f21c491b0" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="e1187b65-7e87-5c0a-446e-48868b4f994a" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="590f7fe2-f500-8652-a1d0-6f38179e3a69" />
+					<attribute id="IsEquipmentLootable" type="bool" value="True" />
+					<attribute id="Race" type="guid" value="84ddccc7-653e-4236-c484-2fcaac5a9a71" />
+					<attribute id="Archetype" type="FixedString" value="golem_adamantine" />
+					<children>
+						<node id="EquipmentTypes">
+							<children>
+								<node id="">
+									<attribute id="Object" type="guid" value="d2141ff0-1368-4c35-38b4-cde98120f882" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="98a38628-79fa-4f24-4e90-54deeff4ae03" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Slam_AdamantineGolem" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Shout_Stomp_AdamantineGolem" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Monster_Automaton" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="17d6a1c8-e453-fbda-5769-38f4d950a50a" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="4aea7f9e-33c1-6b88-4547-3f26b36df291" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="4aea7f9e-33c1-6b88-4547-3f26b36df291" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedStroll" type="float" value="0.6" />
+							<attribute id="MovementSpeedSprint" type="float" value="10" />
+							<attribute id="MovementSpeedDash" type="float" value="10" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="52" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="27162cbf-ab57-401b-a578-cd9f34209926" />
+					<attribute id="Name" type="LSString" value="TOOL_Smith_Whetstone_Wheel_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="VisualTemplate" type="FixedString" value="280830fe-e9f4-1939-d3b4-a1adfb2a781d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f90b36db-d1bc-1957-bee5-c5252d24d05f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc3980eceg2297g4132g9a64g3c1b1f40b90c" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Portrait_TOOL_Smith_Anvil_A" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6026511 0 -0.2886414" />
+									<attribute id="Max" type="fvec3" value="0.5785721 1.194996 0.1719164" />
+									<attribute id="Radius" type="float" value="0.2057135" />
+									<attribute id="Height" type="float" value="0.602267" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6026511 0 -0.2886414" />
+									<attribute id="Max" type="fvec3" value="0.5785721 1.194996 0.1719164" />
+									<attribute id="Radius" type="float" value="0.411427" />
+									<attribute id="Height" type="float" value="0.602267" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6026511 0 -0.2886414" />
+									<attribute id="Max" type="fvec3" value="0.5785721 1.194996 0.1719164" />
+									<attribute id="Radius" type="float" value="0.411427" />
+									<attribute id="Height" type="float" value="0.602267" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="12" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h11b8fc31gbba4g4606ga1b2g199c0e276569" version="1" />
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

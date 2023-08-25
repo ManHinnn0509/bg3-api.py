@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="1" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6eefb8d1-0cce-4d33-a85d-97a73f853e39" />
+					<attribute id="Name" type="LSString" value="BOOK_UND_Grymforge_UnfinishedSending" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="61b98c74-8f5c-4d05-b56c-0911b59c9078" />
+					<attribute id="VisualTemplate" type="FixedString" value="7e0eca28-30f9-ec6a-4076-d9dbe4d8f88b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="b40b8579-c728-3618-edf3-962a37c4e07a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb3f711a9g573dg4694g9bfbg68f5b9d1081d" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Paper_Sheet_F" />
+					<attribute id="Description" type="TranslatedString" handle="h54411ff2gd9e0g4d98g8ce0g9a166c9d37e2" version="1" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="h1fc1ea67gc159g4339g9fcbg9a8b1e14db36" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1389292 0.001863256 -0.1478594" />
+									<attribute id="Max" type="fvec3" value="0.138967 0.07398681 0.1479762" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2778583 0.001863256 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.2779341 0.07398681 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2778583 0.001863256 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.2779341 0.07398681 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="UND_Grymforge_UnfinishedSending" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

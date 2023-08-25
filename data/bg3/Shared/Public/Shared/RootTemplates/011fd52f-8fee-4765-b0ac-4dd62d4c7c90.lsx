@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="314" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="011fd52f-8fee-4765-b0ac-4dd62d4c7c90" />
+					<attribute id="Name" type="LSString" value="BLD_Druids_Camp_Tent_Module_B_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f4ef6926-4f96-43fd-881a-4168297ad0fb" />
+					<attribute id="VisualTemplate" type="FixedString" value="91af0079-6f32-3397-abb7-9db4fda75d4d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2b2e3138-57c3-965e-e705-8169de7f3b90" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="Icon" type="FixedString" value="Item_GEN_Cloth_Tent" />
+					<children>
+						<node id="OnDestroyActions" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

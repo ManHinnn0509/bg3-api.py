@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="314" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="395f4792-5abb-4503-914e-cf78f749b6fc" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_CONST_Trap_Spikes_Wood_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7b295d30-6b1f-4312-bf74-ee9a4a354f78" />
+					<attribute id="VisualTemplate" type="FixedString" value="f8fb2feb-3d3a-c98e-c698-e236e63e4831" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="809a0f13-5b88-2db0-42fe-c1def8ad2618" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hceb72f90g8d0eg4c5agb99eg0681c2f58067" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_Trap_Mine_A_Red" />
+					<attribute id="IsTrap" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3201224 0 -0.3201224" />
+									<attribute id="Max" type="fvec3" value="0.3201224 1.550837 0.3201224" />
+									<attribute id="Radius" type="float" value="0.117303" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6402447 0 -0.6402447" />
+									<attribute id="Max" type="fvec3" value="0.6402447 1.550837 0.6402447" />
+									<attribute id="Radius" type="float" value="0.234606" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6402447 0 -0.6402447" />
+									<attribute id="Max" type="fvec3" value="0.6402447 1.550837 0.6402447" />
+									<attribute id="Radius" type="float" value="0.234606" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

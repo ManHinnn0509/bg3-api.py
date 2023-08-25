@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h027c1a59g3bb4g44cegb3adg89f3c0b8055d" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_GEN_WaterPump_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="04713dce-8944-4b6c-9dc1-55e731f18810" />
+					<attribute id="Name" type="LSString" value="DEC_GEN_WaterPump_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="80590ad9-0687-9596-f35b-98cf8f5d89de" />
+					<attribute id="ReadinessFlags" type="uint32" value="132" />
+					<attribute id="Stats" type="FixedString" value="OBJ_WaterPump" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UseSound" type="FixedString" value="817b988e-3cc1-78e6-54bc-45da77580f54" />
+					<attribute id="VisualTemplate" type="FixedString" value="2026f947-becb-7c26-e7c5-cef40b2baa6d" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.218319" />
+									<attribute id="Max" type="fvec3" value="0.194047 2.090116 0.178486" />
+									<attribute id="Min" type="fvec3" value="-0.115446 -0.0001790524 -0.425583" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.218319" />
+									<attribute id="Max" type="fvec3" value="0.194047 2.090116 0.178486" />
+									<attribute id="Min" type="fvec3" value="-0.115446 -0.0001790524 -0.425583" />
+									<attribute id="Radius" type="float" value="0.0767232" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.218319" />
+									<attribute id="Max" type="fvec3" value="0.0970235 2.090116 0.08924299" />
+									<attribute id="Min" type="fvec3" value="-0.05772299 -0.0001790524 -0.2127915" />
+									<attribute id="Radius" type="float" value="0.0383616" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="Radius" type="float" value="1" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceWater" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ApplyDeathTypeBloodCheck" type="bool" value="True" />
+											<attribute id="CellAtGrow" type="int32" value="4" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+											<attribute id="GrowTimer" type="float" value="0.1" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceWater" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="4" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="2bc49a39-8668-892f-e370-cdd9c760314f" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="13d36183-512b-45de-a5f8-2d92af8ab1f1" />
+					<attribute id="Name" type="LSString" value="LOW_Thay_Undead_Zombie_Melee" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a42a8493-b701-4d71-bdc8-0857e718c247" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h56893815g848bg45c1g9d31g52e197fcc839" version="1" />
+					<attribute id="Icon" type="FixedString" value="006f5ddc-0d74-46ee-1b2b-5fb8029650e3-_(Icon_Zombie)" />
+					<attribute id="Stats" type="FixedString" value="LOW_Thay_Summon_Zombie" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="006f5ddc-0d74-46ee-1b2b-5fb8029650e3" />
+					<attribute id="Archetype" type="FixedString" value="zombie" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Slam_Zombie" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

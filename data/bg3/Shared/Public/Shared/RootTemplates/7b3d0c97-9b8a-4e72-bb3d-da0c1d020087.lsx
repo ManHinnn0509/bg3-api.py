@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="204" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7b3d0c97-9b8a-4e72-bb3d-da0c1d020087" />
+					<attribute id="Name" type="LSString" value="CONS_FOOD_Fruit_HAG_AntidotePear" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2c341835-8a11-44db-9679-4cd0c9c12594" />
+					<attribute id="VisualTemplate" type="FixedString" value="b3cd3f07-be84-c7d1-bab0-9bfb770874dc" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="910a6ade-343a-be55-f170-039dd7730c69" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h93c04ee6g3d4bg4e55ga297g8da3f0035cf4" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_FOOD_Fruit_Pear_A" />
+					<attribute id="Stats" type="FixedString" value="HAG_AntidotePear" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="h82974eafga043g44fcg871eg0f66e0b4c36b" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0324216 0.002991602 -0.0291672" />
+									<attribute id="Max" type="fvec3" value="0.0320742 0.1931328 0.0319635" />
+									<attribute id="Radius" type="float" value="0.04005925" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0648432 0.002991602 -0.0583344" />
+									<attribute id="Max" type="fvec3" value="0.0641484 0.1931328 0.06392699" />
+									<attribute id="Radius" type="float" value="0.0801185" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0648432 0.002991602 -0.0583344" />
+									<attribute id="Max" type="fvec3" value="0.0641484 0.1931328 0.06392699" />
+									<attribute id="Radius" type="float" value="0.0801185" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="StatsId" type="FixedString" value="HAG_DETOX" />
+											<attribute id="StatusDuration" type="int32" value="1" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+						<node id="ScriptOverrides" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

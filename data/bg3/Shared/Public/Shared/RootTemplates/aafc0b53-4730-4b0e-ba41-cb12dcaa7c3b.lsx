@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="100" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="aafc0b53-4730-4b0e-ba41-cb12dcaa7c3b" />
+					<attribute id="Name" type="LSString" value="Pig_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="071800ad-d4d9-4a63-82a7-4e786ab19449" />
+					<attribute id="VisualTemplate" type="FixedString" value="3cdfbc42-d1bb-356e-4262-bf8a3a54539a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="479384ac-ccb2-f660-ef5a-88bc5befe3c4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="haa7a8499g60d6g4e36ga4c4g44e7543d4c25" version="1" />
+					<attribute id="Icon" type="FixedString" value="74b30b09-fac1-57be-af45-c50235332594-_(Icon_Pig)" />
+					<attribute id="Stats" type="FixedString" value="Pig" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="SpotSneakers" type="bool" value="False" />
+					<attribute id="LightID" type="FixedString" value="025feadc-edf6-4d27-96be-4aa78d5a47eb" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="9ffacaae-6d8e-bd42-2fa8-68379768e289" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="25681941-6e33-e41a-5eb4-1a8d7ef1554a" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="b5d00b80-b923-2375-ff63-cb10cfba3ec3" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="c1ed4479-6c06-5516-0443-8caa4144590b" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="74b30b09-fac1-57be-af45-c50235332594" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Pig" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.394294 -0.000462668 -0.760036" />
+									<attribute id="Max" type="fvec3" value="0.394294 0.901091 0.686815" />
+									<attribute id="Radius" type="float" value="0.8" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.394294 -0.000462668 -0.760036" />
+									<attribute id="Max" type="fvec3" value="0.394294 0.901091 0.686815" />
+									<attribute id="Radius" type="float" value="0.8" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.394294 -0.000462668 -0.760036" />
+									<attribute id="Max" type="fvec3" value="0.394294 0.901091 0.686815" />
+									<attribute id="Radius" type="float" value="0.4" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="626b27a5-38cf-0b3f-3cde-0aee949750a1" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="33630721-5a41-3549-a6cb-d95c1b66c264" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="33630721-5a41-3549-a6cb-d95c1b66c264" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MaxDashDistance" type="float" value="2" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.35" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
+							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.35" />
+							<attribute id="WorldClimbingRadius" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

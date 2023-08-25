@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6436ea26-709f-4c34-918a-9021d7528c42" />
+					<attribute id="Name" type="LSString" value="LTS_DUN_Bowls_E_Gold_Purple" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d4c34693-07f4-4935-b10a-73bf7324b6aa" />
+					<attribute id="VisualTemplate" type="FixedString" value="cbdf225b-562d-d2af-55ee-4febe9ecedb7" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1b86ac97-601f-6084-d057-ebfd630a7088" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1596d878g9ff1g4485gb02dg8c167e0baa3b" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="Stats" type="FixedString" value="OBJ_CoalBasket" />
+					<attribute id="Description" type="TranslatedString" handle="hc9e19d3dg6df4g4283ga687gd7235e36dc73" version="1" />
+					<attribute id="IsPublicDomain" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3623854 0 -0.3623854" />
+									<attribute id="Max" type="fvec3" value="0.3623854 1.006782 0.3623854" />
+									<attribute id="Radius" type="float" value="0.2854807" />
+									<attribute id="Height" type="float" value="1.006782" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7247708 0 -0.7247708" />
+									<attribute id="Max" type="fvec3" value="0.7247708 1.006782 0.7247708" />
+									<attribute id="Radius" type="float" value="0.5709615" />
+									<attribute id="Height" type="float" value="1.006782" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7247708 0 -0.7247708" />
+									<attribute id="Max" type="fvec3" value="0.7247708 1.006782 0.7247708" />
+									<attribute id="Radius" type="float" value="0.5709615" />
+									<attribute id="Height" type="float" value="1.006782" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="0464c08b-9f33-0ca5-c3e0-74187c91bbff" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="d6bc7976-e00f-4ade-ba37-468f4f0df3de" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="af32bbed-eb13-49e2-8901-7e8b73cba310" />
+											<children>
+												<node id="ScriptOverrides">
+													<children>
+														<node id="ScriptVariables">
+															<children>
+																<node id="Object">
+																	<attribute id="MapKey" type="FixedString" value="BurnEffect" />
+																	<children>
+																		<node id="ScriptVariables">
+																			<attribute id="Value" type="LSString" value="VFX_LightSources_DUN_Bowls_E_Purple_01" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="206" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b34d7f0b-8d6b-4e09-998a-591f4d39e872" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_Meat_Sausage_A_Hanging_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8d2f1d5f-0cc8-4b13-8aa2-4bd509695608" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="7b0cf3c5-16d9-4707-9778-b4e148bfe5ce" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="252ced7e-efda-4619-bd3d-9eef6356ba1a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbba3e46egffa3g4917ga209g4f660b25d773" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="ShootThroughType" type="int8" value="-1" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Meat_Sausage_B_Rope_A" />
+					<attribute id="Stats" type="FixedString" value="CONS_FOOD_Sausage_Piled_B" />
+					<attribute id="Description" type="TranslatedString" handle="hcfec76e2g0871g457bg976eg7654d259b6c6" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.01109397 -0.06258392 -0.07764861" />
+									<attribute id="Max" type="fvec3" value="0.8304585 0.08590648 0.1001" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.01109397 -0.06258392 -0.07764861" />
+									<attribute id="Max" type="fvec3" value="0.8304585 0.08590648 0.1001" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.01109397 -0.06258392 -0.07764861" />
+									<attribute id="Max" type="fvec3" value="0.8304585 0.08590648 0.1001" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h57c77b97g900bg4afagbb0eg2bb8ef5dc05f" version="1" />
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

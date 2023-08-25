@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="326" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0ebe8a60-6804-4d8a-8c1d-df17c6c19c0f" />
+					<attribute id="Name" type="LSString" value="DEC_Goblins_Camp_Drum_KingStand_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fc1a8257-5a1a-4dc5-9fe7-cbb46d242e76" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="1d4f1718-384a-2e3f-1f53-64b4b3e1c613" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="722290c6-ce53-6cf1-dacf-0d7a06fc3e59" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3f8a1a5ag4db7g4a88gb250g10a0af9d4f86" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GEN_Music_Drum_Big_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GoblinDrum" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3 0 -0.3" />
+									<attribute id="Max" type="fvec3" value="0.3 0.9 0.3" />
+									<attribute id="Radius" type="float" value="0.38235" />
+									<attribute id="Height" type="float" value="0.898336" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.15 0 -0.15" />
+									<attribute id="Max" type="fvec3" value="0.15 0.9 0.15" />
+									<attribute id="Radius" type="float" value="0.191175" />
+									<attribute id="Height" type="float" value="0.898336" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3 0 -0.3" />
+									<attribute id="Max" type="fvec3" value="0.3 0.9 0.3" />
+									<attribute id="Radius" type="float" value="0.38235" />
+									<attribute id="Height" type="float" value="0.898336" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="c959ebb0-4591-2091-e717-db7ee6e3c1fc" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="bda92df1-7ed7-4d88-971f-4f5881d68025" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

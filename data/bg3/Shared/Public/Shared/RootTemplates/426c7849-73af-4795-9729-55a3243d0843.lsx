@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="602" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="426c7849-73af-4795-9729-55a3243d0843" />
+					<attribute id="Name" type="LSString" value="LOOT_Alchemy_Crystal_G" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5e9a13ce-fbbf-4d19-bf34-78b3ffec5ca4" />
+					<attribute id="VisualTemplate" type="FixedString" value="3157a2ae-468d-6fe2-6b2a-5708991adb4b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="64e1fb89-7d94-58ab-97a9-e62f3ea0fc73" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hefbda341gddedg4477g9f97g1ccb4cf475dd" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_G" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<attribute id="ImpactSound" type="FixedString" value="5290a2da-7af9-dc1e-c32f-64df15f74a4c" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+					<attribute id="DropSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+					<attribute id="PickupSound" type="FixedString" value="c9d54f46-4779-bfd5-de26-1df05216ea3a" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1387694 -0.006531172 -0.1909588" />
+									<attribute id="Max" type="fvec3" value="0.06662847 0.1025652 0.1004272" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1387694 -0.006531172 -0.1909588" />
+									<attribute id="Max" type="fvec3" value="0.06662847 0.1025652 0.1004272" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1387694 -0.006531172 -0.1909588" />
+									<attribute id="Max" type="fvec3" value="0.06662847 0.1025652 0.1004272" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="e764a381-811b-5253-0a99-5360d43574ec" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

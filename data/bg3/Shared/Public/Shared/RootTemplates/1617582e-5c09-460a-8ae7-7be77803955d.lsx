@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="204" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1617582e-5c09-460a-8ae7-7be77803955d" />
+					<attribute id="Name" type="LSString" value="CONS_FOOD_Fruit_HAG_PoisonApple" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2c341835-8a11-44db-9679-4cd0c9c12594" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2a2ab4f8g212fg4b01g9bbaga2673e134d8a" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_FOOD_Fruit_Apple_A" />
+					<attribute id="Stats" type="FixedString" value="HAG_PoisonApple" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="h003e8488g8142g4dfbg9acagdff5d3ffda71" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0393327 0.001585796 -0.0404712" />
+									<attribute id="Max" type="fvec3" value="0.0400185 0.1834974 0.04234951" />
+									<attribute id="Radius" type="float" value="0.04005925" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07866541 0.001585796 -0.0809424" />
+									<attribute id="Max" type="fvec3" value="0.080037 0.1834974 0.08469901" />
+									<attribute id="Radius" type="float" value="0.0801185" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07866541 0.001585796 -0.0809424" />
+									<attribute id="Max" type="fvec3" value="0.080037 0.1834974 0.08469901" />
+									<attribute id="Radius" type="float" value="0.0801185" />
+									<attribute id="Height" type="float" value="0.184393" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="StatsId" type="FixedString" value="HAG_UPSETSTOMACH" />
+											<attribute id="StatusDuration" type="int32" value="10" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+						<node id="ScriptOverrides" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

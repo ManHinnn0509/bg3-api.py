@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5c64e2f7-ad13-465c-9fb9-e994fc8d0af4" />
+					<attribute id="Name" type="LSString" value="UNI_LOW_HouseOfHope_BoudoirKey" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c97f9697-6480-4204-94d1-628b1c49aa89" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hecbbfd46g273eg4df8g8d80gb8bfd5e83a9b" version="1" />
+					<attribute id="Stats" type="FixedString" value="LOW_HouseOfHope_BoudoirKey" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="h43780a69g1890g4c4fg85f7g5416e6e9abe8" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="LOW_HouseOfHope_Invitation" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

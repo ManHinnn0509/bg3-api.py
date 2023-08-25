@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="1" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="09d63912-2a69-499e-9497-dc832487e426" />
+					<attribute id="Name" type="LSString" value="UNI_UND_FurnaceSearch_MyconidDrowJournal_Disguised" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9996c3a2-077e-4c52-b574-f43648cca71e" />
+					<attribute id="VisualTemplate" type="FixedString" value="3a96a4c8-7442-20f5-7ab8-b4f73c05b652" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f27f7acgae8ag4e36g9e4dg63b4b757d8ab" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_E" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h0ad50724g625cg4cbfgb87dga30711c934db" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="UND_FurnaceSearch_DisguisedDrowJournal" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

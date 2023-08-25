@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="313" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="True" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Destroyed" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1d232d26g02fdg4773ga88cgb3af7b888081" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_DEC_GEN_Crate_Stack_A" />
+					<attribute id="InventoryType" type="uint8" value="2" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b9cb5ac8-8ba0-4568-898c-86feda9bf77e" />
+					<attribute id="Name" type="LSString" value="UNI_DEC_GEN_Crate_Stack_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b7ce7d07-ea86-413e-9538-2e7bffe35f60" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="8efef0ca-c385-82a2-a746-9e0f5b5cb43f" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Crate_Stack" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ff0d1d0d-43b2-6347-3c8c-5bbe5969e8b7" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.51065" />
+									<attribute id="Max" type="fvec3" value="1.615356 2.904813 0.426324" />
+									<attribute id="Min" type="fvec3" value="-1.798225 -0.002498627 -0.8514079" />
+									<attribute id="Radius" type="float" value="0.3207505" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.51065" />
+									<attribute id="Max" type="fvec3" value="1.615356 2.904813 0.426324" />
+									<attribute id="Min" type="fvec3" value="-1.798225 -0.002498627 -0.8514079" />
+									<attribute id="Radius" type="float" value="0.3207505" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.51065" />
+									<attribute id="Max" type="fvec3" value="1.615356 2.904813 0.426324" />
+									<attribute id="Min" type="fvec3" value="-1.798225 -0.002498627 -0.8514079" />
+									<attribute id="Radius" type="float" value="0.3207505" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<children>
+								<node id="AfroLongHair" />
+								<node id="AfroShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="DreadLongHair" />
+								<node id="DreadShortHair" />
+								<node id="LongHair" />
+								<node id="ParentRace" />
+								<node id="ShortHair" />
+								<node id="Visuals" />
+								<node id="WavyLongHair" />
+								<node id="WavyShortHair" />
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="246f3ae0-9278-31e8-3647-714451e80111" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="465edfdd-3daf-4e94-bd99-a741415fd8c9" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

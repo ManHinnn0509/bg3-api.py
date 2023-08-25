@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="200" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9d9f7d12-ee3f-4755-a823-f9c0efe35506" />
+					<attribute id="Name" type="LSString" value="BASE_Tadpole" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="29ad5160-21d6-4e0b-9073-4fdee590f62f" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="8a97a8f4-84a5-6fca-3026-bf2487298efb" />
+					<attribute id="Icon" type="FixedString" value="bba47a00-8082-d04f-4276-f03b36a49396-_(Icon_Tadpole)" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="SpotSneakers" type="bool" value="False" />
+					<attribute id="DisintegratedResourceID" type="FixedString" value="a8df0d5a-d171-89d2-fd37-424a7f914ec6" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="LightID" type="FixedString" value="6037f813-6983-49e0-939c-6cd8d5ea9113" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="683a24d3-44e4-54b0-0ee2-1ba7727d5d3f" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="aa309558-297d-8f0d-4126-7abe36d4101a" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="198fae48-3443-a008-1932-35f2e687f871" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="9908e6f0-6bd3-d596-a524-96f4d88c3352" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="ffa472ba-3f5b-3e64-dbac-c217eda39978" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="bba47a00-8082-d04f-4276-f03b36a49396" />
+					<attribute id="IsLootable" type="bool" value="False" />
+					<attribute id="AnubisConfigName" type="FixedString" value="GLO_Tadpole" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Tadpole" />
+					<attribute id="Race" type="guid" value="4bd6dcba-b21c-4d83-fe90-bf21ec840bd5" />
+					<attribute id="RagdollTemplate" type="FixedString" value="e0876b08-24a3-0aa9-c7f3-7167e39e9319" />
+					<attribute id="CanFight" type="bool" value="False" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="90101158-141e-4896-608e-dbf8f603e3dd" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.1036276 -0.01632236 -0.3370996" />
+									<attribute id="Max" type="fvec3" value="0.1036276 0.2101174 0.6113935" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.1036276 -0.01632236 -0.3370996" />
+									<attribute id="Max" type="fvec3" value="0.1036276 0.2101174 0.6113935" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.1036276 -0.01632236 -0.3370996" />
+									<attribute id="Max" type="fvec3" value="0.1036276 0.2101174 0.6113935" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="37634e32-e75b-1606-6989-3a0f59beb808" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="528b7e47-baa2-4328-5744-39dd4158c28c" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="37634e32-e75b-1606-6989-3a0f59beb808" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedStroll" type="float" value="0.8" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

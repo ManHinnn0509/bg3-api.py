@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="602" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7494e780-3907-4208-9e77-30577420e659" />
+					<attribute id="Name" type="LSString" value="GiantBadgerCompanion_Summon" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cf0e0508-7317-4838-b4ef-7ae26c9cf4f2" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3d2dd5dag0858g49ebg97f6g71977655aff9" version="1" />
+					<attribute id="Icon" type="FixedString" value="2b022bc4-448f-00c6-fc6d-18a4298f920c-_(Icon_Badger)" />
+					<attribute id="Stats" type="FixedString" value="Companion_GiantBadger" />
+					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-a295-ba74d42f6266" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="299e0c63-003a-759c-b8ca-94071d9f86f9" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="4cde9647-6367-7a63-9014-bf27439be739" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="4756ffed-df5f-ce43-38be-4bf961dc5329" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="fce78e8d-2581-3b70-7f47-71641f480f97" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="9b36af33-31e4-e4bb-fda4-b364ef59d1b1" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="2b022bc4-448f-00c6-fc6d-18a4298f920c" />
+					<attribute id="IsLootable" type="bool" value="False" />
+					<attribute id="DisableEquipping" type="bool" value="True" />
+					<attribute id="Archetype" type="FixedString" value="beast" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-43b9-e7751bfa41fa" />
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-3cf7-5894f9b49f0b" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantBadger_Summon" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

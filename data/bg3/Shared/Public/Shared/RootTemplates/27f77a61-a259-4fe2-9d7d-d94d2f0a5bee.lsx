@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="52" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="27f77a61-a259-4fe2-9d7d-d94d2f0a5bee" />
+					<attribute id="Name" type="LSString" value="Quest_CMB_ThrowingRock" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e5f1e8b-102a-4105-9d81-2220648814e9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="6894043e-6ae5-3722-fd83-e290ac65be2f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="4dac294d-52d6-741f-3d75-2ed3e4c395b5" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h72b0eb35g8c59g4400g86c0g59e067e10ec3" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_Quest_CMB_ThrowingRock" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ThrowingRock" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="Description" type="TranslatedString" handle="h1dd4a3c1gf0f9g4628g914agf9c848f4a4a8" version="1" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1207488 -0.009415403 -0.1151451" />
+									<attribute id="Max" type="fvec3" value="0.1207488 0.136764 0.06967443" />
+									<attribute id="Radius" type="float" value="0.417065" />
+									<attribute id="Height" type="float" value="1.18371" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1207488 -0.009415403 -0.1151451" />
+									<attribute id="Max" type="fvec3" value="0.1207488 0.136764 0.06967443" />
+									<attribute id="Radius" type="float" value="0.417065" />
+									<attribute id="Height" type="float" value="1.18371" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1207488 -0.009415403 -0.1151451" />
+									<attribute id="Max" type="fvec3" value="0.1207488 0.136764 0.06967443" />
+									<attribute id="Radius" type="float" value="0.2085325" />
+									<attribute id="Height" type="float" value="1.18371" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="13" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="hd0a6ed2eg9b07g41dfg87a1ga2902a445ee0" version="1" />
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

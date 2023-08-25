@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="29" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a1d1b7d9-3721-4aa6-a3fb-a742fa4901d3" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Throwable_Caltrops_Pack_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e5f1e8b-102a-4105-9d81-2220648814e9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="f06b3d17-6e7c-31ca-b7a7-58b0da242a81" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="4f3ae1af-a6f4-c5a3-43d7-e289199bc673" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0c0385c8gef82g42e4gbee3g8df83999b396" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Throwable_Caltrops_Pack_A" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="h83119597g0bdbg438cg9347g898447d208e0" version="1" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1275606 -0.0001294017 -0.1275606" />
+									<attribute id="Max" type="fvec3" value="0.1275606 0.3352957 0.1275606" />
+									<attribute id="Radius" type="float" value="0.1838912" />
+									<attribute id="Height" type="float" value="0.5428302" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1275606 -0.0001294017 -0.1275606" />
+									<attribute id="Max" type="fvec3" value="0.1275606 0.3352957 0.1275606" />
+									<attribute id="Radius" type="float" value="0.1838912" />
+									<attribute id="Height" type="float" value="0.5428302" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.06378032 -0.0001294017 -0.06378032" />
+									<attribute id="Max" type="fvec3" value="0.06378032 0.3352957 0.06378032" />
+									<attribute id="Radius" type="float" value="0.09194558" />
+									<attribute id="Height" type="float" value="0.5428302" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

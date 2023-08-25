@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="600" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a96dec50-287a-4da1-897b-d1aacddbf418" />
+					<attribute id="Name" type="LSString" value="DOOR_Double_Medium_City_House_J" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5e140f38-c020-467a-beaa-f09fea419312" />
+					<attribute id="VisualTemplate" type="FixedString" value="f792bc3c-b16c-d080-6745-ec9a4e1cb208" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="74e2b2c6-5c1e-ceb3-c615-8166f8734ede" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h132fea1bgbe2ag4d3fg93d5gb4a882f724fe" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 -9.536743E-07 -0.09338702" />
+									<attribute id="Max" type="fvec3" value="2 3.000001 0.178857" />
+									<attribute id="Radius" type="float" value="2" />
+									<attribute id="Height" type="float" value="3.000002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 -9.536743E-07 -0.09338702" />
+									<attribute id="Max" type="fvec3" value="2 3.000001 0.178857" />
+									<attribute id="Radius" type="float" value="2" />
+									<attribute id="Height" type="float" value="3.000002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2 -9.536743E-07 -0.09338702" />
+									<attribute id="Max" type="fvec3" value="2 3.000001 0.178857" />
+									<attribute id="Radius" type="float" value="2" />
+									<attribute id="Height" type="float" value="3.000002" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="893031dd-2a9c-79c1-713b-682a405f6f04" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="0035ba94-9031-4724-b5ef-69a45e2ff695" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="67668c65-624b-096a-088a-fdbca581421f" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="10" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="e599757c-4861-eb65-8037-3d018af00136" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="0035ba94-9031-4724-b5ef-69a45e2ff695" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

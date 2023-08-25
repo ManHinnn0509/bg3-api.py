@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="401" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4d64bcbe-a37d-4537-8ff1-510083989435" />
+					<attribute id="Name" type="LSString" value="TOOL_GOB_Branding_Tool_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="140" />
+					<attribute id="VisualTemplate" type="FixedString" value="9907d5c7-652f-dde1-5f80-1b1c97102425" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="93b61606-9afc-1b49-9874-5da075566b5b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h42a1965dgab87g4c50gb4aeg2fb9cdd73dea" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GOB_Branding_Tool_A" />
+					<attribute id="Stats" type="FixedString" value="WPN_Goblin_BrandingTool" />
+					<attribute id="CanBeImprovisedWeapon" type="bool" value="True" />
+					<attribute id="DropSound" type="FixedString" value="f55dc72a-13b8-6e3d-7500-559a5d1f3031" />
+					<attribute id="PickupSound" type="FixedString" value="28ea7a9f-b66a-3410-7985-d7cd5cb896f0" />
+					<attribute id="Description" type="TranslatedString" handle="he327b6bdg9b03g4ab1ga7ddg307997d71e51" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="7883d641-2b8b-40dc-d885-7551d41dbc2b" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1773393 -0.04865819 -0.4620948" />
+									<attribute id="Max" type="fvec3" value="0.09787668 0.05086024 0.2331411" />
+									<attribute id="Radius" type="float" value="0.5715418" />
+									<attribute id="Height" type="float" value="0.046017" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1773393 -0.04865819 -0.4620948" />
+									<attribute id="Max" type="fvec3" value="0.09787668 0.05086024 0.2331411" />
+									<attribute id="Radius" type="float" value="0.5715418" />
+									<attribute id="Height" type="float" value="0.046017" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08866965 -0.04865819 -0.2310474" />
+									<attribute id="Max" type="fvec3" value="0.04893834 0.05086024 0.1165706" />
+									<attribute id="Radius" type="float" value="0.2857709" />
+									<attribute id="Height" type="float" value="0.046017" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

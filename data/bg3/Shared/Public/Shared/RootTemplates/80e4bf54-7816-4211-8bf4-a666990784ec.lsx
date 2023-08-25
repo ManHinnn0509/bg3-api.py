@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="80e4bf54-7816-4211-8bf4-a666990784ec" />
+					<attribute id="Name" type="LSString" value="BLD_GEN_Elevator_A_MovingPlatform_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ac5fdc03-184b-48f9-8cd5-ac0d61b74ca1" />
+					<attribute id="VisualTemplate" type="FixedString" value="8e7301b5-4838-a89c-07b7-9de3c993c0bd" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="810d4a94-c0ba-92d3-dc66-35da4acd8d46" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_Village_House_Door_A_Wood_Scenery_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObjectHeavy" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.490926 -0.3373281 -2.472915" />
+									<attribute id="Max" type="fvec3" value="2.446664 0.4474804 2.481966" />
+									<attribute id="Radius" type="float" value="0.9623058" />
+									<attribute id="Height" type="float" value="0.910436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.490926 -0.3373281 -2.472915" />
+									<attribute id="Max" type="fvec3" value="2.446664 0.4474804 2.481966" />
+									<attribute id="Radius" type="float" value="0.9623058" />
+									<attribute id="Height" type="float" value="0.910436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.490926 -0.3373281 -2.472915" />
+									<attribute id="Max" type="fvec3" value="2.446664 0.4474804 2.481966" />
+									<attribute id="Radius" type="float" value="0.9623058" />
+									<attribute id="Height" type="float" value="0.910436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="330" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1827adbe-bcb4-43f6-8c01-a32497db5911" />
+					<attribute id="Name" type="LSString" value="BASE_Quadruped_Beast_Boar" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e63714e5-e2fa-4da6-8982-97b4a0ace963" />
+					<attribute id="VisualTemplate" type="FixedString" value="c75d50b9-a9ae-e911-2fd1-3a490ef5b628" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1239ca1c-a4f6-e694-099a-e2ee377b0b15" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8395ec6eg5e2bg4cb3g8ed8g78f66b39c79c" version="1" />
+					<attribute id="Icon" type="FixedString" value="367f0d5f-f532-2f5d-e6ba-f58f4aeae38b-_(Icon_Boar)" />
+					<attribute id="Stats" type="FixedString" value="Boar" />
+					<attribute id="LadderLoopSpeed" type="float" value="5" />
+					<attribute id="SpotSneakers" type="bool" value="False" />
+					<attribute id="LightID" type="FixedString" value="96d120ae-2af3-4ca3-9936-43ef4f6af2b6" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="9d5567ee-c418-f31e-7c72-5f45cef02f3f" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="83c68dc9-8e88-f2a5-7286-8fa86910cd84" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="b4269343-51d3-5d8d-7f62-3a06c3717f1e" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="8bdd3864-9075-ffe3-30d2-85e99ad3de21" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="68cd04c1-4fd8-bc3f-e1e3-1b6d352dee40" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="742f1a9f-af16-c726-178a-6e188eb6953c" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="e287d8b3-55a0-8b6e-7f1b-bda70bfabaad" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="71c1dfe8-ef23-28a4-6a0b-67e8230d97bd" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="1178c69c-f88d-0cb8-e4d6-8c5b90c9bd02" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="47a7cb60-c92b-0561-4fcd-37e484cca9c6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="367f0d5f-f532-2f5d-e6ba-f58f4aeae38b" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Boar" />
+					<attribute id="Race" type="guid" value="d7ef9866-7b0c-4a7c-0ab6-b7d73f27213f" />
+					<attribute id="Faction" type="guid" value="a66b2d45-1b6c-082d-018a-d9c6ea7514d3" />
+					<attribute id="Archetype" type="FixedString" value="beast" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="aa120bba-b749-4b54-5784-ce6241ae8c68" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Tusk_Boar" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Rush_Rush_Boar" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BOAR_UNARMEDATTACK_OVERRIDE" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="aac774f6-7d4f-eea7-922f-173d337be552" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="0221b6a7-3aff-f8c6-e6c3-6733f879ffdb" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="95087e30-7b8a-61f3-09df-f5db2fb26313" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementAcceleration" type="float" value="12" />
+							<attribute id="MovementSpeedStroll" type="float" value="0.83" />
+							<attribute id="MaxDashDistance" type="float" value="2" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.35" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
+							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.35" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

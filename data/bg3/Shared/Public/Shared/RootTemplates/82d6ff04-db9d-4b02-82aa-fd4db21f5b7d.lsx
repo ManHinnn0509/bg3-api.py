@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="82d6ff04-db9d-4b02-82aa-fd4db21f5b7d" />
+					<attribute id="Name" type="LSString" value="Undead_Zombie_Melee_AnimateDead_Swarm" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c2a2c269-ede8-4887-99f1-e0c044cc0c75" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1d79c26eg31abg413egaf32ga3062ff07ea3" version="1" />
+					<attribute id="Stats" type="FixedString" value="AnimateDead_Zombie__Horde" />
+					<attribute id="SpellSet" type="FixedString" value="AnimateDeadZombie" />
+					<attribute id="LevelOverride" type="int32" value="2" />
+					<attribute id="SwarmGroup" type="FixedString" value="SwarmAnimateDeadZombie" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6d60bed7-10cc-4b52-b78f-a7ba815149cd" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="ZOMBIE_DECAY" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

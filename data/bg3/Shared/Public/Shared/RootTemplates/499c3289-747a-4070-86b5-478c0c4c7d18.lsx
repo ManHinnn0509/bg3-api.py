@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="499c3289-747a-4070-86b5-478c0c4c7d18" />
+					<attribute id="Name" type="LSString" value="Unique_HellSphere" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="29ad5160-21d6-4e0b-9073-4fdee590f62f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="28175d52-2abe-228c-b0f0-d21d151746c9" />
+					<attribute id="Scale" type="float" value="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he93a364cg0528g4025gad12g0591d5aad396" version="1" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Creature_FlamingSphere" />
+					<attribute id="Stats" type="FixedString" value="LOW_Raphael_FlamingSphere" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="DeathEffect" type="guid" value="0508e0c8-dc7a-4119-1db7-3e150e6c547a" />
+					<attribute id="SpotSneakers" type="bool" value="False" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="SoundMovementStartEvent" type="FixedString" value="b781f7a2-eb20-dd4f-6bed-c951e2481cab" />
+					<attribute id="SoundMovementStopEvent" type="FixedString" value="742d824f-6274-f732-664e-7f38745b10ce" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="b919b755-17af-54fd-5248-e71c33347c89" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="512df42e-6b0b-5561-2381-f30794fa5ef9" />
+					<attribute id="AnubisConfigName" type="FixedString" value="LOW_HouseOfHope_HellSphere" />
+					<attribute id="DisableEquipping" type="bool" value="True" />
+					<attribute id="Race" type="guid" value="24dfab7b-7d7e-4df9-23aa-1272efb48089" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.7504505 0.0004398823 -0.7504505" />
+									<attribute id="Max" type="fvec3" value="0.7504505 1.501341 0.7504505" />
+									<attribute id="Radius" type="float" value="0.65" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.7504505 0.0004398823 -0.7504505" />
+									<attribute id="Max" type="fvec3" value="0.7504505 1.501341 0.7504505" />
+									<attribute id="Radius" type="float" value="0.75" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.7504505 0.0004398823 -0.7504505" />
+									<attribute id="Max" type="fvec3" value="0.7504505 1.501341 0.7504505" />
+									<attribute id="Radius" type="float" value="0.75" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="e62dc35a-66c5-c9bf-98e4-784a128f4169" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="dd2a2d77-21d5-40a3-81bd-9581e2958301" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_Jump_FlamingSphere" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_FlamingSphere_Ram_6" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="LOW_HOH_HELLSPHERE" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="WorldClimbingSpeed" type="float" value="12" />
+							<attribute id="MovementSpeedStroll" type="float" value="2" />
+							<attribute id="MovementSpeedWalk" type="float" value="4" />
+							<attribute id="MovementSpeedRun" type="float" value="7.5" />
+							<attribute id="MovementSpeedSprint" type="float" value="12" />
+							<attribute id="MovementSpeedDash" type="float" value="12" />
+							<attribute id="MovementTiltToRemap" type="FixedString" value="96c488d7-4982-c2d8-2855-ccad860239d8" />
+							<attribute id="TurningNodeAngle" type="float" value="0" />
+							<attribute id="TurningNodeOffset" type="float" value="0" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="1cd55755-bc55-767c-b32f-2f73fd6621d1" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="7ab0010a-dc6e-89d8-f19d-1c26bfaec304" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="52" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="70aca0ad-0a58-47bd-9f77-18e64cc3f6d1" />
+					<attribute id="Name" type="LSString" value="BASE_Hobgoblins_Male" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9e48c3f1-55fa-4686-abc2-6f900a904a9a" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="414a7e5b-19b6-d244-2413-f4a938df690c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f0636768-7231-c506-b2c8-40415a64674e" />
+					<attribute id="Icon" type="FixedString" value="e7d805b4-47d9-9b5e-465a-ba7b4ba0b7a2-_(Icon_Bugbear_Male)" />
+					<attribute id="Stats" type="FixedString" value="Hobgoblin" />
+					<attribute id="LightID" type="FixedString" value="362270fc-bf6b-4603-bb8a-6deebbcca47b" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="aa045a5f-ba4e-70ff-2364-a00cebad33b3" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="6e60e8e7-4ff3-3273-93d6-924a9cb69ab1" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="22dedb73-dc3a-9043-36f0-d92c254f5dc4" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="6b9ceaf5-0e21-ebe1-5ca3-b2b8ae6a98b8" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="c2dd1a26-5975-e96a-24af-4ac5c321846b" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="bd882291-4b45-151f-11eb-0e4fed217cf1" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="707fba1c-a6b0-a460-8d87-e0630b782ab2" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="a20f4868-871a-2954-4c76-53c44be52721" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="9cc5e58f-d4d0-cd89-4754-6690083695ff" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="87129c1e-0c07-763d-4af5-36aae3347f67" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="30db28d5-e39e-0ed3-4dfb-3a5dae872edd" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="5b65e306-c72f-fd8f-79a2-d1b3f0e07b44" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="d39ee249-e66c-6562-dd85-4fb38d63633d" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="e7d805b4-47d9-9b5e-465a-ba7b4ba0b7a2" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="IsEquipmentLootable" type="bool" value="True" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultCharacter" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Bugbear_Male" />
+					<attribute id="Race" type="guid" value="a234ff21-6324-4ce2-7a97-92ae751446c0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

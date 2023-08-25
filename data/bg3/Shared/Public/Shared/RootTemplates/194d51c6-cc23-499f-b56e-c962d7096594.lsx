@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="314" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="194d51c6-cc23-499f-b56e-c962d7096594" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Books_Row_Multiple_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d2ffa323-402d-4bc2-b790-edc467192e12" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="5b65987c-f2e2-7e42-d215-d0fd0ab8f59a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f3c9c897-dac1-fb9f-15f6-c0f55fe1441c" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Books_Row_Multiple_D" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Bookrow" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="DestroyWithStack" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="InventoryType" type="uint8" value="27" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7066447 1.386591 -0.1948176" />
+									<attribute id="Max" type="fvec3" value="0.7066447 2.764217 0.2075896" />
+									<attribute id="Radius" type="float" value="0.66241" />
+									<attribute id="Height" type="float" value="2.167819" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7066447 1.386591 -0.1948176" />
+									<attribute id="Max" type="fvec3" value="0.7066447 2.764217 0.2075896" />
+									<attribute id="Radius" type="float" value="0.66241" />
+									<attribute id="Height" type="float" value="2.167819" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3533224 1.386591 -0.09740882" />
+									<attribute id="Max" type="fvec3" value="0.3533224 2.764217 0.1037948" />
+									<attribute id="Radius" type="float" value="0.331205" />
+									<attribute id="Height" type="float" value="2.167819" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="96a729cd-2cb9-f928-c3c0-5025d94354d6" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="f83323ea-9b91-ee61-a84e-ff7cd877ec4c" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="aa8f0f8b-b655-49df-9538-17748a037281" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

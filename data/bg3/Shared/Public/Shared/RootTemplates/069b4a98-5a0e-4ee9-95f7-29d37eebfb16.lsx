@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="406" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="069b4a98-5a0e-4ee9-95f7-29d37eebfb16" />
+					<attribute id="Name" type="LSString" value="UND_BLD_Worm_Wall_Hole_Big_A_Interactable" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6ba37df5-ee1d-4066-9725-a1432991a3b0" />
+					<attribute id="VisualTemplate" type="FixedString" value="36ec560a-1776-0ad9-7d87-bc12e618718f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="bd101fbd-9154-03a4-da4a-32bed8928790" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he3322903g8ffbg4d66gbc41g09a522e3e001" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_UND_BLD_Worm_Wall_Hole_A_Interactable" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObject" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="hb8d103c5gd74eg4161gb893g8f6861d02170" version="1" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.010251 -4.418468 -1.901933" />
+									<attribute id="Max" type="fvec3" value="2.318276 1.925005 4.038685" />
+									<attribute id="Radius" type="float" value="1.423002" />
+									<attribute id="Height" type="float" value="3.148875" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.010251 -4.418468 -1.901933" />
+									<attribute id="Max" type="fvec3" value="2.318276 1.925005 4.038685" />
+									<attribute id="Radius" type="float" value="1.423002" />
+									<attribute id="Height" type="float" value="3.148875" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.010251 -4.418468 -1.901933" />
+									<attribute id="Max" type="fvec3" value="2.318276 1.925005 4.038685" />
+									<attribute id="Radius" type="float" value="1.423002" />
+									<attribute id="Height" type="float" value="3.148875" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

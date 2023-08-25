@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="305" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7483130a-0b77-499e-be31-487811203af1" />
+					<attribute id="Name" type="LSString" value="LOOT_Alchemy_Crystal_Laculite_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="79f10d3b-b390-4662-9193-d2f4395d136a" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="8f35f3dd-a363-1693-e8ca-7e0d1691e228" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e82a9aa4-54d9-fd9b-d95a-3d9bd1827e78" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha4d175e1ge01ag4fe6g8e32gcf86f61c9c2e" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_Laculite_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Crystal_Laculite" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="hbf104e8ag43d9g42a6g8cceg40c122a41023" version="1" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<attribute id="ImpactSound" type="FixedString" value="5290a2da-7af9-dc1e-c32f-64df15f74a4c" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+					<attribute id="DropSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+					<attribute id="PickupSound" type="FixedString" value="c9d54f46-4779-bfd5-de26-1df05216ea3a" />
+					<attribute id="Description" type="TranslatedString" handle="ha463d183gcaa9g49adg9aa2gf8e546f05a11" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04111353 -0.003498584 -0.03898694" />
+									<attribute id="Max" type="fvec3" value="0.04111353 0.3230885 0.03898692" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04111353 -0.003498584 -0.03898694" />
+									<attribute id="Max" type="fvec3" value="0.04111353 0.3230885 0.03898692" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04111353 -0.003498584 -0.03898694" />
+									<attribute id="Max" type="fvec3" value="0.04111353 0.3230885 0.03898692" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="e764a381-811b-5253-0a99-5360d43574ec" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

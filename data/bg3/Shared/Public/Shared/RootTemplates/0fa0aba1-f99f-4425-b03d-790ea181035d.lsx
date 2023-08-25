@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="313" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0fa0aba1-f99f-4425-b03d-790ea181035d" />
+					<attribute id="Name" type="LSString" value="DEC_GEN_Statue_Shar_Huge_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="ReadinessFlags" type="uint32" value="132" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="a2bd87ae-1c4c-cde8-5a7e-4b569112eb3f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="68131ab5-83cc-0c9c-2be0-8cb22f17d76f" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="HierarchyOnlyFade" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h65ad677bg6d59g4f4fg8f7cg65fbdf37133d" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="WadableSurfaceType" type="FixedString" value="SurfaceDeepWater" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_GEN_Statue_Shar_Normal_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObject" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="MeshProxy" type="FixedString" value="" />
+					<attribute id="IsPortal" type="bool" value="False" />
+					<attribute id="AttackableWhenClickThrough" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="376e33c4-dd15-4c46-86a5-d88721b4c7a0" />
+					<attribute id="Archetype" type="FixedString" value="base" />
+					<attribute id="AiHint" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4864354 -0.005850434 -0.2902503" />
+									<attribute id="Max" type="fvec3" value="0.6812226 1.948289 0.4490385" />
+									<attribute id="Radius" type="float" value="0.5983641" />
+									<attribute id="Height" type="float" value="1.954139" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4864354 -0.005850434 -0.2902503" />
+									<attribute id="Max" type="fvec3" value="0.6812226 1.948289 0.4490385" />
+									<attribute id="Radius" type="float" value="0.5983641" />
+									<attribute id="Height" type="float" value="1.954139" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2432177 -0.005850434 -0.1451252" />
+									<attribute id="Max" type="fvec3" value="0.3406113 1.948289 0.2245193" />
+									<attribute id="Radius" type="float" value="0.299182" />
+									<attribute id="Height" type="float" value="1.954139" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="ConstellationConfigGlobalParameters" />
+						<node id="ItemList" />
+						<node id="StatusList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

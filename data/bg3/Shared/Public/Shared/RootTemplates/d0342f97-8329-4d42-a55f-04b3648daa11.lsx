@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="1" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d0342f97-8329-4d42-a55f-04b3648daa11" />
+					<attribute id="Name" type="LSString" value="UND_ClericStrengthChair" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f34e6dca-9067-4788-9c39-cba2e36d595a" />
+					<attribute id="VisualTemplate" type="FixedString" value="88fb71a0-ed2c-7c09-1950-f4ab39fa5c02" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e573af17-56ad-50e7-6835-a5610de95319" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9f83c300g26acg41c3gba67g81db1092b564" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_FUR_GEN_Stool_Wood_Poor_A" />
+					<attribute id="CanBeImprovisedWeapon" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="he9e15037gc67ag45c2g9c66g2e27732c67a6" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1405676 -0.0003724098 -0.1437211" />
+									<attribute id="Max" type="fvec3" value="0.1167172 0.5998625 0.1003725" />
+									<attribute id="Radius" type="float" value="0.1209635" />
+									<attribute id="Height" type="float" value="0.757066" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2811352 -0.0003724098 -0.2874422" />
+									<attribute id="Max" type="fvec3" value="0.2334343 0.5998625 0.2007449" />
+									<attribute id="Radius" type="float" value="0.241927" />
+									<attribute id="Height" type="float" value="0.757066" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2811352 -0.0003724098 -0.2874422" />
+									<attribute id="Max" type="fvec3" value="0.2334343 0.5998625 0.2007449" />
+									<attribute id="Radius" type="float" value="0.241927" />
+									<attribute id="Height" type="float" value="0.757066" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="ede72f19-68fa-939b-3461-b93b35a2771f" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="ae85bc90-1359-07c3-ced8-ff0a9e028491" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="b45c410b-77dd-466f-8334-ba1a8c63a0bc" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

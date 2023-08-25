@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="314" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="98ed535a-269e-42a9-a488-e57976729319" />
+					<attribute id="Name" type="LSString" value="CONS_Potion_Bottled_Breath_A_DONOTUSE" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="277257bc-38f5-4c51-be13-32498e8cbd3d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="687ce31b-1798-d901-4bd7-77ab0b4dfbee" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0091819e-3feb-a305-6c23-bad0cd100cf5" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9da6eb28ge719g4c94g83bbg426e5862e35d" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Bottled_Breath_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Potion_Bottle_Breath" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h46b0d7a6g8438g428bgbd84g17f5508acf27" version="3" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hfce97d64g0e12g4eebgad81gc66426740b84" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1221158 0.008464992 -0.1065644" />
+									<attribute id="Max" type="fvec3" value="0.1215922 0.51682 0.1076255" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1221158 0.008464992 -0.1065644" />
+									<attribute id="Max" type="fvec3" value="0.1215922 0.51682 0.1076255" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1221158 0.008464992 -0.1065644" />
+									<attribute id="Max" type="fvec3" value="0.1215922 0.51682 0.1076255" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="POTION_OF_BOTTLE_BREATH" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="716368d8-eb3d-8f72-47fe-d7a5df038b5a" />
+											<attribute id="visualDestruction" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d7645507-6c0c-48ff-aa1b-57092d139f22" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Monstrosity" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h26954623gd0bcg4a4agaed9g6e54bc6f3ffe" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfMonstrositySlaying" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="Description" type="TranslatedString" handle="hc3c9d1dagaf56g4ebag95b8g1c746e0c540f" version="3" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4685985 -0.02478646 -0.02940121" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.02739854 0.02678832" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4685985 -0.02478646 -0.02940121" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.02739854 0.02678832" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2342992 -0.02478646 -0.0147006" />
+									<attribute id="Max" type="fvec3" value="0.2364234 0.02739854 0.01339416" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfMonstrositySlaying" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

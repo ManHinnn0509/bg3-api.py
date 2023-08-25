@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="3" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5ab9094a-90ce-4981-afc7-5618093094b2" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Rotten_Food" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ec6b7184-cceb-4f06-b231-0eec0b94d889" />
+					<attribute id="VisualTemplate" type="FixedString" value="cd6a36c8-197c-c9c7-b6cd-3c4153acee09" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="69b03e9f-3765-8c78-f4bb-32da376f819f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7c9df51eg0df4g40deg94e7ge054449b4ef5" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Eggs_A_Rotten" />
+					<attribute id="Stats" type="FixedString" value="CONS_FOOD_Egg_Rotten" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="UseSound" type="FixedString" value="" />
+					<attribute id="Description" type="TranslatedString" handle="hcf228cc4g3dcfg4ed9gbca2gefd016e28f9a" version="1" />
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="StatsId" type="FixedString" value="POISONED" />
+											<attribute id="StatusDuration" type="int32" value="10" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

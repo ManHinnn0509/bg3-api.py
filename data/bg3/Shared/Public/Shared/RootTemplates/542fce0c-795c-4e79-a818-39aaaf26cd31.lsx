@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="542fce0c-795c-4e79-a818-39aaaf26cd31" />
+					<attribute id="Name" type="LSString" value="SurfaceLava" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbf9a3b93g1fc9g4a58g9c5dg9ea62b968d1b" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h3ebf0e81gc898g4442ga573ga861e35e06d1" version="1" />
+					<attribute id="Icon" type="FixedString" value="Surface_Lava" />
+					<attribute id="DecalMaterial" type="FixedString" value="7b0e3613-5381-deed-77a5-9c3bb7f3998f" />
+					<attribute id="MaterialType" type="uint8" value="23" />
+					<attribute id="SurfaceCategory" type="uint8" value="2" />
+					<attribute id="Summon" type="FixedString" value="84a171b0-c44d-4689-b8fc-25e32676cd76" />
+					<attribute id="ObscuredStateOverride" type="uint8" value="1" />
+					<attribute id="EnableLightSpawning" type="bool" value="True" />
+					<attribute id="SpawnLightTemplateID" type="FixedString" value="150fd237-7810-4018-9f62-37a3b9dc7a44" />
+					<attribute id="SpawnLightRandomVerticalRangeOffset" type="fvec2" value="0 0.2" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="BURNING_LAVA" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="True" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="True" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="True" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="7" />
+								</node>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="DIFFICULT_TERRAIN_LAVA" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="True" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="11" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

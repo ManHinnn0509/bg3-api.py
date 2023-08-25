@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2a5091cf-5637-4472-8432-16267b6ff19e" />
+					<attribute id="Name" type="LSString" value="TOOL_GEN_Dragon_Ballista_Arrow_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="VisualTemplate" type="FixedString" value="79cd44cb-59e9-6f5b-ca81-f6baedbffa94" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0f31b280-8201-620c-01d6-a9eb884a8088" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4ceb6d19gce0dg44c5ga3f8gac0ca4c0e2fe" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BASE_LOOT_Arrow" />
+					<attribute id="Stats" type="FixedString" value="BLD_Ballista" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="Hostile" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.06206418 -0.02781494 -0.9377006" />
+									<attribute id="Max" type="fvec3" value="0.06206418 0.08273102 0.9459857" />
+									<attribute id="Radius" type="float" value="0.3972942" />
+									<attribute id="Height" type="float" value="1.614332" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.06206418 -0.02781494 -0.9377006" />
+									<attribute id="Max" type="fvec3" value="0.06206418 0.08273102 0.9459857" />
+									<attribute id="Radius" type="float" value="1.945914" />
+									<attribute id="Height" type="float" value="1.89922" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.06206418 -0.02781494 -0.9377006" />
+									<attribute id="Max" type="fvec3" value="0.06206418 0.08273102 0.9459857" />
+									<attribute id="Radius" type="float" value="1.945914" />
+									<attribute id="Height" type="float" value="1.89922" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

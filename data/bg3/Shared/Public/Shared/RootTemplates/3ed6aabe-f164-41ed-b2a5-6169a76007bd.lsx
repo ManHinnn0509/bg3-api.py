@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="48" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3ed6aabe-f164-41ed-b2a5-6169a76007bd" />
+					<attribute id="Name" type="LSString" value="ENV_Static_WaterPlane_200w_128x128_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="scenery" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5aee2809-a85e-4fb7-b288-c63d4d979e7b" />
+					<attribute id="VisualTemplate" type="FixedString" value="ff0f6956-43c4-7ee8-0772-22505d7e5780" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0853b8cd-0b23-576b-f67e-cdb9a09d967e" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.75 0 -0.74116" />
+									<attribute id="Max" type="fvec3" value="0.75 2.98232 0.75" />
+									<attribute id="Radius" type="float" value="0.64697" />
+									<attribute id="Height" type="float" value="2.98232" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 0 -1.48232" />
+									<attribute id="Max" type="fvec3" value="1.5 2.98232 1.5" />
+									<attribute id="Radius" type="float" value="1.29394" />
+									<attribute id="Height" type="float" value="2.98232" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 0 -1.48232" />
+									<attribute id="Max" type="fvec3" value="1.5 2.98232 1.5" />
+									<attribute id="Radius" type="float" value="1.29394" />
+									<attribute id="Height" type="float" value="2.98232" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

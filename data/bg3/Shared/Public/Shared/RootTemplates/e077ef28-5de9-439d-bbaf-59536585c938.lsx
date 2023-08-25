@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="327" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e077ef28-5de9-439d-bbaf-59536585c938" />
+					<attribute id="Name" type="LSString" value="UNI_WYR_ExplosiveToy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1ac45157-d063-4314-8832-c50062a885dd" />
+					<attribute id="VisualTemplate" type="FixedString" value="a8380be2-a1d9-5059-663f-a439d4ef3430" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="30d6cc1a-ac4b-cb27-88e7-d73ff62a6657" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f4c04d2gbfc6g408bg8053g8b22ae954334" version="2" />
+					<attribute id="Stats" type="FixedString" value="WYR_ExplosiveToy" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h445a9406g38f9g4d64g8d7eg2aff61a83804" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h18694804ge8e0g4bf1gb40cga911746d227d" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="fe0d86c3-a562-430e-33a6-bfd8b29b8472" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="f6e89388-0e91-4e9d-b7b5-491ddd3840a5" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1936717 -0.015697 -0.2044919" />
+									<attribute id="Max" type="fvec3" value="0.2700188 0.554442 0.163666" />
+									<attribute id="Radius" type="float" value="0.1225059" />
+									<attribute id="Height" type="float" value="0.6386085" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1936717 -0.015697 -0.2044919" />
+									<attribute id="Max" type="fvec3" value="0.2700188 0.554442 0.163666" />
+									<attribute id="Radius" type="float" value="0.2450118" />
+									<attribute id="Height" type="float" value="0.6386085" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1936717 -0.015697 -0.2044919" />
+									<attribute id="Max" type="fvec3" value="0.2700188 0.554442 0.163666" />
+									<attribute id="Radius" type="float" value="0.2450118" />
+									<attribute id="Height" type="float" value="0.6386085" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="32" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="FallbackPreviewRadius" type="float" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="717c276f-4c42-b26d-3e73-6b5510be3087" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="91327f5f-966b-fabe-15fd-07d7a7dcc7b5" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ProjectileSpell" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_WYR_ExplosiveToy_Explosion" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="44f925d4-5da8-5743-5292-2e2e76ef8dc5" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

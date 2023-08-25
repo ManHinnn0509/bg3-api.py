@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="326" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="87d5d681-13a3-48ac-b102-14e7db424556" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_CONST_Button_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ccd075e6-b9fa-4607-b14a-b72fee5fcbe6" />
+					<attribute id="VisualTemplate" type="FixedString" value="748ac5ab-9eba-d5aa-6be9-bc1d0fca1bc1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c1342d4a-2023-7d53-0c49-220d7407b6f9" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2fcda096g1596g420cg8088ga8c285fc8d29" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_Button_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableAttackableObject" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="Button" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.141569 -0.0001239032 -0.1416062" />
+									<attribute id="Max" type="fvec3" value="0.1415796 0.08108325 0.1416064" />
+									<attribute id="Radius" type="float" value="0.0602885" />
+									<attribute id="Height" type="float" value="0.400232" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.141569 -0.0001239032 -0.1416062" />
+									<attribute id="Max" type="fvec3" value="0.1415796 0.08108325 0.1416064" />
+									<attribute id="Radius" type="float" value="0.120577" />
+									<attribute id="Height" type="float" value="0.400232" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.141569 -0.0001239032 -0.1416062" />
+									<attribute id="Max" type="fvec3" value="0.1415796 0.08108325 0.1416064" />
+									<attribute id="Radius" type="float" value="0.120577" />
+									<attribute id="Height" type="float" value="0.400232" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Type" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="None" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

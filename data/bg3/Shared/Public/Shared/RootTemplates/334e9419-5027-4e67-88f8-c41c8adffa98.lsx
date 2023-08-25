@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="334e9419-5027-4e67-88f8-c41c8adffa98" />
+					<attribute id="Name" type="LSString" value="MEPHIT_Magma_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3db5896-d711-46fc-b3ed-0d950a2186fa" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="Icon" type="FixedString" value="121cb989-cb00-9a05-6503-735db939e756-_(Icon_Mephit_Magma)" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="f61371a5-04b2-7447-ee6c-798cd18f2ba0" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="9e9a6a71-7706-2db2-81ff-faf23c0ffaf8" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="6f16147b-cc35-e9ce-0640-078661150de9" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="5cc741dc-3c1b-85f2-87b9-b0ccd08cc3a2" />
+					<attribute id="VocalAnticipationResourceID" type="FixedString" value="440bcc61-5afe-7377-4618-7ff0f76ca8c8" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="350a25e1-3386-fe7f-b35b-650106b1274c" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="7a020d3d-5345-cead-5e26-2c4477a9bc99" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="680c3ffa-af97-837a-3fbb-1b14153b4a8f" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="f6058a3e-4849-dda4-7936-e553027bd074" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="2be0130b-68d3-79a4-6951-e872a8785f77" />
+					<attribute id="VocalRebornResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="8b151656-b356-cc80-336e-b04afedcbb6f" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="f3e87bf8-cd48-7d24-2604-523e0da2db0c" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="b2332595-bd8a-91ac-d5ce-eca76b466003" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="5efbef52-46d2-de5a-be09-cf0ddd580f66" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="6c3299d6-e943-4554-959e-48ba659dd203" />
+					<attribute id="VocalIdle1ResourceID" type="FixedString" value="91602efb-cfde-b7d9-0d6b-e84738fd5404" />
+					<attribute id="VocalIdleCombat1ResourceID" type="FixedString" value="13a2a97e-e478-3f20-ece1-d4f2a48b8059" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="121cb989-cb00-9a05-6503-735db939e756" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="cd7de361-f042-be3e-8776-3e64b00439fe" />
+					<attribute id="Archetype" type="FixedString" value="beast" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Claws_Mephit_Magma" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_HeatMetal_MagmaMephit" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Zone_Mephit_FireBreath" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Mephit" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Monster_Mephit_Magma" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

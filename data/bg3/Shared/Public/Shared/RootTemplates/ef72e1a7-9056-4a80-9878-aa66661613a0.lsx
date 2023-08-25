@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="323" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ef72e1a7-9056-4a80-9878-aa66661613a0" />
+					<attribute id="Name" type="LSString" value="PUZ_InvisibleBlocker_3x1_0n2H_A_Trap_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e1ba7d3b-7649-4ad7-bec2-370397e0dbeb" />
+					<attribute id="VisualTemplate" type="FixedString" value="270851b1-029b-7847-fa6a-21d2934d3d25" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="20aca0ae-a23d-950b-53c7-8accd6c6ee1d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="CanClickThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObjectWeightless" />
+					<attribute id="IsSurfaceBlocker" type="bool" value="True" />
+					<attribute id="IsInteractionDisabled" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="TrappedAreaIndicator" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 -0.09999999 -0.6" />
+									<attribute id="Max" type="fvec3" value="1.5 0.09999999 0.6" />
+									<attribute id="Radius" type="float" value="1.5" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 -0.09999999 -0.6" />
+									<attribute id="Max" type="fvec3" value="1.5 0.09999999 0.6" />
+									<attribute id="Radius" type="float" value="1.5" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 -0.09999999 -0.6" />
+									<attribute id="Max" type="fvec3" value="1.5 0.09999999 0.6" />
+									<attribute id="Radius" type="float" value="1.5" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

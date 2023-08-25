@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="47" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0e3b29e8-572f-459d-b382-234ec53b1c08" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Halberd_A_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f928a70d-5b23-4605-9cae-5342f9ed206e" />
+					<attribute id="ReadinessFlags" type="uint32" value="132" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="f35f653b-af18-d127-0eca-045fa60d5dbe" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a8ba8c71-2c67-a7f4-ee33-e2d71fc7ce93" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h77a8574ag8a67g4ca6g9c4ag2eeb178c472a" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Halberd_A_2" />
+					<attribute id="Stats" type="FixedString" value="WPN_Halberd_2" />
+					<attribute id="Description" type="TranslatedString" handle="h4ebbcfceg0f71g4260g9b37g5c437dac36ba" version="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="98a38628-79fa-4f24-4e90-54deeff4ae03" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3431206 -0.02197474 -2.270445" />
+									<attribute id="Max" type="fvec3" value="0.3259939 0.04038562 0.4963024" />
+									<attribute id="Radius" type="float" value="0.592479" />
+									<attribute id="Height" type="float" value="0.07162" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3329349 -0.03023819 -2.18754" />
+									<attribute id="Max" type="fvec3" value="0.3163166 0.03027098 0.497076" />
+									<attribute id="Radius" type="float" value="0.592479" />
+									<attribute id="Height" type="float" value="0.07162" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1664675 -0.03023819 -1.09377" />
+									<attribute id="Max" type="fvec3" value="0.1581583 0.03027098 0.248538" />
+									<attribute id="Radius" type="float" value="0.2962395" />
+									<attribute id="Height" type="float" value="0.07162" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

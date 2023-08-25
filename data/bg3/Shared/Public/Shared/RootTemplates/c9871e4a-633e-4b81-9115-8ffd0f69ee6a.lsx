@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="308" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c9871e4a-633e-4b81-9115-8ffd0f69ee6a" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Antimagic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="b6e78230-6ec5-d8d8-34a1-ba371897c5e7" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d4dd8569-12c8-538f-cceb-f603d872a316" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfa474df3g6f0ag45e2gb8d7g706291929b90" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Antimagic" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfAntimagic" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="Description" type="TranslatedString" handle="h0da1e659g7269g4ac9g8701g021b1c7f2c2b" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4678551 -0.02886177 -0.02441001" />
+									<attribute id="Max" type="fvec3" value="0.4883922 0.02037636 0.02753537" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4678551 -0.02886177 -0.02441001" />
+									<attribute id="Max" type="fvec3" value="0.4883922 0.02037636 0.02753537" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2339275 -0.02886177 -0.01220501" />
+									<attribute id="Max" type="fvec3" value="0.2441961 0.02037636 0.01376769" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfAntimagic" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

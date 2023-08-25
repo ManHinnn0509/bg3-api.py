@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="73882c7c-7624-4b62-93db-c9387b991113" />
+					<attribute id="Name" type="LSString" value="CONT_GEN_Basket_Wicker_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c35645db-08dc-420a-b8af-bfbf03c3207c" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="dad3d63a-f3d7-679f-d160-defe1a99959d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="b696ed1a-5c50-3586-722a-011a92d408a1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h15d0bf5bg6c1fg4c69ga32agdadd39967894" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Basket_Wicker_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Basket" />
+					<attribute id="CanBeImprovisedWeapon" type="bool" value="True" />
+					<attribute id="InventoryType" type="uint8" value="43" />
+					<attribute id="Description" type="TranslatedString" handle="h51e9c980g311bg40a8g9f8ag268ce8672950" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4178306 -0.001235008 -0.4178305" />
+									<attribute id="Max" type="fvec3" value="0.4178305 1.222709 0.4178306" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4178306 -0.001235008 -0.4178305" />
+									<attribute id="Max" type="fvec3" value="0.4178305 1.222709 0.4178306" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2089153 -0.001235008 -0.2089153" />
+									<attribute id="Max" type="fvec3" value="0.2089152 1.222709 0.2089153" />
+									<attribute id="Radius" type="float" value="0.2540385" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="ea31187c-beb7-acdc-a5ad-edb3e080d490" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="8cb0c83a-7a7e-4ff7-9295-8ed7f1569f22" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="GEN_WickerBasket" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

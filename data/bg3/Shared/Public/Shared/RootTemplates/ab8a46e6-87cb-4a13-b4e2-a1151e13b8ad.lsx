@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ab8a46e6-87cb-4a13-b4e2-a1151e13b8ad" />
+					<attribute id="Name" type="LSString" value="FUR_Druids_Bed_Stone_Single_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fc1a8257-5a1a-4dc5-9fe7-cbb46d242e76" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="f78daa50-112c-2360-145b-7b1cf0d753b6" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9679e19e-c337-cc1a-5a4e-42c72c26c496" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5516108bgecd7g49eag8b4ag9f020bc3775d" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_QUEST_MOO_DrowPriestess_FallingBlock_Heavy" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Indestructible_Heavy" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="ha0cd7c2eg3d97g4ec8gac99g4e8c39b2629c" version="2" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8551322 -0.02726215 -1.608824" />
+									<attribute id="Max" type="fvec3" value="0.7979437 0.9013897 1.612527" />
+									<attribute id="Radius" type="float" value="1.28606" />
+									<attribute id="Height" type="float" value="3.34122" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8551322 -0.02726215 -1.608824" />
+									<attribute id="Max" type="fvec3" value="0.7979437 0.9013897 1.612527" />
+									<attribute id="Radius" type="float" value="0.64303" />
+									<attribute id="Height" type="float" value="3.34122" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8551322 -0.02726215 -1.608824" />
+									<attribute id="Max" type="fvec3" value="0.7979437 0.9013897 1.612527" />
+									<attribute id="Radius" type="float" value="1.28606" />
+									<attribute id="Height" type="float" value="3.34122" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="15" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Heal" type="float" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

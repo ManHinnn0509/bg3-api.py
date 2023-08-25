@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7fd3ac42-2305-45ca-92c6-3e4ba43b4c76" />
+					<attribute id="Name" type="LSString" value="PUZ_Underdark_Mushroom_Nightlight_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e40d1292-1da8-4c8f-b1dc-213cfdd4e135" />
+					<attribute id="VisualTemplate" type="FixedString" value="1dfd9e87-798a-f239-1786-acf7793dcbb5" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1a0715be-97d7-afef-e69b-9790b6aa046b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf792a773g55d9g483cgaeffgaa572ef6a7c2" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_AlchemyIngredient_Mushroom_Glowing" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="Nightlight" />
+					<attribute id="Description" type="TranslatedString" handle="h44c0b0bdg6fb7g4151g93cfg4afbdf703010" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8392782 -0.01155734 -0.8551898" />
+									<attribute id="Max" type="fvec3" value="0.8535457 1.909853 0.8390644" />
+									<attribute id="Radius" type="float" value="0.7676249" />
+									<attribute id="Height" type="float" value="1.92141" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8392782 -0.01155734 -0.8551898" />
+									<attribute id="Max" type="fvec3" value="0.8535457 1.909853 0.8390644" />
+									<attribute id="Radius" type="float" value="0.7676249" />
+									<attribute id="Height" type="float" value="1.92141" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8392782 -0.01155734 -0.8551898" />
+									<attribute id="Max" type="fvec3" value="0.8535457 1.909853 0.8390644" />
+									<attribute id="Radius" type="float" value="0.7676249" />
+									<attribute id="Height" type="float" value="1.92141" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="GameplayLightSharpness" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="0.100000001490116" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="LightEffectBone" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="RewardTemplate" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="LOOT_Underdark_Mushroom_Nightlight_Piece_7a164775-4a77-47a4-a8b2-5bd5bdc311cf" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

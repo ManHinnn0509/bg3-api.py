@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="48" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="99cc464d-8d7e-493a-bc63-fdfd365e813d" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Charcoal_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="e781d3d6-3f7b-f38c-c5d8-610a3043fbb0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="16f4774e-5b2f-e6ee-e6ea-230f700091bb" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h289f4dc6gfec6g4f03g93f6g6708da0aeb1e" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Charcoal_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GoldPile" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="maxStackAmount" type="int32" value="9999" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="5f4b5a82-424c-683b-b816-768475cb821b" />
+					<attribute id="DropSound" type="FixedString" value="5f4b5a82-424c-683b-b816-768475cb821b" />
+					<attribute id="PickupSound" type="FixedString" value="c4165546-1ba5-dfdc-0b8e-735c94af8227" />
+					<attribute id="Description" type="TranslatedString" handle="h4cf5de88gfc8eg4050ga53bg4b4af8c76b1f" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04720005 -0.000707597 0.0001049115" />
+									<attribute id="Max" type="fvec3" value="0.0472371 0.133635 0.065965" />
+									<attribute id="Radius" type="float" value="0.03332405" />
+									<attribute id="Height" type="float" value="0.134343" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0944001 -0.000707597 0.000209823" />
+									<attribute id="Max" type="fvec3" value="0.0944742 0.133635 0.13193" />
+									<attribute id="Radius" type="float" value="0.0666481" />
+									<attribute id="Height" type="float" value="0.134343" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0944001 -0.000707597 0.000209823" />
+									<attribute id="Max" type="fvec3" value="0.0944742 0.133635 0.13193" />
+									<attribute id="Radius" type="float" value="0.0666481" />
+									<attribute id="Height" type="float" value="0.134343" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="13" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h7a880309gcf3bg4a55g996fg022b6190f3f5" version="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

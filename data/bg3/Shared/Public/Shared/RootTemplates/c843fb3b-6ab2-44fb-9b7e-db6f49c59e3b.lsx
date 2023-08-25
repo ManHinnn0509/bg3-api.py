@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c843fb3b-6ab2-44fb-9b7e-db6f49c59e3b" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_Lever_Wall_Rich_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ac77de87-8819-4655-890a-8ffda881d39c" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="4b2046e8-716f-458f-60d0-42e3c43794cd" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2e925939-4cc9-bb60-dbda-bca2466ab252" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4817fb81gc006g43c5g9d06gf05f276f6b35" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="InteractItem_Lever" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="UseSound" type="FixedString" value="" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.112198 -0.4152346 -0.3935537" />
+									<attribute id="Max" type="fvec3" value="0.1126606 0.3999248 0.01183656" />
+									<attribute id="Radius" type="float" value="0.43087" />
+									<attribute id="Height" type="float" value="1.11479" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.112198 -0.4152346 -0.3935537" />
+									<attribute id="Max" type="fvec3" value="0.1126606 0.3999248 0.01183656" />
+									<attribute id="Radius" type="float" value="0.43087" />
+									<attribute id="Height" type="float" value="1.11479" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.05609902 -0.4152346 -0.1967769" />
+									<attribute id="Max" type="fvec3" value="0.05633032 0.3999248 0.005918279" />
+									<attribute id="Radius" type="float" value="0.215435" />
+									<attribute id="Height" type="float" value="1.11479" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

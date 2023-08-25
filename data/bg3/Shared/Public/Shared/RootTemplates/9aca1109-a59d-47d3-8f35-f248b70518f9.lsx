@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9aca1109-a59d-47d3-8f35-f248b70518f9" />
+					<attribute id="Name" type="LSString" value="UNI_GLO_Moonlantern" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="50c43f27-a12e-412c-88f0-56e15eba692a" />
+					<attribute id="VisualTemplate" type="FixedString" value="e8d80a63-b8a5-b419-fe0b-ed820c121429" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e86b809a-cbab-5afb-3292-7cfce1abf217" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5af216cfg91fdg483fg974cg44243b0df98c" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="Icon" type="FixedString" value="Item_QUEST_SCL_Moonlantern" />
+					<attribute id="Stats" type="FixedString" value="Quest_GLO_Moonlantern" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="WieldedOrDroppedStatus" />
+					<attribute id="EquipSound" type="FixedString" value="da469251-95cf-5387-6295-5b1d5ce5a41f" />
+					<attribute id="UnequipSound" type="FixedString" value="503428af-9061-40a7-b9c4-64c8ec78fff3" />
+					<attribute id="ImpactSound" type="FixedString" value="0c130d61-2b03-3abb-2d1d-3ea22eb35034" />
+					<attribute id="DropSound" type="FixedString" value="f55dc72a-13b8-6e3d-7500-559a5d1f3031" />
+					<attribute id="PickupSound" type="FixedString" value="28ea7a9f-b66a-3410-7985-d7cd5cb896f0" />
+					<attribute id="Description" type="TranslatedString" handle="h1350527cgce9cg402fga73ag2ab80dabc639" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="08d178fa-97a1-421c-7f98-80ec40937c5b" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d40f0c3a-d95d-49fe-62ae-90ca2cff0222" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04099753 -0.03951935 -1.319007" />
+									<attribute id="Max" type="fvec3" value="0.2345723 0.2175867 -0.2153461" />
+									<attribute id="Radius" type="float" value="0.1167305" />
+									<attribute id="Height" type="float" value="0.230058" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04099753 -0.03951935 -1.319007" />
+									<attribute id="Max" type="fvec3" value="0.2345723 0.2175867 -0.2153461" />
+									<attribute id="Radius" type="float" value="0.233461" />
+									<attribute id="Height" type="float" value="0.230058" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04099753 -0.03951935 -1.319007" />
+									<attribute id="Max" type="fvec3" value="0.2345723 0.2175867 -0.2153461" />
+									<attribute id="Radius" type="float" value="0.233461" />
+									<attribute id="Height" type="float" value="0.230058" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Status" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="SCL_MOONSHIELD_AURA" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SCL_MOONLANTERN_TECHNICAL" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

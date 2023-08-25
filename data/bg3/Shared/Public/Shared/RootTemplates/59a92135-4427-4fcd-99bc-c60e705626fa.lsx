@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="66" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="59a92135-4427-4fcd-99bc-c60e705626fa" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Races_HalflingRhymes1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="47f778cc-b4ff-45c4-83af-e879e1ff14c3" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4c8029f-3402-3e86-d07e-9a17f5bb3ae6" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="685f5c29-1d10-e0b8-059d-b78f495a7c39" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc4e59f48gbcd1g47a3ga943g32102fadeee8" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_Rich_C" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_Races_HalflingRhymes1" />
+					<attribute id="Description" type="TranslatedString" handle="haae2d95bga3dcg4f7egb7ddg42f673c6eb99" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="GODS" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="VERSE" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="HALFLINGS" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="YONDALLA" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="GARL" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="CHILDREN" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="ENTERTAINMENT" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1019184 -0.01312011 -0.1083739" />
+									<attribute id="Max" type="fvec3" value="0.1018156 0.1387698 0.1083739" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_Races_HalflingRhymes1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5f88fed8-61f8-4ad9-b334-b7d9c3f3f6cb" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_World_MatronSpeechDrowTenets" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="47f778cc-b4ff-45c4-83af-e879e1ff14c3" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="4aafdb47-7780-ae83-f7b3-aeb9820950b2" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="02f88e71-aa2b-e487-0707-5299ab530c85" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h762295d8g8f4dg40e4g82f8gf62ffbb4c45d" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Ornate_G" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_World_MatronSpeechDrowTenets" />
+					<attribute id="ExamineRotation" type="fvec3" value="65 180 0" />
+					<attribute id="Description" type="TranslatedString" handle="h94c2a67egd71cg49d8ga191g599d29f1f6f7" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="DROW" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="LOLTH" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="UNDERDARK" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="SELDARINE" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="MENZOBERRANZAN" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="RACES" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="GODS" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2680835 -0.0410083 -0.1522975" />
+									<attribute id="Max" type="fvec3" value="0.2680835 0.111889 0.150695" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1566753 -0.000847429 -0.2085258" />
+									<attribute id="Max" type="fvec3" value="0.1566266 0.09307736 0.2085258" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1566753 -0.000847429 -0.2085258" />
+									<attribute id="Max" type="fvec3" value="0.1566266 0.09307736 0.2085258" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_World_MatronSpeechDrowTenets" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="86695866-3009-4ab3-a3f5-41a72d71d29f" />
+					<attribute id="Name" type="LSString" value="PUZ_Underdark_Mushroom_Bibberbang_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ba629b1b-a058-4386-808f-bf1b08b2c0ad" />
+					<attribute id="VisualTemplate" type="FixedString" value="93518692-cd70-4967-d664-9cee20e29dd4" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2434b87d-b867-7928-85ec-d96c6486048d" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BibberbangMushroom" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="Archetype" type="FixedString" value="Base" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2889597 -0.02340078 -0.2853512" />
+									<attribute id="Max" type="fvec3" value="0.3458201 0.801686 0.3610917" />
+									<attribute id="Radius" type="float" value="0.4305134" />
+									<attribute id="Height" type="float" value="0.7950867" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.282 -0.02340084 -0.285" />
+									<attribute id="Max" type="fvec3" value="0.3458201 0.801 0.361" />
+									<attribute id="Radius" type="float" value="0.4305134" />
+									<attribute id="Height" type="float" value="0.7950867" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.282 -0.023 -0.285" />
+									<attribute id="Max" type="fvec3" value="0.345 0.801 0.361" />
+									<attribute id="Radius" type="float" value="0.4305134" />
+									<attribute id="Height" type="float" value="0.7950867" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceSporeGreenCloud" />
+											<attribute id="LifeTime" type="float" value="6" />
+											<attribute id="Radius" type="float" value="5" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="81b521fd-4980-2362-5c07-399ee3aedb9e" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="8ac5273f-b250-4a58-8d21-6ea5c2e2388d" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="4f0f6785-98ad-62ff-65d5-d5af37780dd4" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="7599703b-2b0d-8e72-9a0f-360af53d0836" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ArmingTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0.9" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ExplosionRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="2" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="GlowingFX" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="VFX_Script_PUZ_Underdark_Mushroom_Bibberbang_C_02" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="PulsatingFX" />
+													<attribute id="Type" type="int32" value="3" />
+													<attribute id="Value" type="LSString" value="VFX_Script_PUZ_Underdark_Mushroom_Bibberbang_C_01" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="Surface" />
+													<attribute id="Type" type="int32" value="10" />
+													<attribute id="Value" type="LSString" value="SurfaceSporeGreenCloud" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="SurfaceDurationInTurns" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="4" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="SurfaceRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="4" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="WarningRadius" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="3" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="resetDuration" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="26" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

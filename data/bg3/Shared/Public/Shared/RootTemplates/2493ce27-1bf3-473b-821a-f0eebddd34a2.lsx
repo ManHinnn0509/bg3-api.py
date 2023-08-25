@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2493ce27-1bf3-473b-821a-f0eebddd34a2" />
+					<attribute id="Name" type="LSString" value="BLD_Goblins_Scaffolding_Wood_4H_4W_A_Destruct_Target" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="b78ac729-cd9d-42d3-8a3b-b4300545b84d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="cd127efb-76a1-997c-0f95-b4ccb5c3f2ff" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h87a692cfgbe9ag4608ga341gb816b5968b03" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_GEN_Camp_WoodenStructure_A_Pillar_A_4H_A_Dynamic" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Destr_Support_Wood" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="ImpactSound" type="FixedString" value="d44f2631-ebea-49ff-79ba-415636e0270a" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2284624 -2.789443 -2.725078" />
+									<attribute id="Max" type="fvec3" value="0.2284624 2.789443 2.725088" />
+									<attribute id="Radius" type="float" value="1.953156" />
+									<attribute id="Height" type="float" value="5.578887" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2284624 -2.789443 -2.725078" />
+									<attribute id="Max" type="fvec3" value="0.2284624 2.789443 2.725088" />
+									<attribute id="Radius" type="float" value="1.953156" />
+									<attribute id="Height" type="float" value="5.578887" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="9cf7a2d8-89dd-6137-f89a-6208cbc57932" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

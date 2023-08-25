@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1b3f2e3c-7d15-4427-8b01-14578d5e1c6f" />
+					<attribute id="Name" type="LSString" value="CONT_GEN_Burlap_Sack_Pile_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c5e68dbc-5d1d-48e7-ac00-ad696dd6a584" />
+					<attribute id="VisualTemplate" type="FixedString" value="c19bf80d-1823-7b20-1000-2934b28a7a2d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a40512ba-27bb-44f0-1f39-be3360bd67a8" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc18ccb52g00f7g4510g915agccd90458c9ef" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Burlap_Sack_Pile_B" />
+					<attribute id="InventoryType" type="uint8" value="5" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.024845 -0.06465161 -0.7035426" />
+									<attribute id="Max" type="fvec3" value="0.8284105 1.295099 1.199627" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.024845 -0.06465161 -0.7035426" />
+									<attribute id="Max" type="fvec3" value="0.8284105 1.295099 1.199627" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5482175 -0.06465161 -0.2019577" />
+									<attribute id="Max" type="fvec3" value="0.3517825 1.295099 0.6980423" />
+									<attribute id="Radius" type="float" value="0.2540385" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="GEN_BulrapSack" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

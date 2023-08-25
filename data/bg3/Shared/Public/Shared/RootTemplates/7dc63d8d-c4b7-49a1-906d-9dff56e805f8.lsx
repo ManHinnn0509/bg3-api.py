@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7dc63d8d-c4b7-49a1-906d-9dff56e805f8" />
+					<attribute id="Name" type="LSString" value="TOOL_GEN_Telescope_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="132" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="b0d666ae-0c63-6385-56c9-a5f05a546786" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="40439041-dc9c-719c-b1b0-c5d924ee3d62" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h218b3a1dga104g4b79g9bedgc3a430fde940" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GEN_Telescope_A" />
+					<attribute id="Unimportant" type="bool" value="True" />
+					<attribute id="AnubisConfigName" type="FixedString" value="" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2 0 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.2 1.84505 0.5" />
+									<attribute id="Radius" type="float" value="0.5990261" />
+									<attribute id="Height" type="float" value="1.84505" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2 0 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.2 1.84505 0.5" />
+									<attribute id="Radius" type="float" value="0.5990261" />
+									<attribute id="Height" type="float" value="1.84505" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09999999 0 -0.25" />
+									<attribute id="Max" type="fvec3" value="0.09999999 1.84505 0.25" />
+									<attribute id="Radius" type="float" value="0.2995131" />
+									<attribute id="Height" type="float" value="1.84505" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters">
+							<children>
+								<node id="ScriptConfigParameter">
+									<attribute id="Name" type="LSString" value="itemDialog" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="GLO_Telescope_PAD_54d193f6-92c6-cc15-637d-2819ac6405f2" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

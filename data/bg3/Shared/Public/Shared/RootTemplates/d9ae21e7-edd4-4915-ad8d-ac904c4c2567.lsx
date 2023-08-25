@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="330" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d9ae21e7-edd4-4915-ad8d-ac904c4c2567" />
+					<attribute id="Name" type="LSString" value="Hyena_A_Black" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e63714e5-e2fa-4da6-8982-97b4a0ace963" />
+					<attribute id="VisualTemplate" type="FixedString" value="32c7a742-b5a3-394b-1a07-2ae70c15f49c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7a335ec0-bb56-822d-ef87-5ee85e8692f4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h96c660cdg50bag4960g9ed3g938c64814b25" version="1" />
+					<attribute id="Icon" type="FixedString" value="3afc8338-972d-4aed-5056-8de28f52d476-_(Icon_Hyena)" />
+					<attribute id="Stats" type="FixedString" value="Hyena" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="BloodType" type="FixedString" value="Red" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="9b371eaa-2ebe-028e-d577-2202ab7acff1" />
+					<attribute id="ExplosionFX" type="FixedString" value="VFX_Combat_Death_Explode_01" />
+					<attribute id="LevelOverride" type="int32" value="1" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="b233c664-9d6e-d96c-dc91-de0d7a11cc47" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="525693f5-9a2c-2e31-1940-7b8ef3016229" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="5d6b1d94-893f-c48a-1961-61da5f14dfb6" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="915f49ba-e562-3d5c-c95b-9cdb36e088f6" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="447a81d3-2f8e-b91f-f9e3-cf618ce696b4" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="3b5e49a5-19d8-ec76-819e-28b805101ff5" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="ddd7d965-b26e-918f-f1ca-d0c9bfa8f057" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="6383568c-2c6b-c19c-e1a8-5887c4ac60c7" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="4e3ac79c-0f14-fcab-b771-814785841813" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="aa154c77-5554-0b13-0a0d-1a715963db58" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="092058b7-5c2a-4ced-9f44-7d908c559094" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="de6df25d-a6bb-ab1f-a58c-758863f6f82e" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="b04cc6f4-33c4-b7a0-bf46-8636c9cbf352" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3afc8338-972d-4aed-5056-8de28f52d476" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Hyena" />
+					<attribute id="Race" type="guid" value="3c7d3cf6-1a23-49ad-d09f-00cddfb17652" />
+					<attribute id="Archetype" type="FixedString" value="beast" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.3123488 0 -1.141189" />
+									<attribute id="Max" type="fvec3" value="0.3123488 1.408351 0.682662" />
+									<attribute id="Radius" type="float" value="0.3" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3123488 0 -1.141189" />
+									<attribute id="Max" type="fvec3" value="0.3123488 1.408351 0.682662" />
+									<attribute id="Radius" type="float" value="0.6" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.3123488 0 -1.141189" />
+									<attribute id="Max" type="fvec3" value="0.3123488 1.408351 0.682662" />
+									<attribute id="Radius" type="float" value="0.6" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Hyena" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="d00d54a9-b028-92f5-a5f5-cf29b25a6903" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="17d6a1c8-e453-fbda-5769-38f4d950a50a" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="6323b0ce-dab3-6e85-bebc-301aceb84602" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="0.9" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
+							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="0.9" />
+							<attribute id="WorldClimbingRadius" type="float" value="0.8" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

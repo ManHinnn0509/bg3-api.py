@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="53" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9409a9f8-5700-4a06-a8fa-fd3202550310" />
+					<attribute id="Name" type="LSString" value="LOOT_Underdark_MushroomPieces_D" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="4dd1d154-db05-7a5f-1ae6-95f05bb32a2a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="72b41965-2362-ca7a-9b55-6a76337c934f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1d0d5397ge01eg42ceg87e4g3a7a6f73921f" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Underdark_MushroomPieces_D" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<attribute id="ImpactSound" type="FixedString" value="7b228d89-caf8-a73b-ca8c-f0f8c50f7c15" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="2953d61b-cc69-557e-5c5e-2d626fab3d4c" />
+					<attribute id="DropSound" type="FixedString" value="2953d61b-cc69-557e-5c5e-2d626fab3d4c" />
+					<attribute id="PickupSound" type="FixedString" value="893cc357-d704-ab86-1776-d0c80b4ba4fb" />
+					<attribute id="Description" type="TranslatedString" handle="h693e1136g6876g4292g8368g332b72202275" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4470097 -0.0006113052 -0.487173" />
+									<attribute id="Max" type="fvec3" value="0.4483352 0.8692481 0.4851237" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4470097 -0.0006113052 -0.487173" />
+									<attribute id="Max" type="fvec3" value="0.4483352 0.8692481 0.4851237" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4470097 -0.0006113052 -0.487173" />
+									<attribute id="Max" type="fvec3" value="0.4483352 0.8692481 0.4851237" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

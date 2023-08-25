@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="503" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="fadaf082-bac3-49f4-90a4-27c8af02d81d" />
+					<attribute id="Name" type="LSString" value="CHICKEN_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6b781e5f-500d-478a-873c-c7d218a28979" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="VisualTemplate" type="FixedString" value="dca45adc-7d02-a1d4-d05a-88bc36f2a6fe" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1fe26d3d-7a9a-65b4-e58d-f478f34f992a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd4f234c1gc072g4aa8ga55fgaddfb7aa7052" version="1" />
+					<attribute id="Icon" type="FixedString" value="8ab21da5-5c7b-d5ea-e617-96ece3e0f0a4-_(Icon_Chicken)" />
+					<attribute id="Stats" type="FixedString" value="Chicken" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="LightID" type="FixedString" value="b8299899-3785-42f2-aaf3-6c26445545b3" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="3a2f2b1c-882c-8050-9f6e-8a4cff501e9d" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="14ab23db-663f-ce09-71d8-ffc49f2f6ad1" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="3adff2f4-ab5a-5462-628c-74a2c2168265" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="d828282c-957a-efd4-ae38-dbfb9d9037aa" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="c5b92847-33a5-0948-9bfc-20c68b9aebd0" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="20161210-4b5d-b4cf-afb0-1020569fce49" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="cfbf11ae-dd7b-565a-5f41-eb32bd70b479" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="f8e40492-c3f0-ca26-371d-19663d7c4974" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="b197a128-2c29-1199-62d4-2083b1739ff2" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="f9ed69d4-44ef-25bf-dbe8-651c3b859a0c" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="f6d3c303-4cb8-0bf4-db8a-0600718ef6f2" />
+					<attribute id="VocalIdle2ResourceID" type="FixedString" value="30d1b769-6b66-77e2-c53f-14da215ae485" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="8ab21da5-5c7b-d5ea-e617-96ece3e0f0a4" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Chicken" />
+					<children>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="1fe26d3d-7a9a-65b4-e58d-f478f34f992a" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="b16bd66a-b88e-116f-fcb8-4551db0c3242" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="4ac46fff-08c8-1a74-77dd-41f7ce718e02" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.2" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

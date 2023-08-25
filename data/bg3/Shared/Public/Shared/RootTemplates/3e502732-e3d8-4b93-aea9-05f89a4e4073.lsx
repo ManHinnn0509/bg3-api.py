@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="204" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3e502732-e3d8-4b93-aea9-05f89a4e4073" />
+					<attribute id="Name" type="LSString" value="LTS_DUN_Candles_C_Gold" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="34df8770-06c5-4752-a7b6-25d4f64d64dc" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="54861494-15a7-4ccb-a94d-f1d8554e0189" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f93af83e-3154-0ee4-fae8-94b0427ac1bc" />
+					<attribute id="Icon" type="FixedString" value="Item_LTS_DUN_Candles_C" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Candle_Gold" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08277155 -0.02833402 -0.07872056" />
+									<attribute id="Max" type="fvec3" value="0.08277168 0.7121721 0.07872056" />
+									<attribute id="Radius" type="float" value="0.1087657" />
+									<attribute id="Height" type="float" value="0.7405061" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1655431 -0.02833402 -0.1574411" />
+									<attribute id="Max" type="fvec3" value="0.1655434 0.7121721 0.1574411" />
+									<attribute id="Radius" type="float" value="0.2175314" />
+									<attribute id="Height" type="float" value="0.7405061" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1655431 -0.02833402 -0.1574411" />
+									<attribute id="Max" type="fvec3" value="0.1655434 0.7121721 0.1574411" />
+									<attribute id="Radius" type="float" value="0.2175314" />
+									<attribute id="Height" type="float" value="0.7405061" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="ba0a15b9-869c-66e9-7354-9bd078463069" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

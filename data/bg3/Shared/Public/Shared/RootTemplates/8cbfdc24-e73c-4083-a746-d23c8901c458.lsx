@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8cbfdc24-e73c-4083-a746-d23c8901c458" />
+					<attribute id="Name" type="LSString" value="WoodWoad" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="68b047f9-1002-4f9c-a31f-d47fda426d3b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a644d1d6-4098-fc0a-c26b-b016d7457ebd" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd41265a0g2956g42a4ga133ga52d3e4e4bec" version="1" />
+					<attribute id="Icon" type="FixedString" value="70451ccc-1d24-5933-a0f7-dfda5e4dc2be-EQP_WoodWoad_Club_(Icon_WoodWoad)" />
+					<attribute id="Stats" type="FixedString" value="WoodWoad" />
+					<attribute id="Equipment" type="FixedString" value="EQP_WoodWoad_Club" />
+					<attribute id="BloodType" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceWater" />
+					<attribute id="IsEquipmentLootable" type="bool" value="True" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="AiHint" type="guid" value="f76e60e1-2957-470b-258a-dfef4732e05c" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="53c3304c-032d-4c49-df86-b3003ab0136b" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="84906b84-1c8a-44d5-0eb4-01030a922787" />
+								</node>
+							</children>
+						</node>
+						<node id="EquipmentTypes">
+							<children>
+								<node id="">
+									<attribute id="Object" type="guid" value="d2141ff0-1368-4c35-38b4-cde98120f882" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="896f8a20-7dda-4bff-26b7-c308ccda7bcc" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="4135c6a5-78b6-4c6d-df85-7df72cf575e7" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="ccab7523-374c-49b4-c796-f38bb9e5cac1" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="59075318-8af3-41ed-e7be-583c7bc39add" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="2fc3e6f9-120c-4adf-c3b7-9078d7ae12c3" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="f85002a2-8e0e-4a49-0faa-2ef57d983a3a" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="7883d641-2b8b-40dc-d885-7551d41dbc2b" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="b428632e-3137-47aa-8fae-ffddc26fc87c" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="12b80df8-aaf1-4543-fa84-46c4e422b551" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="2b95bdd2-317f-41c1-c09e-a05f888b0a8b" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="bcba31b8-507e-483a-2990-b02d3d0b5166" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="ab54402e-d3f3-497d-819b-9b51af1827b8" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="fac6dd3a-6ceb-40fc-e891-396f3cc38ad9" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceVines" />
+											<attribute id="LifeTime" type="float" value="-1" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="10" />
+											<attribute id="CellAtGrow" type="int32" value="2" />
+											<attribute id="GrowTimer" type="float" value="0.4" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+											<attribute id="ApplyDeathTypeBloodCheck" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Entangle_WoodWoad" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="2" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="ExcludeInNPCLoadout">
+											<attribute id="Object" type="guid" value="db8515f8-3741-4242-5aa0-f9f91a3e2c91" />
+										</node>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Entangle_WoodWoad_Hardcore" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="2" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="OnlyInNPCLoadout">
+											<attribute id="Object" type="guid" value="db8515f8-3741-4242-5aa0-f9f91a3e2c91" />
+										</node>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="17d6a1c8-e453-fbda-5769-38f4d950a50a" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="6323b0ce-dab3-6e85-bebc-301aceb84602" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="ad93bd17-f05c-d4fb-a047-9e29a4157971" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

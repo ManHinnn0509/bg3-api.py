@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8e10075c-7b8e-4a95-9b67-af66f0059849" />
+					<attribute id="Name" type="LSString" value="BOOK_Tome_Diabolical_Grimoire_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
+					<attribute id="VisualTemplate" type="FixedString" value="ac1284cd-92f7-9b0f-d320-26d40ba2c775" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="4f378d13-bda9-7481-7eb4-4bd38b5203f1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h64695c77g7681g4198g8a47g92d4d23251ff" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Tome_Diabolical_Grimoire_A" />
+					<attribute id="Description" type="TranslatedString" handle="h56d85757g58aeg4eb3ga9ccg9a2919bdd2a9" version="1" />
+					<attribute id="UnknownDescription" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1132249 -0.01109521 -0.1506833" />
+									<attribute id="Max" type="fvec3" value="0.1044167 0.0777 0.1558752" />
+									<attribute id="Radius" type="float" value="0.1564845" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1132249 -0.01109521 -0.1506833" />
+									<attribute id="Max" type="fvec3" value="0.1044167 0.0777 0.1558752" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1132249 -0.01109521 -0.1506833" />
+									<attribute id="Max" type="fvec3" value="0.1044167 0.0777 0.1558752" />
+									<attribute id="Radius" type="float" value="0.312969" />
+									<attribute id="Height" type="float" value="0.18436" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="LOW_DevilsFee_Grimorie" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

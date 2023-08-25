@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c1ccd3e4-2864-469e-92d3-6b1d8d019fec" />
+					<attribute id="Name" type="LSString" value="Rat_NPC_Wildshape" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="071800ad-d4d9-4a63-82a7-4e786ab19449" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ec3a5d7-38dc-5731-6147-e60966614be8" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h38fa3eeag45f2g467cg9269gcb0312b6c7ae" version="1" />
+					<attribute id="Icon" type="FixedString" value="4704261d-2d5b-6a4c-338b-a9178bebdbb5-_(Icon_Rat)" />
+					<attribute id="Stats" type="FixedString" value="Rat" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="SpotSneakers" type="bool" value="False" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="0c5b7b14-089b-bbde-55f0-ebafb65f6161" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="bc3bebcc-8fbe-79f1-9304-62c6e1f78dc2" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="8d8904da-e80e-e40b-c9ae-160f61a69d1e" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="52b5d581-a35e-1ac4-e989-38ec969431a1" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="285d5843-29f9-47bb-e675-ae29ffc6820b" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="1d051738-e9c1-268f-3084-e4cc7876127a" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="e2f3a033-300b-c074-da50-67ddd20e2c4c" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="19eec283-72ef-7c56-e1b5-ab1e41899c1f" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="55da6c6d-2cb8-ec4b-b9ce-c3fa9a231790" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="285d5843-29f9-47bb-e675-ae29ffc6820b" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4704261d-2d5b-6a4c-338b-a9178bebdbb5" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Rat" />
+					<attribute id="Race" type="guid" value="80d7f493-0adb-43e7-ada4-09595d5bdf80" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="AiHint" type="guid" value="f5614548-32cc-4e2e-08b1-e53232d51e47" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9568e56b-27a2-45fc-c592-33fab6ee4cf5" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="04ae77c4-f708-4ffa-8c8b-3b762a066e2e" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="6ec3a5d7-38dc-5731-6147-e60966614be8" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="6ec3a5d7-38dc-5731-6147-e60966614be8" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="eff24434-cda0-0849-6923-76a4be67bb9c" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementAcceleration" type="float" value="12" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="1cd55755-bc55-767c-b32f-2f73fd6621d1" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4b00912a-fd93-0336-3657-b1c87e55ef5f" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.35" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
+							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.5" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

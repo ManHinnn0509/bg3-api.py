@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6240f9ef-fc81-4301-8ea7-de4a0ad4e57e" />
+					<attribute id="Name" type="LSString" value="BASE_Ooze" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="29ad5160-21d6-4e0b-9073-4fdee590f62f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2ea93baeg36acg4457g8de9gea8b9181525e" version="1" />
+					<attribute id="Icon" type="FixedString" value="643038b5-6cc9-5d62-00c1-ff574ce55d8b-_(Icon_Ooze)" />
+					<attribute id="Stats" type="FixedString" value="Stats_Placeholder" />
+					<attribute id="SpellSet" type="FixedString" value="CommonBeastActions" />
+					<attribute id="LadderLoopSpeed" type="float" value="3.429" />
+					<attribute id="LightID" type="FixedString" value="2397785c-efc7-4a82-b64e-bb5135e5448b" />
+					<attribute id="SoundInitEvent" type="FixedString" value="59a513a4-65c7-da2a-9745-6d2afaa27d67" />
+					<attribute id="SoundMovementStartEvent" type="FixedString" value="3ec6ebdb-612a-c5f1-97a7-8fbff6650bad" />
+					<attribute id="SoundMovementStopEvent" type="FixedString" value="c4bf435a-61f9-1105-2b23-e9fcab927b82" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="4b9735ba-749a-2421-b969-1831d40ea436" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="af49eea4-d521-e8c7-f5e0-21a924dee4d8" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="d75685f3-151c-cf80-e3bb-52c34a4cabc1" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="81a1ad44-7554-de56-e5a7-8e0f26fbe78a" />
+					<attribute id="VocalAnticipationResourceID" type="FixedString" value="f54cb46e-1c70-c524-e15b-aacbc9f72985" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="f37402c3-0a27-b1de-2875-5c62c830220f" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="c7b45ce4-9bc4-cfc3-7aa6-08fb4018cf87" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="643038b5-6cc9-5d62-00c1-ff574ce55d8b" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultMonster" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Ooze" />
+					<attribute id="Race" type="guid" value="889ca85e-9263-4086-abae-2d35eed1a0d3" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="90101158-141e-4896-608e-dbf8f603e3dd" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="c2ac7224-9157-446e-09b9-014c30c5f525" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.5" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="WorldClimbingSpeed" type="float" value="6" />
+							<attribute id="MovementSpeedStroll" type="float" value="0.6" />
+							<attribute id="MovementSpeedWalk" type="float" value="1" />
+							<attribute id="MovementSpeedRun" type="float" value="2" />
+							<attribute id="MovementSpeedSprint" type="float" value="3.75" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.35" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
+							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.35" />
+							<attribute id="WorldClimbingRadius" type="float" value="0.9" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

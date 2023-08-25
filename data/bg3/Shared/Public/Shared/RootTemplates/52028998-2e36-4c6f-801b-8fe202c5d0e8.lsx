@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="48" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="52028998-2e36-4c6f-801b-8fe202c5d0e8" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Kitchen_Cutlery_Spoon_Rich_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="db9fce25-ee1f-fe84-326f-5bd041a82816" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="abb2fbcf-91f6-a20e-9d3a-c044ddd98620" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf30230b5g6b7eg4b20gbe18g8cd9815a8d69" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Kitchen_Cutlery_Spoon_Rich_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_KitchenwareRich_Cutlery_Spoon_A" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<attribute id="Description" type="TranslatedString" handle="he7cca901g8fbdg4408gbb67geb6b62970fbc" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04936953 -0.001491815 -0.2667954" />
+									<attribute id="Max" type="fvec3" value="0.04936953 0.03443905 0.2723593" />
+									<attribute id="Radius" type="float" value="0.128782" />
+									<attribute id="Height" type="float" value="0.0380192" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04936953 -0.001491815 -0.2667954" />
+									<attribute id="Max" type="fvec3" value="0.04936953 0.03443905 0.2723593" />
+									<attribute id="Radius" type="float" value="0.128782" />
+									<attribute id="Height" type="float" value="0.0380192" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.02468476 -0.001491815 -0.1333977" />
+									<attribute id="Max" type="fvec3" value="0.02468476 0.03443905 0.1361796" />
+									<attribute id="Radius" type="float" value="0.064391" />
+									<attribute id="Height" type="float" value="0.0380192" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="12" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h13058f9cgba6bg4794g9fdfg60ae204380c1" version="1" />
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

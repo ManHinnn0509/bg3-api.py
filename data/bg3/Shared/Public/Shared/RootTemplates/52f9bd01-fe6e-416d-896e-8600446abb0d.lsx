@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="208" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="52f9bd01-fe6e-416d-896e-8600446abb0d" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_LightCrossbow_A_Makeshift" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5e7631fa-ea5a-420d-9bc0-32e7a540538e" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="0b55bc96-e034-58bf-495b-b625028d8ad3" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="157abe0a-1649-e701-1fdd-3ee7def885aa" />
+					<attribute id="SeeThrough" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb0ba31d6gde9dg4ad9g8845g77af1c5f9183" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_LightCrossbow_A_Makeshift" />
+					<attribute id="Stats" type="FixedString" value="WPN_LightCrossbow_Makeshift" />
+					<attribute id="Description" type="TranslatedString" handle="hae83ef55g9d26g451bgac1dg071a437b4368" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2952006 -0.009244308 -0.2035303" />
+									<attribute id="Max" type="fvec3" value="0.2947056 0.1657161 0.5184795" />
+									<attribute id="Radius" type="float" value="0.1254905" />
+									<attribute id="Height" type="float" value="0.1823496" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2952006 -0.009244308 -0.2035303" />
+									<attribute id="Max" type="fvec3" value="0.2947056 0.1657161 0.5184795" />
+									<attribute id="Radius" type="float" value="0.250981" />
+									<attribute id="Height" type="float" value="0.1823496" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2952006 -0.009244308 -0.2035303" />
+									<attribute id="Max" type="fvec3" value="0.2947056 0.1657161 0.5184795" />
+									<attribute id="Radius" type="float" value="0.250981" />
+									<attribute id="Height" type="float" value="0.1823496" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h2c393c1fgd06fg4732gba17g371f48fab53e" version="1" />
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

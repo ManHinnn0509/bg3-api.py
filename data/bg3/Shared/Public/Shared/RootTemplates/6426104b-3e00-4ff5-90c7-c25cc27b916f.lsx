@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="72" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6426104b-3e00-4ff5-90c7-c25cc27b916f" />
+					<attribute id="Name" type="LSString" value="Tadpole" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9d9f7d12-ee3f-4755-a823-f9c0efe35506" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="3cdfbc42-d1bb-356e-4262-bf8a3a54539a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha983e8dag53f5g49b8g92eeg6c8df2932bd9" version="2" />
+					<attribute id="Stats" type="FixedString" value="MindFlayer_Tadpole" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="SpotSneakers" type="bool" value="False" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="AnubisConfigName" type="FixedString" value="GLO_Tadpole" />
+					<attribute id="Race" type="guid" value="4bd6dcba-b21c-4d83-fe90-bf21ec840bd5" />
+					<attribute id="RagdollTemplate" type="FixedString" value="e0876b08-24a3-0aa9-c7f3-7167e39e9319" />
+					<attribute id="Faction" type="guid" value="f6a43042-11e1-13f5-89bb-13a464b29f14" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="CanFight" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.1036276 -0.01632236 -0.3370996" />
+									<attribute id="Max" type="fvec3" value="0.1036276 0.2101174 0.6113935" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.1036276 -0.01632236 -0.3370996" />
+									<attribute id="Max" type="fvec3" value="0.1036276 0.2101174 0.6113935" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.1036276 -0.01632236 -0.3370996" />
+									<attribute id="Max" type="fvec3" value="0.1036276 0.2101174 0.6113935" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="0.2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

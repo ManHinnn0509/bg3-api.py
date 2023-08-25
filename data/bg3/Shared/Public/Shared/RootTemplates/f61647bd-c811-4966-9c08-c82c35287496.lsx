@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f61647bd-c811-4966-9c08-c82c35287496" />
+					<attribute id="Name" type="LSString" value="BASE_Adamantine_Golem" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="79d7d583-dead-45c0-9862-770fe5fb7d60" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="fc4c05e4-ff0e-3f16-f7d2-5cc04ea2d623" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="Icon" type="FixedString" value="ef16dbf5-42b9-0876-31f5-f909ae7a9f02-_(Icon_Adamantine_Golem)" />
+					<attribute id="LightID" type="FixedString" value="8190aadc-73bd-45b0-8445-8a3305ea83dc" />
+					<attribute id="SoundInitEvent" type="FixedString" value="084a5647-4331-9c43-9bfe-3bb1d36258f1" />
+					<attribute id="SoundMovementStartEvent" type="FixedString" value="da3b1016-91bd-faf9-381a-1aaeb6915996" />
+					<attribute id="SoundMovementStopEvent" type="FixedString" value="3df89ccf-592f-72f4-a1e0-324fb5c20b9a" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="3fc2ab90-3041-cd4c-cff0-e5e8e9bb2443" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="76ad81b0-91a8-7a42-5edc-0e09b3e08bc9" />
+					<attribute id="VocalAnticipationResourceID" type="FixedString" value="c42a6e98-cb63-e95a-836d-a92f21c491b0" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="021649ef-4d7e-e198-058b-ee801cc5155c" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="e1187b65-7e87-5c0a-446e-48868b4f994a" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="a919ce5f-e44e-e539-a295-1a06b3e146fe" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="c4cacc1b-325b-3c7b-1e9e-514d9a694cfd" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="8a74ae0e-95df-023f-6cd1-2234bb5dec91" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="9d668222-0905-82ea-9482-a8a07b28cce1" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="e1187b65-7e87-5c0a-446e-48868b4f994a" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="31f617a0-5552-fc10-b8d0-180b676b075f" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="ac1147aa-9bf9-8fe9-752e-ec7088a4aab2" />
+					<attribute id="VocalRecoverResourceID" type="FixedString" value="a919ce5f-e44e-e539-a295-1a06b3e146fe" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="ef16dbf5-42b9-0876-31f5-f909ae7a9f02" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="AliveInventoryType" type="uint8" value="41" />
+					<attribute id="InventoryType" type="uint8" value="41" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Adamantine_Golem" />
+					<attribute id="Race" type="guid" value="84ddccc7-653e-4236-c484-2fcaac5a9a71" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="abadcad5-9229-4999-7a8c-55cdf27f5cc9" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.6" />
+									<attribute id="Height" type="float" value="5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.8" />
+									<attribute id="Height" type="float" value="5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.9" />
+									<attribute id="Height" type="float" value="5.2" />
+								</node>
+							</children>
+						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="17d6a1c8-e453-fbda-5769-38f4d950a50a" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="4aea7f9e-33c1-6b88-4547-3f26b36df291" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="4aea7f9e-33c1-6b88-4547-3f26b36df291" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedRun" type="float" value="2.6" />
+							<attribute id="MovementSpeedSprint" type="float" value="3.75" />
+							<attribute id="MovementSpeedDash" type="float" value="3.75" />
+							<attribute id="MaxDashDistance" type="float" value="1.24" />
+							<attribute id="MovementStepUpHeight" type="float" value="2" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

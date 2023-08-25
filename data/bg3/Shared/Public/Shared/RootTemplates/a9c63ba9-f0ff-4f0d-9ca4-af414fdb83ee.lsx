@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="66" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a9c63ba9-f0ff-4f0d-9ca4-af414fdb83ee" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Races_TieflingAutobiography" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="47f778cc-b4ff-45c4-83af-e879e1ff14c3" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0316b4b8-a3f4-d8ad-04ff-8ec0ad2e0dbb" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h883a18f3g43c6g47bfg9411ga78297d4066b" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_Races_TieflingAutobiography" />
+					<attribute id="Description" type="TranslatedString" handle="h619ee20cg3e93g4e91g812cg6ceba6abbaca" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="TIEFLINGS" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="RACES" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="INFERNAL" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="ASMODEUS" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1019184 -0.01312011 -0.1083739" />
+									<attribute id="Max" type="fvec3" value="0.1018156 0.1387698 0.1083739" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_Races_TieflingAutobiography" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

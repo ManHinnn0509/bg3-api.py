@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a288bb37-eef2-4432-8e08-d39e8f6435b2" />
+					<attribute id="Name" type="LSString" value="BLD_MFL_Nautiloid_Tentacle_Rigged_Small_A_03" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e4d2628f-78b3-4fc5-a8aa-21ac2ced5f0c" />
+					<attribute id="VisualTemplate" type="FixedString" value="d89ab3d4-0b08-71b7-e6ae-e8cc4156bebd" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="54e717ae-9425-4dcb-8894-f7bbc780cd57" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h478f00d0g2730g4369gab9fg0224c77ca62f" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_MFL_Nautiloid_Tentacle_Chute_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObject" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="IsBlueprintDisabledByDefault" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.192024 -1.060663 1.517002" />
+									<attribute id="Max" type="fvec3" value="1.115171 1.026171 2.742397" />
+									<attribute id="Radius" type="float" value="37.80582" />
+									<attribute id="Height" type="float" value="2.086833" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.192024 -1.060663 1.517002" />
+									<attribute id="Max" type="fvec3" value="1.115171 1.026171 2.742397" />
+									<attribute id="Radius" type="float" value="37.80582" />
+									<attribute id="Height" type="float" value="2.086833" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.192024 -1.060663 1.517002" />
+									<attribute id="Max" type="fvec3" value="1.115171 1.026171 2.742397" />
+									<attribute id="Radius" type="float" value="37.80582" />
+									<attribute id="Height" type="float" value="2.086833" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="Equipment">
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="WavyShortHair" />
+								<node id="WavyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="DreadShortHair" />
+								<node id="DreadLongHair" />
+								<node id="AfroShortHair" />
+								<node id="AfroLongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

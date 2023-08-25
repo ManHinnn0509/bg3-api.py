@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="306" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="79f10d3b-b390-4662-9193-d2f4395d136a" />
+					<attribute id="Name" type="LSString" value="BASE_CONS_Alchemy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cdd2941e-aef8-4cc6-a58b-ccb1d73060e8" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7fbdfb0bgadc1g4b34g8323g1b20f7ac77da" version="2" />
+					<attribute id="Stats" type="FixedString" value="BASE_ALCH_Ingredient" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h5438d978gb6fdg4e11gb933gf2831b5a4ee9" version="2" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="64b824e7-50c5-475a-c298-0252376e772d" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="2" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

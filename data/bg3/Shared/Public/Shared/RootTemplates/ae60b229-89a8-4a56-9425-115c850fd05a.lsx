@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="3" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ae60b229-89a8-4a56-9425-115c850fd05a" />
+					<attribute id="Name" type="LSString" value="NAT_Coastal_Cliff_Sandstone_Spire_A_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f4ef6926-4f96-43fd-881a-4168297ad0fb" />
+					<attribute id="VisualTemplate" type="FixedString" value="eca3d07a-f843-46cf-a45a-9c73a3280362" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f4d08a8d-7567-47cd-8c27-b064d5a0f78b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObject" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceBlood" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 0 -1.48232" />
+									<attribute id="Max" type="fvec3" value="1.5 2.98232 1.5" />
+									<attribute id="Radius" type="float" value="1.29394" />
+									<attribute id="Height" type="float" value="2.98232" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.5 0 -1.48232" />
+									<attribute id="Max" type="fvec3" value="1.5 2.98232 1.5" />
+									<attribute id="Radius" type="float" value="1.29394" />
+									<attribute id="Height" type="float" value="2.98232" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.75 0 -0.74116" />
+									<attribute id="Max" type="fvec3" value="0.75 2.98232 0.75" />
+									<attribute id="Radius" type="float" value="0.64697" />
+									<attribute id="Height" type="float" value="2.98232" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="200" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5f731414-d8cb-415d-bb08-1d780ef80286" />
+					<attribute id="Name" type="LSString" value="PUZ_Underdark_Ore_Boulder_Mithral_Vein_A_Mined_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="VisualTemplate" type="FixedString" value="c70ca9b7-c451-5151-08ab-c1152844aae1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="92f6a35e-038b-a667-e5da-4786bad171cf" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he85aca36ga4c2g42degaa16g91c196042aa0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_Underdark_Ore_Boulder_Mithral_Vein_A" />
+					<attribute id="Stats" type="FixedString" value="FOR_DestructibleWall_Stone" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.917429 -1.650708 -1.46356" />
+									<attribute id="Max" type="fvec3" value="3.46273 2.388572 1.490628" />
+									<attribute id="Radius" type="float" value="3.19008" />
+									<attribute id="Height" type="float" value="4.03928" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.917429 -1.650708 -1.46356" />
+									<attribute id="Max" type="fvec3" value="3.46273 2.388572 1.490628" />
+									<attribute id="Radius" type="float" value="3.19008" />
+									<attribute id="Height" type="float" value="4.03928" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.917429 -1.650708 -1.46356" />
+									<attribute id="Max" type="fvec3" value="3.46273 2.388572 1.490628" />
+									<attribute id="Radius" type="float" value="3.19008" />
+									<attribute id="Height" type="float" value="4.03928" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="UND_MithralOre" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="f65292f7-a930-48a3-a803-914da4781056" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="IsTradeable" type="bool" value="False" />
+									<attribute id="CanBePickpocketed" type="bool" value="False" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="False" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

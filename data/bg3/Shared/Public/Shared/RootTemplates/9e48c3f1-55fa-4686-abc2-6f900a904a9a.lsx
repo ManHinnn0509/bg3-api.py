@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="308" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9e48c3f1-55fa-4686-abc2-6f900a904a9a" />
+					<attribute id="Name" type="LSString" value="BASE_Hobgoblins" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4538a3e9-9b44-4b85-bf38-ede763e868b2" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f0636768-7231-c506-b2c8-40415a64674e" />
+					<attribute id="Stats" type="FixedString" value="Hobgoblin" />
+					<attribute id="LightID" type="FixedString" value="362270fc-bf6b-4603-bb8a-6deebbcca47b" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="22dedb73-dc3a-9043-36f0-d92c254f5dc4" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="bd882291-4b45-151f-11eb-0e4fed217cf1" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="707fba1c-a6b0-a460-8d87-e0630b782ab2" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="9cc5e58f-d4d0-cd89-4754-6690083695ff" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="aa045a5f-ba4e-70ff-2364-a00cebad33b3" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="6e60e8e7-4ff3-3273-93d6-924a9cb69ab1" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="6b9ceaf5-0e21-ebe1-5ca3-b2b8ae6a98b8" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="c2dd1a26-5975-e96a-24af-4ac5c321846b" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="5b65e306-c72f-fd8f-79a2-d1b3f0e07b44" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="87129c1e-0c07-763d-4af5-36aae3347f67" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="30db28d5-e39e-0ed3-4dfb-3a5dae872edd" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="a20f4868-871a-2954-4c76-53c44be52721" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="d39ee249-e66c-6562-dd85-4fb38d63633d" />
+					<attribute id="VocalIdle2ResourceID" type="FixedString" value="823a84b3-6351-df23-b2fb-a2b07962a069" />
+					<attribute id="VocalIdle3ResourceID" type="FixedString" value="51ca1b06-de06-1f43-ecd4-11f52fb14869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c50013db-55ee-2829-856a-d467eb48e638" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultCharacter" />
+					<attribute id="Race" type="guid" value="a234ff21-6324-4ce2-7a97-92ae751446c0" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="8f74d144-041e-4035-aca9-f472c31fe72d" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="eae44d86-3321-4a0a-1d81-d84f8be42357" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="0a79a905-d41f-401f-e4a0-40a2431117fc" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="EquipmentTypes">
+							<children>
+								<node id="">
+									<attribute id="Object" type="guid" value="d2141ff0-1368-4c35-38b4-cde98120f882" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="4135c6a5-78b6-4c6d-df85-7df72cf575e7" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="ccab7523-374c-49b4-c796-f38bb9e5cac1" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="59075318-8af3-41ed-e7be-583c7bc39add" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="2fc3e6f9-120c-4adf-c3b7-9078d7ae12c3" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="7883d641-2b8b-40dc-d885-7551d41dbc2b" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="12b80df8-aaf1-4543-fa84-46c4e422b551" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="2b95bdd2-317f-41c1-c09e-a05f888b0a8b" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="bcba31b8-507e-483a-2990-b02d3d0b5166" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="ab54402e-d3f3-497d-819b-9b51af1827b8" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="b428632e-3137-47aa-8fae-ffddc26fc87c" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="f85002a2-8e0e-4a49-0faa-2ef57d983a3a" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="896f8a20-7dda-4bff-26b7-c308ccda7bcc" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="fac6dd3a-6ceb-40fc-e891-396f3cc38ad9" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="520bf44f-b723-4e61-598d-ba19a747cac1" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="bf90a760-4f63-416d-9d96-c10e7228d5e8" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="8ac2eb82-8563-4657-4c8c-07153957d778" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="4df07ab5-44a3-421e-bcb4-8c59d649c8cf" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="62ff4f7c-0724-43fa-7b99-0cef6a487355" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="7c6a4c59-273f-4b9a-59b1-29bf82f16af4" />
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="b0b39454-2bf3-d2cd-e204-5c0c00b582e9" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

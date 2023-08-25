@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="302" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="be1b29eb-f225-41c7-9342-290613abebc5" />
+					<attribute id="Name" type="LSString" value="DEC_Dungeon_Skeleton_Dark_Justiciar_LayingTable_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3c43525c-427d-450e-950e-f1864c4b1b4d" />
+					<attribute id="VisualTemplate" type="FixedString" value="268df1e5-d757-d90d-4580-4fd299a459df" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ee302937-9a97-e233-7b3f-c80a0f7e8a5a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h948c1763g9c28g4254g9dcdg10fd544df1f7" version="1" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_Dungeon_Skeleton_Laying_B" />
+					<attribute id="InventoryType" type="uint8" value="7" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="677d225c-19ea-4de1-1dbd-8cec2b2f7287" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7971852 -0.06865072 -0.7305127" />
+									<attribute id="Max" type="fvec3" value="0.3657941 1.226869 0.5617177" />
+									<attribute id="Radius" type="float" value="0.6461152" />
+									<attribute id="Height" type="float" value="1.295519" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7971852 -0.06865072 -0.7305127" />
+									<attribute id="Max" type="fvec3" value="0.3657941 1.226869 0.5617177" />
+									<attribute id="Radius" type="float" value="0.6461152" />
+									<attribute id="Height" type="float" value="1.295519" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7971852 -0.06865072 -0.7305127" />
+									<attribute id="Max" type="fvec3" value="0.3657941 1.226869 0.5617177" />
+									<attribute id="Radius" type="float" value="0.6461152" />
+									<attribute id="Height" type="float" value="1.295519" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="1" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

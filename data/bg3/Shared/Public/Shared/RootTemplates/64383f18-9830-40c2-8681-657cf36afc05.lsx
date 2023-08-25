@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="204" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="64383f18-9830-40c2-8681-657cf36afc05" />
+					<attribute id="Name" type="LSString" value="Dragon_Red" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="08da5063-a761-475a-b66e-1356d7fcab40" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="ef79e13a-c6fa-0e35-2ae1-66eb5bc126a2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6402401fg74c6g42c4gb72bge4cdd0f979b5" version="1" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="BloodType" type="FixedString" value="Red" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="CanConsumeItems" type="bool" value="False" />
+					<attribute id="LevelOverride" type="int32" value="17" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="b2abdeed-6be4-4a75-aad4-21e0983e5ac6" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="9d265bdf-56be-4d6c-b024-b6201d155dff" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="bc698bfd-0de4-43ec-be71-099264cef259" />
+					<attribute id="VocalAnticipationResourceID" type="FixedString" value="95b2bb87-9bf0-4064-a46b-6cb03a8421ca" />
+					<attribute id="VocalShoutResourceID" type="FixedString" value="95dfd869-8cfb-4843-95fe-60227c93d47c" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="a5dbd87c-f3da-459a-a221-d16662ece35b" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="718ec8ba-4170-4d26-bdc5-afc5936db248" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="55ef4e2f-b7e9-4440-985b-fa6ae8df7e3b" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="fa4b5ab8-cf3b-49e5-b041-d0623e146f42" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="6c7ba788-37d4-4678-9270-748fcf99e148" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="6c0f5f5b-30f8-4fae-9939-be5895d83c38" />
+					<attribute id="VocalRecoverResourceID" type="FixedString" value="3004fa8b-1f91-4c37-9208-a731a5e2c81e" />
+					<attribute id="VocalIdle1ResourceID" type="FixedString" value="ae3ec0bd-9763-473d-b151-409a24a9e4eb" />
+					<attribute id="VocalIdleCombat1ResourceID" type="FixedString" value="396bb240-8913-4367-b08f-3e5e7bb2480b" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="baa20049-2ec2-07a7-b4d6-02a38b25d6ac" />
+					<attribute id="CanBeTeleported" type="bool" value="False" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="Archetype" type="FixedString" value="dragon" />
+					<attribute id="IsBoss" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-17.09584 -0.06285477 -7.79011" />
+									<attribute id="Max" type="fvec3" value="17.09584 5.662447 14.59563" />
+									<attribute id="Radius" type="float" value="4.0214" />
+									<attribute id="Height" type="float" value="5.725302" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-17.09584 -0.06285477 -7.79011" />
+									<attribute id="Max" type="fvec3" value="17.09584 5.662447 14.59563" />
+									<attribute id="Radius" type="float" value="1.7" />
+									<attribute id="Height" type="float" value="5.725302" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-17.09584 -0.06285477 -7.79011" />
+									<attribute id="Max" type="fvec3" value="17.09584 5.662447 14.59563" />
+									<attribute id="Radius" type="float" value="1.7" />
+									<attribute id="Height" type="float" value="5.725302" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="IsMovementEnabled" type="bool" value="False" />
+							<attribute id="IsWorldClimbingEnabled" type="bool" value="False" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

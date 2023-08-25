@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="326" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b0943b65-5766-414a-903d-28de8790370a" />
+					<attribute id="Name" type="LSString" value="GEN_CONS_Berry" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2c341835-8a11-44db-9679-4cd0c9c12594" />
+					<attribute id="VisualTemplate" type="FixedString" value="323d9fcf-e064-a4b0-801f-4f7894442b32" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="fe36c395-1073-7d07-0172-1f0794d7cb82" />
+					<attribute id="Scale" type="float" value="0.7" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h33f4d0edg28adg4f18g9151gf4a3dddb1ec1" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_GEN_CONS_Raspberry" />
+					<attribute id="Stats" type="FixedString" value="CONS_Berry" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="he85f2a8cgf168g4c19gb92bg0eb2ae478896" version="3" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="FOOD_FRUIT_GOODBERRY" />
+											<attribute id="StatusDuration" type="int32" value="1" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

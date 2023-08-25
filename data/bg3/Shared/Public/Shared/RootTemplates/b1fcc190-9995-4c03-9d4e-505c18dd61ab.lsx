@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b1fcc190-9995-4c03-9d4e-505c18dd61ab" />
+					<attribute id="Name" type="LSString" value="CINE_LOOT_GEN_Throwable_Blood_Vial_A_Open_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e5f1e8b-102a-4105-9d81-2220648814e9" />
+					<attribute id="VisualTemplate" type="FixedString" value="f32cdb87-64ff-b2a3-cf3d-5e863fb1ce77" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1e5d2f1f-1835-7ea6-8188-03ea26f47704" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="ShowAttachedSpellDescriptions" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1408378 -0.0009742752 -0.04876344" />
+									<attribute id="Max" type="fvec3" value="0.1085239 0.08433302 0.05497203" />
+									<attribute id="Radius" type="float" value="0.1246808" />
+									<attribute id="Height" type="float" value="0.08530729" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1408378 -0.0009742752 -0.04876344" />
+									<attribute id="Max" type="fvec3" value="0.1085239 0.08433302 0.05497203" />
+									<attribute id="Radius" type="float" value="0.1246808" />
+									<attribute id="Height" type="float" value="0.08530729" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1408378 -0.0009742752 -0.04876344" />
+									<attribute id="Max" type="fvec3" value="0.1085239 0.08433302 0.05497203" />
+									<attribute id="Radius" type="float" value="0.1246808" />
+									<attribute id="Height" type="float" value="0.08530729" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

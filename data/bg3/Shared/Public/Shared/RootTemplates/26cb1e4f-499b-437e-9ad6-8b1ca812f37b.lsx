@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="48" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="26cb1e4f-499b-437e-9ad6-8b1ca812f37b" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Githyanki_Map_A_Rigged_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="129" />
+					<attribute id="VisualTemplate" type="FixedString" value="8b08e93d-a89b-3f32-7466-1ee8701ca9d0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ff01be8f-59eb-c6c6-f1e3-f9b60814c967" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbc6a5283g2f8ag4bfdgb336g19614c1dd6da" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Githyanki_Map_A_Posed_A" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<attribute id="Description" type="TranslatedString" handle="h482e1c04g215fg4bb3g9dfdg4e8c0194b90c" version="1" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1173858 -0.007144755 -0.1173726" />
+									<attribute id="Max" type="fvec3" value="0.1173862 0.01690351 0.1414451" />
+									<attribute id="Radius" type="float" value="0.3027501" />
+									<attribute id="Height" type="float" value="0.02404826" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1173858 -0.007144755 -0.1173726" />
+									<attribute id="Max" type="fvec3" value="0.1173862 0.01690351 0.1370379" />
+									<attribute id="Radius" type="float" value="0.3027501" />
+									<attribute id="Height" type="float" value="0.02404826" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1173858 -0.007144755 -0.1173726" />
+									<attribute id="Max" type="fvec3" value="0.1173862 0.01690351 0.1256932" />
+									<attribute id="Radius" type="float" value="0.3027501" />
+									<attribute id="Height" type="float" value="0.02404826" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

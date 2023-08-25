@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="308" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4cf7bbbb-1d1b-4bec-b82a-cdc3cce33f7a" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Teleportation" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="7e2a22da-74fd-3123-7933-58aa803e0d8c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="60875dc4-5fd5-54cb-4d72-6a9245e2ab84" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h338f3b2cged0bg4e4agb5d1g04a83fc4429e" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Teleportation" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfTeleportation" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="Description" type="TranslatedString" handle="h52d8a7d3g7168g47e5g8ddeg8546b40cf167" version="2" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4679444 -0.03609848 -0.03753232" />
+									<attribute id="Max" type="fvec3" value="0.4312509 0.03928597 0.0378522" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4679444 -0.03609848 -0.03753232" />
+									<attribute id="Max" type="fvec3" value="0.4312509 0.03928597 0.0378522" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2339722 -0.03609848 -0.01876616" />
+									<attribute id="Max" type="fvec3" value="0.2156255 0.03928597 0.0189261" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfTeleportation" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

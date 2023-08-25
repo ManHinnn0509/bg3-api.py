@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4bdbecec-0a46-4202-a2b7-18da06e6a6a2" />
+					<attribute id="Name" type="LSString" value="CONT_GEN_Platform_Floor_Wood_A_1D_3W_Endpiece_A_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c5e68dbc-5d1d-48e7-ac00-ad696dd6a584" />
+					<attribute id="VisualTemplate" type="FixedString" value="52f54f60-3b6f-a812-454e-897838dd95df" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="7bebeba7-b5cf-8c90-1c0f-abb358008e4b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8fc9c16bg939ag4c7agb342gdb46d17fbae1" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_GEN_Wood_Plank" />
+					<attribute id="InventoryType" type="uint8" value="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.311143 -0.4154699 -0.5217131" />
+									<attribute id="Max" type="fvec3" value="1.295701 0.005037636 0.5339302" />
+									<attribute id="Radius" type="float" value="1.303422" />
+									<attribute id="Height" type="float" value="0.4205076" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.311143 -0.4154699 -0.5217131" />
+									<attribute id="Max" type="fvec3" value="1.295701 0.005037636 0.5339302" />
+									<attribute id="Radius" type="float" value="1.303422" />
+									<attribute id="Height" type="float" value="0.4205076" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.311143 -0.4154699 -0.5217131" />
+									<attribute id="Max" type="fvec3" value="1.295701 0.005037636 0.5339302" />
+									<attribute id="Radius" type="float" value="1.303422" />
+									<attribute id="Height" type="float" value="0.4205076" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

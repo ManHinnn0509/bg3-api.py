@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="213" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6ba71b64-1809-41e9-9fc9-41751f546d9b" />
+					<attribute id="Name" type="LSString" value="TOOL_Goblins_Ladder_9H_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="53e4b1b5-8929-4c9c-bc1f-4807e396cee9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="e8a6a9ee-4dbe-8d1e-d70a-d0ddef66abf8" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e0d325ca-f6c1-85f7-4721-055d8046a2c0" />
+					<attribute id="ImpactSound" type="FixedString" value="d44f2631-ebea-49ff-79ba-415636e0270a" />
+					<attribute id="InteractionFilterType" type="uint8" value="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7831933 -0.03189754 -0.1850146" />
+									<attribute id="Max" type="fvec3" value="0.783191 9.05 0.1850195" />
+									<attribute id="Radius" type="float" value="2.346941" />
+									<attribute id="Height" type="float" value="9.248762" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.7831933 -0.03189754 -0.1850146" />
+									<attribute id="Max" type="fvec3" value="0.783191 9.05 0.1850195" />
+									<attribute id="Radius" type="float" value="2.346941" />
+									<attribute id="Height" type="float" value="9.248762" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3915967 -0.03189754 -0.09250732" />
+									<attribute id="Max" type="fvec3" value="0.3915955 9.05 0.09250976" />
+									<attribute id="Radius" type="float" value="1.17347" />
+									<attribute id="Height" type="float" value="9.248762" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="5da8b314-5d33-c721-e103-0786d2bbfa7b" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="89fd03d0-381d-4404-9480-ef9a829bbe62" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InteractionFilterList">
+							<children>
+								<node id="InteractionFilter">
+									<attribute id="Object" type="guid" value="10a24282-b306-40f8-449e-0741dc99cd21" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

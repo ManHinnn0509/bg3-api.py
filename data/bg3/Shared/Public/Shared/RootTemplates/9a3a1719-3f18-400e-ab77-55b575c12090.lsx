@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="318" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h77a7efc3g122cg4c02ga111gf7d29451c0fe" version="1" />
+					<attribute id="DropSound" type="FixedString" value="f55dc72a-13b8-6e3d-7500-559a5d1f3031" />
+					<attribute id="EquipSound" type="FixedString" value="da469251-95cf-5387-6295-5b1d5ce5a41f" />
+					<attribute id="EquipmentTypeID" type="guid" value="085e9e10-bf57-45de-c286-b863d7309b59" />
+					<attribute id="ExamineRotation" type="fvec3" value="85 25 0" />
+					<attribute id="Hostile" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_Moonlantern_Quarterstaff_A_0" />
+					<attribute id="ImpactSound" type="FixedString" value="0c130d61-2b03-3abb-2d1d-3ea22eb35034" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="f55dc72a-13b8-6e3d-7500-559a5d1f3031" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="9a3a1719-3f18-400e-ab77-55b575c12090" />
+					<attribute id="Name" type="LSString" value="WPN_Moonlantern_Quarterstaff_A_0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="77bee355-c1be-4182-bbe9-2279d3c856d6" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e86b809a-cbab-5afb-3292-7cfce1abf217" />
+					<attribute id="PickupSound" type="FixedString" value="28ea7a9f-b66a-3410-7985-d7cd5cb896f0" />
+					<attribute id="Stats" type="FixedString" value="ARM_Shield" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UnequipSound" type="FixedString" value="503428af-9061-40a7-b9c4-64c8ec78fff3" />
+					<attribute id="VisualTemplate" type="FixedString" value="e8d80a63-b8a5-b419-fe0b-ed820c121429" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

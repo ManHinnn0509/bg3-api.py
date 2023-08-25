@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="cd3920b3-1706-4d34-9982-7dd2ad8e67b6" />
+					<attribute id="Name" type="LSString" value="CONS_FOOD_Vegetable_Mushroom_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bed27b85-63f8-4bb4-a363-fc0246b36c25" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="44904b9a-3ec0-b59f-a626-9bd618c6bace" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="4aafb0dc-5621-ee4b-2680-36b7b15cdc99" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9a85d6b1g4625g4b13g84c1g80ec8d7e1c4e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_AlchemyIngredient_Mushroom_Road" />
+					<attribute id="Stats" type="FixedString" value="CONS_FOOD_GlowcapMushroom" />
+					<attribute id="ImpactSound" type="FixedString" value="7b228d89-caf8-a73b-ca8c-f0f8c50f7c15" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="2953d61b-cc69-557e-5c5e-2d626fab3d4c" />
+					<attribute id="DropSound" type="FixedString" value="2953d61b-cc69-557e-5c5e-2d626fab3d4c" />
+					<attribute id="PickupSound" type="FixedString" value="893cc357-d704-ab86-1776-d0c80b4ba4fb" />
+					<attribute id="UseSound" type="FixedString" value="6ded7874-7016-62d4-38e2-53aaa71eaafa" />
+					<attribute id="Description" type="TranslatedString" handle="h783d8aaaga89eg4190g89a3g1150806ed03c" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.03016769 -0.003116921 -0.02960428" />
+									<attribute id="Max" type="fvec3" value="0.02850512 0.05062513 0.02817577" />
+									<attribute id="Radius" type="float" value="0.105447" />
+									<attribute id="Height" type="float" value="0.0766329" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.059243 -0.113552 -0.098347" />
+									<attribute id="Max" type="fvec3" value="0.0381515 0.0924666 0.17903" />
+									<attribute id="Radius" type="float" value="0.0527235" />
+									<attribute id="Height" type="float" value="0.0766329" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.118486 -0.113552 -0.196694" />
+									<attribute id="Max" type="fvec3" value="0.076303 0.0924666 0.35806" />
+									<attribute id="Radius" type="float" value="0.105447" />
+									<attribute id="Height" type="float" value="0.0766329" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

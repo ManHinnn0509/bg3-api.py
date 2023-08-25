@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="04d34ef8-61c3-4fe2-a564-4cd58f46e67b" />
+					<attribute id="Name" type="LSString" value="PUZ_CONST_GTY_Mine_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b43d2c62-dd68-4ebd-86ac-ef3a2a4167f4" />
+					<attribute id="VisualTemplate" type="FixedString" value="d8a6c035-af82-cc6c-1c26-fd60178133fe" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="acd84214-dace-c70a-280d-4ac6e0acff32" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1baa5660gb0beg4656g8b79gb6b8a40c8303" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_Trap_Mine_A_Red" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="IsTrap" type="bool" value="True" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="Mine" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5597606 -5.960464E-08 -0.5597606" />
+									<attribute id="Max" type="fvec3" value="0.5597606 0.7157451 0.5597606" />
+									<attribute id="Radius" type="float" value="0.117303" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5597606 -5.960464E-08 -0.5597606" />
+									<attribute id="Max" type="fvec3" value="0.5597606 0.7157451 0.5597606" />
+									<attribute id="Radius" type="float" value="0.234606" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5597606 -5.960464E-08 -0.5597606" />
+									<attribute id="Max" type="fvec3" value="0.5597606 0.7157451 0.5597606" />
+									<attribute id="Radius" type="float" value="0.234606" />
+									<attribute id="Height" type="float" value="0.0900337" />
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Projectile" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Projectile_CRE_GithyankiMine_Explosion" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="WeightLimit" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="999" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

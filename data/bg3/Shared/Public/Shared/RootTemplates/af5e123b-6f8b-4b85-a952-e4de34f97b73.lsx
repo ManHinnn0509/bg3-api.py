@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="213" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="af5e123b-6f8b-4b85-a952-e4de34f97b73" />
+					<attribute id="Name" type="LSString" value="TOOL_Ladder_Rope_7n5H_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9b1a83ae-e0d6-478a-bbea-f36a8b212fc4" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="9faa6fb9-6f92-9525-8906-b3f6cc5c140e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3752b18a-ae41-4f82-c447-954741a4b95a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5174c6d2gc1a2g4ec4g9b89g693ba02e56f9" version="1" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Ladder_Rope" />
+					<attribute id="InteractionFilterType" type="uint8" value="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8072102 -0.3439884 -0.1544409" />
+									<attribute id="Max" type="fvec3" value="0.6171918 7.4 0.3613601" />
+									<attribute id="Radius" type="float" value="2.02303" />
+									<attribute id="Height" type="float" value="7.936125" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8072102 -0.3439884 -0.1544409" />
+									<attribute id="Max" type="fvec3" value="0.6171918 7.4 0.3613601" />
+									<attribute id="Radius" type="float" value="2.02303" />
+									<attribute id="Height" type="float" value="7.936125" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4036051 -0.3439884 -0.07722044" />
+									<attribute id="Max" type="fvec3" value="0.3085959 7.4 0.18068" />
+									<attribute id="Radius" type="float" value="1.011515" />
+									<attribute id="Height" type="float" value="7.936125" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="24" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BotomHorizontalOffset" type="float" value="0.5" />
+											<attribute id="BotomVerticalOffset" type="float" value="1.5" />
+											<attribute id="TopMidOffset" type="float" value="0" />
+											<attribute id="TopDetachOffset" type="float" value="1" />
+											<attribute id="NodeLadderOffest" type="float" value="0.5" />
+											<attribute id="TopMidToPlatformFixedLength" type="float" value="1.5" />
+											<attribute id="TopLineTolerance" type="float" value="20" />
+											<attribute id="ClimbDirection" type="int32" value="2" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="56267b10-218b-dad9-aca4-81fb8c05e719" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="5cb8d2a2-0c89-419c-92f9-42b0a100acef" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InteractionFilterList">
+							<children>
+								<node id="InteractionFilter">
+									<attribute id="Object" type="guid" value="10a24282-b306-40f8-449e-0741dc99cd21" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

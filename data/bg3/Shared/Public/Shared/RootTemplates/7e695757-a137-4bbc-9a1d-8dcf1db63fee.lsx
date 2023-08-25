@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="0" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7e695757-a137-4bbc-9a1d-8dcf1db63fee" />
+					<attribute id="Name" type="LSString" value="TOOL_GEN_Broom_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="7c9cbfba-4a53-2e5e-27e1-80a3c125891a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3968f9ff-225f-f4c2-f541-91a40bb4c53d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h834c84dbg011fg4b16g8c12g05c4391cc3f4" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GEN_Broom_B" />
+					<attribute id="CanBeImprovisedWeapon" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h30d4745agb356g4d3fg9049gf8925b2d0fee" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.214042 -0.00826 -0.819271" />
+									<attribute id="Max" type="fvec3" value="0.214042 0.0957656 0.848444" />
+									<attribute id="Radius" type="float" value="0.518042" />
+									<attribute id="Height" type="float" value="0.130032" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.214042 -0.00826 -0.819271" />
+									<attribute id="Max" type="fvec3" value="0.214042 0.0957656 0.848444" />
+									<attribute id="Radius" type="float" value="0.518042" />
+									<attribute id="Height" type="float" value="0.130032" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.107021 -0.00826 -0.4096355" />
+									<attribute id="Max" type="fvec3" value="0.107021 0.0957656 0.424222" />
+									<attribute id="Radius" type="float" value="0.259021" />
+									<attribute id="Height" type="float" value="0.130032" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="1124715b-6b79-4804-0511-dae47815a69e" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="b06df50c-e665-4e06-91a2-9282f2cc694c" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

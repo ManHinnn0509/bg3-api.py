@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="301" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2f7ba86d-86f9-475b-8af8-13e50eb59a34" />
+					<attribute id="Name" type="LSString" value="BOOK_Paladin_Tenets" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="236f5090-4188-41ab-8e33-cc7a362a0323" />
+					<attribute id="VisualTemplate" type="FixedString" value="61e42dfe-ec64-c7bd-148e-873dd4d01772" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h72cb74a8gb23cg44aeg9bbbga3c385c7b531" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Wizards_Tome_Generic_C" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Book_Paladin" />
+					<attribute id="Description" type="TranslatedString" handle="hf1301926g3415g4294ga511g96badd0e1a4b" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="Class_Book_Paladin" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

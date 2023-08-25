@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="400" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ab72c10e-7cd7-49c0-b512-6918cf403910" />
+					<attribute id="Name" type="LSString" value="PLT_TWN_TollhouseDestructibleRoof_Explode" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ccec4133-a1dc-4d0b-b9ed-8c82f881bbf5" />
+					<attribute id="VisualTemplate" type="FixedString" value="32966f5c-ff64-d7a6-120f-c769ec712c98" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Destr_Support_Wood_Fragile" />
+					<attribute id="ImpactSound" type="FixedString" value="d44f2631-ebea-49ff-79ba-415636e0270a" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.551091 -0.2803528 -3.029383" />
+									<attribute id="Max" type="fvec3" value="1.55109 0.8663751 3.057199" />
+									<attribute id="Radius" type="float" value="3.043291" />
+									<attribute id="Height" type="float" value="1.146728" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.551091 -0.2803528 -3.029383" />
+									<attribute id="Max" type="fvec3" value="1.55109 0.8663751 3.057199" />
+									<attribute id="Radius" type="float" value="3.043291" />
+									<attribute id="Height" type="float" value="1.146728" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.551091 -0.2803528 -3.029383" />
+									<attribute id="Max" type="fvec3" value="1.55109 0.8663751 3.057199" />
+									<attribute id="Radius" type="float" value="3.043291" />
+									<attribute id="Height" type="float" value="1.146728" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="32966f5c-ff64-d7a6-120f-c769ec712c98" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="74f37d32-c476-4177-b906-8571ed83ab6d" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="a6710c2e-d273-6028-55ff-b179145750bf" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

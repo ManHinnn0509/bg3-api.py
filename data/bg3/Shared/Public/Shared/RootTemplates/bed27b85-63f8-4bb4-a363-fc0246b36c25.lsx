@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="bed27b85-63f8-4bb4-a363-fc0246b36c25" />
+					<attribute id="Name" type="LSString" value="BASE_CONS_Food" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cdd2941e-aef8-4cc6-a58b-ccb1d73060e8" />
+					<attribute id="ReadinessFlags" type="uint32" value="63" />
+					<attribute id="VisualTemplate" type="FixedString" value="abd3a19b-287d-aced-082a-7674cd0aa236" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c7d39c64-e57e-3bed-c9d2-4bb4583d536f" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Stats" type="FixedString" value="CONS_FOOD_Fruit_Apple" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="maxStackAmount" type="int32" value="99" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="c86e0114-a5ab-48f6-97b4-32debf1e77f5" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="4d79b277-97f0-4227-80a7-147a98fbfc27" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07866541 0.001585796 -0.0809424" />
+									<attribute id="Max" type="fvec3" value="0.080037 0.1834974 0.084699" />
+									<attribute id="Radius" type="float" value="0.0801185" />
+									<attribute id="Height" type="float" value="0.184393" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.07866541 0.001585796 -0.0809424" />
+									<attribute id="Max" type="fvec3" value="0.080037 0.1834974 0.084699" />
+									<attribute id="Radius" type="float" value="0.0801185" />
+									<attribute id="Height" type="float" value="0.184393" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0393327 0.001585796 -0.0404712" />
+									<attribute id="Max" type="fvec3" value="0.0400185 0.1834974 0.0423495" />
+									<attribute id="Radius" type="float" value="0.04005925" />
+									<attribute id="Height" type="float" value="0.184393" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

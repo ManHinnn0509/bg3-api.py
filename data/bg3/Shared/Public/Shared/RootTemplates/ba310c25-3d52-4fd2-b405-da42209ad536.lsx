@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="308" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ba310c25-3d52-4fd2-b405-da42209ad536" />
+					<attribute id="Name" type="LSString" value="BASE_Merregon" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1e665be-edbf-4528-b8a2-235eca4e61fe" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2af250e3gbf5cg4e87gaed8gc09f41a747c2" version="1" />
+					<attribute id="Icon" type="FixedString" value="cca48494-c9ca-d9e6-d6ec-c10f818dc56d-EQP_Merregon_Halberd_Crossbow_(Icon_Merregon)" />
+					<attribute id="Stats" type="FixedString" value="Merregon" />
+					<attribute id="SpellSet" type="FixedString" value="CommonNPCActions" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Merregon_Halberd_Crossbow" />
+					<attribute id="LightID" type="FixedString" value="eb0266f8-c264-4a73-a5cd-6965b0573eb7" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="06003f4f-da53-9f19-c2f9-4d5a8bfa1b78" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="9dea6fc0-0e63-17c1-e49d-aab1f27cba76" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="5f34fe97-47a8-5042-920b-a11f0984bacd" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="65ff304e-a095-7e49-4b0a-df023710ff40" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="b8f34c3d-1257-4488-7b61-c1419fcc69bc" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="cca48494-c9ca-d9e6-d6ec-c10f818dc56d" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Merregon" />
+					<attribute id="Race" type="guid" value="0fff84f9-f614-49a1-d681-9e2ceb821e24" />
+					<attribute id="Archetype" type="FixedString" value="ranged" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="53c3304c-032d-4c49-df86-b3003ab0136b" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="0a79a905-d41f-401f-e4a0-40a2431117fc" />
+								</node>
+							</children>
+						</node>
+						<node id="EquipmentTypes">
+							<children>
+								<node id="">
+									<attribute id="Object" type="guid" value="d2141ff0-1368-4c35-38b4-cde98120f882" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="98a38628-79fa-4f24-4e90-54deeff4ae03" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="edda8fbb-6456-4514-ccb3-a23667bc314c" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_ArmCrossbow_Merregon" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DISINTEGRATE_DEATH" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.2" />
+							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

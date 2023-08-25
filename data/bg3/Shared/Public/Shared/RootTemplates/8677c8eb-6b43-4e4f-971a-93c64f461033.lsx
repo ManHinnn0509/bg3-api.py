@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="302" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8677c8eb-6b43-4e4f-971a-93c64f461033" />
+					<attribute id="Name" type="LSString" value="UNI_BLD_AdamantineForge_MoldHolder" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="161167a2-817d-4476-bd59-1c823d529ee9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3adc25d8gf569g4948g87ecg9804efde918a" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_BLD_AdamantineForge" />
+					<attribute id="Stats" type="FixedString" value="UNI_BLD_AdamantineForge" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0.4957957 -0.3295815 -0.9216841" />
+									<attribute id="Max" type="fvec3" value="3.114978 0.6214617 0.9216844" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0.4881189 -0.3295815 -0.9216841" />
+									<attribute id="Max" type="fvec3" value="3.114979 0.6214617 0.9216844" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0.4773798 -0.3295815 -0.9216841" />
+									<attribute id="Max" type="fvec3" value="3.114979 0.6214617 0.9216844" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="16" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="InsertSlots" type="int8" value="1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

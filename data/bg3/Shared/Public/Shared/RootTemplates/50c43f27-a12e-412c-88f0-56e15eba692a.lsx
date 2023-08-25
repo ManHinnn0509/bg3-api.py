@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="325" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="50c43f27-a12e-412c-88f0-56e15eba692a" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Torch_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="54f4b97c-ede8-49e2-a5aa-50c6f15c232f" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="aceab797-d31f-0a7f-04a4-dd439ba138e6" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f0fc267a-4c63-87f4-9370-ba7746c52ebc" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5bc1f975g438fg4a31gbe06gdd6b7be800d5" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Torch_A" />
+					<attribute id="Stats" type="FixedString" value="WPN_Torch" />
+					<attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="EquippableTorch" />
+					<attribute id="Description" type="TranslatedString" handle="hbe198b83g9135g44ceg9902g48175bdcc7b6" version="1" />
+					<attribute id="IsPublicDomain" type="bool" value="True" />
+					<attribute id="IgnoreGenerics" type="bool" value="True" />
+					<attribute id="EquipmentTypeID" type="guid" value="4135c6a5-78b6-4c6d-df85-7df72cf575e7" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="a8139e1a-c593-4e0b-cd88-03f788f883db" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0308737 -0.00601974 -0.721243" />
+									<attribute id="Max" type="fvec3" value="0.0310075 0.0561398 0.180559" />
+									<attribute id="Radius" type="float" value="0.233461" />
+									<attribute id="Height" type="float" value="0.230058" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0308737 -0.00601974 -0.721243" />
+									<attribute id="Max" type="fvec3" value="0.0310075 0.0561398 0.180559" />
+									<attribute id="Radius" type="float" value="0.233461" />
+									<attribute id="Height" type="float" value="0.230058" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.01543685 -0.00601974 -0.3606215" />
+									<attribute id="Max" type="fvec3" value="0.01550375 0.0561398 0.0902795" />
+									<attribute id="Radius" type="float" value="0.1167305" />
+									<attribute id="Height" type="float" value="0.230058" />
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="GameplayLight" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="bool">
+																	<attribute id="bool" type="bool" value="True" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="GameplayLightSharpness" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="0.100000001490116" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="GameplayLightRadius" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="7.5" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="PreviewEffect" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="VFX_LightSources_WPN_Torch_A_01_b6314fa1-8ac0-7a52-5865-5a4e9f98ddad" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

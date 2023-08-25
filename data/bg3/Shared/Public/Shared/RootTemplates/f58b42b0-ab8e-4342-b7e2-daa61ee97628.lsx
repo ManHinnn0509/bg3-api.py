@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f58b42b0-ab8e-4342-b7e2-daa61ee97628" />
+					<attribute id="Name" type="LSString" value="SurfacePoison" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3252bb32g9bcfg4dd4gbc9dg5839ad5b509a" version="3" />
+					<attribute id="Description" type="TranslatedString" handle="h15df31bdg4e50g4e9fga315gdea07ee5dee3" version="1" />
+					<attribute id="Icon" type="FixedString" value="Surface_Poison" />
+					<attribute id="DecalMaterial" type="FixedString" value="b3ea9ec3-8ab9-3661-2ed1-4e81edbd2a62" />
+					<attribute id="MaterialType" type="uint8" value="11" />
+					<attribute id="SurfaceCategory" type="uint8" value="4" />
+					<attribute id="FadeOutSpeed" type="float" value="5" />
+					<attribute id="Summon" type="FixedString" value="cabefda4-6839-44e7-8e5e-7c1942fc13ca" />
+					<attribute id="RollConditions" type="LSString" value="Character() and not SavingThrow(Ability.Constitution, SourceSpellDC(11),AdvantageOnPoisoned())" />
+					<attribute id="EnableLightSpawning" type="bool" value="True" />
+					<attribute id="SpawnLightTemplateID" type="FixedString" value="553d43bc-a8c7-41f8-9cab-f94fa5d37557" />
+					<attribute id="SpawnLightRandomVerticalRangeOffset" type="fvec2" value="0 0.15" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="ALCH_TOXIN_BASIC_CONDITION" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="False" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="False" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="True" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="11" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

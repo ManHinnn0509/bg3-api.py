@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="600" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a6d9536c-ce6f-4cab-bd08-6aede900ba33" />
+					<attribute id="Name" type="LSString" value="BASE_DOOR" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="ReadinessFlags" type="uint32" value="63" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="75e32467-20a0-5a09-d477-b99ba2bb093f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="24a69822-0654-ac5b-04e3-33b9aaf52339" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="HierarchyOnlyFade" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h574193acg9420g46feg8bebg1d9a39c407e0" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="Icon" type="FixedString" value="Interactitem_Door" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Door" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="MeshProxy" type="FixedString" value="" />
+					<attribute id="IsPortal" type="bool" value="False" />
+					<attribute id="AttackableWhenClickThrough" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="376e33c4-dd15-4c46-86a5-d88721b4c7a0" />
+					<attribute id="Archetype" type="FixedString" value="base" />
+					<attribute id="AiHint" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.037826 0 -0.1688513" />
+									<attribute id="Max" type="fvec3" value="1 3 0.1688513" />
+									<attribute id="Radius" type="float" value="0.748491" />
+									<attribute id="Height" type="float" value="2.54159" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.037826 0 -0.1688513" />
+									<attribute id="Max" type="fvec3" value="1 3 0.1688513" />
+									<attribute id="Radius" type="float" value="0.748491" />
+									<attribute id="Height" type="float" value="2.54159" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.518913 0 -0.08442564" />
+									<attribute id="Max" type="fvec3" value="0.5 3 0.08442565" />
+									<attribute id="Radius" type="float" value="0.3742455" />
+									<attribute id="Height" type="float" value="2.54159" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="9" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SecretDoor" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="558b4f99-ae8d-40d3-adf0-c109db552c5e" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="ConstellationConfigGlobalParameters" />
+						<node id="ItemList" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DEBRIS_THRESHOLD_LESSER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

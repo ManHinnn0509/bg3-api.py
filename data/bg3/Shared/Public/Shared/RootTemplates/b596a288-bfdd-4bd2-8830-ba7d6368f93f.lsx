@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="326" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b596a288-bfdd-4bd2-8830-ba7d6368f93f" />
+					<attribute id="Name" type="LSString" value="DEC_Goblins_Camp_Drum_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="ac943a1c-31b8-49d4-bfb3-ee585da42bce" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="53863b64-8bc9-4e37-941f-681a8cee44e8" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7be384bfgf2b1g4f53ga838g4989dc9c25d0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GEN_Music_Drum_Small_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GoblinDrum" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2 0 -0.2" />
+									<attribute id="Max" type="fvec3" value="0.2 0.65 0.2" />
+									<attribute id="Radius" type="float" value="0.38235" />
+									<attribute id="Height" type="float" value="0.898336" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2 0 -0.2" />
+									<attribute id="Max" type="fvec3" value="0.2 0.65 0.2" />
+									<attribute id="Radius" type="float" value="0.38235" />
+									<attribute id="Height" type="float" value="0.898336" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1 0 -0.1" />
+									<attribute id="Max" type="fvec3" value="0.1 0.65 0.1" />
+									<attribute id="Radius" type="float" value="0.191175" />
+									<attribute id="Height" type="float" value="0.898336" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="9402d019-b856-8129-6a21-7c931875f908" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="fdab8789-18d2-4aac-abe0-cd1af2ccd3ea" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

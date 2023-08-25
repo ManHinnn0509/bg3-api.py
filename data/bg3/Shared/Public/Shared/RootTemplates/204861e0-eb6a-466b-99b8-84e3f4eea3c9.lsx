@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="26" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultElemental" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="BloodType" type="FixedString" value="" />
+					<attribute id="Race" type="guid" value="24dfab7b-7d7e-4df9-23aa-1272efb48089" />
+					<attribute id="ParentTemplateId" type="FixedString" value="295fdec1-7c6c-4323-bac2-76026ef95710" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Name" type="LSString" value="BASE_Bipedal_Elemental" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="MapKey" type="FixedString" value="204861e0-eb6a-466b-99b8-84e3f4eea3c9" />
+					<children>
+						<node id="OnDeathActions" />
+						<node id="LocomotionParams" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

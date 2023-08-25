@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="326" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="19a6fbb0-7123-460b-a4a8-643bb6cab5b5" />
+					<attribute id="Name" type="LSString" value="BASE_ALCH_Solution_Coating" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cdd2941e-aef8-4cc6-a58b-ccb1d73060e8" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h46a4af73gf271g4692g8036g21e39f25158b" version="1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h4f6bdb7bgf2efg4088gb23eg0f6f33fc0dfc" version="1" />
+					<attribute id="maxStackAmount" type="int32" value="20" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9a42f996-decf-4fcc-11ad-a62badab87a2" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="354041e2-72d7-422d-75ae-0aaa2dc2bd5e" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="4b9a13c2-5499-4dd5-bab8-1a33972e782d" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="DRINK_COAT_WEAPON" />
+											<attribute id="StatusDuration" type="int32" value="2" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

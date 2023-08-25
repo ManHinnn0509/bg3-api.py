@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="53" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="fdb339cb-8608-4959-ba0f-05b65fbc53d2" />
+					<attribute id="Name" type="LSString" value="BASE_Unique_Construct_Turret" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ad0ad901-d43c-4630-963d-2a6ddcf3cf44" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h28ddec01g8525g4dc5gb11egf994028bef48" version="1" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="CanBeTeleported" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-1 -1 -1" />
+									<attribute id="Max" type="fvec3" value="1 1 1" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-1 -1 -1" />
+									<attribute id="Max" type="fvec3" value="1 1 1" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-1 -1 -1" />
+									<attribute id="Max" type="fvec3" value="1 1 1" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="Scripts" />
+						<node id="LocomotionParams">
+							<attribute id="IsMovementEnabled" type="bool" value="False" />
+							<attribute id="IsWorldClimbingEnabled" type="bool" value="False" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

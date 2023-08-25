@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="83245593-cb85-4bb5-ae0e-0f48c5d5fc57" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_CONST_Tripwire_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="VisualTemplate" type="FixedString" value="269f9904-2a88-e6b1-ee5c-bab2d36a177a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f85cebd7-881e-5c8f-d09b-de86391c10f4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h547adf21g12d2g4d74g8d9bg0ec904bafe95" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_Tripwire_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Tripwire" />
+					<attribute id="DisarmDifficultyClassID" type="guid" value="fa621d38-6f83-4e42-5ca5-a66aa751465d" />
+					<attribute id="IsTrap" type="bool" value="True" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="TripWire" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.990665 -0.4625952 -0.125" />
+									<attribute id="Max" type="fvec3" value="2.117825 0.2980633 0.125" />
+									<attribute id="Radius" type="float" value="1.05709" />
+									<attribute id="Height" type="float" value="0.2992953" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.990665 -0.4625952 -0.125" />
+									<attribute id="Max" type="fvec3" value="2.117825 0.2980633 0.125" />
+									<attribute id="Radius" type="float" value="1.05709" />
+									<attribute id="Height" type="float" value="0.2992953" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.990665 -0.4625952 -0.125" />
+									<attribute id="Max" type="fvec3" value="2.117825 0.2980633 0.125" />
+									<attribute id="Radius" type="float" value="1.05709" />
+									<attribute id="Height" type="float" value="0.2992953" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="20812980-629b-47e5-a0a1-7d6787b944cb" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

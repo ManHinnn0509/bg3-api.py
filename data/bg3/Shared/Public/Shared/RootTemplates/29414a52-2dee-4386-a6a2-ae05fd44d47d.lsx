@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="301" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="29414a52-2dee-4386-a6a2-ae05fd44d47d" />
+					<attribute id="Name" type="LSString" value="DEN_GoblinPoisoning_EthelBrew" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="28645376-e6e8-436a-8e9a-c62877fae07d" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="6230ff3a-b5b3-0950-31b9-1d99f774a9f1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="888b4f3c-5a71-e5c8-4e9a-fb9c858fa520" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hed924341g1645g4bbbg8724ga80cab7008d1" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_GRN_Poison_vial_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BasicPoison" />
+					<attribute id="CanBeImprovisedWeapon" type="bool" value="True" />
+					<attribute id="EquipSound" type="FixedString" value="c0c9b3e7-b3bc-2cbc-9de5-0a148cb098cc" />
+					<attribute id="UseSound" type="FixedString" value="10a8b532-de0b-616e-ffc5-006fcefa8d05" />
+					<attribute id="Description" type="TranslatedString" handle="h6b270758g8d6cg4b6eg9953g18aa3e1f4f71" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1007349 0.001076221 -0.09147184" />
+									<attribute id="Max" type="fvec3" value="0.08998299 0.4572811 0.1007865" />
+									<attribute id="Radius" type="float" value="0.09675281" />
+									<attribute id="Height" type="float" value="0.359066" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1007349 0.001076221 -0.09147184" />
+									<attribute id="Max" type="fvec3" value="0.08998299 0.4572811 0.1007865" />
+									<attribute id="Radius" type="float" value="0.1326319" />
+									<attribute id="Height" type="float" value="0.4562049" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1007349 0.001076221 -0.09147184" />
+									<attribute id="Max" type="fvec3" value="0.08998299 0.4572811 0.1007865" />
+									<attribute id="Radius" type="float" value="0.09675281" />
+									<attribute id="Height" type="float" value="0.359066" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="StatsId" type="FixedString" value="DEN_ETHEL_BREW" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="4" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfacePoison" />
+											<attribute id="LifeTime" type="float" value="0" />
+											<attribute id="Radius" type="float" value="3" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="5b2ee5f0-9fd4-06e0-96a7-2cd307e245fc" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

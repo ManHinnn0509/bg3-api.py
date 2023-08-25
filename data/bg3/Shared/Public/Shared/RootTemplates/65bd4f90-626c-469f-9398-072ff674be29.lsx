@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="406" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="65bd4f90-626c-469f-9398-072ff674be29" />
+					<attribute id="Name" type="LSString" value="Cine_LOOT_COINS_Gold_Pile_Single_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="VisualTemplate" type="FixedString" value="2a50ed5c-e9e8-2b97-7723-c74b58a0f841" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="aeaea0ed-6251-e2ed-570a-930623ea9731" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha05da9d3gb54ag4c42g96feg553ca035d918" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_COINS_Gold_Pile_Small_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GoldPile" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="maxStackAmount" type="int32" value="99999" />
+					<attribute id="PhysicsCollisionSound" type="FixedString" value="a2e61cd2-fc08-5baa-d73f-348251f325ad" />
+					<attribute id="ImpactSound" type="FixedString" value="a2e61cd2-fc08-5baa-d73f-348251f325ad" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a2e61cd2-fc08-5baa-d73f-348251f325ad" />
+					<attribute id="DropSound" type="FixedString" value="a2e61cd2-fc08-5baa-d73f-348251f325ad" />
+					<attribute id="PickupSound" type="FixedString" value="156b757e-306d-ed1f-24a5-72070ba8a63a" />
+					<attribute id="Description" type="TranslatedString" handle="ha74565c7gcc6ag4d6agad56ge65bff69569f" version="1" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

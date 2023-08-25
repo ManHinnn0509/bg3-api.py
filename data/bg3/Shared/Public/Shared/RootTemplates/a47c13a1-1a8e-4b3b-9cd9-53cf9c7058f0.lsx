@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a47c13a1-1a8e-4b3b-9cd9-53cf9c7058f0" />
+					<attribute id="Name" type="LSString" value="UND_FairyRings_AntiCharmHelmet" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bbb98c8a-b0b2-4438-95d5-a31005bd1ac9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5c4417aeg88d1g4a02g813aged00b6d52e95" version="1" />
+					<attribute id="Stats" type="FixedString" value="UND_FairyRing_AntiCharmHelmet" />
+					<attribute id="Description" type="TranslatedString" handle="h2132a012g0183g4a83g8e63ga1b648bd9040" version="5" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-1db0-0b4ead20f135" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1328148 -0.01739892 -0.1774557" />
+									<attribute id="Max" type="fvec3" value="0.1328148 0.2941946 0.2456592" />
+									<attribute id="Radius" type="float" value="0.355015" />
+									<attribute id="Height" type="float" value="0.438493" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0664074 -0.01739892 -0.08872787" />
+									<attribute id="Max" type="fvec3" value="0.0664074 0.2941946 0.1228296" />
+									<attribute id="Radius" type="float" value="0.1775075" />
+									<attribute id="Height" type="float" value="0.438493" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1328148 -0.01739892 -0.1774557" />
+									<attribute id="Max" type="fvec3" value="0.1328148 0.2941946 0.2456592" />
+									<attribute id="Radius" type="float" value="0.355015" />
+									<attribute id="Height" type="float" value="0.438493" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

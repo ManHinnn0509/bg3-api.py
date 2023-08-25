@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="202" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="df2f61bb-be7c-48d0-a9fd-1bfe8d5be73a" />
+					<attribute id="Name" type="LSString" value="DEC_HAR_Pier_Rope_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="41edb9d9-59b1-5315-59b5-eb6db63a29d0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="35e07442-a783-d5f4-a376-e7113cb0eb2c" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f51d350gddf6g4b00g9cffg32b3d8125c4b" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_HAR_Pier_Rope_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Rope" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="d1473a5d-ba40-cddc-503c-89db9eec2c30" />
+					<attribute id="DropSound" type="FixedString" value="d1473a5d-ba40-cddc-503c-89db9eec2c30" />
+					<attribute id="PickupSound" type="FixedString" value="43a6def5-21ae-81c7-100d-13e97ff99b34" />
+					<attribute id="Description" type="TranslatedString" handle="h6f744071ge8fag461fg9e49g6b1205d27d50" version="1" />
+					<children>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

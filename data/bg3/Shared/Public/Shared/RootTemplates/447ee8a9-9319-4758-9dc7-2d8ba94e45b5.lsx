@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="303" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="447ee8a9-9319-4758-9dc7-2d8ba94e45b5" />
+					<attribute id="Name" type="LSString" value="CONS_Potion_AnimalSpeaking_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e660fd9-489d-42ff-a762-e4392e826666" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="2b0c8a27-5a17-615c-f4cf-f35b4c7b8a1b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1cc30e85-1eb4-06ec-c556-be94d24ab7ac" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h84a8421cgfdf9g462bga9deg052affae5528" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_AnimalSpeaking_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Potion_Of_Animal_Speaking" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h27ec76a4gaa45g4324ga77bg5435d62bbf09" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hd6883765g2b73g4a25g8817g67164b1851dd" version="3" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hc37cbafdgfa6cg4ce7g8a12g1fd2990b8d66" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1643604 0 -0.1643604" />
+									<attribute id="Max" type="fvec3" value="0.1643604 0.7414519 0.1643604" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1643604 0 -0.1643604" />
+									<attribute id="Max" type="fvec3" value="0.1643604 0.7414519 0.1643604" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1643604 0 -0.1643604" />
+									<attribute id="Max" type="fvec3" value="0.1643604 0.7414519 0.1643604" />
+									<attribute id="Radius" type="float" value="0.2187844" />
+									<attribute id="Height" type="float" value="0.7414519" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="POTION_OF_ANIMAL_SPEAKING" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="b0805ef1-806a-fccd-a3ee-32450d26f2d4" />
+											<attribute id="visualDestruction" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="a557ab71-77f3-4b0c-8174-f605e51c90c7" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LifeTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ProjectileSpell" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Potion_Destroy_AnimalSpeaking" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

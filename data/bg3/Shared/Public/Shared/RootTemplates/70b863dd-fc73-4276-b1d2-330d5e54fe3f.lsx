@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="30" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="70b863dd-fc73-4276-b1d2-330d5e54fe3f" />
+					<attribute id="Name" type="LSString" value="WPN_Greataxe_REF" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e99fd01c-2c7a-459e-8df0-3d7349239430" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="779d8208-d009-e780-56f6-f85f0f5aeac0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e02c7cef-dbd5-ad16-7bf5-5a8535bd97a9" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="Stats" type="FixedString" value="WPN_Greataxe" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="62ff4f7c-0724-43fa-7b99-0cef6a487355" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1617671 -0.01497807 -0.8862602" />
+									<attribute id="Max" type="fvec3" value="0.1014783 0.03706054 0.4109869" />
+									<attribute id="Radius" type="float" value="0.283448" />
+									<attribute id="Height" type="float" value="0.0765833" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1617671 -0.01497807 -0.8862601" />
+									<attribute id="Max" type="fvec3" value="0.1014783 0.03706054 0.410987" />
+									<attribute id="Radius" type="float" value="0.283448" />
+									<attribute id="Height" type="float" value="0.0765833" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.123009 -0.0008221231 -0.6482352" />
+									<attribute id="Max" type="fvec3" value="0.09072898 0.05259413 0.1435194" />
+									<attribute id="Radius" type="float" value="0.141724" />
+									<attribute id="Height" type="float" value="0.0765833" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

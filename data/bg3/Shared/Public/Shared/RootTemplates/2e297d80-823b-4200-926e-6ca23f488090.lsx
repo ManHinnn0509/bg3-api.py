@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="0" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2e297d80-823b-4200-926e-6ca23f488090" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Ice" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="0351d090-9433-4803-611b-28a2eb24e86e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0ef91de3-88aa-5b42-406b-67a33cd32def" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3fd8d9b6gc313g4c06gb554g38571ae4045b" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Ice" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfIce" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="Description" type="TranslatedString" handle="h460f6582g494bg4364gaa6bg3de31ee76006" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4671902 -0.02889291 -0.02388916" />
+									<attribute id="Max" type="fvec3" value="0.4533368 0.022575 0.02800252" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4671902 -0.02889291 -0.02388916" />
+									<attribute id="Max" type="fvec3" value="0.4533368 0.022575 0.02800252" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2335951 -0.02889291 -0.01194458" />
+									<attribute id="Max" type="fvec3" value="0.2266684 0.022575 0.01400126" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfIce" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

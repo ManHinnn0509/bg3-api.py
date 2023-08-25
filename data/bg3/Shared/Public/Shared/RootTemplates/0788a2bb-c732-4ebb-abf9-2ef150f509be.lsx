@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0788a2bb-c732-4ebb-abf9-2ef150f509be" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Smokepowder" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a0985797-4ec7-475c-8e11-0361e387f39a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="had96ed60gbf44g45afgb9d0g222bf65f6016" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Smokepowder" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Barrel_Filled_Smokepowder" />
+					<attribute id="Description" type="TranslatedString" handle="h6670949fg6445g4390g9e6eg885b09a366de" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfSmokepowder" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="a865965f-501b-46e9-aa9e-4877c0e8094d" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

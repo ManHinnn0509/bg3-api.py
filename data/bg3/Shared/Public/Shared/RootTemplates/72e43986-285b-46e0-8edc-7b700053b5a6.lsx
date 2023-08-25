@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="2" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="72e43986-285b-46e0-8edc-7b700053b5a6" />
+					<attribute id="Name" type="LSString" value="LTS_DUN_Wall_Bowls_D_Off_NOTAPPROVED" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fef058ec-35dc-451c-a0d1-2f2786a4eb7f" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="ac53d9c1-a83b-be08-549e-3191253e3832" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="35e22453-45d7-a718-199f-7c16e9da268d" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb2d621d9g3337g4a01g9d22gec6d611995bb" version="2" />
+					<attribute id="Stats" type="FixedString" value="OBJ_CoalBasket" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0 -0.9550956 -0.4093655" />
+									<attribute id="Max" type="fvec3" value="1.041791 0.1197089 0.409366" />
+									<attribute id="Radius" type="float" value="0.4265307" />
+									<attribute id="Height" type="float" value="1.074805" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0 -0.9550956 -0.4093655" />
+									<attribute id="Max" type="fvec3" value="1.041791 0.1197089 0.409366" />
+									<attribute id="Radius" type="float" value="0.4265307" />
+									<attribute id="Height" type="float" value="1.074805" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="0 -0.9550956 -0.2046828" />
+									<attribute id="Max" type="fvec3" value="0.5208957 0.1197089 0.204683" />
+									<attribute id="Radius" type="float" value="0.2132654" />
+									<attribute id="Height" type="float" value="1.074805" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="d289389c-882d-4695-a8d5-dda2a1351711" />
+											<children>
+												<node id="ScriptOverrides">
+													<children>
+														<node id="ScriptVariables">
+															<children>
+																<node id="Object">
+																	<attribute id="MapKey" type="FixedString" value="BurnEffect" />
+																	<children>
+																		<node id="ScriptVariables">
+																			<attribute id="Value" type="LSString" value="VFX_LightSources_DUN_Wall_Bowls_A_01" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

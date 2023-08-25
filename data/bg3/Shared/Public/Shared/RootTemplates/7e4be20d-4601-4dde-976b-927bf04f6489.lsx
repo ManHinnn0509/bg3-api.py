@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7e4be20d-4601-4dde-976b-927bf04f6489" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_CONST_Trap_Gaspit_Temple_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ca9c635a-669f-43a7-a25b-42d4df1815d3" />
+					<attribute id="VisualTemplate" type="FixedString" value="e13a0c4e-461f-c3ac-d14b-4d7b7edd6bfe" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="331e0960-1e5a-fba2-7f08-7e2a07d3ee86" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8de4b6a3ga015g4998gaf92g3e1d6f7793b3" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_Trap_Gaspit_Temple_A" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="c39d6f8f-646e-485c-3f8d-1cdf5aeb87fb" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4340989 0.001587331 -0.4340991" />
+									<attribute id="Max" type="fvec3" value="0.4340991 0.3203132 0.4340987" />
+									<attribute id="Radius" type="float" value="0.3171279" />
+									<attribute id="Height" type="float" value="0.3187259" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4340989 0.001587331 -0.4340991" />
+									<attribute id="Max" type="fvec3" value="0.4340991 0.3203132 0.4340987" />
+									<attribute id="Radius" type="float" value="0.3171279" />
+									<attribute id="Height" type="float" value="0.3187259" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="69f96ccb-6dcc-66a8-0a79-44888edcb7d5" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="fadab2fd-6c68-a084-ea78-d722c01c459e" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="be1dfeee-d83e-45e8-87fd-93ab23bfa18b" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="87296e2e-2310-460f-8c91-9d12e89515ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

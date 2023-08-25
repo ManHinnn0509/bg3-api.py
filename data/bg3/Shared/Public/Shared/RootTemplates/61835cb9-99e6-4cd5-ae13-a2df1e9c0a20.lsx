@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="61835cb9-99e6-4cd5-ae13-a2df1e9c0a20" />
+					<attribute id="Name" type="LSString" value="PUZ_MF_Nautiloid_Mind_Draining_Device_Button_C_Red" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="VisualTemplate" type="FixedString" value="279d2aaa-080f-caf1-0218-d7a6c755e4a6" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d476ea9e-6d78-76ec-efeb-ea5e5eb09c67" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0797b436gf7d5g4841g80cag692bef7f87c6" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_MF_Alchemy_Device_F" />
+					<attribute id="UseSound" type="FixedString" value="9ce1498c-f327-7e60-6d2c-0e25e488f912" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6 0.45 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.6 1.05 0.5" />
+									<attribute id="Radius" type="float" value="0.07869343" />
+									<attribute id="Height" type="float" value="0.05857804" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6 0.45 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.6 1.05 0.5" />
+									<attribute id="Radius" type="float" value="0.2278622" />
+									<attribute id="Height" type="float" value="0.4027712" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6 0.45 -0.5" />
+									<attribute id="Max" type="fvec3" value="0.6 1.05 0.5" />
+									<attribute id="Radius" type="float" value="0.2278622" />
+									<attribute id="Height" type="float" value="0.4027712" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

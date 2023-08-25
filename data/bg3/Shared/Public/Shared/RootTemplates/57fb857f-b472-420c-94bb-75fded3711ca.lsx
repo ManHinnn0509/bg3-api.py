@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="313" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="57fb857f-b472-420c-94bb-75fded3711ca" />
+					<attribute id="Name" type="LSString" value="LOOT_Alchemy_Mushroom_Timmask_Spore_B_DONOTUSE" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="79f10d3b-b390-4662-9193-d2f4395d136a" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="3331aac7-2811-82c6-7f04-f5875bc4bf61" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a800ce3d-63a5-5a1c-c37a-ba6fd131e7cb" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7cbcf436gf54dg465bg8ca9g19c4bf7fe030" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_UND_SocietyOfBrilliance_TimmaskSpore" />
+					<attribute id="ImpactSound" type="FixedString" value="7b228d89-caf8-a73b-ca8c-f0f8c50f7c15" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="2953d61b-cc69-557e-5c5e-2d626fab3d4c" />
+					<attribute id="DropSound" type="FixedString" value="2953d61b-cc69-557e-5c5e-2d626fab3d4c" />
+					<attribute id="PickupSound" type="FixedString" value="893cc357-d704-ab86-1776-d0c80b4ba4fb" />
+					<attribute id="Description" type="TranslatedString" handle="hf0283ee1g1c6ag4567g8444g9b369c0c0a75" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3635421 0.01230517 -0.245034" />
+									<attribute id="Max" type="fvec3" value="0.2788176 0.2981716 0.220331" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3635421 0.01230517 -0.245034" />
+									<attribute id="Max" type="fvec3" value="0.2788176 0.2981716 0.220331" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3635421 0.01230517 -0.245034" />
+									<attribute id="Max" type="fvec3" value="0.2788176 0.2981716 0.220331" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="aa47374a-1bac-29e6-f61f-0eeab7e99332" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="dc48e437-54d9-4cf9-8eeb-0f6c9e57568a" />
+					<attribute id="Name" type="LSString" value="LTS_Fireflies_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e40d1292-1da8-4c8f-b1dc-213cfdd4e135" />
+					<attribute id="VisualTemplate" type="FixedString" value="78baed38-0f05-8d7f-3282-0ef755b6146c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8368ec40g3951g47ebga757gcfa6a9fba906" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.025 -0.025 -0.025" />
+									<attribute id="Max" type="fvec3" value="0.025 0.025 0.025" />
+									<attribute id="Radius" type="float" value="0.001" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.025 -0.025 -0.025" />
+									<attribute id="Max" type="fvec3" value="0.025 0.025 0.025" />
+									<attribute id="Radius" type="float" value="0.001" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.025 -0.025 -0.025" />
+									<attribute id="Max" type="fvec3" value="0.025 0.025 0.025" />
+									<attribute id="Radius" type="float" value="0.001" />
+									<attribute id="Height" type="float" value="0.002" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

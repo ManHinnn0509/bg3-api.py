@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="326" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="08712231-9c7c-4a83-8125-289a419e210f" />
+					<attribute id="Name" type="LSString" value="UNI_FOR_MasterworkPlans" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3f88f731-258c-4ab7-bf66-c135edd2c1cc" />
+					<attribute id="VisualTemplate" type="FixedString" value="1655ed96-510c-78ae-dedb-f9ea83fcf27e" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf7ab4d6dg2016g40c6g9ffdg467999fc8b15" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_FOR_MasterworkPlans" />
+					<attribute id="Description" type="TranslatedString" handle="h977eef72g962eg467bg91a3gd6e83c6a80aa" version="2" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BookId" type="FixedString" value="FOR_IncompleteMasterwork_ApprenticePlans" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

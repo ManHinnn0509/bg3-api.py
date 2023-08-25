@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="611" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5f4bf5c9-c0bc-47f3-8648-98e135cffcb7" />
+					<attribute id="Name" type="LSString" value="CONT_Egg_Spider_Phase_A_Destruct" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ccbfdc8f-3aad-4dbb-870a-e5a283e1679e" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="cd30639e-a073-de37-bc57-8a1f2e795267" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a1d5eb1f-fc52-35cb-d436-06877469482b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5e5f76ecgade8g4279g9d1fg58ab455ab61e" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_Egg_Spider_Phase_A_Destruct" />
+					<attribute id="Stats" type="FixedString" value="OBJ_SpiderEgg" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Destroyed" type="bool" value="False" />
+					<attribute id="ImpactSound" type="FixedString" value="439fcec3-6032-f489-6e80-260d26fab23d" />
+					<attribute id="InventoryType" type="uint8" value="4" />
+					<attribute id="Description" type="TranslatedString" handle="h7719a78dg656fg48e8gbe94g39ac3fc5b5e6" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6048293 -0.002920806 -0.3906397" />
+									<attribute id="Max" type="fvec3" value="0.4987084 0.2363877 0.5121716" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6048293 -0.002920806 -0.3906397" />
+									<attribute id="Max" type="fvec3" value="0.4987084 0.2363877 0.5121716" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6048293 -0.002920806 -0.3906397" />
+									<attribute id="Max" type="fvec3" value="0.4987084 0.2363877 0.5121716" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="1" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

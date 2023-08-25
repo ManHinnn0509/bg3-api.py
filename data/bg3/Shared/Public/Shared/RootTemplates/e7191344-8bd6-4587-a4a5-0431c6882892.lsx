@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="331" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e7191344-8bd6-4587-a4a5-0431c6882892" />
+					<attribute id="Name" type="LSString" value="Undead_Zombie_Dwarf_Melee" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a42a8493-b701-4d71-bdc8-0857e718c247" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1dc31aff-d571-d3c4-a60f-30d9712dd9cd" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4d0ecc52gc456g47d4ga25fg8b6fe6a53493" version="1" />
+					<attribute id="Icon" type="FixedString" value="82326e96-8719-533d-e1fe-55f607056a3a-_(Icon_Zombie_Dwarf)" />
+					<attribute id="LightID" type="FixedString" value="b234b998-1f4f-46f1-9fb5-6d28cf811165" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="82326e96-8719-533d-e1fe-55f607056a3a" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Zombie_Dwarf" />
+					<attribute id="Archetype" type="FixedString" value="zombie" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6d60bed7-10cc-4b52-b78f-a7ba815149cd" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="1.6" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="1.6" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Height" type="float" value="1.6" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="84eedc44-3b1b-49c4-9417-9e5a99ea6e56" />
+					<attribute id="Name" type="LSString" value="CONS_Oil_Of_Sharpness_DONOTUSE" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="19a6fbb0-7123-460b-a4a8-643bb6cab5b5" />
+					<attribute id="VisualTemplate" type="FixedString" value="b4cd5dae-3da1-e428-9e36-2c3b39d01b4e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d6c597bf-8c4e-5d91-1da7-8294ffda3d92" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9009b426g61c0g468bgb975gb42bbcdb594a" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Oil_Of_Sharpness" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Oil_Of_Sharpness" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="he0b9fe7dg5d4dg4a39ga6b2g4137eb529fd9" version="1" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="299dcdc3-c9c9-5ba3-2e87-60800daf6ef6" />
+					<attribute id="DropSound" type="FixedString" value="299dcdc3-c9c9-5ba3-2e87-60800daf6ef6" />
+					<attribute id="PickupSound" type="FixedString" value="c07d7d7b-78c1-3173-4250-df729da5276a" />
+					<attribute id="UseSound" type="FixedString" value="10a8b532-de0b-616e-ffc5-006fcefa8d05" />
+					<attribute id="Description" type="TranslatedString" handle="hbecfc735gb31fg4d5egbfa6ga2094dade542" version="4" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="he28ca024g689cg47a5g9cc2g99d45081148a" version="1" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09359018 -1.490116E-08 -0.09380735" />
+									<attribute id="Max" type="fvec3" value="0.09359019 0.2231871 0.09380735" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09359018 -1.490116E-08 -0.09380735" />
+									<attribute id="Max" type="fvec3" value="0.09359019 0.2231871 0.09380735" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.09359018 -1.490116E-08 -0.09380735" />
+									<attribute id="Max" type="fvec3" value="0.09359019 0.2231871 0.09380735" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="OIL_OF_SHARPNESS" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="ExplodeFX" type="FixedString" value="dc4da4bc-ff84-f66a-aaff-02fb9547a7c7" />
+											<attribute id="visualDestruction" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

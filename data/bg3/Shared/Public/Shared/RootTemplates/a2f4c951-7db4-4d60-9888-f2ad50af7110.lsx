@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a2f4c951-7db4-4d60-9888-f2ad50af7110" />
+					<attribute id="Name" type="LSString" value="FOR_Spear_TrueSoul" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9f0f1c0e-012d-44e1-9b29-86c64d2bf675" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="de7ac21a-ef10-7246-2f3a-b9550e924598" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9f4c6f2b-cb54-d295-4f36-a44e548adecf" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb8ed6552g013fg49a6g8044g63144ff47df0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_FOR_Spear_TrueSoul" />
+					<attribute id="Stats" type="FixedString" value="FOR_TrueSoul_Spear" />
+					<attribute id="Description" type="TranslatedString" handle="hcdf42a60g1636g476egb7e2g7d12ea538f3c" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="cb322434-365d-47bf-5783-f2e2df0229b1" />
+					<children>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TRUE_SOUL_SPEAR_WEAPON_BOOST" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="Description" type="TranslatedString" handle="hadfbb2ecgf4d4g48aeg97f4g0b2d20d709de" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4d4f5977g3020g4552gb192g21745e5370f0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_GEN_Wood_Plank" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="21e6ac1f-9452-4548-af08-feb5a2de86b8" />
+					<attribute id="Name" type="LSString" value="CONT_GEN_Parquet_Loose_Plank_B" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c5e68dbc-5d1d-48e7-ac00-ad696dd6a584" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5a65d049-1043-470a-fee3-c59247680d7a" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericLootItem" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="bbfc164b-0a6c-081f-096d-f02304126039" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.448918" />
+									<attribute id="Max" type="fvec3" value="0.2718064 0.01457447 0.5417757" />
+									<attribute id="Min" type="fvec3" value="-0.2718064 -0.0004350757 -0.5417757" />
+									<attribute id="Radius" type="float" value="0.0960515" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.448918" />
+									<attribute id="Max" type="fvec3" value="0.2718064 0.01457447 0.5417757" />
+									<attribute id="Min" type="fvec3" value="-0.2718064 -0.0004350757 -0.5417757" />
+									<attribute id="Radius" type="float" value="0.192103" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.448918" />
+									<attribute id="Max" type="fvec3" value="0.2718064 0.01457447 0.5417757" />
+									<attribute id="Min" type="fvec3" value="-0.2718064 -0.0004350757 -0.5417757" />
+									<attribute id="Radius" type="float" value="0.192103" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

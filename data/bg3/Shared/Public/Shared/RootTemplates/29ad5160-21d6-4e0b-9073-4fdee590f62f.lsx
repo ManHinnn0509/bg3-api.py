@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="29ad5160-21d6-4e0b-9073-4fdee590f62f" />
+					<attribute id="Name" type="LSString" value="BASE_Unique" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a644d1d6-4098-fc0a-c26b-b016d7457ebd" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Unknown" />
+					<attribute id="LadderAttachOffset" type="float" value="0" />
+					<attribute id="LadderLoopSpeed" type="float" value="4" />
+					<attribute id="BloodType" type="FixedString" value="" />
+					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-548c-0ef60775834e" />
+					<attribute id="EquipmentRace" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceBlood" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="c201a86a-297f-4d0d-16a3-073c1098767b" />
+					<attribute id="DisintegratedResourceID" type="FixedString" value="c201a86a-297f-4d0d-16a3-073c1098767b" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="LightID" type="FixedString" value="b61f1d86-f540-4183-89b5-453f8184a85b" />
+					<attribute id="SoundMovementStopEvent" type="FixedString" value="d7d5091b-f262-44f2-6296-0099f0baac88" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="LightChannel" type="uint8" value="5" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultMonster" />
+					<attribute id="DeathRaycastMinLength" type="float" value="1" />
+					<attribute id="DeathRaycastMaxLength" type="float" value="1.5" />
+					<attribute id="Race" type="guid" value="0fcfa622-a3c9-4a03-b4aa-742a4b90eb62" />
+					<attribute id="Faction" type="guid" value="cfb709b3-220f-9682-fbbc-0d6f37882e46" />
+					<attribute id="Archetype" type="FixedString" value="base" />
+					<attribute id="AiHint" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="eae44d86-3321-4a0a-1d81-d84f8be42357" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="EquipmentTypes">
+							<children>
+								<node id="">
+									<attribute id="Object" type="guid" value="d2141ff0-1368-4c35-38b4-cde98120f882" />
+								</node>
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="a84f4caa-5ad9-1572-6a27-43c7e311ff73" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions" />
+						<node id="SkillList" />
+						<node id="ItemList" />
+						<node id="StatusList" />
+						<node id="Treasures" />
+						<node id="TradeTreasures" />
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="17d6a1c8-e453-fbda-5769-38f4d950a50a" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="6323b0ce-dab3-6e85-bebc-301aceb84602" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="ad93bd17-f05c-d4fb-a047-9e29a4157971" />
+								</node>
+							</children>
+						</node>
+						<node id="FootStepInfos" />
+						<node id="LocomotionParams">
+							<attribute id="MovementAcceleration" type="float" value="12" />
+							<attribute id="MovementTiltToRemap" type="FixedString" value="1df9c9ee-8dd8-ebeb-3b1a-83d31f141f0a" />
+							<attribute id="SteeringSpeedCurveWithoutTransitions" type="FixedString" value="522881b9-ce7f-4259-9e81-4cbe55f1fc3f" />
+							<attribute id="LadderBlendspace_Attach_Down" type="FixedString" value="bfe92170-8525-86fe-087f-c5266286a137" />
+							<attribute id="LadderBlendspace_Attach_Up" type="FixedString" value="df54ed81-af7f-fe2d-4abf-16be8e074f2e" />
+							<attribute id="LadderBlendspace_Detach_Down" type="FixedString" value="09fa116f-66b3-03a2-4e89-00bf733e658b" />
+							<attribute id="LadderBlendspace_Detach_Up" type="FixedString" value="a684397b-430b-eb28-269a-6e5a971309a7" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

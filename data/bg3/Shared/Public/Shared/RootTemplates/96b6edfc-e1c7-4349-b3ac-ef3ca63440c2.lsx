@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="96b6edfc-e1c7-4349-b3ac-ef3ca63440c2" />
+					<attribute id="Name" type="LSString" value="BLD_Goblins_Scaffolding_Wood_12H_4W_A_Destruct_Target" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="fa30636f-4717-444b-a561-1f5ca4810161" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="fb8cb4f7-b5f5-6f3a-e2e7-e4567ad0d4f4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbb52c58cg1813g4969g8b1cgdd08d07753a4" version="1" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_Village_House_Door_A_Wood_Scenery_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Destr_Support_Wood" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="ImpactSound" type="FixedString" value="d44f2631-ebea-49ff-79ba-415636e0270a" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4485511 -6.152592 -2.625078" />
+									<attribute id="Max" type="fvec3" value="0.4485507 6.147974 2.625078" />
+									<attribute id="Radius" type="float" value="3.351053" />
+									<attribute id="Height" type="float" value="12.30057" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.4485511 -6.152592 -2.625078" />
+									<attribute id="Max" type="fvec3" value="0.4485507 6.147974 2.625078" />
+									<attribute id="Radius" type="float" value="3.351053" />
+									<attribute id="Height" type="float" value="12.30057" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="9cf7a2d8-89dd-6137-f89a-6208cbc57932" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

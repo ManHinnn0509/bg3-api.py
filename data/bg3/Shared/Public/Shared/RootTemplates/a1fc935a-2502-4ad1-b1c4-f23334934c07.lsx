@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="2" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a1fc935a-2502-4ad1-b1c4-f23334934c07" />
+					<attribute id="Name" type="LSString" value="UNI_TOOL_Camp_Bedroll_Open_G_DONOTUSE" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2a87b593-97f7-4c90-8fb6-161b4cc27fca" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc24b65c0g1bfeg43a3gac89gbc1f664587e2" version="1" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="Stats" type="FixedString" value="QUEST_Indestructible_Camp_Bedroll" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="Tooltip" type="uint8" value="0" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

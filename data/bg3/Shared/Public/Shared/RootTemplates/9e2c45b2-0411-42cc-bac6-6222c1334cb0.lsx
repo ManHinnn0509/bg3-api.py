@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="318" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h54d03e06g9578g445dga0b2ge0f502baa0aa" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h31173838gea14g4acfg943bg7bc53a8313e9" version="2" />
+					<attribute id="EquipmentTypeID" type="guid" value="cef94292-4854-4085-43b3-045c92194d23" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Morningstar_A_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9e2c45b2-0411-42cc-bac6-6222c1334cb0" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Morningstar_A_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="26a9fba6-1a60-4691-84ea-da7ffcb304e0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98b789a2-64d7-36fb-1a31-3d03a6df8758" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="WPN_Morningstar_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="27dda1a8-bd40-86e3-d4c8-bc68d78d0c11" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

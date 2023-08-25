@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="309" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="caf51333-338f-41f1-8cf9-3474dad331d4" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_Steaks_Raw_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8d2f1d5f-0cc8-4b13-8aa2-4bd509695608" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="01c811c3-753d-1988-c1d3-f7907e9d7fa9" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="233bca92-a3f5-61bd-d925-9edc684b72db" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h19edf347g4d83g4131ga07bg11f1e36fe987" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Steaks_Raw_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_FOOD_Meat" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="maxStackAmount" type="int32" value="1" />
+					<attribute id="UseSound" type="FixedString" value="" />
+					<attribute id="Description" type="TranslatedString" handle="h43c99bb1g8f9eg46d9g809eg9612798059d0" version="1" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1166308 -0.002336923 -0.09203711" />
+									<attribute id="Max" type="fvec3" value="0.1162756 0.02735296 0.09203708" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1166308 -0.002336923 -0.09203711" />
+									<attribute id="Max" type="fvec3" value="0.1162756 0.02735296 0.09203708" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1166308 -0.002336923 -0.09203711" />
+									<attribute id="Max" type="fvec3" value="0.1162756 0.02735296 0.09203708" />
+									<attribute id="Radius" type="float" value="0.1074718" />
+									<attribute id="Height" type="float" value="0.09082429" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

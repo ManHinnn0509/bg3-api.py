@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a656f225-e179-4336-aa48-02d3d4d8041e" />
+					<attribute id="Name" type="LSString" value="LTS_Camp_Campfire_A_Off" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="827e5d0f-eeb0-42ca-a237-012033c95c83" />
+					<attribute id="VisualTemplate" type="FixedString" value="ad62abc8-acf9-8848-c974-a0c1f63f9131" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="IsPublicDomain" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5862759 -0.03446412 -0.6046226" />
+									<attribute id="Max" type="fvec3" value="0.65685 0.2995099 0.5880814" />
+									<attribute id="Radius" type="float" value="0.4387086" />
+									<attribute id="Height" type="float" value="0.333974" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.293138 -0.03446412 -0.3023113" />
+									<attribute id="Max" type="fvec3" value="0.328425 0.2995099 0.2940407" />
+									<attribute id="Radius" type="float" value="0.2193543" />
+									<attribute id="Height" type="float" value="0.333974" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5862759 -0.03446412 -0.6046226" />
+									<attribute id="Max" type="fvec3" value="0.65685 0.2995099 0.5880814" />
+									<attribute id="Radius" type="float" value="0.4387086" />
+									<attribute id="Height" type="float" value="0.333974" />
+								</node>
+							</children>
+						</node>
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="af32bbed-eb13-49e2-8901-7e8b73cba310" />
+											<children>
+												<node id="ScriptOverrides">
+													<children>
+														<node id="ScriptVariables">
+															<children>
+																<node id="Object">
+																	<attribute id="MapKey" type="FixedString" value="BurnEffectBone" />
+																	<children>
+																		<node id="ScriptVariables">
+																			<attribute id="Value" type="LSString" value="Dummy_LTS_Camp_Campfire_A" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Object">
+																	<attribute id="MapKey" type="FixedString" value="StartLit" />
+																	<children>
+																		<node id="ScriptVariables">
+																			<attribute id="Value" type="LSString" value="0" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

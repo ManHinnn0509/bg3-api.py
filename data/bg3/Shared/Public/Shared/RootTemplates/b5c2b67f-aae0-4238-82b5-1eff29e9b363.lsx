@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b5c2b67f-aae0-4238-82b5-1eff29e9b363" />
+					<attribute id="Name" type="LSString" value="SurfaceAcid" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="surface" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9091099agbb32g48ffg8b4fg17a303bf8b26" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h9d98565eg6e3bg4aaagb9d7gc71bac69ba58" version="2" />
+					<attribute id="Icon" type="FixedString" value="Surface_Acid" />
+					<attribute id="DecalMaterial" type="FixedString" value="656e2b9c-4563-0d8d-af6f-6a00f353908f" />
+					<attribute id="MaterialType" type="uint8" value="8" />
+					<attribute id="SurfaceCategory" type="uint8" value="4" />
+					<attribute id="SurfaceGrowTimer" type="float" value="0.05" />
+					<attribute id="FadeInSpeed" type="float" value="20" />
+					<attribute id="FadeOutSpeed" type="float" value="5" />
+					<attribute id="EnableLightSpawning" type="bool" value="True" />
+					<attribute id="SpawnLightTemplateID" type="FixedString" value="a29eb200-e687-44d6-b503-1fdb251959aa" />
+					<attribute id="SpawnLightRandomVerticalRangeOffset" type="fvec2" value="0 0.15" />
+					<children>
+						<node id="InstanceVisual" />
+						<node id="IntroFX" />
+						<node id="FX" />
+						<node id="StatusData">
+							<children>
+								<node id="StatusData">
+									<attribute id="StatusId" type="FixedString" value="ACID" />
+									<attribute id="Chance" type="float" value="1" />
+									<attribute id="Duration" type="float" value="6" />
+									<attribute id="Remove" type="bool" value="False" />
+									<attribute id="KeepAlive" type="bool" value="True" />
+									<attribute id="ApplyToCharacters" type="bool" value="True" />
+									<attribute id="ApplyToItems" type="bool" value="True" />
+									<attribute id="VanishOnApply" type="bool" value="False" />
+									<attribute id="Force" type="bool" value="False" />
+									<attribute id="AffectedByRoll" type="bool" value="False" />
+									<attribute id="OnlyOncePerTurn" type="bool" value="False" />
+									<attribute id="ApplyTypes" type="uint8" value="11" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

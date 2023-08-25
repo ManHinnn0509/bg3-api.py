@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="57" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7e1ed65c-7649-473b-b21b-4c8635696cbe" />
+					<attribute id="Name" type="LSString" value="DOOR_Underdark_Myconid_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a6d9536c-ce6f-4cab-bd08-6aede900ba33" />
+					<attribute id="ReadinessFlags" type="uint32" value="129" />
+					<attribute id="VisualTemplate" type="FixedString" value="b6c76f9b-06c4-13c7-06de-67e2580ffb3e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9a4e43ae-69a0-0d54-a437-ed599f45f6be" />
+					<attribute id="DevComment" type="LSString" value="Level (Underdark C) coordinates to place 13.64; 42.202; 110.242" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h647dfd2cgf8d2g4aedgba1cgcc3032ca54ce" version="3" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-4.803037 -0.3284707 -1.483236" />
+									<attribute id="Max" type="fvec3" value="3.893819 7.326195 2.015983" />
+									<attribute id="Radius" type="float" value="0.6329082" />
+									<attribute id="Height" type="float" value="3.035052" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-4.803037 -0.3284707 -1.483236" />
+									<attribute id="Max" type="fvec3" value="3.893819 7.326195 2.015983" />
+									<attribute id="Radius" type="float" value="0.6329082" />
+									<attribute id="Height" type="float" value="3.035052" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h668b585bgde2ag426fgbe6bge64a3db1bbe2" version="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

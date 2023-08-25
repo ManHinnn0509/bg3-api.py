@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4938e2c4-d460-4930-b717-3e40b65c4e13" />
+					<attribute id="Name" type="LSString" value="BASE_Quadruped" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="703d384f-4e1b-4776-fdfd-8fe16776b0a8" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Unknown" />
+					<attribute id="Stats" type="FixedString" value="Stats_Placeholder" />
+					<attribute id="SpellSet" type="FixedString" value="CommonBeastActions" />
+					<attribute id="LadderAttachOffset" type="float" value="0" />
+					<attribute id="LadderLoopSpeed" type="float" value="4" />
+					<attribute id="BloodType" type="FixedString" value="Red" />
+					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-548c-0ef60775834e" />
+					<attribute id="EquipmentRace" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceBlood" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="9b371eaa-2ebe-028e-d577-2202ab7acff1" />
+					<attribute id="DisintegratedResourceID" type="FixedString" value="c201a86a-297f-4d0d-16a3-073c1098767b" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="SoundMovementStopEvent" type="FixedString" value="d7d5091b-f262-44f2-6296-0099f0baac88" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="LightChannel" type="uint8" value="5" />
+					<attribute id="Race" type="guid" value="0fcfa622-a3c9-4a03-b4aa-742a4b90eb62" />
+					<attribute id="Faction" type="guid" value="cfb709b3-220f-9682-fbbc-0d6f37882e46" />
+					<attribute id="Archetype" type="FixedString" value="base" />
+					<attribute id="AiHint" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="eae44d86-3321-4a0a-1d81-d84f8be42357" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.3" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Height" type="float" value="1.5" />
+								</node>
+							</children>
+						</node>
+						<node id="EquipmentTypes">
+							<children>
+								<node id="">
+									<attribute id="Object" type="guid" value="d2141ff0-1368-4c35-38b4-cde98120f882" />
+								</node>
+							</children>
+						</node>
+						<node id="ScriptConfigGlobalParameters" />
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceBlood" />
+											<attribute id="LifeTime" type="float" value="-1" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="10" />
+											<attribute id="CellAtGrow" type="int32" value="2" />
+											<attribute id="GrowTimer" type="float" value="0.4" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SkillList" />
+						<node id="ItemList" />
+						<node id="StatusList" />
+						<node id="Treasures" />
+						<node id="TradeTreasures" />
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="b21eb173-37e9-7cc4-153f-b925826f6e4a" />
+								</node>
+							</children>
+						</node>
+						<node id="FootStepInfos">
+							<children>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_Front_Left" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_L_Foot_01" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_Front_Right" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_R_Foot_01" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_Back_Left" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_L_Foot_02" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="Name" type="LSString" value="Footstep_Back_Right" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootBoneName" type="FixedString" value="Dummy_R_Foot_02" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="WorldClimbingSpeed" type="float" value="6" />
+							<attribute id="MovementTiltToRemap" type="FixedString" value="1df9c9ee-8dd8-ebeb-3b1a-83d31f141f0a" />
+							<attribute id="TurningNodeOffset" type="float" value="3" />
+							<attribute id="SteeringSpeedCurveWithoutTransitions" type="FixedString" value="26d2ec44-5bd3-e5b3-8fa8-cf248ef53067" />
+							<attribute id="ProbeLookAtOffset" type="float" value="4" />
+							<attribute id="ProbeSpineAOffset" type="float" value="2" />
+							<attribute id="ProbeSpineBOffset" type="float" value="-2" />
+							<attribute id="ProbeTiltToOffset" type="float" value="3" />
+							<attribute id="LadderBlendspace_Attach_Down" type="FixedString" value="bfe92170-8525-86fe-087f-c5266286a137" />
+							<attribute id="LadderBlendspace_Attach_Up" type="FixedString" value="df54ed81-af7f-fe2d-4abf-16be8e074f2e" />
+							<attribute id="LadderBlendspace_Detach_Down" type="FixedString" value="09fa116f-66b3-03a2-4e89-00bf733e658b" />
+							<attribute id="LadderBlendspace_Detach_Up" type="FixedString" value="a684397b-430b-eb28-269a-6e5a971309a7" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

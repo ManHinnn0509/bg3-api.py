@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="316" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2b2af539-e5ab-400c-96f0-285e465f21e3" />
+					<attribute id="Name" type="LSString" value="NAT_Rock_Granite_Platform_C_Interactive" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="33a7b36e-6888-49ac-ada5-d77ad7e70dee" />
+					<attribute id="VisualTemplate" type="FixedString" value="c6f467e1-1b98-64e0-a156-50ae984f256e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0ef2fac7-4c7b-67c2-8591-c3199e39cc53" />
+					<attribute id="RecieveDecal" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_Quest_CMB_ThrowingRock" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.324773 -4.394975 -4.964051" />
+									<attribute id="Max" type="fvec3" value="2.564289 0.4102931 2.493647" />
+									<attribute id="Radius" type="float" value="3.728849" />
+									<attribute id="Height" type="float" value="4.805268" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.324773 -4.394975 -4.964051" />
+									<attribute id="Max" type="fvec3" value="2.564289 0.4102931 2.493647" />
+									<attribute id="Radius" type="float" value="3.728849" />
+									<attribute id="Height" type="float" value="4.805268" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.324773 -4.394975 -4.964051" />
+									<attribute id="Max" type="fvec3" value="2.564289 0.4102931 2.493647" />
+									<attribute id="Radius" type="float" value="3.728849" />
+									<attribute id="Height" type="float" value="4.805268" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

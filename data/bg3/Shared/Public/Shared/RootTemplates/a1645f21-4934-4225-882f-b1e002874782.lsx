@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a1645f21-4934-4225-882f-b1e002874782" />
+					<attribute id="Name" type="LSString" value="TOOL_Camp_Bedroll_Closed_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="115d2399-a009-4a63-82d0-f6c9ef6afdb0" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="d7f0562e-b408-4d59-943a-638930eecabd" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="eb2be7b2-b363-47be-afef-f84843548330" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0d402eeeg2badg4d8eg9451g73501bfb31b1" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_Camp_Bedroll_Closed_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Bedroll" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="Description" type="TranslatedString" handle="hd536e805g68cbg4d49gb894gd199f9daa532" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6048729 -0.001386732 -0.2183196" />
+									<attribute id="Max" type="fvec3" value="0.3953545 0.3749039 0.2183196" />
+									<attribute id="Radius" type="float" value="0.2886069" />
+									<attribute id="Height" type="float" value="0.3762906" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.6048729 -0.001386732 -0.2183196" />
+									<attribute id="Max" type="fvec3" value="0.3953545 0.3749039 0.2183196" />
+									<attribute id="Radius" type="float" value="0.2886069" />
+									<attribute id="Height" type="float" value="0.3762906" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3024365 -0.001386732 -0.1091598" />
+									<attribute id="Max" type="fvec3" value="0.1976773 0.3749039 0.1091598" />
+									<attribute id="Radius" type="float" value="0.1443035" />
+									<attribute id="Height" type="float" value="0.3762906" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions" />
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

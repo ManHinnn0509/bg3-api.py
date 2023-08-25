@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="304" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="28cd2778-250c-44b4-a3ad-6cdf0728d965" />
+					<attribute id="Name" type="LSString" value="PUZ_GEN_Rolling_Boulder_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="23e54a2b-0fa7-99c1-77e4-58e6c6568f67" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5238baff-50b1-0fd9-8097-60cd25cb230a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf559b0a0gfd61g428fg9166gaa96aa597c7a" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_Quest_CMB_ThrowingRock" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Indestructible_Heavy" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<attribute id="CanJoinCombat" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.391752 -0.07759881 -1.37951" />
+									<attribute id="Max" type="fvec3" value="1.255307 2.703432 1.384466" />
+									<attribute id="Radius" type="float" value="1.29904" />
+									<attribute id="Height" type="float" value="3" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.391752 -0.07759881 -1.37951" />
+									<attribute id="Max" type="fvec3" value="1.255307 2.703432 1.384466" />
+									<attribute id="Radius" type="float" value="1.29904" />
+									<attribute id="Height" type="float" value="3" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.391752 -0.07759881 -1.37951" />
+									<attribute id="Max" type="fvec3" value="1.255307 2.703432 1.384466" />
+									<attribute id="Radius" type="float" value="0.64952" />
+									<attribute id="Height" type="float" value="3" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

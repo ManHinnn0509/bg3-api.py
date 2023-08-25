@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="313" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3670d8c9-6f0d-463b-8d65-faaa53ae9b25" />
+					<attribute id="Name" type="LSString" value="BASE_Children_Goblins" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1ccae813-70c3-4be7-843c-0ddf1b6fe5c3" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="21171eed-ed69-35d0-ea6a-298ce3c0330b" />
+					<attribute id="Icon" type="FixedString" value="a1d8eaa0-1c84-e022-5f0d-07df38c40bb2-_(Icon_Goblin_Children)" />
+					<attribute id="Stats" type="FixedString" value="Goblin_Child" />
+					<attribute id="LightID" type="FixedString" value="403de5d3-226a-4b18-976b-18074e9d4317" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="a1d8eaa0-1c84-e022-5f0d-07df38c40bb2" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Goblin_Children" />
+					<attribute id="Race" type="guid" value="54fb4eb9-2cb9-4925-4fa9-6dc1e2159909" />
+					<attribute id="CanFight" type="bool" value="True" />
+					<attribute id="CanJoinCombat" type="bool" value="True" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="88730ec2-439e-4172-f495-f1b75187fa69" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="1.2" />
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="f5cc68da-6a71-48f5-d6a2-c3a3852f188d" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedStroll" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

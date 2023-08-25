@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="30" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4279ef22-05a2-45cc-9d55-b4e0fe0ee838" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Wheat_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="841f6397-32e1-4327-b7db-9c645d358566" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a8599511-5a3b-b207-4970-75b9f798bd7c" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h01ba30fagedc9g4095ga7c1ga46a3bc19f4e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Wheat_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Wheat" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a687b1dc-9afe-8027-cc9b-2051c0784f81" />
+					<attribute id="DropSound" type="FixedString" value="a687b1dc-9afe-8027-cc9b-2051c0784f81" />
+					<attribute id="PickupSound" type="FixedString" value="fb6886df-33a2-e97a-3882-f3c689db534b" />
+					<attribute id="Description" type="TranslatedString" handle="hd98d12dag6825g4d78g98f8g33404aa4c66a" version="1" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="18aef887-d7c7-46b9-4394-bbe3f14ac94a" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1603139 -0.01412118 -0.4133189" />
+									<attribute id="Max" type="fvec3" value="0.09146591 0.05305384 0.4855385" />
+									<attribute id="Radius" type="float" value="0.076119" />
+									<attribute id="Height" type="float" value="0.0690003" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1603139 -0.01412118 -0.4133189" />
+									<attribute id="Max" type="fvec3" value="0.09146591 0.05305384 0.4855385" />
+									<attribute id="Radius" type="float" value="0.076119" />
+									<attribute id="Height" type="float" value="0.0690003" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08015697 -0.01412118 -0.2066594" />
+									<attribute id="Max" type="fvec3" value="0.04573295 0.05305384 0.2427692" />
+									<attribute id="Radius" type="float" value="0.0380595" />
+									<attribute id="Height" type="float" value="0.0690003" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="13" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h3661817bg7c90g4312gb7dbga861c0fe4fd2" version="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

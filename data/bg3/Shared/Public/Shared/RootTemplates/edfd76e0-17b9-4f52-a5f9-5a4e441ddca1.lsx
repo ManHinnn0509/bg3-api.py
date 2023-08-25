@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Description" type="TranslatedString" handle="hbd32e297gbbdag4b37g8dd3g8095662fc154" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h202a9e7fg0d17g4925g9336g8154a863a578" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Grilled_Cormorant_A" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="edfd76e0-17b9-4f52-a5f9-5a4e441ddca1" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_Grilled_Cormorant_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bed27b85-63f8-4bb4-a363-fc0246b36c25" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="b52acf6f-9018-bf80-4d0e-9346980050d7" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="Food_Grilled_Cormorant" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UseSound" type="FixedString" value="52c53225-bd90-b5ab-7b63-c565234b06da" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4c9eb76-cd2d-2db9-af66-40d0f7b37981" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.5847732 0.4625297 0.2985942" />
+									<attribute id="Min" type="fvec3" value="-0.4437168 -0.008530855 -0.1376138" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.5847732 0.4625297 0.2985942" />
+									<attribute id="Min" type="fvec3" value="-0.4437168 -0.008530855 -0.1376138" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.5847732 0.4625297 0.2985942" />
+									<attribute id="Min" type="fvec3" value="-0.4437168 -0.008530855 -0.1376138" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h769a9807g5d76g4102g8b89g357a812d36ef" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LTS_GEN_City_Lantern_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="a3e4821a-8a46-4f57-b62f-eff5b5c9a22c" />
+					<attribute id="Name" type="LSString" value="LTS_GEN_City_Lantern_Wall_D" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cbfd6212-b37c-4c3c-89ef-0ac197b42e8f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="435e0084-bb4a-e0c5-629e-720b4ff285f2" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="9e393e97-5293-bd2a-47e2-ff4d5f40dbd1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2.249353" />
+									<attribute id="Max" type="fvec3" value="0 1.046409 0.1689431" />
+									<attribute id="Min" type="fvec3" value="-1.366457 -0.1606755 -0.1689429" />
+									<attribute id="Radius" type="float" value="0.5695793" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2.249353" />
+									<attribute id="Max" type="fvec3" value="0 1.046409 0.1689431" />
+									<attribute id="Min" type="fvec3" value="-1.366457 -0.1606755 -0.1689429" />
+									<attribute id="Radius" type="float" value="0.5695793" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2.249353" />
+									<attribute id="Max" type="fvec3" value="0 1.046409 0.1689431" />
+									<attribute id="Min" type="fvec3" value="-1.366457 -0.1606755 -0.1689429" />
+									<attribute id="Radius" type="float" value="0.2847897" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="3a1475ad-3957-5263-fae7-207c8e4e9b0d" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="3d2fa3e8-94fc-4c08-b287-cbe6bbe48e80" />
+											<attribute id="visualDestruction" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="d289389c-882d-4695-a8d5-dda2a1351711" />
+											<children>
+												<node id="ScriptOverrides">
+													<children>
+														<node id="ScriptVariables">
+															<children>
+																<node id="Object">
+																	<attribute id="MapKey" type="FixedString" value="BurnEffect" />
+																	<children>
+																		<node id="ScriptVariables">
+																			<attribute id="Value" type="LSString" value="VFX_Lightsources_GEN_City_Lantern_Wall_D_01" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

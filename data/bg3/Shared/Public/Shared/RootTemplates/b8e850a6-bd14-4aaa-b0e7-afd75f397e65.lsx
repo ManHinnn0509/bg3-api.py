@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b8e850a6-bd14-4aaa-b0e7-afd75f397e65" />
+					<attribute id="Name" type="LSString" value="TOOL_Ladder_Vines_4n5H_A_Test" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9b1a83ae-e0d6-478a-bbea-f36a8b212fc4" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="93cdfce7-f8c6-1abb-d3a6-788f123cb8fb" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2db0fbc6-0a2c-55ca-ab1d-780fb8f3cab7" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3253a936ge9d2g4493ga7edgf2d8c017978f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Surface_Vines" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Ladder_Indestructible" />
+					<attribute id="InteractionFilterType" type="uint8" value="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1 -0.3164783 -1.8" />
+									<attribute id="Max" type="fvec3" value="1 4.6 -0.1500001" />
+									<attribute id="Radius" type="float" value="1.69784" />
+									<attribute id="Height" type="float" value="5.12586" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1 -0.3164783 -1.8" />
+									<attribute id="Max" type="fvec3" value="1 4.6 -0.1500001" />
+									<attribute id="Radius" type="float" value="1.69784" />
+									<attribute id="Height" type="float" value="5.12586" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5 -0.3164783 -0.9" />
+									<attribute id="Max" type="fvec3" value="0.5 4.6 -0.07500005" />
+									<attribute id="Radius" type="float" value="0.84892" />
+									<attribute id="Height" type="float" value="5.12586" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="24" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="BotomHorizontalOffset" type="float" value="0.5" />
+											<attribute id="BotomVerticalOffset" type="float" value="1.5" />
+											<attribute id="TopMidOffset" type="float" value="0" />
+											<attribute id="TopDetachOffset" type="float" value="1" />
+											<attribute id="NodeLadderOffest" type="float" value="1" />
+											<attribute id="TopMidToPlatformFixedLength" type="float" value="1.5" />
+											<attribute id="TopLineTolerance" type="float" value="20" />
+											<attribute id="ClimbDirection" type="int32" value="2" />
+											<attribute id="TopAttachNearOffset" type="float" value="0" />
+											<attribute id="AllowScaling" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InteractionFilterList">
+							<children>
+								<node id="InteractionFilter">
+									<attribute id="Object" type="guid" value="10a24282-b306-40f8-449e-0741dc99cd21" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

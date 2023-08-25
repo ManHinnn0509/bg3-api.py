@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="201" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="efaea1e7-589a-45a2-be68-9aca8c0cce46" />
+					<attribute id="Name" type="LSString" value="FUR_Smith_Workbench_A_Table_C" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e5624597-0da0-4fc2-8d7e-c8cb01739240" />
+					<attribute id="VisualTemplate" type="FixedString" value="2782f633-6e38-6e1d-72fd-06bda5122ffa" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3bb7c165-035b-4a60-6fda-ec1d36a9bc56" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1fc60a24geaecg4a09gb731g94b73338aeb0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_FUR_Smith_Workbench_A_Table_D" />
+					<attribute id="Description" type="TranslatedString" handle="hf76aeb71g4492g4556g8d5bgef462e44c87b" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.103218 -0.0001759529 -0.4628915" />
+									<attribute id="Max" type="fvec3" value="1.207063 1.345754 0.3450554" />
+									<attribute id="Radius" type="float" value="0.73059" />
+									<attribute id="Height" type="float" value="1.36824" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.103218 -0.0001759529 -0.4628915" />
+									<attribute id="Max" type="fvec3" value="1.207063 1.345754 0.3450554" />
+									<attribute id="Radius" type="float" value="0.73059" />
+									<attribute id="Height" type="float" value="1.36824" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.103218 -0.0001759529 -0.4628915" />
+									<attribute id="Max" type="fvec3" value="1.207063 1.345754 0.3450554" />
+									<attribute id="Radius" type="float" value="0.73059" />
+									<attribute id="Height" type="float" value="1.36824" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="44a9eedf-e8be-23dc-a426-a91a77a3ff9b" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="a255a618-0112-4bc0-a404-44657165b51b" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

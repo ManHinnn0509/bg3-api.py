@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="1" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5896724b-ed3c-42c7-885c-a190672372e0" />
+					<attribute id="Name" type="LSString" value="CONT_Spiders_Cocoon_A_Floor_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c5e68dbc-5d1d-48e7-ac00-ad696dd6a584" />
+					<attribute id="VisualTemplate" type="FixedString" value="84da56d7-5bd2-e287-dbcd-c1b6548080b1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e19f98fe-cb69-c5ec-5215-2ab4de846751" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hde42690eg2198g47c4ga613g6c80ee2dfb9f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONT_Spiders_Cocoon_A_Floor_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Cocoon_Spider" />
+					<attribute id="FreezeGravity" type="bool" value="False" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="InventoryType" type="uint8" value="34" />
+					<attribute id="Description" type="TranslatedString" handle="h73ed978dgd164g4dd9g9ff4ge258109a0e19" version="2" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.28 -0.001000047 -0.242" />
+									<attribute id="Max" type="fvec3" value="0.283 0.484 0.242" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.14 -0.001000047 -0.121" />
+									<attribute id="Max" type="fvec3" value="0.1415 0.484 0.121" />
+									<attribute id="Radius" type="float" value="0.2540385" />
+									<attribute id="Height" type="float" value="1.1683" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.28 -0.001000047 -0.242" />
+									<attribute id="Max" type="fvec3" value="0.283 0.484 0.242" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="76574d1b-c4e0-8c75-9fbe-e6afe75e2b4e" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="346d8362-cd0d-b060-165c-c261d5279c07" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="7143b1f8-1637-4d2a-94bd-d37f98df0ae3" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

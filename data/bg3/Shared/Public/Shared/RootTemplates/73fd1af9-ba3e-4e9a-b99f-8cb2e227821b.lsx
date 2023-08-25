@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="48" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="73fd1af9-ba3e-4e9a-b99f-8cb2e227821b" />
+					<attribute id="Name" type="LSString" value="DEC_Underdark_WizardTower_Machinery_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e4d2628f-78b3-4fc5-a8aa-21ac2ced5f0c" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="9d9ec761-4070-ecf7-f7d7-b5a340e37399" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1ab11f2e-02ed-8e8e-872f-2c21fe5a48af" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9d8d2c44g5876g4f38gb7e2gcf32f1554c69" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_DEC_Underdark_WizardTower_Machinery_B" />
+					<attribute id="Stats" type="FixedString" value="UND_ArcanePowerGenerator" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="FreezeGravity" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.594272 -0.02208042 -3.383503" />
+									<attribute id="Max" type="fvec3" value="3.136493 12.12791 2.965141" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.594272 -0.02208042 -3.383503" />
+									<attribute id="Max" type="fvec3" value="3.136493 12.12791 2.965141" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.594272 -0.02208042 -3.383503" />
+									<attribute id="Max" type="fvec3" value="3.136493 12.12791 2.965141" />
+									<attribute id="Radius" type="float" value="3.174322" />
+									<attribute id="Height" type="float" value="12.14999" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions" />
+						<node id="InventoryList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

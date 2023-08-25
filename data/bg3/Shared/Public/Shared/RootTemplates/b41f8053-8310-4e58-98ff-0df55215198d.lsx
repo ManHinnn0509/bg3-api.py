@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="1" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b41f8053-8310-4e58-98ff-0df55215198d" />
+					<attribute id="Name" type="LSString" value="UNI_UND_RockDebris_B" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b7ce7d07-ea86-413e-9538-2e7bffe35f60" />
+					<attribute id="VisualTemplate" type="FixedString" value="6c1aa460-30bd-3247-9520-212937a76b5d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c2d47183-c3a2-e721-2dee-af4aeb1cd763" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h508c9b53g77b6g476bg95abg290a9d63f106" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_UND_RockDebris_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_CaveIn" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7e9915ff-d7a4-4e52-c39a-60801075cc2c" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.342263 -1.756686 -3.114882" />
+									<attribute id="Max" type="fvec3" value="4.015882 3.517036 1.870295" />
+									<attribute id="Radius" type="float" value="1.29904" />
+									<attribute id="Height" type="float" value="3" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-3.61023 -1.756686 -5.763674" />
+									<attribute id="Max" type="fvec3" value="5.267421 4.249806 3.489338" />
+									<attribute id="Radius" type="float" value="2.9491" />
+									<attribute id="Height" type="float" value="3.664206" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.342263 -1.756686 -3.114882" />
+									<attribute id="Max" type="fvec3" value="4.015882 3.517036 1.870295" />
+									<attribute id="Radius" type="float" value="1.29904" />
+									<attribute id="Height" type="float" value="3" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="7ff2c594-1ecf-4b21-b616-16c8e5243b01" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="b7288a4e-85a1-a94f-5230-cee02a4c5ed3" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="3739f9dc-6a23-5b3a-c3bb-9bcd6ffa7971" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DEBRIS_THRESHOLD" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

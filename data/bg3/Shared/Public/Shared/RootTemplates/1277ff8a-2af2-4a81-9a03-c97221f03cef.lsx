@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="200" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1277ff8a-2af2-4a81-9a03-c97221f03cef" />
+					<attribute id="Name" type="LSString" value="BLD_GEN_Platform_SpiderWeb_A_4D_H0n5_12W_B_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ac5fdc03-184b-48f9-8cd5-ac0d61b74ca1" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="738aafd2-3ff9-1d6d-fba8-245bc7c91648" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="02a0000a-ee23-8222-00d1-7234eb932fed" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hecb5a923g03bfg446bg9c45gb5e5aa3466a4" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_GEN_Platform_SpiderWeb_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_PLT_SpiderWeb" />
+					<attribute id="IsPlatformOwner" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.402323 -0.2678983 -6.330154" />
+									<attribute id="Max" type="fvec3" value="1.376235 0.07776314 0.4982162" />
+									<attribute id="Radius" type="float" value="1.843517" />
+									<attribute id="Height" type="float" value="0.3456614" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.804646 -0.2678983 -12.66031" />
+									<attribute id="Max" type="fvec3" value="2.752469 0.07776314 0.9964323" />
+									<attribute id="Radius" type="float" value="3.687035" />
+									<attribute id="Height" type="float" value="0.3456614" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-2.804646 -0.2678983 -12.66031" />
+									<attribute id="Max" type="fvec3" value="2.752469 0.07776314 0.9964323" />
+									<attribute id="Radius" type="float" value="3.687035" />
+									<attribute id="Height" type="float" value="0.3456614" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="ExplodeFX" type="FixedString" value="558894ca-60f7-770b-c642-1b1114325bd4" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="075b1b56-e347-fc9a-ca14-ef962e94ddac" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

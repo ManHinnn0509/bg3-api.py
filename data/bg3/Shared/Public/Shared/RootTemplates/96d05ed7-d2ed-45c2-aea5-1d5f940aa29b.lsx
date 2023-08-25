@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="206" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="96d05ed7-d2ed-45c2-aea5-1d5f940aa29b" />
+					<attribute id="Name" type="LSString" value="CONS_GEN_Food_Meat_Chicken_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8d2f1d5f-0cc8-4b13-8aa2-4bd509695608" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="0eb13f94-d559-4b80-9654-081a10fc4805" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="fd172daf-a86e-4e5e-a98b-fa97e5bc6dad" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6f684e98g5c69g4103g869ag40e1982bbf8c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_GEN_Food_Meat_Chicken_B" />
+					<attribute id="Stats" type="FixedString" value="OBJ_FOOD_Chicken" />
+					<attribute id="Description" type="TranslatedString" handle="h6f336de9gaa16g4faag8eedg6766fe1da211" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0889773 -0.0524137 -0.368341" />
+									<attribute id="Max" type="fvec3" value="0.0912853 0.154337 0.431903" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0889773 -0.0524137 -0.368341" />
+									<attribute id="Max" type="fvec3" value="0.0912853 0.154337 0.431903" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04448865 -0.0524137 -0.1841705" />
+									<attribute id="Max" type="fvec3" value="0.04564265 0.154337 0.2159515" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h3be3560ag697bg41c4ga7ddg7aea1c20fd45" version="1" />
+						</node>
+						<node id="OnUsePeaceActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

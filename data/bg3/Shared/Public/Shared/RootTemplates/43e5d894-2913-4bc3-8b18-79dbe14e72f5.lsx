@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="5" build="300" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="43e5d894-2913-4bc3-8b18-79dbe14e72f5" />
+					<attribute id="Name" type="LSString" value="LOOT_COINS_Electrum_Pile_Small_A_DONOTUSE" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="VisualTemplate" type="FixedString" value="c935bc32-0d53-20ac-9b52-5abfe3c5c589" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6556a50f-8cd3-18ba-6b34-aa38a35e5eea" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h44fd6335g4b6bg47a5ga0ddgfb35688dd154" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_COINS_Electrum_Pile_Small_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GoldPile" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="maxStackAmount" type="int32" value="9999" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="5f4b5a82-424c-683b-b816-768475cb821b" />
+					<attribute id="DropSound" type="FixedString" value="5f4b5a82-424c-683b-b816-768475cb821b" />
+					<attribute id="PickupSound" type="FixedString" value="c4165546-1ba5-dfdc-0b8e-735c94af8227" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0944001 -0.000707597 0.000209823" />
+									<attribute id="Max" type="fvec3" value="0.0944742 0.133635 0.13193" />
+									<attribute id="Radius" type="float" value="0.0666481" />
+									<attribute id="Height" type="float" value="0.134343" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.0944001 -0.000707597 0.000209823" />
+									<attribute id="Max" type="fvec3" value="0.0944742 0.133635 0.13193" />
+									<attribute id="Radius" type="float" value="0.0666481" />
+									<attribute id="Height" type="float" value="0.134343" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.04720005 -0.000707597 0.0001049115" />
+									<attribute id="Max" type="fvec3" value="0.0472371 0.133635 0.065965" />
+									<attribute id="Radius" type="float" value="0.03332405" />
+									<attribute id="Height" type="float" value="0.134343" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

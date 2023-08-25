@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="317" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h709ce3ecg407dg422cga4f9ga1f566ea0fca" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_PUZ_GEN_Trap_Hole_B" />
+					<attribute id="IsInteractionDisabled" type="bool" value="True" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c5945272-2d59-4f9d-92ad-fdcba1de2de0" />
+					<attribute id="Name" type="LSString" value="UNI_UND_Fort_Hole" />
+					<attribute id="ParentTemplateId" type="FixedString" value="90ec2f64-e124-474c-8b27-a56bba6f6c88" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1db59cfc-0f92-2b4b-7f27-13c50c1422b3" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="dc8a38b2-97fe-4723-f2b4-8176cc962e1a" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.3900427" />
+									<attribute id="Max" type="fvec3" value="0.3089824 0.06695893 0.3094124" />
+									<attribute id="Min" type="fvec3" value="-0.3086023 -0.00522247 -0.3082178" />
+									<attribute id="Radius" type="float" value="0.4424421" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.3900427" />
+									<attribute id="Max" type="fvec3" value="0.3089824 0.06695893 0.3094124" />
+									<attribute id="Min" type="fvec3" value="-0.3086023 -0.00522247 -0.3082178" />
+									<attribute id="Radius" type="float" value="0.4424421" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ParentRace" />
+								<node id="ShortHair" />
+								<node id="Visuals" />
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="87296e2e-2310-460f-8c91-9d12e89515ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

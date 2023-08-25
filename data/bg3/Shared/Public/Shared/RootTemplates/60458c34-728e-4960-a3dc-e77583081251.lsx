@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="600" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="60458c34-728e-4960-a3dc-e77583081251" />
+					<attribute id="Name" type="LSString" value="WALL_Harbor_House_Roof_A_5D_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="TileConstruction" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="be954d08-9bd4-cf00-1185-081572ae51da" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<children>
+						<node id="ConstructionSpline">
+							<attribute id="id" type="guid" value="e46286b9-e9e3-8fba-a9db-1d197d9262e2" />
+							<attribute id="ConstructionPointCount" type="int32" value="0" />
+						</node>
+						<node id="Fillings" />
+						<node id="tiles">
+							<attribute id="WalkOn" type="bool" value="False" />
+							<attribute id="Climbable" type="bool" value="False" />
+							<attribute id="ConstructionBend" type="bool" value="False" />
+							<attribute id="ConstructionPlaceTwoTiles" type="bool" value="False" />
+							<attribute id="ShootThrough" type="bool" value="False" />
+							<attribute id="ShootThroughType" type="int8" value="-1" />
+							<attribute id="CanSeeThrough" type="bool" value="False" />
+							<attribute id="CollideWithCamera" type="bool" value="False" />
+							<attribute id="WalkThrough" type="bool" value="False" />
+							<attribute id="ClickThrough" type="bool" value="False" />
+							<attribute id="Fadeable" type="bool" value="False" />
+							<attribute id="HierarchyOnlyFade" type="bool" value="False" />
+							<attribute id="FadeIn" type="bool" value="False" />
+							<attribute id="Opacity" type="float" value="0" />
+							<attribute id="SeeThrough" type="bool" value="True" />
+							<attribute id="FadeGroup" type="FixedString" value="" />
+							<attribute id="TileSet" type="FixedString" value="837da82d-419d-439c-8940-3f3d58420b89" />
+						</node>
+						<node id="ConstructionPoints" />
+						<node id="ConstructionLines" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="601" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c29d6eeb-bf5a-43f9-856e-18bd2ff1420b" />
+					<attribute id="Name" type="LSString" value="BASE_Quadruped_Monstrosity" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4938e2c4-d460-4930-b717-3e40b65c4e13" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="SpellSet" type="FixedString" value="CommonBeastActions" />
+					<attribute id="LightID" type="FixedString" value="64682e04-5083-49f8-8a68-4e6e53e24fb9" />
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultMonster" />
+					<attribute id="Race" type="guid" value="31e1a2fe-0322-4540-c395-289a7fad02b2" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="90101158-141e-4896-608e-dbf8f603e3dd" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="fe2e65d3-a8de-45bf-72a3-39c3ecad9e66" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="a84f4caa-5ad9-1572-6a27-43c7e311ff73" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceBlood" />
+											<attribute id="LifeTime" type="float" value="60" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="10" />
+											<attribute id="CellAtGrow" type="int32" value="2" />
+											<attribute id="GrowTimer" type="float" value="0.4" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="ProbeSpineBOffset" type="float" value="-3" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

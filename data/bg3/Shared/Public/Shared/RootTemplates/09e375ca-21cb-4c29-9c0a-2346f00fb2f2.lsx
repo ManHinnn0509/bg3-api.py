@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="09e375ca-21cb-4c29-9c0a-2346f00fb2f2" />
+					<attribute id="Name" type="LSString" value="UNI_LTS_Moonbeam_01" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e40d1292-1da8-4c8f-b1dc-213cfdd4e135" />
+					<attribute id="ReadinessFlags" type="uint32" value="129" />
+					<attribute id="VisualTemplate" type="FixedString" value="be7c3454-5643-9f97-8f81-fafff958e23f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="51ac91a2-c6b4-0237-528a-a9eb0e9d07f2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="RecieveDecal" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdecd6aa6gd075g431dg934fg32cbba771ee5" version="2" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="CanClickThrough" type="bool" value="True" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Spell_TransmutersStone_Resistance_Fire" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Moonbeam" />
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="GravityType" type="uint8" value="0" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="292e7f29-ff10-462d-e98b-dd9489d1ea70" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.005 0.995 -0.005" />
+									<attribute id="Max" type="fvec3" value="0.005 1.005 0.005" />
+									<attribute id="Radius" type="float" value="0.508077" />
+									<attribute id="Height" type="float" value="1.1683" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.005 0.995 -0.005" />
+									<attribute id="Max" type="fvec3" value="0.005 1.005 0.005" />
+									<attribute id="Radius" type="float" value="0.5162424" />
+									<attribute id="Height" type="float" value="1.032484" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.005 0.995 -0.005" />
+									<attribute id="Max" type="fvec3" value="0.005 1.005 0.005" />
+									<attribute id="Radius" type="float" value="0.5162424" />
+									<attribute id="Height" type="float" value="1.032484" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions" />
+						<node id="OnDestroyActions" />
+						<node id="Scripts" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

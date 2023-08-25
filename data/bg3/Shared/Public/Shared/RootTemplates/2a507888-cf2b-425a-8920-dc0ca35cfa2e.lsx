@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="310" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2a507888-cf2b-425a-8920-dc0ca35cfa2e" />
+					<attribute id="Name" type="LSString" value="CONS_Hag_Wilted_Dreams" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="277257bc-38f5-4c51-be13-32498e8cbd3d" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="e6a1e232-6057-4715-5553-1e214cfca5a9" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2d7bd360-3f40-2e1a-a387-391ae118fac2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdcd0f208gbe22g4b42gb791gd15410fd87f4" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Hag_Lost_Time" />
+					<attribute id="Stats" type="FixedString" value="HAG_Wilted_Dreams" />
+					<attribute id="Description" type="TranslatedString" handle="h8bcb7c50gf169g4a74g8211g25bd3b460660" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1221158 0.008464992 -0.1065644" />
+									<attribute id="Max" type="fvec3" value="0.1215922 0.51682 0.1076255" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1221158 0.008464992 -0.1065644" />
+									<attribute id="Max" type="fvec3" value="0.1215922 0.51682 0.1076255" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1221158 0.008464992 -0.1065644" />
+									<attribute id="Max" type="fvec3" value="0.1215922 0.51682 0.1076255" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="HAG_WILTED_DREAMS" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

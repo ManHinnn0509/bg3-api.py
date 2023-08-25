@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="1" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="60f96f90-ae41-455c-90fb-c8b611c7dc3e" />
+					<attribute id="Name" type="LSString" value="CINE_TOOL_GOB_Branding_Tool_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="VisualTemplate" type="FixedString" value="9907d5c7-652f-dde1-5f80-1b1c97102425" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="93b61606-9afc-1b49-9874-5da075566b5b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1d134420g7fabg4622gb96bg034ae6027d98" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GOB_Branding_Tool_A" />
+					<attribute id="Stats" type="FixedString" value="WPN_Goblin_BrandingTool" />
+					<attribute id="DropSound" type="FixedString" value="f55dc72a-13b8-6e3d-7500-559a5d1f3031" />
+					<attribute id="PickupSound" type="FixedString" value="28ea7a9f-b66a-3410-7985-d7cd5cb896f0" />
+					<attribute id="Description" type="TranslatedString" handle="hc1ba505ag1d55g48aeg8ce7g7cae4b5cfd8e" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="7883d641-2b8b-40dc-d885-7551d41dbc2b" />
+					<children>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

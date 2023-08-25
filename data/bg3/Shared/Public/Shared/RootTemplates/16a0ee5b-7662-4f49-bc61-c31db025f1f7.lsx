@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="305" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="16a0ee5b-7662-4f49-bc61-c31db025f1f7" />
+					<attribute id="Name" type="LSString" value="DEC_MFL_Pod_Hanging_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="33a7b36e-6888-49ac-ada5-d77ad7e70dee" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="0d24ada1-a697-66a1-8e3a-0fbf5c679e28" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="af26d5fb-cf18-d40e-d252-2b60453b69b9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hea34719dg2bbdg4c9dgb716g0fee27fea663" version="3" />
+					<attribute id="CoverAmount" type="uint8" value="1" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_MF_Alchemy_Device_E" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.628148 3.052157 -1.845205" />
+									<attribute id="Max" type="fvec3" value="1.625902 14.8203 1.958989" />
+									<attribute id="Radius" type="float" value="1.094322" />
+									<attribute id="Height" type="float" value="4.59805" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.628148 3.052157 -1.845205" />
+									<attribute id="Max" type="fvec3" value="1.625902 14.8203 1.958989" />
+									<attribute id="Radius" type="float" value="2.188645" />
+									<attribute id="Height" type="float" value="4.59805" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.628148 3.052157 -1.845205" />
+									<attribute id="Max" type="fvec3" value="1.625902 14.8203 1.958989" />
+									<attribute id="Radius" type="float" value="2.188645" />
+									<attribute id="Height" type="float" value="4.59805" />
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="403d19b4-b8dc-4481-b853-c010384a6411" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

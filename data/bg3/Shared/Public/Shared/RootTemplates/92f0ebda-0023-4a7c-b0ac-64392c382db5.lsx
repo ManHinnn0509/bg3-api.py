@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="41" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="92f0ebda-0023-4a7c-b0ac-64392c382db5" />
+					<attribute id="Name" type="LSString" value="Duergar_Male_Guard" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="85712660-4f7a-46cf-b54f-9f39baf8070c" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9a118b51g5185g4336ga802gb20e5eaf6da2" version="2" />
+					<attribute id="Stats" type="FixedString" value="Dwarf_Duergar_Melee" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.728505 0.000385523 -0.156601" />
+									<attribute id="Max" type="fvec3" value="0.728548 1.82883 0.122748" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="1.4" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.728505 0.000385523 -0.156601" />
+									<attribute id="Max" type="fvec3" value="0.728548 1.82883 0.122748" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Height" type="float" value="1.4" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.728505 0.000385523 -0.156601" />
+									<attribute id="Max" type="fvec3" value="0.728548 1.82883 0.122748" />
+									<attribute id="Radius" type="float" value="0.1" />
+									<attribute id="Height" type="float" value="1.4" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

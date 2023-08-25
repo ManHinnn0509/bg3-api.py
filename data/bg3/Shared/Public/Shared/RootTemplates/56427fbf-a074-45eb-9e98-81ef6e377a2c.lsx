@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="37" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="56427fbf-a074-45eb-9e98-81ef6e377a2c" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Backpack_C_Posed_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="78f6ab58-a643-1730-c6a7-3e4e1397b64d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="b239b421-ded0-61aa-5a0c-ae60b6d35424" />
+					<attribute id="Scale" type="float" value="1.25" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hadfb30d2gf0edg4c21g97c7g737b21e5fe0c" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Backpack_C_Posed_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Backpack" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="Description" type="TranslatedString" handle="hd53d99d6g3437g418dg826ag3ac20f16964f" version="2" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.111174 -0.00787998 -0.1364405" />
+									<attribute id="Max" type="fvec3" value="0.116174 0.593682 0.0918415" />
+									<attribute id="Radius" type="float" value="0.113354" />
+									<attribute id="Height" type="float" value="0.591562" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.222348 -0.00787998 -0.272881" />
+									<attribute id="Max" type="fvec3" value="0.232348 0.593682 0.183683" />
+									<attribute id="Radius" type="float" value="0.226708" />
+									<attribute id="Height" type="float" value="0.591562" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.222348 -0.00787998 -0.272881" />
+									<attribute id="Max" type="fvec3" value="0.232348 0.593682 0.183683" />
+									<attribute id="Radius" type="float" value="0.226708" />
+									<attribute id="Height" type="float" value="0.591562" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

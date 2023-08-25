@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="48" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8e11fada-192f-4042-8c84-dc7b78f32541" />
+					<attribute id="Name" type="LSString" value="LOOT_Bathroom_Bucket_Sponges_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="ced6b320-ee4c-0699-38e7-cea523e3d7f5" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ab1b93e0-fbae-3359-2fac-84be0a861f4b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8354b63fgba66g4dd4g8345g259b642a4b72" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Bathroom_Bucket_Sponges_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Bucket" />
+					<attribute id="Description" type="TranslatedString" handle="h286c446bgdbe8g430fgb3fdg29f3e232f179" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2501032 -0.007158458 -0.2501032" />
+									<attribute id="Max" type="fvec3" value="0.2501032 0.2637841 0.2501033" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.25 0 -0.25" />
+									<attribute id="Max" type="fvec3" value="0.25 1 0.25" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2501032 -0.007158458 -0.2501032" />
+									<attribute id="Max" type="fvec3" value="0.2501032 0.2637841 0.2501033" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

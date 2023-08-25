@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="66" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ada27df4-16bc-4139-92cb-8103a0a278cf" />
+					<attribute id="Name" type="LSString" value="BOOK_GEN_Gods_HouseholdPrayer1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="61b98c74-8f5c-4d05-b56c-0911b59c9078" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4721767-5e57-534c-db55-320af9d5b581" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="510cb0db-d24f-3a40-2c06-e9d53a174147" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h80193b88g2e9eg4c37g8736ga6405bc00513" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Paper_Letter_C" />
+					<attribute id="Stats" type="FixedString" value="BOOK_GEN_Gods_HouseholdPrayer1" />
+					<attribute id="Description" type="TranslatedString" handle="h26c5c97fge879g44fdga7f3g6713d4713b27" version="1" />
+					<children>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="GODS" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="VERSE" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="SELUNE" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="KELEMVOR" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="LATHANDER" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1389292 0.001863256 -0.1478594" />
+									<attribute id="Max" type="fvec3" value="0.138967 0.07398681 0.1479762" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2778583 0.001863256 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.2779341 0.07398681 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2778583 0.001863256 -0.2957188" />
+									<attribute id="Max" type="fvec3" value="0.2779341 0.07398681 0.2959523" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Height" type="float" value="0.191031" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_Gods_HouseholdPrayer1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="ShortHair" />
+								<node id="LongHair" />
+								<node id="Visuals" />
+								<node id="ParentRace" />
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

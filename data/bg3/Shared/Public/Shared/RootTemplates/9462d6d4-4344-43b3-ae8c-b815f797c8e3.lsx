@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9462d6d4-4344-43b3-ae8c-b815f797c8e3" />
+					<attribute id="Name" type="LSString" value="FUR_GEN_Desk_Wood_Rich_D" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c5e68dbc-5d1d-48e7-ac00-ad696dd6a584" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="07000c80-b1c6-0fa4-9f05-6c94a498d4d7" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="760bbde0-2723-a241-c3d1-81fa57e36df1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcc57dcd6g008ag4190ga930gcbcaaf08d753" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_FUR_GEN_Desk_Common_B" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="InventoryType" type="uint8" value="25" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8314074 0.0001893044 -0.4431425" />
+									<attribute id="Max" type="fvec3" value="0.8314074 3.131771 0.4412694" />
+									<attribute id="Radius" type="float" value="0.3488939" />
+									<attribute id="Height" type="float" value="2.40635" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8314074 0.0001893044 -0.4431425" />
+									<attribute id="Max" type="fvec3" value="0.8314074 3.131771 0.4412694" />
+									<attribute id="Radius" type="float" value="0.6977877" />
+									<attribute id="Height" type="float" value="2.40635" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.8314074 0.0001893044 -0.4431425" />
+									<attribute id="Max" type="fvec3" value="0.8314074 3.131771 0.4412694" />
+									<attribute id="Radius" type="float" value="0.6977877" />
+									<attribute id="Height" type="float" value="2.40635" />
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Supply_Scribing" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

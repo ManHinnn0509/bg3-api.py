@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="29" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2df4a80f-710c-4f94-b469-c6ef00ff5118" />
+					<attribute id="Name" type="LSString" value="CONS_Drink_DemiJohn_A_Stand_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="35bcfb10-ba86-4195-9de5-2d57b4e209f9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="edea303b-ede0-421d-88b3-6a35c6f7fc41" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="bd769dbd-f9d1-05ed-c3c2-73c65ee82ad3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h929eda4fgfd77g4190g8b03g21e357420567" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Drink_DemiJohn_A" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Demijohn" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="820221fa-5b87-7b87-3487-57ad0259f358" />
+					<attribute id="DropSound" type="FixedString" value="820221fa-5b87-7b87-3487-57ad0259f358" />
+					<attribute id="PickupSound" type="FixedString" value="97565df5-52e7-3d7e-17be-be9ac825d061" />
+					<attribute id="Description" type="TranslatedString" handle="h444c55f5g5addg4715g9649g02a9864f0236" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.349421 -0.00441003 -0.34761" />
+									<attribute id="Max" type="fvec3" value="0.349419 1.05476 0.35253" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.349421 -0.00441003 -0.34761" />
+									<attribute id="Max" type="fvec3" value="0.349419 1.05476 0.35253" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.349421 -0.00441003 -0.34761" />
+									<attribute id="Max" type="fvec3" value="0.349419 1.05476 0.35253" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h6eef876bgfdf7g4d92gbec0g6d459ba9cdf5" version="1" />
+						</node>
+						<node id="OnUsePeaceActions" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="613" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h24228284g8d08g494ega9f7gbe0962d286a3" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha23f7c1ag443ag476bg807cg058e02a648c4" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Poison_Wyvern" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="eca393b0-3f8e-4862-814b-9e236a0d4129" />
+					<attribute id="Name" type="LSString" value="CONS_Poison_Wyvern" />
+					<attribute id="ParentTemplateId" type="FixedString" value="70d80397-5c0c-4217-a615-2d30fb906df1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="685cc273-75b7-c745-5fb0-61ba5d60beff" />
+					<attribute id="Stats" type="FixedString" value="OBJ_WyvernPoison" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h7bc6ef0bg0d76g431cgba75g78aaf23827a7" version="1" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="DealDamage(3d6,Poison)" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="8f1dee8c-64db-48ce-d5c4-84b2fe29bb3e" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08139521 0.0839899 0.1935836" />
+									<attribute id="Min" type="fvec3" value="-0.08139519 -9.457767E-05 -0.221449" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08139521 0.08398992 0.1935836" />
+									<attribute id="Min" type="fvec3" value="-0.08139519 -9.45963E-05 -0.221449" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08139521 0.08398992 0.1935836" />
+									<attribute id="Min" type="fvec3" value="-0.08139519 -9.45963E-05 -0.221449" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="3b333eea-11b1-cec3-7319-2ac2aeec9367" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="POISON_WYVERN" />
+											<attribute id="StatusDuration" type="int32" value="3" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="314" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="23238ca3-fab3-46f7-9a78-6fc6912e420c" />
+					<attribute id="Name" type="LSString" value="BLD_GEN_Stairs_A_Wood_A_15D_10H_2W_A_Dynamic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ac5fdc03-184b-48f9-8cd5-ac0d61b74ca1" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="bb5ceccb-3691-2491-06df-f68322a47b1a" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="27547278-c08c-11d9-b7e9-a4bed5a0dcfd" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8bbbc6ddg3d8dg4069gb138gd5c7e86731f9" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_GEN_Staircase_Wood" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.165573 -0.5064697 -14.79713" />
+									<attribute id="Max" type="fvec3" value="1.194966 10.10566 -0.3795004" />
+									<attribute id="Radius" type="float" value="4.514264" />
+									<attribute id="Height" type="float" value="10.61213" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-1.165573 -0.5064697 -14.79713" />
+									<attribute id="Max" type="fvec3" value="1.194966 10.10566 -0.3795004" />
+									<attribute id="Radius" type="float" value="4.514264" />
+									<attribute id="Height" type="float" value="10.61213" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.5827864 -0.5064697 -7.398563" />
+									<attribute id="Max" type="fvec3" value="0.597483 10.10566 -0.1897502" />
+									<attribute id="Radius" type="float" value="2.257132" />
+									<attribute id="Height" type="float" value="10.61213" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="3" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Source" type="FixedString" value="" />
+											<attribute id="SourceType" type="int32" value="2" />
+											<attribute id="Target" type="FixedString" value="" />
+											<attribute id="Type" type="int32" value="2" />
+											<attribute id="EventID" type="FixedString" value="" />
+											<attribute id="AiUseInCombat" type="bool" value="False" />
+											<attribute id="BlockMapMarkerNavigation" type="bool" value="False" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="Visibility" type="int32" value="2" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

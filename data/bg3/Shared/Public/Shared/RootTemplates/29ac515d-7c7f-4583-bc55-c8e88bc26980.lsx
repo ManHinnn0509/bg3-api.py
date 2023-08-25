@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="21" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb6782ba5g59b4g4ae2g9212g5760d20f604a" value="This leather pouch is filled with toxic flowers, powders, and extracts, as well as spoons for measuring correct dosages." />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb5236871g90b2g4f18gab29g0a0a8f3fbdce" value="Poisoner's Kit" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Poison_Basic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="29ac515d-7c7f-4583-bc55-c8e88bc26980" />
+					<attribute id="Name" type="LSString" value="TOOL_GEN_PoisonerKit_A_Closed_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6cc318ce-cdf9-f4d7-5c89-ac339c18abcb" />
+					<attribute id="ReadinessFlags" type="uint32" value="140" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Kit_Poisoner" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="8956f2c6-3873-7a68-6b55-33074d812193" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.1313422" />
+									<attribute id="Max" type="fvec3" value="0.5578891 0.1267895 0.2071253" />
+									<attribute id="Min" type="fvec3" value="-0.5043421 -0.004552722 -0.193999" />
+									<attribute id="Radius" type="float" value="0.2857541" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.1313422" />
+									<attribute id="Max" type="fvec3" value="0.5578891 0.1267895 0.2071253" />
+									<attribute id="Min" type="fvec3" value="-0.5043421 -0.004552722 -0.193999" />
+									<attribute id="Radius" type="float" value="0.2857541" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.1313422" />
+									<attribute id="Max" type="fvec3" value="0.2789446 0.1267895 0.1035626" />
+									<attribute id="Min" type="fvec3" value="-0.252171 -0.004552722 -0.09699951" />
+									<attribute id="Radius" type="float" value="0.1428771" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="FadeChildren" />
+						<node id="GameMaster" />
+						<node id="LayerList">
+							<children>
+								<node id="Layers" />
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

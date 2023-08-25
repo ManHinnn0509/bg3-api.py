@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="2" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="34a6cb51-660f-43e9-bb95-2ef7e3e5da0a" />
+					<attribute id="Name" type="LSString" value="LightningTorches" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="Schematic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<children>
+						<node id="SchematicData">
+							<attribute id="Id" type="guid" value="05cb3817-eb0b-41cd-57b6-e16c58ad8b46" />
+							<attribute id="RootTemplateId" type="guid" value="78201581-cfe9-4ba9-e2b9-177d52047f0c" />
+							<attribute id="ConstellationConfigName" type="FixedString" value="" />
+							<children>
+								<node id="Transform">
+									<attribute id="Scale" type="float" value="1" />
+									<attribute id="Position" type="fvec3" value="-0.06098175 1.072884E-06 0.2216339" />
+									<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+								</node>
+								<node id="ConstellationConfigGlobalParams" />
+								<node id="ConstellationConnections">
+									<children>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="fbb39232-c6e5-4db9-3997-7ab23135265e" />
+											<attribute id="OutputSocketExt" type="FixedString" value="OnEnter" />
+											<attribute id="InputEntityUUID" type="guid" value="c82f9788-8c89-4364-dc8c-53547e7fe348" />
+											<attribute id="InputSocketExt" type="FixedString" value="TurnOn" />
+										</node>
+										<node id="ConstellationConnection">
+											<attribute id="OutputEntityUUID" type="guid" value="fbb39232-c6e5-4db9-3997-7ab23135265e" />
+											<attribute id="OutputSocketExt" type="FixedString" value="OnEnter" />
+											<attribute id="InputEntityUUID" type="guid" value="468bb831-daeb-477e-6daa-519acf13a9df" />
+											<attribute id="InputSocketExt" type="FixedString" value="TurnOn" />
+										</node>
+									</children>
+								</node>
+								<node id="ConnectedObjects">
+									<children>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="c82f9788-8c89-4364-dc8c-53547e7fe348" />
+										</node>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="468bb831-daeb-477e-6daa-519acf13a9df" />
+										</node>
+										<node id="ConnectedObject">
+											<attribute id="Object" type="guid" value="fbb39232-c6e5-4db9-3997-7ab23135265e" />
+										</node>
+									</children>
+								</node>
+								<node id="Items">
+									<children>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="c82f9788-8c89-4364-dc8c-53547e7fe348" />
+											<attribute id="RootTemplateId" type="guid" value="dc91bdaf-be6a-49a6-2f93-29d1b16b06ae" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="BurningItem" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="-3.97188 0.1036006 -3.20256" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams">
+													<children>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="GameplayLight" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="bool">
+																							<attribute id="bool" type="bool" value="True" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="BurnEffect" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="String">
+																							<attribute id="String" type="LSString" value="VFX_LightSources_GEN_Torch_A_FX_01_23821064-6846-d4f6-b8ca-4c43496f07f0" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="GameplayLightSharpness" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="double">
+																							<attribute id="double" type="double" value="0.949999988079071" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="StartLit" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="bool">
+																							<attribute id="bool" type="bool" value="False" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="468bb831-daeb-477e-6daa-519acf13a9df" />
+											<attribute id="RootTemplateId" type="guid" value="dc91bdaf-be6a-49a6-2f93-29d1b16b06ae" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="BurningItem" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="3.216597 0.1036006 3.592056" />
+													<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+												</node>
+												<node id="ConstellationConfigGlobalParams">
+													<children>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="GameplayLight" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="bool">
+																							<attribute id="bool" type="bool" value="True" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="BurnEffect" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="String">
+																							<attribute id="String" type="LSString" value="VFX_LightSources_GEN_Torch_A_FX_01_23821064-6846-d4f6-b8ca-4c43496f07f0" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="GameplayLightSharpness" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="double">
+																							<attribute id="double" type="double" value="0.949999988079071" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="StartLit" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="bool">
+																							<attribute id="bool" type="bool" value="False" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+										<node id="Item">
+											<attribute id="Id" type="guid" value="fbb39232-c6e5-4db9-3997-7ab23135265e" />
+											<attribute id="RootTemplateId" type="guid" value="7e5d2a30-15a3-4a0e-51a9-c10f6c68bbb4" />
+											<attribute id="ConstellationConfigName" type="FixedString" value="Trigger" />
+											<children>
+												<node id="Transform">
+													<attribute id="Scale" type="float" value="1" />
+													<attribute id="Position" type="fvec3" value="0.816267 0.4160758 -0.6111298" />
+													<attribute id="RotationQuat" type="fvec4" value="0 -0.359011 0 0.9333333" />
+												</node>
+												<node id="ConstellationConfigGlobalParams">
+													<children>
+														<node id="ConstellationConfigGlobalParam">
+															<attribute id="Name" type="LSString" value="EntityFilter" />
+															<children>
+																<node id="Value">
+																	<children>
+																		<node id="Scalar">
+																			<children>
+																				<node id="Scalar">
+																					<children>
+																						<node id="String">
+																							<attribute id="String" type="LSString" value="Characters" />
+																						</node>
+																					</children>
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="ConstellationConnections" />
+												<node id="ConnectedObjects" />
+												<node id="Items" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="RootConfigs">
+							<children>
+								<node id="RootConfig">
+									<attribute id="Object" type="guid" value="05cb3817-eb0b-41cd-57b6-e16c58ad8b46" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

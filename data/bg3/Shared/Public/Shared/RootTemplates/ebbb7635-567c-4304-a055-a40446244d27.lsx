@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="53" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ebbb7635-567c-4304-a055-a40446244d27" />
+					<attribute id="Name" type="LSString" value="CONT_HUM_Vase_Medium_B_Porcelain_Damaged" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="58a15baa-66ae-46a3-a4a0-efdfe9f2d0f2" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="13e1afbe-7419-4983-86e2-89945fd48f7d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="cf3db656-d18a-4175-ac98-fb1ab8276838" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h383bef1bg2504g4e0dg87cag10b4813f87b7" version="1" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Vase" />
+					<attribute id="Description" type="TranslatedString" handle="hb8ae8093g47c8g43a3g9decg065d6fde5be4" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3137036 1.192093E-07 -0.3139525" />
+									<attribute id="Max" type="fvec3" value="0.3137036 1.068625 0.3139526" />
+									<attribute id="Radius" type="float" value="0.3472988" />
+									<attribute id="Height" type="float" value="1.068625" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3137036 1.192093E-07 -0.3139525" />
+									<attribute id="Max" type="fvec3" value="0.3137036 1.068625 0.3139526" />
+									<attribute id="Radius" type="float" value="0.3472988" />
+									<attribute id="Height" type="float" value="1.068625" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1568518 1.192093E-07 -0.1569763" />
+									<attribute id="Max" type="fvec3" value="0.1568518 1.068625 0.1569763" />
+									<attribute id="Radius" type="float" value="0.1736494" />
+									<attribute id="Height" type="float" value="1.068625" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="50f5b5a9-cde3-4827-0858-fdef08c0297c" />
+											<attribute id="ExplodeFX" type="FixedString" value="15362651-9b96-579a-86f5-829e53325d8b" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="dc8c1b23-d69f-44e6-b986-5c25f876fc6b" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

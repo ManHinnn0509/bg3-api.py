@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="368935f0-4a15-4122-b101-9174dee70163" />
+					<attribute id="Name" type="LSString" value="Dragon_Skeletal" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="08da5063-a761-475a-b66e-1356d7fcab40" />
+					<attribute id="Icon" type="FixedString" value="14cfa247-7ff3-b105-8ea8-798a68334c21-_(Icon_Dragon_Skeletal)" />
+					<attribute id="Stats" type="FixedString" value="Dragon_BronzeSkeletal" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="CanConsumeItems" type="bool" value="False" />
+					<attribute id="LevelOverride" type="int32" value="17" />
+					<attribute id="FoleyMediumResourceID" type="FixedString" value="783c4d60-f8c4-4458-a8e7-4d9e543b662e" />
+					<attribute id="FoleyLongResourceID" type="FixedString" value="dee29f04-ffe7-41d3-aced-8df6d9716b7f" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="5a24b61f-72ce-402b-a3f3-fb80ff4660a7" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="30eaab12-50a3-4121-8426-0e5426758e58" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="ec02ed81-06fa-47f1-bf3e-b1e4e260f58d" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="f751e0ca-4631-4c92-8a1f-142e32496693" />
+					<attribute id="VocalAnticipationResourceID" type="FixedString" value="51035a46-0cec-4e53-984b-88608d862f17" />
+					<attribute id="VocalFallResourceID" type="FixedString" value="cb5019e6-8e31-4103-9c52-706a8535806d" />
+					<attribute id="VocalShoutResourceID" type="FixedString" value="feca42d7-ebf9-4eef-aa2d-413b037d8277" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="0963efd0-aff2-4203-8077-33a20a866cf9" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="898b9dea-2612-4751-8357-026b5e942ed6" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="de440809-e409-4297-8ddc-57257ee547f0" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="c404ff5b-17e7-4252-91d8-184868cfe50b" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="174b5cab-4391-4733-811d-da1630c8b85c" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="33b1f4ec-979f-4593-834d-e8b3c59aab48" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="6701beed-18dd-4c74-896f-282c8f6887d9" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="cb5019e6-8e31-4103-9c52-706a8535806d" />
+					<attribute id="VocalBuffResourceID" type="FixedString" value="de440809-e409-4297-8ddc-57257ee547f0" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="14cfa247-7ff3-b105-8ea8-798a68334c21" />
+					<attribute id="CanBeTeleported" type="bool" value="False" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Dragon_Skeletal" />
+					<attribute id="Race" type="guid" value="530e38f9-2e43-4a98-24bd-f149cfe0946b" />
+					<attribute id="Archetype" type="FixedString" value="dragon" />
+					<attribute id="IsBoss" type="bool" value="True" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-17.09584 -0.06285524 -7.787262" />
+									<attribute id="Max" type="fvec3" value="17.09584 5.662447 14.59563" />
+									<attribute id="Radius" type="float" value="4.0214" />
+									<attribute id="Height" type="float" value="5.397603" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-17.09584 -0.06285524 -7.790104" />
+									<attribute id="Max" type="fvec3" value="17.09584 5.662447 14.59563" />
+									<attribute id="Radius" type="float" value="1.7" />
+									<attribute id="Height" type="float" value="5.725303" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-17.09585 -0.06285477 -7.790104" />
+									<attribute id="Max" type="fvec3" value="17.09585 5.662447 14.59563" />
+									<attribute id="Radius" type="float" value="1.7" />
+									<attribute id="Height" type="float" value="5.725302" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Slam_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Multiattack_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Fly_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Shout_FrightfulPresence_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_LightningBreath_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_SuperNova_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Fly_Dragon_Skeletal_EnterFlightState" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="60" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="IsMovementEnabled" type="bool" value="False" />
+							<attribute id="IsWorldClimbingEnabled" type="bool" value="False" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
