@@ -28,7 +28,7 @@ def format_urls(request: Request, map_key: str):
 
 @router.get('')
 async def find_by_handle(request: Request, handle: str=None):
-    print(None in JSONS)
+
     if (handle == None):
         return {}
     

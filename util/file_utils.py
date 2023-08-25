@@ -2,6 +2,13 @@ import json
 
 from xml.dom import minidom
 
+def read_file(filepath: str, encoding: str='utf-8'):
+    try:
+        with open(filepath, 'r', encoding=encoding) as f:
+            return f.read()
+    except Exception as e:
+        return None
+
 def read_xml_file(filepath: str):
     try:
         return minidom.parse(filepath)

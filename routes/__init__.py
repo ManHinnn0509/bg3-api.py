@@ -1,5 +1,6 @@
 import routes.find_handle
 import routes.find_by_handle
+import routes.get_lsx
 
 ROUTER_PAIRS = {
     '/findHandle': {
@@ -9,7 +10,12 @@ ROUTER_PAIRS = {
     },
     '/findByHandle': {
         'function_name': 'find_by_handle',
-        'description': 'Find related files by handle',
+        'description': 'Find related files by handle, only works for item names / descriptions',
         'router': routes.find_by_handle.router
+    },
+    '/getLsx': {
+        'function_name': 'get_lsx',
+        'description': 'Find related files using map key',
+        'router': routes.get_lsx.router
     }
 }
