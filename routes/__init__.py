@@ -6,12 +6,12 @@ import routes.get_txt
 ROUTER_PAIRS = {
     '/findHandle': {
         'function_name': 'find_handle',
-        'description': 'Find handles in localization file(s)',
+        'description': 'Find handles in localization file(s), this is case-sensitive',
         'router': routes.find_handle.router
     },
     '/findByHandle': {
         'function_name': 'find_by_handle',
-        'description': 'Find related files by handle, only works for item names / descriptions',
+        'description': 'Find related files (map keys) by handle, only works for item names / descriptions',
         'router': routes.find_by_handle.router
     },
     '/getLsx': {
