@@ -10,6 +10,10 @@ This project's size is around `288~340 MB` because I included the `lsx` files
 
 Yes I included it too because it's like a setting file in here, no personal infos etc, I might change it to a Python file in the future
 
+## Enabling API key
+
+It's **disabled** by default and you can enable it in [auth.py](auth.py) by commenting out the early return statement
+
 ## Endpoints and descriptions
 
 You can get the description and URL of each endpoint with a GET request to the index
