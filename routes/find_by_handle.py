@@ -15,10 +15,10 @@ JSON_PATHS = [
 
 JSONS = [read_json_file(p) for p in JSON_PATHS]
 
-def extract_path(index: int, map_key: str):
+def extract_path(index: int):
     json_path = JSON_PATHS[index].split('bg3/')[-1]
     path = json_path.replace("_merged.json", "")
-    return path + map_key + '.lsx'
+    return path
 
 def format_urls(request: Request, map_key: str):
     query = f'?mapKey={map_key}'
@@ -34,8 +34,10 @@ async def find_by_handle(request: Request, handle: str=None):
         return {}
     
     results = {}
-    for i, json in enumerate(JSONS):
+    for index, json in enumerate(JSONS):
         json: dict
+
+        d = {}
         for map_key, attributes in json.items():
             map_key: str
             attributes: list
@@ -46,8 +48,10 @@ async def find_by_handle(request: Request, handle: str=None):
                 if (attr['@handle'] != handle):
                     continue
 
-                # results[map_key] = extract_path(i, map_key)
-                results[map_key] = format_urls(request, map_key)
+                d[map_key] = format_urls(request, map_key)
+
+        if (len(d) != 0):
+            results[extract_path(index)] = d
     
     return results
                 
