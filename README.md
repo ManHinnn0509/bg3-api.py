@@ -8,11 +8,23 @@ This project's size is around `288~340 MB` because I included the `lsx` files
 
 ## The .env file
 
-Yes I included it too because it's like a setting file in here, no personal infos etc, I might change it to a Python file in the future
+~~Yes I included it too because it's like a setting file in here, no personal infos etc, I might change it to a Python file in the future~~
 
-## Enabling API key
+You can create a `.env` file with following template:
 
-It's **disabled** by default and you can enable it in [auth.py](auth.py) by commenting out the early return statement
+```
+API_SECRET=
+
+HOST_ADDRESS=
+HOST_PORT=
+
+ENABLE_AUTH=
+CASE_SENSITIVE=
+```
+
+Set `ENABLE_AUTH` to `True` to enable API key ([auth.py](auth.py)), it's disabled by default
+
+Set `CASE_SENSITIVE` to `True` to enable case sensitive (Disabled by default)
 
 ## Endpoints and descriptions
 

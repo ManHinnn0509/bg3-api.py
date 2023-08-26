@@ -7,6 +7,8 @@ import auth
 from util.file_utils import read_file
 from util.str_utils import split_on_empty_lines
 
+from const import CASE_SENSITIVE
+
 router = APIRouter(dependencies=[Depends(auth.get_api_key),])
 
 TXT_PATHS = [
@@ -40,6 +42,9 @@ for path in TXT_PATHS:
 async def get_txt(request: Request, mapKey: str=None):
     if (mapKey == None):
         return None
+    
+    if not (CASE_SENSITIVE):
+        mapKey = mapKey.lower()
     
     result = {}
     for path, files in CONTENTS.items():

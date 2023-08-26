@@ -6,6 +6,8 @@ import auth
 
 from util.file_utils import read_file
 
+from const import CASE_SENSITIVE
+
 router = APIRouter(dependencies=[Depends(auth.get_api_key),])
 
 LSX_DIRS = [
@@ -23,6 +25,9 @@ async def get_lsx(request: Request, mapKey: str=None):
     if (mapKey == None):
         return {}
     
+    if not (CASE_SENSITIVE):
+        mapKey = mapKey.lower()
+
     target_filename = mapKey + '.lsx'
     for dir, contents in CONTENTS.items():
         if (target_filename in contents):

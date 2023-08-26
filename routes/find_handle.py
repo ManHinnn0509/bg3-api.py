@@ -4,6 +4,8 @@ import auth
 
 from util.file_utils import read_json_file
 
+from const import CASE_SENSITIVE
+
 router = APIRouter(dependencies=[Depends(auth.get_api_key),])
 
 '''
@@ -30,12 +32,19 @@ async def find_handle(request: Request, startswith: str=None, endswith: str=None
     use_english = inputs[0].isascii()
     file = JSON_ENGLISH if (use_english) else JSON_ZH_TW
 
-    results = {}
+    if not (CASE_SENSITIVE):
+        startswith = startswith.lower() if (startswith != None) else None
+        endswith = endswith.lower() if (endswith != None) else None
+        includes = includes.lower() if (includes != None) else None
+        equals = equals.lower() if (equals != None) else None
 
+    results = {}
     for handle, data in file.items():
         data: dict
         
         text: str = data['text']
+        if not (CASE_SENSITIVE):
+            text = text.lower()
 
         if (startswith != None):
             if not (text.startswith(startswith)):

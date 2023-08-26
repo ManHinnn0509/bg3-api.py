@@ -6,7 +6,7 @@ import routes.get_txt
 ROUTER_PAIRS = {
     '/findHandle': {
         'function_name': 'find_handle',
-        'description': 'Find handles in localization file(s), this is case-sensitive',
+        'description': 'Find handles in localization file(s). Case-sensitive is FALSE by default',
         'router': routes.find_handle.router
     },
     '/findByHandle': {

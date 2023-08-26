@@ -4,6 +4,8 @@ import auth
 
 from util.file_utils import read_json_file
 
+from const import CASE_SENSITIVE
+
 router = APIRouter(dependencies=[Depends(auth.get_api_key),])
 
 JSON_PATHS = [
@@ -33,6 +35,9 @@ async def find_by_handle(request: Request, handle: str=None):
     if (handle == None):
         return {}
     
+    if not (CASE_SENSITIVE):
+        handle = handle.lower()
+
     results = {}
     for index, json in enumerate(JSONS):
         json: dict
@@ -45,7 +50,15 @@ async def find_by_handle(request: Request, handle: str=None):
                 continue
 
             for attr in attributes:
-                if (attr['@handle'] != handle):
+                attr_handle: str = attr['@handle']
+                
+                # We don't need to do this, since all the handles from the game files are lower case
+                '''
+                if not (CASE_SENSITIVE):
+                    attr_handle = attr_handle.lower()
+                '''
+
+                if (attr_handle != handle):
                     continue
 
                 d[map_key] = format_urls(request, map_key)
